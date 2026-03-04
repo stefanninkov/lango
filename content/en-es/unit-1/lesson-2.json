@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-1",
+  "title": "Introductions",
+  "vocabulary": [
+    {
+      "id": "me-llamo",
+      "word": "Me llamo...",
+      "translation": "My name is...",
+      "pronunciation": "meh YAH-mo",
+      "example": "Me llamo Carlos.",
+      "exampleTranslation": "My name is Carlos."
+    },
+    {
+      "id": "como-te-llamas",
+      "word": "¿Cómo te llamas?",
+      "translation": "What is your name?",
+      "pronunciation": "KOH-mo teh YAH-mahs",
+      "example": "Hola, ¿cómo te llamas?",
+      "exampleTranslation": "Hello, what is your name?"
+    },
+    {
+      "id": "mucho-gusto",
+      "word": "Mucho gusto",
+      "translation": "Nice to meet you",
+      "pronunciation": "MOO-cho GOO-sto",
+      "example": "Mucho gusto, María.",
+      "exampleTranslation": "Nice to meet you, María."
+    },
+    {
+      "id": "soy",
+      "word": "Soy",
+      "translation": "I am",
+      "pronunciation": "soy",
+      "example": "Soy estudiante.",
+      "exampleTranslation": "I am a student."
+    },
+    {
+      "id": "encantado",
+      "word": "Encantado/Encantada",
+      "translation": "Pleased to meet you",
+      "pronunciation": "en-kahn-TAH-do / en-kahn-TAH-da",
+      "example": "Encantado de conocerte.",
+      "exampleTranslation": "Pleased to meet you."
+    },
+    {
+      "id": "de-donde-eres",
+      "word": "¿De dónde eres?",
+      "translation": "Where are you from?",
+      "pronunciation": "deh DON-deh EH-res",
+      "example": "¿De dónde eres? Soy de México.",
+      "exampleTranslation": "Where are you from? I'm from Mexico."
+    },
+    {
+      "id": "soy-de",
+      "word": "Soy de...",
+      "translation": "I am from...",
+      "pronunciation": "soy deh",
+      "example": "Soy de España.",
+      "exampleTranslation": "I am from Spain."
+    },
+    {
+      "id": "y-tu",
+      "word": "¿Y tú?",
+      "translation": "And you?",
+      "pronunciation": "ee too",
+      "example": "Estoy bien, ¿y tú?",
+      "exampleTranslation": "I'm fine, and you?"
+    }
+  ],
+  "grammar": {
+    "title": "The Verb 'Ser' (To Be) — Basic Forms",
+    "explanation": "The verb 'ser' is one of the most important verbs in Spanish. It means 'to be' and is used for identity, origin, and characteristics.\n\n• Yo soy — I am\n• Tú eres — You are (informal)\n• Él/Ella es — He/She is\n\nFor introductions, you'll mostly use 'soy' (I am) and 'eres' (you are).",
+    "examples": [
+      { "target": "Yo soy Carlos.", "native": "I am Carlos." },
+      { "target": "¿Tú eres María?", "native": "Are you María?" },
+      { "target": "Él es mi amigo.", "native": "He is my friend." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-1",
+      "question": "How do you say 'My name is...' in Spanish?",
+      "options": ["Soy de...", "Me llamo...", "Mucho gusto", "¿Y tú?"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-2",
+      "sentence": "___ gusto, soy Ana.",
+      "answer": "Mucho",
+      "acceptableAnswers": ["mucho", "Mucho"],
+      "hint": "Nice to meet you"
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-3",
+      "sentence": "Where are you from?",
+      "answer": "¿De dónde eres?",
+      "acceptableAnswers": ["de donde eres", "De dónde eres", "¿De dónde eres?"],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-4",
+      "question": "What does 'Encantado' mean?",
+      "options": ["Goodbye", "Pleased to meet you", "Good morning", "I am from"],
+      "correctIndex": 1
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-5",
+      "pairs": [
+        { "left": "Me llamo", "right": "My name is" },
+        { "left": "Soy de", "right": "I am from" },
+        { "left": "Mucho gusto", "right": "Nice to meet you" },
+        { "left": "¿Y tú?", "right": "And you?" }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "How do you ask 'What is your name?' in Spanish?",
+      "options": ["¿De dónde eres?", "¿Cómo te llamas?", "¿Y tú?", "¿Cómo estás?"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-2",
+      "question": "Complete: '___ estudiante.' (I am a student)",
+      "options": ["Eres", "Es", "Soy", "Somos"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-3",
+      "question": "What does 'Soy de España' mean?",
+      "options": ["I speak Spanish", "I am from Spain", "I like Spain", "I live in Spain"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-4",
+      "question": "A woman would say:",
+      "options": ["Encantado", "Encantada", "Encantamos", "Encantar"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-5",
+      "question": "What is '¿Y tú?' in English?",
+      "options": ["And you?", "Who are you?", "Where are you?", "How are you?"],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Lango",
+    "slug": "lango",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "lango",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#0D0D12"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lango.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0D0D12"
+      },
+      "package": "com.lango.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "firebase": {
+        "apiKey": "YOUR_API_KEY",
+        "authDomain": "YOUR_PROJECT.firebaseapp.com",
+        "projectId": "YOUR_PROJECT_ID",
+        "storageBucket": "YOUR_PROJECT.appspot.com",
+        "messagingSenderId": "YOUR_SENDER_ID",
+        "appId": "YOUR_APP_ID"
+      }
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-1",
+  "title": "Polite Expressions",
+  "vocabulary": [
+    {
+      "id": "por-favor",
+      "word": "Por favor",
+      "translation": "Please",
+      "pronunciation": "por fah-VOR",
+      "example": "Un café, por favor.",
+      "exampleTranslation": "A coffee, please."
+    },
+    {
+      "id": "gracias",
+      "word": "Gracias",
+      "translation": "Thank you",
+      "pronunciation": "GRAH-syahs",
+      "example": "Muchas gracias por tu ayuda.",
+      "exampleTranslation": "Thank you very much for your help."
+    },
+    {
+      "id": "de-nada",
+      "word": "De nada",
+      "translation": "You're welcome",
+      "pronunciation": "deh NAH-dah",
+      "example": "Gracias. — De nada.",
+      "exampleTranslation": "Thank you. — You're welcome."
+    },
+    {
+      "id": "perdon",
+      "word": "Perdón",
+      "translation": "Excuse me / Sorry",
+      "pronunciation": "pehr-DON",
+      "example": "Perdón, ¿dónde está el baño?",
+      "exampleTranslation": "Excuse me, where is the bathroom?"
+    },
+    {
+      "id": "lo-siento",
+      "word": "Lo siento",
+      "translation": "I'm sorry",
+      "pronunciation": "lo SYEN-to",
+      "example": "Lo siento mucho.",
+      "exampleTranslation": "I'm very sorry."
+    },
+    {
+      "id": "si",
+      "word": "Sí",
+      "translation": "Yes",
+      "pronunciation": "see",
+      "example": "Sí, claro.",
+      "exampleTranslation": "Yes, of course."
+    },
+    {
+      "id": "no",
+      "word": "No",
+      "translation": "No",
+      "pronunciation": "no",
+      "example": "No, gracias.",
+      "exampleTranslation": "No, thank you."
+    },
+    {
+      "id": "disculpe",
+      "word": "Disculpe",
+      "translation": "Pardon me (formal)",
+      "pronunciation": "dees-KOOL-peh",
+      "example": "Disculpe, ¿habla inglés?",
+      "exampleTranslation": "Pardon me, do you speak English?"
+    }
+  ],
+  "grammar": {
+    "title": "Saying Please and Thank You",
+    "explanation": "Spanish speakers value politeness. Here are key patterns:\n\n• 'Por favor' goes at the end or beginning of a request\n• 'Muchas gracias' = 'Thank you very much'\n• 'Perdón' is for minor interruptions; 'Lo siento' is for apologies\n• 'Disculpe' (formal) vs 'Disculpa' (informal) for getting attention",
+    "examples": [
+      { "target": "Un agua, por favor.", "native": "A water, please." },
+      { "target": "Muchas gracias.", "native": "Thank you very much." },
+      { "target": "Disculpa, ¿tienes hora?", "native": "Excuse me, do you have the time? (informal)" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1",
+      "question": "How do you say 'Thank you' in Spanish?",
+      "options": ["De nada", "Por favor", "Gracias", "Lo siento"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2",
+      "sentence": "Un café, ___ favor.",
+      "answer": "por",
+      "acceptableAnswers": ["por", "Por"],
+      "hint": "Please"
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-3",
+      "sentence": "I'm sorry",
+      "answer": "Lo siento",
+      "acceptableAnswers": ["lo siento", "Lo siento"],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-4",
+      "question": "What does 'De nada' mean?",
+      "options": ["Thank you", "Please", "You're welcome", "Excuse me"],
+      "correctIndex": 2
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-5",
+      "pairs": [
+        { "left": "Gracias", "right": "Thank you" },
+        { "left": "Por favor", "right": "Please" },
+        { "left": "Lo siento", "right": "I'm sorry" },
+        { "left": "De nada", "right": "You're welcome" }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "You accidentally bump into someone. You say:",
+      "options": ["Gracias", "De nada", "Perdón", "Sí"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-2",
+      "question": "Someone thanks you. You respond:",
+      "options": ["Por favor", "Lo siento", "Gracias", "De nada"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-3-3",
+      "question": "How do you politely ask for something?",
+      "options": ["Add 'por favor'", "Add 'gracias'", "Add 'perdón'", "Add 'lo siento'"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q-3-4",
+      "question": "What is 'Disculpe' used for?",
+      "options": ["Saying goodbye", "Getting attention (formal)", "Saying thank you", "Saying yes"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-5",
+      "question": "'Lo siento mucho' means:",
+      "options": ["I feel much", "I'm very sorry", "I'm very happy", "Thank you very much"],
+      "correctIndex": 1
+    }
+  ]
+}

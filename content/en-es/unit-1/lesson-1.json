@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-1",
+  "title": "Basic Greetings",
+  "vocabulary": [
+    {
+      "id": "hola",
+      "word": "Hola",
+      "translation": "Hello",
+      "pronunciation": "OH-lah",
+      "example": "¡Hola! ¿Cómo estás?",
+      "exampleTranslation": "Hello! How are you?"
+    },
+    {
+      "id": "buenos-dias",
+      "word": "Buenos días",
+      "translation": "Good morning",
+      "pronunciation": "BWEH-nos DEE-as",
+      "example": "Buenos días, señora.",
+      "exampleTranslation": "Good morning, ma'am."
+    },
+    {
+      "id": "buenas-tardes",
+      "word": "Buenas tardes",
+      "translation": "Good afternoon",
+      "pronunciation": "BWEH-nas TAR-des",
+      "example": "Buenas tardes, ¿cómo está?",
+      "exampleTranslation": "Good afternoon, how are you?"
+    },
+    {
+      "id": "buenas-noches",
+      "word": "Buenas noches",
+      "translation": "Good evening / Good night",
+      "pronunciation": "BWEH-nas NO-ches",
+      "example": "Buenas noches, hasta mañana.",
+      "exampleTranslation": "Good night, see you tomorrow."
+    },
+    {
+      "id": "adios",
+      "word": "Adiós",
+      "translation": "Goodbye",
+      "pronunciation": "ah-DYOS",
+      "example": "Adiós, nos vemos pronto.",
+      "exampleTranslation": "Goodbye, see you soon."
+    },
+    {
+      "id": "hasta-luego",
+      "word": "Hasta luego",
+      "translation": "See you later",
+      "pronunciation": "AH-stah LWEH-go",
+      "example": "Hasta luego, amigo.",
+      "exampleTranslation": "See you later, friend."
+    },
+    {
+      "id": "como-estas",
+      "word": "¿Cómo estás?",
+      "translation": "How are you?",
+      "pronunciation": "KOH-mo eh-STAHS",
+      "example": "Hola, ¿cómo estás hoy?",
+      "exampleTranslation": "Hi, how are you today?"
+    },
+    {
+      "id": "bien-gracias",
+      "word": "Bien, gracias",
+      "translation": "Fine, thank you",
+      "pronunciation": "BYEN, GRAH-syahs",
+      "example": "Estoy bien, gracias. ¿Y tú?",
+      "exampleTranslation": "I'm fine, thank you. And you?"
+    }
+  ],
+  "grammar": {
+    "title": "Formal vs Informal Greetings",
+    "explanation": "In Spanish, there are two ways to address people:\n\n• Informal (tú): Used with friends, family, and people your age.\n• Formal (usted): Used with strangers, elders, and in professional settings.\n\nThis affects the verb form: '¿Cómo estás?' (informal) vs '¿Cómo está usted?' (formal).",
+    "examples": [
+      { "target": "¿Cómo estás?", "native": "How are you? (informal)" },
+      { "target": "¿Cómo está usted?", "native": "How are you? (formal)" },
+      { "target": "Hola, ¿qué tal?", "native": "Hi, what's up? (very informal)" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1",
+      "question": "How do you say 'Hello' in Spanish?",
+      "options": ["Adiós", "Hola", "Gracias", "Buenas noches"],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-2",
+      "question": "What does 'Buenos días' mean?",
+      "options": ["Good night", "Goodbye", "Good morning", "See you later"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-3",
+      "sentence": "¡___! ¿Cómo estás?",
+      "answer": "Hola",
+      "acceptableAnswers": ["hola", "Hola"],
+      "hint": "The most common greeting"
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-4",
+      "sentence": "Good afternoon",
+      "answer": "Buenas tardes",
+      "acceptableAnswers": ["buenas tardes", "Buenas tardes", "Buenas Tardes"],
+      "direction": "to_target"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-5",
+      "pairs": [
+        { "left": "Hola", "right": "Hello" },
+        { "left": "Adiós", "right": "Goodbye" },
+        { "left": "Buenos días", "right": "Good morning" },
+        { "left": "Buenas noches", "right": "Good night" }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "What is the informal way to ask 'How are you?' in Spanish?",
+      "options": ["¿Cómo está usted?", "¿Cómo estás?", "Buenos días", "Hasta luego"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-2",
+      "question": "How do you say 'Goodbye' in Spanish?",
+      "options": ["Hola", "Gracias", "Adiós", "Bien"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-3",
+      "question": "What does 'Hasta luego' mean?",
+      "options": ["Good morning", "See you later", "Good night", "Thank you"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-4",
+      "question": "'Buenas tardes' is used in the:",
+      "options": ["Morning", "Afternoon", "Night", "All day"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-5",
+      "question": "What is 'Bien, gracias' in English?",
+      "options": ["Hello, friend", "Fine, thank you", "See you later", "Good morning"],
+      "correctIndex": 1
+    }
+  ]
+}
