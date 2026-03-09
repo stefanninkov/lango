@@ -5,16 +5,17 @@ import { colors, radius } from '../theme';
 interface Props {
   progress: number; // 0-1
   height?: number;
+  color?: string;
 }
 
-export default function ProgressBar({ progress, height = 6 }: Props) {
+export default function ProgressBar({ progress, height = 6, color }: Props) {
   const animatedStyle = useAnimatedStyle(() => ({
     width: withTiming(`${Math.min(progress, 1) * 100}%`, { duration: 400 }),
   }));
 
   return (
     <View style={[styles.track, { height }]}>
-      <Animated.View style={[styles.fill, { height }, animatedStyle]} />
+      <Animated.View style={[styles.fill, { height }, color ? { backgroundColor: color } : undefined, animatedStyle]} />
     </View>
   );
 }

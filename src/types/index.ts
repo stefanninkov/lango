@@ -121,3 +121,66 @@ export interface UserProgress {
   currentUnit: string;
   currentLesson: string;
 }
+
+// Spaced Repetition (SM-2)
+export type Mastery = 'new' | 'learning' | 'reviewing' | 'mastered';
+
+export interface VocabReviewCard {
+  id: string; // vocabItem id
+  word: string;
+  translation: string;
+  pronunciation: string;
+  courseId: CourseId;
+  lessonId: string;
+  easeFactor: number; // starts at 2.5
+  interval: number; // days until next review
+  repetitions: number; // consecutive correct
+  nextReview: number; // timestamp ms
+  mastery: Mastery;
+  lastReviewed: number; // timestamp ms
+}
+
+export type ReviewQuality = 0 | 1 | 2 | 3 | 4 | 5;
+// 0 = complete blackout, 5 = perfect recall
+
+// Gamification
+export interface Achievement {
+  id: string;
+  title: string;
+  description: string;
+  icon: string; // MaterialCommunityIcons name
+  condition: AchievementCondition;
+  unlockedAt?: number;
+}
+
+export type AchievementCondition =
+  | { type: 'lessons_completed'; count: number }
+  | { type: 'streak_days'; count: number }
+  | { type: 'xp_earned'; amount: number }
+  | { type: 'words_mastered'; count: number }
+  | { type: 'quiz_perfect'; count: number };
+
+export interface DailyGoal {
+  lessonsTarget: number;
+  reviewsTarget: number;
+  lessonsCompleted: number;
+  reviewsCompleted: number;
+  date: string; // ISO date
+}
+
+// AI Conversation
+export interface ChatMessage {
+  id: string;
+  role: 'user' | 'assistant' | 'system';
+  content: string;
+  timestamp: number;
+  correction?: string; // AI correction of user's message
+}
+
+export interface Conversation {
+  id: string;
+  topic: string;
+  lessonId?: string;
+  messages: ChatMessage[];
+  createdAt: number;
+}
