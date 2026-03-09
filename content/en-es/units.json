@@ -12,6 +12,17 @@
         { "id": "lesson-2", "title": "Introductions", "order": 2, "wordCount": 8 },
         { "id": "lesson-3", "title": "Polite Expressions", "order": 3, "wordCount": 8 }
       ]
+    },
+    {
+      "id": "unit-2",
+      "title": "Numbers, Colors & Days",
+      "description": "Learn to count, name colors, and talk about days of the week",
+      "order": 2,
+      "lessons": [
+        { "id": "lesson-1", "title": "Numbers 1-20", "order": 1, "wordCount": 8 },
+        { "id": "lesson-2", "title": "Colors", "order": 2, "wordCount": 8 },
+        { "id": "lesson-3", "title": "Days & Months", "order": 3, "wordCount": 8 }
+      ]
     }
   ]
 }

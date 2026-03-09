@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-1",
+  "title": "Osnovni pozdravi",
+  "vocabulary": [
+    {
+      "id": "hola",
+      "word": "Hola",
+      "translation": "Zdravo",
+      "pronunciation": "O-la",
+      "example": "¡Hola! ¿Cómo estás?",
+      "exampleTranslation": "Zdravo! Kako si?"
+    },
+    {
+      "id": "buenos-dias",
+      "word": "Buenos días",
+      "translation": "Dobro jutro",
+      "pronunciation": "BUE-nos DI-as",
+      "example": "Buenos días, señora.",
+      "exampleTranslation": "Dobro jutro, gospođo."
+    },
+    {
+      "id": "buenas-tardes",
+      "word": "Buenas tardes",
+      "translation": "Dobro popodne",
+      "pronunciation": "BUE-nas TAR-des",
+      "example": "Buenas tardes, ¿cómo está?",
+      "exampleTranslation": "Dobro popodne, kako ste?"
+    },
+    {
+      "id": "buenas-noches",
+      "word": "Buenas noches",
+      "translation": "Dobro veče / Laku noć",
+      "pronunciation": "BUE-nas NO-čes",
+      "example": "Buenas noches, hasta mañana.",
+      "exampleTranslation": "Laku noć, vidimo se sutra."
+    },
+    {
+      "id": "adios",
+      "word": "Adiós",
+      "translation": "Doviđenja",
+      "pronunciation": "a-DJOS",
+      "example": "Adiós, nos vemos pronto.",
+      "exampleTranslation": "Doviđenja, vidimo se uskoro."
+    },
+    {
+      "id": "hasta-luego",
+      "word": "Hasta luego",
+      "translation": "Vidimo se kasnije",
+      "pronunciation": "AS-ta LUE-go",
+      "example": "Hasta luego, amigo.",
+      "exampleTranslation": "Vidimo se kasnije, prijatelju."
+    },
+    {
+      "id": "como-estas",
+      "word": "¿Cómo estás?",
+      "translation": "Kako si?",
+      "pronunciation": "KO-mo es-TAS",
+      "example": "Hola, ¿cómo estás hoy?",
+      "exampleTranslation": "Zdravo, kako si danas?"
+    },
+    {
+      "id": "bien-gracias",
+      "word": "Bien, gracias",
+      "translation": "Dobro, hvala",
+      "pronunciation": "BJEN, GRA-sjas",
+      "example": "Estoy bien, gracias. ¿Y tú?",
+      "exampleTranslation": "Dobro sam, hvala. A ti?"
+    }
+  ],
+  "grammar": {
+    "title": "Formalno i neformalno obraćanje",
+    "explanation": "U španskom postoje dva načina obraćanja:\n\n• Neformalno (tú): Koristi se sa prijateljima, porodicom i vršnjacima.\n• Formalno (usted): Koristi se sa nepoznatim osobama, starijima i u profesionalnom okruženju.\n\nOvo utiče na oblik glagola: '¿Cómo estás?' (neformalno) naspram '¿Cómo está usted?' (formalno).",
+    "examples": [
+      { "target": "¿Cómo estás?", "native": "Kako si? (neformalno)" },
+      { "target": "¿Cómo está usted?", "native": "Kako ste? (formalno)" },
+      { "target": "Hola, ¿qué tal?", "native": "Zdravo, kako ide? (veoma neformalno)" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1",
+      "question": "Kako se kaže 'Zdravo' na španskom?",
+      "options": ["Adiós", "Hola", "Gracias", "Buenas noches"],
+      "correctIndex": 1
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-2",
+      "question": "Šta znači 'Buenos días'?",
+      "options": ["Laku noć", "Doviđenja", "Dobro jutro", "Vidimo se kasnije"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-3",
+      "sentence": "¡___! ¿Cómo estás?",
+      "answer": "Hola",
+      "acceptableAnswers": ["hola", "Hola"],
+      "hint": "Najčešći pozdrav"
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-4",
+      "sentence": "Dobro popodne",
+      "answer": "Buenas tardes",
+      "acceptableAnswers": ["buenas tardes", "Buenas tardes", "Buenas Tardes"],
+      "direction": "to_target"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-5",
+      "pairs": [
+        { "left": "Hola", "right": "Zdravo" },
+        { "left": "Adiós", "right": "Doviđenja" },
+        { "left": "Buenos días", "right": "Dobro jutro" },
+        { "left": "Buenas noches", "right": "Laku noć" }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "Koji je neformalni način da pitate 'Kako si?' na španskom?",
+      "options": ["¿Cómo está usted?", "¿Cómo estás?", "Buenos días", "Hasta luego"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-2",
+      "question": "Kako se kaže 'Doviđenja' na španskom?",
+      "options": ["Hola", "Gracias", "Adiós", "Bien"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-3",
+      "question": "Šta znači 'Hasta luego'?",
+      "options": ["Dobro jutro", "Vidimo se kasnije", "Laku noć", "Hvala"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-4",
+      "question": "'Buenas tardes' se koristi:",
+      "options": ["Ujutru", "Popodne", "Noću", "Celog dana"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-5",
+      "question": "Šta znači 'Bien, gracias'?",
+      "options": ["Zdravo, prijatelju", "Dobro, hvala", "Vidimo se kasnije", "Dobro jutro"],
+      "correctIndex": 1
+    }
+  ]
+}

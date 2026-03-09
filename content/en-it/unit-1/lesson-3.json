@@ -1,0 +1,153 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-1",
+  "title": "Polite Expressions",
+  "vocabulary": [
+    {
+      "id": "v-3-1",
+      "word": "grazie",
+      "translation": "thank you",
+      "pronunciation": "GRAH-tsyeh",
+      "example": "Grazie mille!",
+      "exampleTranslation": "Thank you very much!"
+    },
+    {
+      "id": "v-3-2",
+      "word": "prego",
+      "translation": "you're welcome",
+      "pronunciation": "PREH-goh",
+      "example": "Prego, non c'è problema.",
+      "exampleTranslation": "You're welcome, no problem."
+    },
+    {
+      "id": "v-3-3",
+      "word": "per favore",
+      "translation": "please",
+      "pronunciation": "pehr fah-VOH-reh",
+      "example": "Un caffè, per favore.",
+      "exampleTranslation": "A coffee, please."
+    },
+    {
+      "id": "v-3-4",
+      "word": "scusi",
+      "translation": "excuse me (formal)",
+      "pronunciation": "SKOO-zee",
+      "example": "Scusi, dov'è la stazione?",
+      "exampleTranslation": "Excuse me, where is the station?"
+    },
+    {
+      "id": "v-3-5",
+      "word": "mi dispiace",
+      "translation": "I'm sorry",
+      "pronunciation": "mee dee-SPYAH-cheh",
+      "example": "Mi dispiace per il ritardo.",
+      "exampleTranslation": "I'm sorry for the delay."
+    },
+    {
+      "id": "v-3-6",
+      "word": "permesso",
+      "translation": "may I / excuse me (to pass)",
+      "pronunciation": "pehr-MES-soh",
+      "example": "Permesso, posso passare?",
+      "exampleTranslation": "Excuse me, may I pass?"
+    },
+    {
+      "id": "v-3-7",
+      "word": "non capisco",
+      "translation": "I don't understand",
+      "pronunciation": "non kah-PEE-skoh",
+      "example": "Scusi, non capisco.",
+      "exampleTranslation": "Sorry, I don't understand."
+    },
+    {
+      "id": "v-3-8",
+      "word": "parla inglese",
+      "translation": "do you speak English (formal)",
+      "pronunciation": "PAR-lah een-GLEH-zeh",
+      "example": "Scusi, parla inglese?",
+      "exampleTranslation": "Excuse me, do you speak English?"
+    }
+  ],
+  "grammar": {
+    "title": "Polite Requests and Formal Address",
+    "explanation": "Italian uses 'Lei' (the formal 'you') when speaking to strangers, elders, or in professional settings. Verbs change accordingly: 'scusa' (informal) becomes 'scusi' (formal), and 'parli' becomes 'parla'. Adding 'per favore' (please) makes any request more polite. 'Prego' is versatile: it means 'you're welcome', 'please go ahead', or 'may I help you'.",
+    "examples": [
+      { "target": "Scusa, puoi aiutarmi?", "native": "Excuse me, can you help me? (informal)" },
+      { "target": "Scusi, può aiutarmi?", "native": "Excuse me, can you help me? (formal)" },
+      { "target": "Un bicchiere d'acqua, per favore.", "native": "A glass of water, please." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1",
+      "question": "How do you say 'please' in Italian?",
+      "options": ["Prego", "Grazie", "Per favore", "Scusi"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2",
+      "sentence": "Un caffè, ___.",
+      "answer": "per favore",
+      "hint": "A coffee, ___."
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-3",
+      "sentence": "I'm sorry for the delay.",
+      "answer": "Mi dispiace per il ritardo.",
+      "acceptableAnswers": ["Mi dispiace del ritardo."],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-4",
+      "pairs": [
+        { "left": "Grazie", "right": "Thank you" },
+        { "left": "Prego", "right": "You're welcome" },
+        { "left": "Mi dispiace", "right": "I'm sorry" },
+        { "left": "Permesso", "right": "May I pass" }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-5",
+      "sentence": "Scusi, ___ inglese?",
+      "answer": "parla",
+      "hint": "Excuse me, do you speak English?"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "What does 'prego' mean?",
+      "options": ["Please", "Thank you", "You're welcome", "Excuse me"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-2",
+      "question": "How do you say 'Excuse me' formally to get someone's attention?",
+      "options": ["Permesso", "Scusi", "Prego", "Mi dispiace"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-3",
+      "question": "What does 'non capisco' mean?",
+      "options": ["I don't speak", "I don't know", "I don't understand", "I don't like"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-4",
+      "question": "Which word would you say when squeezing past someone on a bus?",
+      "options": ["Scusi", "Grazie", "Permesso", "Prego"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-5",
+      "question": "How do you say 'Thank you very much' in Italian?",
+      "options": ["Grazie tanto", "Prego mille", "Per favore", "Grazie mille"],
+      "correctIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-2",
+  "title": "Days & Months",
+  "vocabulary": [
+    {
+      "id": "lunes",
+      "word": "lunes",
+      "translation": "Monday",
+      "pronunciation": "LOO-nehs",
+      "example": "El lunes tengo clase de español.",
+      "exampleTranslation": "On Monday I have Spanish class."
+    },
+    {
+      "id": "miercoles",
+      "word": "miércoles",
+      "translation": "Wednesday",
+      "pronunciation": "MYEHR-koh-lehs",
+      "example": "Nos vemos el miércoles.",
+      "exampleTranslation": "We'll see each other on Wednesday."
+    },
+    {
+      "id": "viernes",
+      "word": "viernes",
+      "translation": "Friday",
+      "pronunciation": "VYEHR-nehs",
+      "example": "El viernes vamos al cine.",
+      "exampleTranslation": "On Friday we're going to the movies."
+    },
+    {
+      "id": "domingo",
+      "word": "domingo",
+      "translation": "Sunday",
+      "pronunciation": "doh-MEEN-goh",
+      "example": "El domingo es un día de descanso.",
+      "exampleTranslation": "Sunday is a day of rest."
+    },
+    {
+      "id": "enero",
+      "word": "enero",
+      "translation": "January",
+      "pronunciation": "eh-NEH-roh",
+      "example": "Mi cumpleaños es en enero.",
+      "exampleTranslation": "My birthday is in January."
+    },
+    {
+      "id": "marzo",
+      "word": "marzo",
+      "translation": "March",
+      "pronunciation": "MAR-soh",
+      "example": "La primavera empieza en marzo.",
+      "exampleTranslation": "Spring begins in March."
+    },
+    {
+      "id": "julio",
+      "word": "julio",
+      "translation": "July",
+      "pronunciation": "HOO-lyoh",
+      "example": "En julio hace mucho calor.",
+      "exampleTranslation": "In July it is very hot."
+    },
+    {
+      "id": "diciembre",
+      "word": "diciembre",
+      "translation": "December",
+      "pronunciation": "dee-SYEHM-breh",
+      "example": "La Navidad es en diciembre.",
+      "exampleTranslation": "Christmas is in December."
+    }
+  ],
+  "grammar": {
+    "title": "Days and Months in Spanish",
+    "explanation": "Important rules for days and months in Spanish:\n\n• Days of the week and months are NOT capitalized in Spanish (unlike English): 'lunes', 'enero'.\n• Use 'el' before a day to mean 'on': 'el lunes' = on Monday.\n• Use 'los' for recurring events: 'los lunes' = on Mondays (every Monday).\n• Use 'en' before months: 'en enero' = in January.\n• The week starts on Monday (lunes) in Spanish-speaking countries.",
+    "examples": [
+      { "target": "Trabajo el martes.", "native": "I work on Tuesday." },
+      { "target": "Estudio los viernes.", "native": "I study on Fridays." },
+      { "target": "Viajo en agosto.", "native": "I travel in August." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1",
+      "question": "How do you say 'Friday' in Spanish?",
+      "options": ["jueves", "viernes", "sábado", "martes"],
+      "correctIndex": 1
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-2",
+      "pairs": [
+        { "left": "lunes", "right": "Monday" },
+        { "left": "miércoles", "right": "Wednesday" },
+        { "left": "enero", "right": "January" },
+        { "left": "diciembre", "right": "December" }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-3",
+      "sentence": "La Navidad es en ___.",
+      "answer": "diciembre",
+      "acceptableAnswers": ["diciembre", "Diciembre"],
+      "hint": "The twelfth month of the year"
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-4",
+      "sentence": "On Monday I have Spanish class.",
+      "answer": "El lunes tengo clase de español.",
+      "acceptableAnswers": ["El lunes tengo clase de español.", "El lunes tengo clase de español"],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-5",
+      "question": "Which statement about Spanish days and months is TRUE?",
+      "options": [
+        "Days and months are capitalized",
+        "Days and months are not capitalized",
+        "Only months are capitalized",
+        "Only days are capitalized"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "What is 'miércoles' in English?",
+      "options": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-2",
+      "question": "How do you say 'in July' in Spanish?",
+      "options": ["el julio", "los julio", "en julio", "a julio"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-3",
+      "question": "What does 'El domingo es un día de descanso' mean?",
+      "options": [
+        "Sunday is a day of rest",
+        "Sunday is a day of dance",
+        "Saturday is a day of rest",
+        "Sunday is my favorite day"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "q-3-4",
+      "question": "How do you say 'on Fridays' (recurring) in Spanish?",
+      "options": ["el viernes", "en viernes", "los viernes", "a viernes"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-5",
+      "question": "Which month is 'marzo'?",
+      "options": ["May", "March", "April", "June"],
+      "correctIndex": 1
+    }
+  ]
+}

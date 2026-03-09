@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-1",
+  "title": "Predstavljanje",
+  "vocabulary": [
+    {
+      "id": "me-llamo",
+      "word": "Me llamo",
+      "translation": "Zovem se",
+      "pronunciation": "me LJA-mo",
+      "example": "Me llamo Carlos.",
+      "exampleTranslation": "Zovem se Karlos."
+    },
+    {
+      "id": "como-te-llamas",
+      "word": "¿Cómo te llamas?",
+      "translation": "Kako se zoveš?",
+      "pronunciation": "KO-mo te LJA-mas",
+      "example": "Hola, ¿cómo te llamas?",
+      "exampleTranslation": "Zdravo, kako se zoveš?"
+    },
+    {
+      "id": "mucho-gusto",
+      "word": "Mucho gusto",
+      "translation": "Drago mi je",
+      "pronunciation": "MU-čo GUS-to",
+      "example": "Mucho gusto, soy Ana.",
+      "exampleTranslation": "Drago mi je, ja sam Ana."
+    },
+    {
+      "id": "soy",
+      "word": "Soy",
+      "translation": "Ja sam",
+      "pronunciation": "SOJ",
+      "example": "Soy de Serbia.",
+      "exampleTranslation": "Ja sam iz Srbije."
+    },
+    {
+      "id": "de-donde-eres",
+      "word": "¿De dónde eres?",
+      "translation": "Odakle si?",
+      "pronunciation": "de DON-de E-res",
+      "example": "¿De dónde eres tú?",
+      "exampleTranslation": "Odakle si ti?"
+    },
+    {
+      "id": "soy-de",
+      "word": "Soy de...",
+      "translation": "Ja sam iz...",
+      "pronunciation": "SOJ de",
+      "example": "Soy de Belgrado.",
+      "exampleTranslation": "Ja sam iz Beograda."
+    },
+    {
+      "id": "encantado",
+      "word": "Encantado / Encantada",
+      "translation": "Zadovoljstvo mi je (m/ž)",
+      "pronunciation": "en-kan-TA-do / en-kan-TA-da",
+      "example": "Encantado de conocerte.",
+      "exampleTranslation": "Zadovoljstvo mi je da te upoznam."
+    },
+    {
+      "id": "y-tu",
+      "word": "¿Y tú?",
+      "translation": "A ti?",
+      "pronunciation": "i TU",
+      "example": "Yo estoy bien, ¿y tú?",
+      "exampleTranslation": "Ja sam dobro, a ti?"
+    }
+  ],
+  "grammar": {
+    "title": "Glagol 'ser' (biti) u prvom licu",
+    "explanation": "Glagol 'ser' je jedan od dva španska glagola koji znače 'biti'. Koristi se za stalne osobine, poreklo i identitet.\n\n• Yo soy — Ja sam\n• Tú eres — Ti si\n• Él/Ella es — On/Ona je\n\nZa predstavljanje koristimo 'soy' (ja sam) ili 'me llamo' (zovem se).\n\nPrimer: 'Soy Ana' (Ja sam Ana) ili 'Me llamo Ana' (Zovem se Ana).",
+    "examples": [
+      { "target": "Yo soy María.", "native": "Ja sam Marija." },
+      { "target": "Soy de España.", "native": "Ja sam iz Španije." },
+      { "target": "¿Tú eres Pedro?", "native": "Ti si Pedro?" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-1",
+      "question": "Kako se kaže 'Zovem se' na španskom?",
+      "options": ["Soy de", "Me llamo", "Mucho gusto", "¿Y tú?"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-2",
+      "sentence": "¿Cómo te ___?",
+      "answer": "llamas",
+      "acceptableAnswers": ["llamas", "Llamas"],
+      "hint": "Glagol koji znači 'zvati se'"
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-3",
+      "sentence": "Drago mi je",
+      "answer": "Mucho gusto",
+      "acceptableAnswers": ["mucho gusto", "Mucho gusto", "Mucho Gusto"],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-4",
+      "question": "Šta znači '¿De dónde eres?'?",
+      "options": ["Kako se zoveš?", "Odakle si?", "Kako si?", "A ti?"],
+      "correctIndex": 1
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-5",
+      "pairs": [
+        { "left": "Me llamo", "right": "Zovem se" },
+        { "left": "Soy de", "right": "Ja sam iz" },
+        { "left": "Mucho gusto", "right": "Drago mi je" },
+        { "left": "¿Y tú?", "right": "A ti?" }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "Kako se na španskom kaže 'Ja sam iz Srbije'?",
+      "options": ["Me llamo Serbia", "Soy de Serbia", "Estoy en Serbia", "Voy a Serbia"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-2",
+      "question": "Šta znači 'Encantado de conocerte'?",
+      "options": ["Kako si?", "Vidimo se kasnije", "Zadovoljstvo mi je da te upoznam", "Zdravo, prijatelju"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-3",
+      "question": "Koji glagol se koristi za 'Zovem se...' na španskom?",
+      "options": ["Me soy", "Me llamo", "Me tengo", "Me hablo"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-4",
+      "question": "Kako se neformalno pita 'Odakle si?' na španskom?",
+      "options": ["¿Cómo te llamas?", "¿Cómo estás?", "¿De dónde eres?", "¿Qué tal?"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-5",
+      "question": "Šta znači '¿Y tú?'?",
+      "options": ["I ti?", "A ti?", "Kako si?", "Ko si ti?"],
+      "correctIndex": 1
+    }
+  ]
+}

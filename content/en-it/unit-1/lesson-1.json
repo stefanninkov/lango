@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-1",
+  "title": "Basic Greetings",
+  "vocabulary": [
+    {
+      "id": "v-1-1",
+      "word": "ciao",
+      "translation": "hello / goodbye (informal)",
+      "pronunciation": "CHOW",
+      "example": "Ciao, come stai?",
+      "exampleTranslation": "Hello, how are you?"
+    },
+    {
+      "id": "v-1-2",
+      "word": "buongiorno",
+      "translation": "good morning / good day",
+      "pronunciation": "bwon-JORN-oh",
+      "example": "Buongiorno, signora!",
+      "exampleTranslation": "Good morning, ma'am!"
+    },
+    {
+      "id": "v-1-3",
+      "word": "buonasera",
+      "translation": "good evening",
+      "pronunciation": "bwon-ah-SEH-rah",
+      "example": "Buonasera a tutti!",
+      "exampleTranslation": "Good evening, everyone!"
+    },
+    {
+      "id": "v-1-4",
+      "word": "buonanotte",
+      "translation": "good night",
+      "pronunciation": "bwon-ah-NOT-teh",
+      "example": "Buonanotte, dormi bene!",
+      "exampleTranslation": "Good night, sleep well!"
+    },
+    {
+      "id": "v-1-5",
+      "word": "arrivederci",
+      "translation": "goodbye (formal)",
+      "pronunciation": "ah-ree-veh-DEHR-chee",
+      "example": "Arrivederci e grazie!",
+      "exampleTranslation": "Goodbye and thank you!"
+    },
+    {
+      "id": "v-1-6",
+      "word": "salve",
+      "translation": "hello (neutral/semi-formal)",
+      "pronunciation": "SAHL-veh",
+      "example": "Salve, come va?",
+      "exampleTranslation": "Hello, how's it going?"
+    },
+    {
+      "id": "v-1-7",
+      "word": "come stai",
+      "translation": "how are you (informal)",
+      "pronunciation": "KOH-meh STAH-ee",
+      "example": "Ciao Marco, come stai?",
+      "exampleTranslation": "Hi Marco, how are you?"
+    },
+    {
+      "id": "v-1-8",
+      "word": "bene",
+      "translation": "well / fine",
+      "pronunciation": "BEH-neh",
+      "example": "Sto bene, grazie!",
+      "exampleTranslation": "I'm fine, thank you!"
+    }
+  ],
+  "grammar": {
+    "title": "Formal vs. Informal Greetings",
+    "explanation": "Italian distinguishes between formal and informal speech. Use 'ciao' with friends and family, and 'buongiorno', 'buonasera', or 'arrivederci' in formal settings or with strangers. 'Salve' is a safe middle ground when you are unsure which register to use.",
+    "examples": [
+      { "target": "Ciao, come stai?", "native": "Hi, how are you? (informal)" },
+      { "target": "Buongiorno, come sta?", "native": "Good day, how are you? (formal)" },
+      { "target": "Salve, tutto bene?", "native": "Hello, all good? (neutral)" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1",
+      "question": "How do you say 'good morning' in Italian?",
+      "options": ["Buonanotte", "Buongiorno", "Buonasera", "Ciao"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-2",
+      "sentence": "___, come stai?",
+      "answer": "Ciao",
+      "acceptableAnswers": ["ciao"],
+      "hint": "Informal greeting"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-3",
+      "pairs": [
+        { "left": "Buongiorno", "right": "Good morning" },
+        { "left": "Buonasera", "right": "Good evening" },
+        { "left": "Buonanotte", "right": "Good night" },
+        { "left": "Arrivederci", "right": "Goodbye (formal)" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-4",
+      "sentence": "Good evening, everyone!",
+      "answer": "Buonasera a tutti!",
+      "acceptableAnswers": ["Buonasera a tutti"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-5",
+      "sentence": "Sto ___, grazie!",
+      "answer": "bene",
+      "hint": "I'm ___, thank you!"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "Which greeting would you use when entering a shop in the morning?",
+      "options": ["Ciao", "Buongiorno", "Buonanotte", "Come stai"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-2",
+      "question": "What does 'arrivederci' mean?",
+      "options": ["Good morning", "Hello", "Goodbye (formal)", "Good night"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-3",
+      "question": "Which greeting is informal and used with friends?",
+      "options": ["Arrivederci", "Buongiorno", "Salve", "Ciao"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-1-4",
+      "question": "How do you say 'I'm fine, thank you' in Italian?",
+      "options": ["Come stai?", "Sto bene, grazie!", "Buonasera!", "Ciao, grazie!"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-5",
+      "question": "What is 'salve' best described as?",
+      "options": ["A very formal goodbye", "A neutral hello", "Good night", "How are you"],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "courseId": "sr-it",
+  "courseName": "Italijanski sa srpskog",
+  "units": [
+    {
+      "id": "unit-1",
+      "title": "Pozdravi i osnove",
+      "description": "Naučite da pozdravite, predstavite se i koristite učtive izraze na italijanskom",
+      "order": 1,
+      "lessons": [
+        { "id": "lesson-1", "title": "Osnovni pozdravi", "order": 1, "wordCount": 8 },
+        { "id": "lesson-2", "title": "Predstavljanje", "order": 2, "wordCount": 8 },
+        { "id": "lesson-3", "title": "Učtivi izrazi", "order": 3, "wordCount": 8 }
+      ]
+    }
+  ]
+}

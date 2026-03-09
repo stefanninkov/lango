@@ -1,0 +1,160 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-2",
+  "title": "Numbers 1-20",
+  "vocabulary": [
+    {
+      "id": "uno",
+      "word": "uno",
+      "translation": "one",
+      "pronunciation": "OO-noh",
+      "example": "Tengo uno.",
+      "exampleTranslation": "I have one."
+    },
+    {
+      "id": "tres",
+      "word": "tres",
+      "translation": "three",
+      "pronunciation": "trehs",
+      "example": "Hay tres gatos en el jardín.",
+      "exampleTranslation": "There are three cats in the garden."
+    },
+    {
+      "id": "cinco",
+      "word": "cinco",
+      "translation": "five",
+      "pronunciation": "SEEN-koh",
+      "example": "Son las cinco de la tarde.",
+      "exampleTranslation": "It is five in the afternoon."
+    },
+    {
+      "id": "siete",
+      "word": "siete",
+      "translation": "seven",
+      "pronunciation": "SYEH-teh",
+      "example": "La semana tiene siete días.",
+      "exampleTranslation": "The week has seven days."
+    },
+    {
+      "id": "diez",
+      "word": "diez",
+      "translation": "ten",
+      "pronunciation": "dyehs",
+      "example": "Tengo diez dedos.",
+      "exampleTranslation": "I have ten fingers."
+    },
+    {
+      "id": "doce",
+      "word": "doce",
+      "translation": "twelve",
+      "pronunciation": "DOH-seh",
+      "example": "El año tiene doce meses.",
+      "exampleTranslation": "The year has twelve months."
+    },
+    {
+      "id": "quince",
+      "word": "quince",
+      "translation": "fifteen",
+      "pronunciation": "KEEN-seh",
+      "example": "Mi hermana tiene quince años.",
+      "exampleTranslation": "My sister is fifteen years old."
+    },
+    {
+      "id": "veinte",
+      "word": "veinte",
+      "translation": "twenty",
+      "pronunciation": "BAYN-teh",
+      "example": "Hay veinte estudiantes en la clase.",
+      "exampleTranslation": "There are twenty students in the class."
+    }
+  ],
+  "grammar": {
+    "title": "Spanish Numbers and Counting",
+    "explanation": "Spanish numbers 1-15 each have a unique name that must be memorized. From 16-19, numbers are formed by combining 'dieci-' with the ones digit (e.g., dieciséis = 16). Twenty is 'veinte', and 21-29 follow the pattern 'veinti-' plus the ones digit (e.g., veintiuno = 21).\n\nNote: 'uno' becomes 'un' before masculine nouns ('un libro' = a/one book) and 'una' before feminine nouns ('una mesa' = a/one table).",
+    "examples": [
+      { "target": "Tengo un hermano.", "native": "I have one brother." },
+      { "target": "Hay dieciséis sillas.", "native": "There are sixteen chairs." },
+      { "target": "Necesito veintiún libros.", "native": "I need twenty-one books." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1",
+      "question": "How do you say 'fifteen' in Spanish?",
+      "options": ["cinco", "quince", "cincuenta", "catorce"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-2",
+      "sentence": "La semana tiene ___ días.",
+      "answer": "siete",
+      "acceptableAnswers": ["siete", "Siete"],
+      "hint": "The number 7"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-3",
+      "pairs": [
+        { "left": "tres", "right": "three" },
+        { "left": "diez", "right": "ten" },
+        { "left": "veinte", "right": "twenty" },
+        { "left": "doce", "right": "twelve" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-4",
+      "sentence": "I have ten fingers.",
+      "answer": "Tengo diez dedos.",
+      "acceptableAnswers": ["Tengo diez dedos.", "Tengo diez dedos"],
+      "direction": "to_target"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-5",
+      "sentence": "El año tiene ___ meses.",
+      "answer": "doce",
+      "acceptableAnswers": ["doce", "Doce"],
+      "hint": "The number 12"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "What is 'veinte' in English?",
+      "options": ["twelve", "fifteen", "twenty", "ten"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-2",
+      "question": "How do you say 'seven' in Spanish?",
+      "options": ["seis", "siete", "nueve", "ocho"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-3",
+      "question": "What number is 'cinco'?",
+      "options": ["4", "5", "6", "15"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-4",
+      "question": "How are numbers 16-19 formed in Spanish?",
+      "options": [
+        "diez y + ones digit",
+        "dieci + ones digit",
+        "They are each unique words",
+        "veinti + ones digit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-5",
+      "question": "What does 'Tengo tres gatos' mean?",
+      "options": ["I have two cats", "I have three cats", "I have thirteen cats", "I have three dogs"],
+      "correctIndex": 1
+    }
+  ]
+}

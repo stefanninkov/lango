@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-2",
+  "title": "Colors",
+  "vocabulary": [
+    {
+      "id": "rojo",
+      "word": "rojo",
+      "translation": "red",
+      "pronunciation": "RROH-hoh",
+      "example": "El coche es rojo.",
+      "exampleTranslation": "The car is red."
+    },
+    {
+      "id": "azul",
+      "word": "azul",
+      "translation": "blue",
+      "pronunciation": "ah-SOOL",
+      "example": "El cielo es azul.",
+      "exampleTranslation": "The sky is blue."
+    },
+    {
+      "id": "verde",
+      "word": "verde",
+      "translation": "green",
+      "pronunciation": "BEHR-deh",
+      "example": "La hierba es verde.",
+      "exampleTranslation": "The grass is green."
+    },
+    {
+      "id": "amarillo",
+      "word": "amarillo",
+      "translation": "yellow",
+      "pronunciation": "ah-mah-REE-yoh",
+      "example": "El sol es amarillo.",
+      "exampleTranslation": "The sun is yellow."
+    },
+    {
+      "id": "blanco",
+      "word": "blanco",
+      "translation": "white",
+      "pronunciation": "BLAHN-koh",
+      "example": "La nieve es blanca.",
+      "exampleTranslation": "The snow is white."
+    },
+    {
+      "id": "negro",
+      "word": "negro",
+      "translation": "black",
+      "pronunciation": "NEH-groh",
+      "example": "El gato es negro.",
+      "exampleTranslation": "The cat is black."
+    },
+    {
+      "id": "naranja",
+      "word": "naranja",
+      "translation": "orange",
+      "pronunciation": "nah-RAHN-hah",
+      "example": "Me gusta el color naranja.",
+      "exampleTranslation": "I like the color orange."
+    },
+    {
+      "id": "morado",
+      "word": "morado",
+      "translation": "purple",
+      "pronunciation": "moh-RAH-doh",
+      "example": "Las flores son moradas.",
+      "exampleTranslation": "The flowers are purple."
+    }
+  ],
+  "grammar": {
+    "title": "Color Adjective Agreement",
+    "explanation": "In Spanish, color adjectives must agree in gender and number with the noun they describe.\n\n• Colors ending in -o change to -a for feminine nouns: 'rojo' → 'roja', 'blanco' → 'blanca'.\n• Colors ending in -e or a consonant (verde, azul, naranja) stay the same for both genders.\n• All colors add -s (or -es for consonant endings) for plural: 'rojos', 'azules'.\n\nColors are placed after the noun: 'la casa blanca' (the white house).",
+    "examples": [
+      { "target": "El libro rojo", "native": "The red book (masculine)" },
+      { "target": "La camisa roja", "native": "The red shirt (feminine)" },
+      { "target": "Los zapatos azules", "native": "The blue shoes (plural)" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-1",
+      "question": "What color is 'verde'?",
+      "options": ["red", "blue", "green", "yellow"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-2",
+      "sentence": "El cielo es ___.",
+      "answer": "azul",
+      "acceptableAnswers": ["azul", "Azul"],
+      "hint": "The color of the sky"
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-3",
+      "sentence": "The cat is black.",
+      "answer": "El gato es negro.",
+      "acceptableAnswers": ["El gato es negro.", "El gato es negro"],
+      "direction": "to_target"
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-4",
+      "pairs": [
+        { "left": "rojo", "right": "red" },
+        { "left": "amarillo", "right": "yellow" },
+        { "left": "blanco", "right": "white" },
+        { "left": "naranja", "right": "orange" }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-5",
+      "question": "How do you say 'the white house' in Spanish? (Remember: adjective goes after the noun)",
+      "options": ["la blanca casa", "la casa blanca", "el casa blanco", "la casa blanco"],
+      "correctIndex": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "What is 'amarillo' in English?",
+      "options": ["orange", "red", "yellow", "green"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-2",
+      "question": "How do you say 'purple' in Spanish?",
+      "options": ["morado", "naranja", "marrón", "rosado"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q-2-3",
+      "question": "Which is the correct feminine form of 'blanco'?",
+      "options": ["blance", "blanca", "blanco", "blancos"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-4",
+      "question": "What does 'La hierba es verde' mean?",
+      "options": ["The herb is green", "The grass is green", "The grass is blue", "The tree is green"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-5",
+      "question": "Which color adjective does NOT change form between masculine and feminine?",
+      "options": ["rojo", "blanco", "azul", "amarillo"],
+      "correctIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-1",
+  "title": "Predstavljanje",
+  "vocabulary": [
+    {
+      "id": "v-1-2-1",
+      "word": "Mi chiamo",
+      "translation": "Zovem se",
+      "pronunciation": "mi kjamo",
+      "example": "Mi chiamo Marco.",
+      "exampleTranslation": "Zovem se Marko."
+    },
+    {
+      "id": "v-1-2-2",
+      "word": "Come ti chiami?",
+      "translation": "Kako se zoveš?",
+      "pronunciation": "kome ti kjami",
+      "example": "Ciao, come ti chiami?",
+      "exampleTranslation": "Zdravo, kako se zoveš?"
+    },
+    {
+      "id": "v-1-2-3",
+      "word": "Piacere",
+      "translation": "Drago mi je",
+      "pronunciation": "pjačere",
+      "example": "Piacere di conoscerti!",
+      "exampleTranslation": "Drago mi je što te upoznajem!"
+    },
+    {
+      "id": "v-1-2-4",
+      "word": "Sono",
+      "translation": "Ja sam",
+      "pronunciation": "sono",
+      "example": "Sono italiano.",
+      "exampleTranslation": "Ja sam Italijan."
+    },
+    {
+      "id": "v-1-2-5",
+      "word": "Di dove sei?",
+      "translation": "Odakle si?",
+      "pronunciation": "di dove sei",
+      "example": "Di dove sei? Sono di Roma.",
+      "exampleTranslation": "Odakle si? Ja sam iz Rima."
+    },
+    {
+      "id": "v-1-2-6",
+      "word": "Sono di",
+      "translation": "Ja sam iz",
+      "pronunciation": "sono di",
+      "example": "Sono di Belgrado.",
+      "exampleTranslation": "Ja sam iz Beograda."
+    },
+    {
+      "id": "v-1-2-7",
+      "word": "E tu?",
+      "translation": "A ti?",
+      "pronunciation": "e tu",
+      "example": "Io sto bene, e tu?",
+      "exampleTranslation": "Ja sam dobro, a ti?"
+    },
+    {
+      "id": "v-1-2-8",
+      "word": "Molto lieto",
+      "translation": "Veoma mi je drago",
+      "pronunciation": "molto ljeto",
+      "example": "Molto lieto di conoscerti.",
+      "exampleTranslation": "Veoma mi je drago što te upoznajem."
+    }
+  ],
+  "grammar": {
+    "title": "Glagol 'essere' (biti) u prvom licu i predstavljanje",
+    "explanation": "Za predstavljanje u italijanskom koristite 'Mi chiamo...' (Zovem se...) ili 'Sono...' (Ja sam...). Glagol 'essere' (biti) u prvom licu jednine glasi 'sono'. Kada govorite odakle ste, koristite konstrukciju 'Sono di + grad/zemlja'. Na primer: 'Sono di Belgrado' (Ja sam iz Beograda). Za pitanje odakle je neko, koristite 'Di dove sei?' (neformalno) ili 'Di dov'è?' (formalno).",
+    "examples": [
+      { "target": "Mi chiamo Anna.", "native": "Zovem se Ana." },
+      { "target": "Sono di Milano.", "native": "Ja sam iz Milana." },
+      { "target": "Sono serbo.", "native": "Ja sam Srbin." },
+      { "target": "Di dove sei?", "native": "Odakle si?" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-2-1",
+      "question": "Kako se kaže 'Zovem se' na italijanskom?",
+      "options": ["Sono", "Mi chiamo", "Piacere", "Di dove"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-2-2",
+      "sentence": "___ chiamo Luca.",
+      "answer": "Mi",
+      "acceptableAnswers": ["Mi"],
+      "hint": "Zovem se Luka."
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-2-3",
+      "sentence": "Ja sam iz Beograda.",
+      "answer": "Sono di Belgrado.",
+      "acceptableAnswers": ["Sono di Belgrado.", "Sono di Belgrado", "Io sono di Belgrado"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-2-4",
+      "pairs": [
+        { "left": "Mi chiamo", "right": "Zovem se" },
+        { "left": "Piacere", "right": "Drago mi je" },
+        { "left": "Di dove sei?", "right": "Odakle si?" },
+        { "left": "E tu?", "right": "A ti?" }
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-2-5",
+      "sentence": "Di dove ___?",
+      "answer": "sei",
+      "acceptableAnswers": ["sei"],
+      "hint": "Odakle si?"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "Šta znači 'Piacere di conoscerti'?",
+      "options": ["Kako se zoveš?", "Odakle si?", "Drago mi je što te upoznajem", "Dobro sam"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-2",
+      "question": "Kako na italijanskom pitate nekoga kako se zove (neformalno)?",
+      "options": ["Di dove sei?", "Come ti chiami?", "Come stai?", "E tu?"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-3",
+      "question": "Dopunite: 'Sono ___ Roma.'",
+      "options": ["a", "in", "di", "da"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-4",
+      "question": "Šta znači 'Molto lieto'?",
+      "options": ["Mnogo hvala", "Veoma mi je drago", "Vrlo dobro", "Mnogo lepо"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-5",
+      "question": "Kako se kaže 'Ja sam Srbin' na italijanskom?",
+      "options": ["Mi chiamo serbo", "Sono di Serbia", "Sono serbo", "Di Serbia sono"],
+      "correctIndex": 2
+    }
+  ]
+}

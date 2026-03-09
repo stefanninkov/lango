@@ -1,0 +1,154 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-1",
+  "title": "Učtivi izrazi",
+  "vocabulary": [
+    {
+      "id": "por-favor",
+      "word": "Por favor",
+      "translation": "Molim vas / Molim te",
+      "pronunciation": "por fa-VOR",
+      "example": "Un café, por favor.",
+      "exampleTranslation": "Jednu kafu, molim vas."
+    },
+    {
+      "id": "gracias",
+      "word": "Gracias",
+      "translation": "Hvala",
+      "pronunciation": "GRA-sjas",
+      "example": "Muchas gracias por tu ayuda.",
+      "exampleTranslation": "Mnogo hvala na tvojoj pomoći."
+    },
+    {
+      "id": "de-nada",
+      "word": "De nada",
+      "translation": "Nema na čemu",
+      "pronunciation": "de NA-da",
+      "example": "—Gracias. —De nada.",
+      "exampleTranslation": "—Hvala. —Nema na čemu."
+    },
+    {
+      "id": "perdon",
+      "word": "Perdón",
+      "translation": "Izvinite / Oprosti",
+      "pronunciation": "per-DON",
+      "example": "Perdón, ¿dónde está el baño?",
+      "exampleTranslation": "Izvinite, gde je toalet?"
+    },
+    {
+      "id": "lo-siento",
+      "word": "Lo siento",
+      "translation": "Žao mi je",
+      "pronunciation": "lo SJEN-to",
+      "example": "Lo siento, no entiendo.",
+      "exampleTranslation": "Žao mi je, ne razumem."
+    },
+    {
+      "id": "disculpe",
+      "word": "Disculpe",
+      "translation": "Izvinite (formalno)",
+      "pronunciation": "dis-KUL-pe",
+      "example": "Disculpe, ¿puede ayudarme?",
+      "exampleTranslation": "Izvinite, možete li da mi pomognete?"
+    },
+    {
+      "id": "muchas-gracias",
+      "word": "Muchas gracias",
+      "translation": "Mnogo hvala",
+      "pronunciation": "MU-čas GRA-sjas",
+      "example": "Muchas gracias, es muy amable.",
+      "exampleTranslation": "Mnogo hvala, veoma ste ljubazni."
+    },
+    {
+      "id": "no-hay-de-que",
+      "word": "No hay de qué",
+      "translation": "Nema za šta",
+      "pronunciation": "no AJ de KE",
+      "example": "—Muchas gracias. —No hay de qué.",
+      "exampleTranslation": "—Mnogo hvala. —Nema za šta."
+    }
+  ],
+  "grammar": {
+    "title": "Razlika između 'Perdón', 'Lo siento' i 'Disculpe'",
+    "explanation": "U španskom postoji nekoliko načina da se izvinite, a svaki ima različitu upotrebu:\n\n• 'Perdón' — Koristi se kada želite da privučete nečiju pažnju ili kada ste napravili manju grešku (npr. gurnuli nekoga u prolazu).\n• 'Lo siento' — Koristi se za iskreno izvinjenje kada vam je zaista žao (npr. loša vest).\n• 'Disculpe' — Formalni oblik za 'Izvinite', koristi se sa nepoznatim osobama.\n\n'Perdón' i 'Disculpe' se često koriste za privlačenje pažnje, dok 'Lo siento' izražava dublje žaljenje.",
+    "examples": [
+      { "target": "Perdón, ¿tiene hora?", "native": "Izvinite, imate li sat?" },
+      { "target": "Lo siento mucho.", "native": "Veoma mi je žao." },
+      { "target": "Disculpe, ¿habla inglés?", "native": "Izvinite, da li govorite engleski?" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1",
+      "question": "Kako se kaže 'Hvala' na španskom?",
+      "options": ["Por favor", "De nada", "Gracias", "Perdón"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2",
+      "sentence": "Un café, ___ ___.",
+      "answer": "por favor",
+      "acceptableAnswers": ["por favor", "Por favor"],
+      "hint": "Učtiv način da nešto tražite"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-3",
+      "question": "Šta znači 'Lo siento'?",
+      "options": ["Nema na čemu", "Molim vas", "Žao mi je", "Izvinite"],
+      "correctIndex": 2
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-4",
+      "sentence": "Nema na čemu",
+      "answer": "De nada",
+      "acceptableAnswers": ["de nada", "De nada", "De Nada"],
+      "direction": "to_target"
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-5",
+      "pairs": [
+        { "left": "Gracias", "right": "Hvala" },
+        { "left": "Por favor", "right": "Molim vas" },
+        { "left": "Lo siento", "right": "Žao mi je" },
+        { "left": "De nada", "right": "Nema na čemu" }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "Koji izraz se koristi za iskreno izvinjenje na španskom?",
+      "options": ["Perdón", "Lo siento", "Disculpe", "De nada"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-2",
+      "question": "Kako se kaže 'Molim vas' na španskom?",
+      "options": ["Gracias", "De nada", "Perdón", "Por favor"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-3-3",
+      "question": "Šta znači 'No hay de qué'?",
+      "options": ["Žao mi je", "Nema za šta", "Izvinite", "Mnogo hvala"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-4",
+      "question": "Koji izraz je formalni oblik za 'Izvinite'?",
+      "options": ["Perdón", "Lo siento", "Disculpe", "Por favor"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-5",
+      "question": "Kako se kaže 'Mnogo hvala' na španskom?",
+      "options": ["Gracias mucho", "Muchas gracias", "Muy gracias", "Grande gracias"],
+      "correctIndex": 1
+    }
+  ]
+}

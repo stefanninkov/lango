@@ -1,0 +1,17 @@
+{
+  "courseId": "en-it",
+  "courseName": "Italian from English",
+  "units": [
+    {
+      "id": "unit-1",
+      "title": "Greetings & Basics",
+      "description": "Learn to say hello, introduce yourself, and use polite expressions in Italian",
+      "order": 1,
+      "lessons": [
+        { "id": "lesson-1", "title": "Basic Greetings", "order": 1, "wordCount": 8 },
+        { "id": "lesson-2", "title": "Introductions", "order": 2, "wordCount": 8 },
+        { "id": "lesson-3", "title": "Polite Expressions", "order": 3, "wordCount": 8 }
+      ]
+    }
+  ]
+}

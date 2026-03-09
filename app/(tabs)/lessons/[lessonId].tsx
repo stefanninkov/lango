@@ -9,7 +9,8 @@ import { useProgressStore } from '../../../src/stores/progressStore';
 import { getLesson, getCourseId } from '../../../src/utils/content';
 import { addXP, updateStreak } from '../../../src/services/progressService';
 import ProgressBar from '../../../src/components/ProgressBar';
-import VocabularyCard from '../../../src/components/VocabularyCard';
+import SwipeableVocabCard from '../../../src/components/SwipeableVocabCard';
+import XPGainAnimation from '../../../src/components/XPGainAnimation';
 import ExerciseMultipleChoice from '../../../src/components/ExerciseMultipleChoice';
 import ExerciseFillBlank from '../../../src/components/ExerciseFillBlank';
 import ExerciseMatching from '../../../src/components/ExerciseMatching';
@@ -39,6 +40,7 @@ export default function LessonPlayerScreen() {
   const [quizIndex, setQuizIndex] = useState(0);
   const [quizCorrect, setQuizCorrect] = useState(0);
   const [exerciseCorrect, setExerciseCorrect] = useState(0);
+  const [showXPGain, setShowXPGain] = useState(false);
 
   const phases: Phase[] = ['vocabulary', 'grammar', 'exercises', 'quiz', 'results'];
   const phaseIndex = phases.indexOf(phase);
@@ -195,20 +197,10 @@ export default function LessonPlayerScreen() {
       {/* Vocabulary Phase */}
       {phase === 'vocabulary' && (
         <View style={styles.phaseContainer}>
-          <Text style={styles.sectionTitle}>
-            Word {vocabIndex + 1} of {lesson.vocabulary.length}
-          </Text>
-          <View style={styles.cardContainer}>
-            <VocabularyCard item={lesson.vocabulary[vocabIndex]} />
-          </View>
-          <IconButton
-            icon="arrow-right"
-            mode="contained"
-            iconColor={colors.white}
-            containerColor={colors.primary}
-            size={24}
-            onPress={handleVocabNext}
-            style={styles.nextButton}
+          <SwipeableVocabCard
+            item={lesson.vocabulary[vocabIndex]}
+            onNext={handleVocabNext}
+            showIndex={`${vocabIndex + 1} of ${lesson.vocabulary.length}`}
           />
         </View>
       )}
@@ -255,12 +247,18 @@ export default function LessonPlayerScreen() {
 
       {/* Results Phase */}
       {phase === 'results' && (
-        <QuizResults
-          score={quizCorrect}
-          total={lesson.quiz.length}
-          xpEarned={quizCorrect / lesson.quiz.length >= 0.6 ? 20 : 5}
-          onComplete={handleComplete}
-        />
+        <>
+          <QuizResults
+            score={quizCorrect}
+            total={lesson.quiz.length}
+            xpEarned={quizCorrect / lesson.quiz.length >= 0.6 ? 20 : 5}
+            onComplete={handleComplete}
+          />
+          <XPGainAnimation
+            amount={quizCorrect / lesson.quiz.length >= 0.6 ? 20 : 5}
+            visible={phase === 'results'}
+          />
+        </>
       )}
     </View>
   );
@@ -294,16 +292,6 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: spacing.lg,
     alignItems: 'center',
-  },
-  sectionTitle: {
-    ...typography.caption,
-    color: colors.textSecondary,
-    marginBottom: spacing.lg,
-  },
-  cardContainer: {
-    flex: 1,
-    justifyContent: 'center',
-    width: '100%',
   },
   nextButton: {
     alignSelf: 'center',

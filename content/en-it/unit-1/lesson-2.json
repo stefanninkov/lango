@@ -1,0 +1,156 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-1",
+  "title": "Introductions",
+  "vocabulary": [
+    {
+      "id": "v-2-1",
+      "word": "mi chiamo",
+      "translation": "my name is",
+      "pronunciation": "mee KYAH-moh",
+      "example": "Mi chiamo Luca.",
+      "exampleTranslation": "My name is Luca."
+    },
+    {
+      "id": "v-2-2",
+      "word": "piacere",
+      "translation": "nice to meet you / pleasure",
+      "pronunciation": "pyah-CHEH-reh",
+      "example": "Piacere di conoscerti!",
+      "exampleTranslation": "Nice to meet you!"
+    },
+    {
+      "id": "v-2-3",
+      "word": "sono",
+      "translation": "I am",
+      "pronunciation": "SOH-noh",
+      "example": "Sono americano.",
+      "exampleTranslation": "I am American."
+    },
+    {
+      "id": "v-2-4",
+      "word": "di dove sei",
+      "translation": "where are you from (informal)",
+      "pronunciation": "dee DOH-veh SAY",
+      "example": "Di dove sei?",
+      "exampleTranslation": "Where are you from?"
+    },
+    {
+      "id": "v-2-5",
+      "word": "vengo da",
+      "translation": "I come from",
+      "pronunciation": "VEN-goh dah",
+      "example": "Vengo da New York.",
+      "exampleTranslation": "I come from New York."
+    },
+    {
+      "id": "v-2-6",
+      "word": "e tu",
+      "translation": "and you (informal)",
+      "pronunciation": "eh TOO",
+      "example": "Io sto bene, e tu?",
+      "exampleTranslation": "I'm fine, and you?"
+    },
+    {
+      "id": "v-2-7",
+      "word": "questo è",
+      "translation": "this is (masculine)",
+      "pronunciation": "KWEH-stoh EH",
+      "example": "Questo è il mio amico Marco.",
+      "exampleTranslation": "This is my friend Marco."
+    },
+    {
+      "id": "v-2-8",
+      "word": "come ti chiami",
+      "translation": "what is your name (informal)",
+      "pronunciation": "KOH-meh tee KYAH-mee",
+      "example": "Come ti chiami?",
+      "exampleTranslation": "What is your name?"
+    }
+  ],
+  "grammar": {
+    "title": "Introducing Yourself with 'Chiamarsi'",
+    "explanation": "In Italian, to say your name you use the reflexive verb 'chiamarsi' (to call oneself). 'Mi chiamo' literally means 'I call myself'. To ask someone's name informally, say 'Come ti chiami?'. In formal situations, use 'Come si chiama?'. The verb 'essere' (to be) is also common: 'Sono Maria' means 'I am Maria'.",
+    "examples": [
+      { "target": "Mi chiamo Anna.", "native": "My name is Anna." },
+      { "target": "Come ti chiami?", "native": "What is your name? (informal)" },
+      { "target": "Come si chiama?", "native": "What is your name? (formal)" },
+      { "target": "Sono italiano.", "native": "I am Italian." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "ex-2-1",
+      "sentence": "My name is Maria.",
+      "answer": "Mi chiamo Maria.",
+      "acceptableAnswers": ["Sono Maria."],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-2",
+      "question": "How do you ask 'What is your name?' informally in Italian?",
+      "options": ["Di dove sei?", "Come ti chiami?", "Come stai?", "Mi chiamo Marco."],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-3",
+      "sentence": "___ di conoscerti!",
+      "answer": "Piacere",
+      "acceptableAnswers": ["piacere"],
+      "hint": "Nice to meet you!"
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-4",
+      "pairs": [
+        { "left": "Mi chiamo", "right": "My name is" },
+        { "left": "Di dove sei?", "right": "Where are you from?" },
+        { "left": "Vengo da", "right": "I come from" },
+        { "left": "Piacere", "right": "Nice to meet you" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-5",
+      "sentence": "Vengo da Londra.",
+      "answer": "I come from London.",
+      "acceptableAnswers": ["I'm from London."],
+      "direction": "it-to-en"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "What does 'Mi chiamo Luca' mean?",
+      "options": ["I like Luca", "My name is Luca", "I know Luca", "This is Luca"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-2",
+      "question": "How do you say 'Nice to meet you' in Italian?",
+      "options": ["Grazie", "Buongiorno", "Piacere", "Ciao"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-3",
+      "question": "Which phrase means 'Where are you from?' (informal)?",
+      "options": ["Come ti chiami?", "Come stai?", "E tu?", "Di dove sei?"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-2-4",
+      "question": "Complete the sentence: '___ americano.' (I am American.)",
+      "options": ["Mi chiamo", "Sono", "Vengo", "Questo è"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-5",
+      "question": "What does 'e tu?' mean?",
+      "options": ["And you?", "Is that you?", "Thank you", "See you"],
+      "correctIndex": 0
+    }
+  ]
+}

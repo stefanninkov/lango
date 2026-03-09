@@ -1,0 +1,156 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-1",
+  "title": "Osnovni pozdravi",
+  "vocabulary": [
+    {
+      "id": "v-1-1-1",
+      "word": "Ciao",
+      "translation": "Zdravo / Ćao",
+      "pronunciation": "čao",
+      "example": "Ciao, come stai?",
+      "exampleTranslation": "Zdravo, kako si?"
+    },
+    {
+      "id": "v-1-1-2",
+      "word": "Buongiorno",
+      "translation": "Dobro jutro / Dobar dan",
+      "pronunciation": "buondžorno",
+      "example": "Buongiorno, signora!",
+      "exampleTranslation": "Dobar dan, gospođo!"
+    },
+    {
+      "id": "v-1-1-3",
+      "word": "Buonasera",
+      "translation": "Dobro veče",
+      "pronunciation": "buonasera",
+      "example": "Buonasera a tutti!",
+      "exampleTranslation": "Dobro veče svima!"
+    },
+    {
+      "id": "v-1-1-4",
+      "word": "Buonanotte",
+      "translation": "Laku noć",
+      "pronunciation": "buonanote",
+      "example": "Buonanotte, dormi bene!",
+      "exampleTranslation": "Laku noć, spavaj dobro!"
+    },
+    {
+      "id": "v-1-1-5",
+      "word": "Arrivederci",
+      "translation": "Doviđenja",
+      "pronunciation": "arivederči",
+      "example": "Arrivederci, a domani!",
+      "exampleTranslation": "Doviđenja, do sutra!"
+    },
+    {
+      "id": "v-1-1-6",
+      "word": "Come stai?",
+      "translation": "Kako si?",
+      "pronunciation": "kome stai",
+      "example": "Ciao Marco, come stai?",
+      "exampleTranslation": "Zdravo Marko, kako si?"
+    },
+    {
+      "id": "v-1-1-7",
+      "word": "Sto bene",
+      "translation": "Dobro sam",
+      "pronunciation": "sto bene",
+      "example": "Grazie, sto bene!",
+      "exampleTranslation": "Hvala, dobro sam!"
+    },
+    {
+      "id": "v-1-1-8",
+      "word": "A presto",
+      "translation": "Do skorog viđenja",
+      "pronunciation": "a presto",
+      "example": "Ciao, a presto!",
+      "exampleTranslation": "Ćao, do skorog viđenja!"
+    }
+  ],
+  "grammar": {
+    "title": "Formalno i neformalno obraćanje",
+    "explanation": "U italijanskom jeziku postoje dva nivoa obraćanja. 'Ciao' se koristi u neformalnim situacijama, sa prijateljima i porodicom. 'Buongiorno' i 'Buonasera' su formalniji i koriste se sa nepoznatim osobama, na poslu ili u zvaničnim prilikama. 'Come stai?' je neformalno pitanje ('ti' forma), dok je 'Come sta?' formalna verzija ('Lei' forma).",
+    "examples": [
+      { "target": "Ciao, come stai?", "native": "Zdravo, kako si? (neformalno)" },
+      { "target": "Buongiorno, come sta?", "native": "Dobar dan, kako ste? (formalno)" },
+      { "target": "Arrivederci, signore.", "native": "Doviđenja, gospodine. (formalno)" },
+      { "target": "Ciao, a presto!", "native": "Ćao, vidimo se uskoro! (neformalno)" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1-1",
+      "question": "Kako se kaže 'Dobar dan' na italijanskom?",
+      "options": ["Buonanotte", "Buongiorno", "Buonasera", "Arrivederci"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-1-2",
+      "sentence": "Ciao, come ___?",
+      "answer": "stai",
+      "acceptableAnswers": ["stai", "sta"],
+      "hint": "Kako si?"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-1-3",
+      "pairs": [
+        { "left": "Buongiorno", "right": "Dobar dan" },
+        { "left": "Buonasera", "right": "Dobro veče" },
+        { "left": "Buonanotte", "right": "Laku noć" },
+        { "left": "Arrivederci", "right": "Doviđenja" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-1-4",
+      "sentence": "Zdravo, kako si?",
+      "answer": "Ciao, come stai?",
+      "acceptableAnswers": ["Ciao, come stai?", "Ciao come stai"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-1-5",
+      "sentence": "___, a domani!",
+      "answer": "Arrivederci",
+      "acceptableAnswers": ["Arrivederci", "Ciao"],
+      "hint": "Doviđenja, do sutra!"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "Šta znači 'Buonasera'?",
+      "options": ["Dobro jutro", "Dobar dan", "Dobro veče", "Laku noć"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-2",
+      "question": "Koji pozdrav koristite kada se opraštate?",
+      "options": ["Buongiorno", "Come stai?", "Sto bene", "Arrivederci"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-1-3",
+      "question": "Kako se kaže 'Laku noć' na italijanskom?",
+      "options": ["Buonasera", "Buonanotte", "A presto", "Arrivederci"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-4",
+      "question": "Šta je odgovarajući odgovor na 'Come stai?'",
+      "options": ["Arrivederci", "Buongiorno", "Sto bene", "A presto"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-5",
+      "question": "Koji od ovih pozdrava je neformalan?",
+      "options": ["Buongiorno", "Arrivederci", "Buonasera", "Ciao"],
+      "correctIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-1",
+  "title": "Učtivi izrazi",
+  "vocabulary": [
+    {
+      "id": "v-1-3-1",
+      "word": "Grazie",
+      "translation": "Hvala",
+      "pronunciation": "gracije",
+      "example": "Grazie mille!",
+      "exampleTranslation": "Hvala puno!"
+    },
+    {
+      "id": "v-1-3-2",
+      "word": "Prego",
+      "translation": "Molim / Nema na čemu",
+      "pronunciation": "prego",
+      "example": "Grazie! — Prego!",
+      "exampleTranslation": "Hvala! — Nema na čemu!"
+    },
+    {
+      "id": "v-1-3-3",
+      "word": "Per favore",
+      "translation": "Molim vas",
+      "pronunciation": "per favore",
+      "example": "Un caffè, per favore.",
+      "exampleTranslation": "Jednu kafu, molim vas."
+    },
+    {
+      "id": "v-1-3-4",
+      "word": "Scusi",
+      "translation": "Izvinite (formalno)",
+      "pronunciation": "skuzi",
+      "example": "Scusi, dov'è la stazione?",
+      "exampleTranslation": "Izvinite, gde je stanica?"
+    },
+    {
+      "id": "v-1-3-5",
+      "word": "Mi dispiace",
+      "translation": "Žao mi je",
+      "pronunciation": "mi dispjače",
+      "example": "Mi dispiace, non parlo italiano.",
+      "exampleTranslation": "Žao mi je, ne govorim italijanski."
+    },
+    {
+      "id": "v-1-3-6",
+      "word": "Sì",
+      "translation": "Da",
+      "pronunciation": "si",
+      "example": "Sì, certo!",
+      "exampleTranslation": "Da, naravno!"
+    },
+    {
+      "id": "v-1-3-7",
+      "word": "No",
+      "translation": "Ne",
+      "pronunciation": "no",
+      "example": "No, grazie.",
+      "exampleTranslation": "Ne, hvala."
+    },
+    {
+      "id": "v-1-3-8",
+      "word": "Per piacere",
+      "translation": "Molim vas (alternativno)",
+      "pronunciation": "per pjačere",
+      "example": "Può aiutarmi, per piacere?",
+      "exampleTranslation": "Možete li mi pomoći, molim vas?"
+    }
+  ],
+  "grammar": {
+    "title": "Učtive konstrukcije i formalno obraćanje",
+    "explanation": "U italijanskom jeziku učtivost se izražava na više načina. 'Per favore' i 'Per piacere' oba znače 'molim vas' i mogu se koristiti naizmenično. 'Scusi' (formalno) i 'Scusa' (neformalno) koriste se za izvinite kada želite da privučete nečiju pažnju ili kada se izvinjujete za nešto manje. 'Mi dispiace' izražava dublje žaljenje. 'Prego' ima više značenja: 'nema na čemu', 'izvolite' i 'molim'.",
+    "examples": [
+      { "target": "Scusi, può ripetere?", "native": "Izvinite, možete li ponoviti? (formalno)" },
+      { "target": "Scusa, puoi ripetere?", "native": "Izvini, možeš li ponoviti? (neformalno)" },
+      { "target": "Grazie mille!", "native": "Hvala puno!" },
+      { "target": "Mi dispiace molto.", "native": "Veoma mi je žao." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-3-1",
+      "question": "Kako se kaže 'Hvala' na italijanskom?",
+      "options": ["Prego", "Scusi", "Grazie", "Per favore"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-3-2",
+      "sentence": "Un caffè, ___ favore.",
+      "answer": "per",
+      "acceptableAnswers": ["per"],
+      "hint": "Jednu kafu, molim vas."
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-3-3",
+      "sentence": "Žao mi je, ne govorim italijanski.",
+      "answer": "Mi dispiace, non parlo italiano.",
+      "acceptableAnswers": ["Mi dispiace, non parlo italiano.", "Mi dispiace, non parlo italiano"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-3-4",
+      "pairs": [
+        { "left": "Grazie", "right": "Hvala" },
+        { "left": "Prego", "right": "Nema na čemu" },
+        { "left": "Scusi", "right": "Izvinite" },
+        { "left": "Mi dispiace", "right": "Žao mi je" }
+      ]
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-3-5",
+      "question": "Neko vam kaže 'Grazie'. Šta je uobičajen odgovor?",
+      "options": ["Scusi", "Mi dispiace", "Prego", "Per favore"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "Šta znači 'Per favore'?",
+      "options": ["Hvala", "Molim vas", "Izvinite", "Nema na čemu"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-2",
+      "question": "Koja je razlika između 'Scusi' i 'Scusa'?",
+      "options": ["Nema razlike", "'Scusi' je formalno, 'Scusa' je neformalno", "'Scusa' je formalno, 'Scusi' je neformalno", "'Scusi' znači hvala"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-3",
+      "question": "Kako se kaže 'Žao mi je' na italijanskom?",
+      "options": ["Prego", "Scusi", "Per favore", "Mi dispiace"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-3-4",
+      "question": "Šta 'Prego' može da znači?",
+      "options": ["Samo 'molim'", "Samo 'nema na čemu'", "'Nema na čemu', 'izvolite' i 'molim'", "Samo 'izvinite'"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-5",
+      "question": "Dopunite: '___, dov'è la stazione?'",
+      "options": ["Grazie", "Prego", "Scusi", "Mi dispiace"],
+      "correctIndex": 2
+    }
+  ]
+}
