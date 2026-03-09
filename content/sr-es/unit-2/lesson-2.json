@@ -1,0 +1,34 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-2",
+  "title": "Hrana i piće",
+  "vocabulary": [
+    { "id": "sr-es-food-agua", "word": "el agua", "translation": "voda", "pronunciation": "el AH-gwah", "example": "Un vaso de agua, por favor.", "exampleTranslation": "Čašu vode, molim." },
+    { "id": "sr-es-food-pan", "word": "el pan", "translation": "hleb", "pronunciation": "el pahn", "example": "El pan está fresco.", "exampleTranslation": "Hleb je svež." },
+    { "id": "sr-es-food-cafe", "word": "el café", "translation": "kafa", "pronunciation": "el kah-FEH", "example": "Quiero un café con leche.", "exampleTranslation": "Hoću kafu sa mlekom." },
+    { "id": "sr-es-food-carne", "word": "la carne", "translation": "meso", "pronunciation": "lah KAR-neh", "example": "No como carne.", "exampleTranslation": "Ne jedem meso." },
+    { "id": "sr-es-food-fruta", "word": "la fruta", "translation": "voće", "pronunciation": "lah FROO-tah", "example": "La fruta es saludable.", "exampleTranslation": "Voće je zdravo." },
+    { "id": "sr-es-food-cerveza", "word": "la cerveza", "translation": "pivo", "pronunciation": "lah ser-BEH-sah", "example": "Una cerveza fría, por favor.", "exampleTranslation": "Hladno pivo, molim." },
+    { "id": "sr-es-food-comer", "word": "comer", "translation": "jesti", "pronunciation": "koh-MEHR", "example": "Vamos a comer.", "exampleTranslation": "Hajdemo da jedemo." },
+    { "id": "sr-es-food-beber", "word": "beber", "translation": "piti", "pronunciation": "beh-BEHR", "example": "¿Qué quieres beber?", "exampleTranslation": "Šta želiš da piješ?" }
+  ],
+  "grammar": {
+    "title": "Glagoli za hranu: comer i beber",
+    "explanation": "Glagol 'comer' (jesti) i 'beber' (piti) su pravilni -er glagoli. Konjugacija: yo como/bebo, tú comes/bebes, él come/bebe, nosotros comemos/bebemos. Za poručivanje koristite 'quiero' (hoću) ili 'me gustaría' (želeo/la bih).",
+    "examples": [
+      { "target": "Yo como fruta todos los días.", "native": "Jedem voće svaki dan." },
+      { "target": "¿Qué quieres comer?", "native": "Šta želiš da jedeš?" },
+      { "target": "No bebo cerveza.", "native": "Ne pijem pivo." }
+    ]
+  },
+  "exercises": [
+    { "type": "multiple_choice", "id": "sr-es-food-ex1", "question": "Kako se kaže 'voda' na španskom?", "options": ["el café", "el agua", "la cerveza", "la leche"], "correctIndex": 1 },
+    { "type": "fill_blank", "id": "sr-es-food-ex2", "sentence": "Quiero un ___ con leche. (kafa)", "answer": "café" },
+    { "type": "matching", "id": "sr-es-food-ex3", "pairs": [{ "left": "comer", "right": "jesti" }, { "left": "beber", "right": "piti" }, { "left": "el pan", "right": "hleb" }, { "left": "la carne", "right": "meso" }] }
+  ],
+  "quiz": [
+    { "id": "sr-es-food-q1", "question": "Šta znači 'la fruta'?", "options": ["meso", "hleb", "voće", "pivo"], "correctIndex": 2 },
+    { "id": "sr-es-food-q2", "question": "Kako se kaže 'Ne jedem meso'?", "options": ["No bebo carne", "No como carne", "No quiero carne", "No tengo carne"], "correctIndex": 1 },
+    { "id": "sr-es-food-q3", "question": "Šta znači 'beber'?", "options": ["jesti", "piti", "kuvati", "kupiti"], "correctIndex": 1 }
+  ]
+}

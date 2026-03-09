@@ -1,0 +1,34 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-2",
+  "title": "Brojevi i vreme",
+  "vocabulary": [
+    { "id": "sr-es-num-uno", "word": "uno", "translation": "jedan", "pronunciation": "OO-noh", "example": "Tengo uno.", "exampleTranslation": "Imam jedan." },
+    { "id": "sr-es-num-dos", "word": "dos", "translation": "dva", "pronunciation": "dohs", "example": "Dos cafés, por favor.", "exampleTranslation": "Dve kafe, molim." },
+    { "id": "sr-es-num-tres", "word": "tres", "translation": "tri", "pronunciation": "trehs", "example": "Son las tres.", "exampleTranslation": "Tri je sata." },
+    { "id": "sr-es-num-cinco", "word": "cinco", "translation": "pet", "pronunciation": "SEEN-koh", "example": "Cinco minutos.", "exampleTranslation": "Pet minuta." },
+    { "id": "sr-es-num-diez", "word": "diez", "translation": "deset", "pronunciation": "dyehs", "example": "Cuesta diez euros.", "exampleTranslation": "Košta deset evra." },
+    { "id": "sr-es-num-veinte", "word": "veinte", "translation": "dvadeset", "pronunciation": "BEYN-teh", "example": "Tengo veinte años.", "exampleTranslation": "Imam dvadeset godina." },
+    { "id": "sr-es-tiempo-hora", "word": "la hora", "translation": "sat/vreme", "pronunciation": "lah OH-rah", "example": "¿Qué hora es?", "exampleTranslation": "Koliko je sati?" },
+    { "id": "sr-es-tiempo-manana", "word": "mañana", "translation": "sutra/jutro", "pronunciation": "mah-NYAH-nah", "example": "Hasta mañana.", "exampleTranslation": "Do sutra." }
+  ],
+  "grammar": {
+    "title": "Brojevi i kako reći koliko je sati",
+    "explanation": "Španski brojevi od 1-10 su: uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez. Za vreme koristite 'Es la una' (za 1:00) i 'Son las + broj' (za ostalo). Za godine koristite 'tener': 'Tengo veinte años' (Imam dvadeset godina).",
+    "examples": [
+      { "target": "Son las cinco de la tarde.", "native": "Pet je popodne." },
+      { "target": "¿Cuántos años tienes?", "native": "Koliko imaš godina?" },
+      { "target": "Tengo veinticinco años.", "native": "Imam dvadeset pet godina." }
+    ]
+  },
+  "exercises": [
+    { "type": "multiple_choice", "id": "sr-es-num-ex1", "question": "Kako se kaže 'pet' na španskom?", "options": ["tres", "cinco", "siete", "diez"], "correctIndex": 1 },
+    { "type": "fill_blank", "id": "sr-es-num-ex2", "sentence": "Tengo ___ años. (dvadeset)", "answer": "veinte" },
+    { "type": "matching", "id": "sr-es-num-ex3", "pairs": [{ "left": "uno", "right": "jedan" }, { "left": "diez", "right": "deset" }, { "left": "tres", "right": "tri" }, { "left": "cinco", "right": "pet" }] }
+  ],
+  "quiz": [
+    { "id": "sr-es-num-q1", "question": "Šta znači 'veinte'?", "options": ["deset", "dvadeset", "trideset", "petnaest"], "correctIndex": 1 },
+    { "id": "sr-es-num-q2", "question": "Kako se kaže 'Koliko je sati?' na španskom?", "options": ["¿Cómo estás?", "¿Qué hora es?", "¿Cuántos años tienes?", "¿Dónde estás?"], "correctIndex": 1 },
+    { "id": "sr-es-num-q3", "question": "Šta znači 'mañana'?", "options": ["večeras", "juče", "sutra/jutro", "danas"], "correctIndex": 2 }
+  ]
+}

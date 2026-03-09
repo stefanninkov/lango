@@ -12,6 +12,17 @@
         { "id": "lesson-2", "title": "Predstavljanje", "order": 2, "wordCount": 8 },
         { "id": "lesson-3", "title": "Učtivi izrazi", "order": 3, "wordCount": 8 }
       ]
+    },
+    {
+      "id": "unit-2",
+      "title": "Hrana i brojevi",
+      "description": "Naučite brojeve, vokabular za hranu i kako naručiti u italijanskom restoranu",
+      "order": 2,
+      "lessons": [
+        { "id": "lesson-1", "title": "Brojevi i vreme", "order": 1, "wordCount": 8 },
+        { "id": "lesson-2", "title": "Hrana i piće", "order": 2, "wordCount": 8 },
+        { "id": "lesson-3", "title": "U restoranu", "order": 3, "wordCount": 8 }
+      ]
     }
   ]
 }

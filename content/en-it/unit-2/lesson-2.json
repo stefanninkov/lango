@@ -1,0 +1,34 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-2",
+  "title": "Food & Drinks",
+  "vocabulary": [
+    { "id": "it-food-acqua", "word": "l'acqua", "translation": "water", "pronunciation": "LAK-kwah", "example": "Un bicchiere d'acqua, per favore.", "exampleTranslation": "A glass of water, please." },
+    { "id": "it-food-pane", "word": "il pane", "translation": "bread", "pronunciation": "eel PAH-neh", "example": "Il pane è fresco.", "exampleTranslation": "The bread is fresh." },
+    { "id": "it-food-caffe", "word": "il caffè", "translation": "coffee", "pronunciation": "eel kaf-FEH", "example": "Vorrei un caffè.", "exampleTranslation": "I would like a coffee." },
+    { "id": "it-food-vino", "word": "il vino", "translation": "wine", "pronunciation": "eel VEE-noh", "example": "Un bicchiere di vino rosso.", "exampleTranslation": "A glass of red wine." },
+    { "id": "it-food-formaggio", "word": "il formaggio", "translation": "cheese", "pronunciation": "eel for-MAH-joh", "example": "Il formaggio italiano è buonissimo.", "exampleTranslation": "Italian cheese is delicious." },
+    { "id": "it-food-frutta", "word": "la frutta", "translation": "fruit", "pronunciation": "lah FROOT-tah", "example": "La frutta è sana.", "exampleTranslation": "Fruit is healthy." },
+    { "id": "it-food-pasta", "word": "la pasta", "translation": "pasta", "pronunciation": "lah PAH-stah", "example": "Mi piace la pasta al pomodoro.", "exampleTranslation": "I like pasta with tomato." },
+    { "id": "it-food-gelato", "word": "il gelato", "translation": "ice cream", "pronunciation": "eel jeh-LAH-toh", "example": "Voglio un gelato al cioccolato.", "exampleTranslation": "I want a chocolate ice cream." }
+  ],
+  "grammar": {
+    "title": "Articles with Food",
+    "explanation": "Italian uses definite articles (il, la, l') before food nouns. 'Il' is for masculine nouns, 'la' for feminine, and 'l'' before vowels. Use 'vorrei' (I would like) for polite ordering. 'Mi piace' means 'I like' (literally 'it pleases me').",
+    "examples": [
+      { "target": "Vorrei il conto, per favore.", "native": "I would like the check, please." },
+      { "target": "Mi piace il gelato.", "native": "I like ice cream." },
+      { "target": "Non mi piace il vino.", "native": "I don't like wine." }
+    ]
+  },
+  "exercises": [
+    { "type": "multiple_choice", "id": "it-food-ex1", "question": "What is 'cheese' in Italian?", "options": ["il pane", "il formaggio", "la pasta", "il gelato"], "correctIndex": 1 },
+    { "type": "fill_blank", "id": "it-food-ex2", "sentence": "Vorrei un ___, per favore. (coffee)", "answer": "caffè" },
+    { "type": "matching", "id": "it-food-ex3", "pairs": [{ "left": "l'acqua", "right": "water" }, { "left": "il vino", "right": "wine" }, { "left": "il pane", "right": "bread" }, { "left": "la frutta", "right": "fruit" }] }
+  ],
+  "quiz": [
+    { "id": "it-food-q1", "question": "What does 'il gelato' mean?", "options": ["cake", "bread", "ice cream", "cheese"], "correctIndex": 2 },
+    { "id": "it-food-q2", "question": "How do you say 'I would like a coffee'?", "options": ["Voglio un caffè", "Vorrei un caffè", "Ho un caffè", "Mi piace il caffè"], "correctIndex": 1 },
+    { "id": "it-food-q3", "question": "Which article goes with 'acqua'?", "options": ["il", "la", "l'", "lo"], "correctIndex": 2 }
+  ]
+}

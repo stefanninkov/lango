@@ -1,0 +1,34 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-2",
+  "title": "Brojevi i vreme",
+  "vocabulary": [
+    { "id": "sr-it-num-uno", "word": "uno", "translation": "jedan", "pronunciation": "OO-noh", "example": "Ho uno zaino.", "exampleTranslation": "Imam jedan ranac." },
+    { "id": "sr-it-num-due", "word": "due", "translation": "dva", "pronunciation": "DOO-eh", "example": "Due caffè, per favore.", "exampleTranslation": "Dve kafe, molim." },
+    { "id": "sr-it-num-tre", "word": "tre", "translation": "tri", "pronunciation": "TREH", "example": "Sono le tre.", "exampleTranslation": "Tri je sata." },
+    { "id": "sr-it-num-cinque", "word": "cinque", "translation": "pet", "pronunciation": "CHEEN-kweh", "example": "Cinque minuti, per favore.", "exampleTranslation": "Pet minuta, molim." },
+    { "id": "sr-it-num-dieci", "word": "dieci", "translation": "deset", "pronunciation": "DYEH-chee", "example": "Costa dieci euro.", "exampleTranslation": "Košta deset evra." },
+    { "id": "sr-it-num-venti", "word": "venti", "translation": "dvadeset", "pronunciation": "VEN-tee", "example": "Ho venti anni.", "exampleTranslation": "Imam dvadeset godina." },
+    { "id": "sr-it-tiempo-ora", "word": "l'ora", "translation": "sat/vreme", "pronunciation": "LOH-rah", "example": "Che ora è?", "exampleTranslation": "Koliko je sati?" },
+    { "id": "sr-it-tiempo-domani", "word": "domani", "translation": "sutra", "pronunciation": "doh-MAH-nee", "example": "A domani!", "exampleTranslation": "Do sutra!" }
+  ],
+  "grammar": {
+    "title": "Brojevi i vreme na italijanskom",
+    "explanation": "Italijanski brojevi: uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci. Za vreme: 'È l'una' (za 1:00) i 'Sono le + broj' (za ostalo). Za godine koristite 'avere': 'Ho venti anni' (Imam dvadeset godina).",
+    "examples": [
+      { "target": "Sono le cinque del pomeriggio.", "native": "Pet je popodne." },
+      { "target": "Quanti anni hai?", "native": "Koliko imaš godina?" },
+      { "target": "Ho venticinque anni.", "native": "Imam dvadeset pet godina." }
+    ]
+  },
+  "exercises": [
+    { "type": "multiple_choice", "id": "sr-it-num-ex1", "question": "Kako se kaže 'pet' na italijanskom?", "options": ["tre", "cinque", "sette", "dieci"], "correctIndex": 1 },
+    { "type": "fill_blank", "id": "sr-it-num-ex2", "sentence": "Ho ___ anni. (dvadeset)", "answer": "venti" },
+    { "type": "matching", "id": "sr-it-num-ex3", "pairs": [{ "left": "uno", "right": "jedan" }, { "left": "dieci", "right": "deset" }, { "left": "tre", "right": "tri" }, { "left": "cinque", "right": "pet" }] }
+  ],
+  "quiz": [
+    { "id": "sr-it-num-q1", "question": "Šta znači 'venti'?", "options": ["deset", "dvadeset", "trideset", "petnaest"], "correctIndex": 1 },
+    { "id": "sr-it-num-q2", "question": "Kako se kaže 'Koliko je sati?' na italijanskom?", "options": ["Come stai?", "Che ora è?", "Quanti anni hai?", "Dove sei?"], "correctIndex": 1 },
+    { "id": "sr-it-num-q3", "question": "Šta znači 'domani'?", "options": ["večeras", "juče", "sutra", "danas"], "correctIndex": 2 }
+  ]
+}

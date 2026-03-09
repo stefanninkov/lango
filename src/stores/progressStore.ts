@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import type { UserProgress, CourseId } from '../types';
 import * as progressService from '../services/progressService';
+import * as storage from '../services/storageService';
 
 interface ProgressState {
   progress: UserProgress | null;
@@ -22,21 +23,28 @@ export const useProgressStore = create<ProgressState>((set, get) => ({
 
   fetchProgress: async (uid, courseId) => {
     set({ isLoading: true });
+    // Try loading from AsyncStorage first
+    const cached = await storage.loadProgress(courseId);
+    if (cached) {
+      set({ progress: cached, isLoading: false });
+    }
+    // Then fetch from service (mock or real)
     const progress = await progressService.getProgress(uid, courseId);
     set({ progress, isLoading: false });
+    storage.saveProgress(courseId, progress);
   },
 
   markLessonComplete: async (uid, courseId, lessonId, quizScore) => {
     await progressService.completeLesson(uid, courseId, lessonId, quizScore);
     const current = get().progress;
     if (current) {
-      set({
-        progress: {
-          ...current,
-          completedLessons: [...current.completedLessons, lessonId],
-          quizScores: { ...current.quizScores, [lessonId]: quizScore },
-        },
-      });
+      const updated = {
+        ...current,
+        completedLessons: [...current.completedLessons, lessonId],
+        quizScores: { ...current.quizScores, [lessonId]: quizScore },
+      };
+      set({ progress: updated });
+      storage.saveProgress(courseId, updated);
     }
   },
 

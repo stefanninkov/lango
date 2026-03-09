@@ -1,0 +1,34 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-2",
+  "title": "Numbers & Counting",
+  "vocabulary": [
+    { "id": "it-num-uno", "word": "uno", "translation": "one", "pronunciation": "OO-noh", "example": "Ho uno zaino.", "exampleTranslation": "I have one backpack." },
+    { "id": "it-num-due", "word": "due", "translation": "two", "pronunciation": "DOO-eh", "example": "Due caffè, per favore.", "exampleTranslation": "Two coffees, please." },
+    { "id": "it-num-tre", "word": "tre", "translation": "three", "pronunciation": "TREH", "example": "Ci sono tre gatti.", "exampleTranslation": "There are three cats." },
+    { "id": "it-num-quattro", "word": "quattro", "translation": "four", "pronunciation": "KWAT-troh", "example": "Quattro stagioni.", "exampleTranslation": "Four seasons." },
+    { "id": "it-num-cinque", "word": "cinque", "translation": "five", "pronunciation": "CHEEN-kweh", "example": "Cinque minuti.", "exampleTranslation": "Five minutes." },
+    { "id": "it-num-dieci", "word": "dieci", "translation": "ten", "pronunciation": "DYEH-chee", "example": "Costa dieci euro.", "exampleTranslation": "It costs ten euros." },
+    { "id": "it-num-venti", "word": "venti", "translation": "twenty", "pronunciation": "VEN-tee", "example": "Ho venti anni.", "exampleTranslation": "I am twenty years old." },
+    { "id": "it-num-cento", "word": "cento", "translation": "one hundred", "pronunciation": "CHEN-toh", "example": "Cento persone.", "exampleTranslation": "One hundred people." }
+  ],
+  "grammar": {
+    "title": "Numbers in Italian",
+    "explanation": "Italian numbers follow a regular pattern. From 1-10, each number is unique. For 11-19, they combine with 'dici'. From 20 onwards, tens are combined with units. 'Avere' (to have) is used for age: 'Ho venti anni' (I have twenty years).",
+    "examples": [
+      { "target": "Ho ventuno anni.", "native": "I am twenty-one years old." },
+      { "target": "Sono le tre.", "native": "It is three o'clock." },
+      { "target": "Quanti anni hai?", "native": "How old are you?" }
+    ]
+  },
+  "exercises": [
+    { "type": "multiple_choice", "id": "it-num-ex1", "question": "What is 'five' in Italian?", "options": ["tre", "cinque", "sette", "quattro"], "correctIndex": 1 },
+    { "type": "fill_blank", "id": "it-num-ex2", "sentence": "Ho ___ anni. (twenty)", "answer": "venti" },
+    { "type": "matching", "id": "it-num-ex3", "pairs": [{ "left": "uno", "right": "one" }, { "left": "dieci", "right": "ten" }, { "left": "tre", "right": "three" }, { "left": "cento", "right": "one hundred" }] }
+  ],
+  "quiz": [
+    { "id": "it-num-q1", "question": "What does 'quattro' mean?", "options": ["three", "four", "five", "six"], "correctIndex": 1 },
+    { "id": "it-num-q2", "question": "How do you say 'ten' in Italian?", "options": ["venti", "cento", "dieci", "cinque"], "correctIndex": 2 },
+    { "id": "it-num-q3", "question": "What does 'Ho venti anni' mean?", "options": ["I have twenty euros", "I am twenty years old", "There are twenty apples", "I want twenty"], "correctIndex": 1 }
+  ]
+}

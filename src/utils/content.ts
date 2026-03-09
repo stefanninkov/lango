@@ -21,14 +21,23 @@ const LESSONS: Record<string, Lesson> = {
   'en-it/unit-1/lesson-1': require('../../content/en-it/unit-1/lesson-1.json'),
   'en-it/unit-1/lesson-2': require('../../content/en-it/unit-1/lesson-2.json'),
   'en-it/unit-1/lesson-3': require('../../content/en-it/unit-1/lesson-3.json'),
+  'en-it/unit-2/lesson-1': require('../../content/en-it/unit-2/lesson-1.json'),
+  'en-it/unit-2/lesson-2': require('../../content/en-it/unit-2/lesson-2.json'),
+  'en-it/unit-2/lesson-3': require('../../content/en-it/unit-2/lesson-3.json'),
   // Serbian → Spanish
   'sr-es/unit-1/lesson-1': require('../../content/sr-es/unit-1/lesson-1.json'),
   'sr-es/unit-1/lesson-2': require('../../content/sr-es/unit-1/lesson-2.json'),
   'sr-es/unit-1/lesson-3': require('../../content/sr-es/unit-1/lesson-3.json'),
+  'sr-es/unit-2/lesson-1': require('../../content/sr-es/unit-2/lesson-1.json'),
+  'sr-es/unit-2/lesson-2': require('../../content/sr-es/unit-2/lesson-2.json'),
+  'sr-es/unit-2/lesson-3': require('../../content/sr-es/unit-2/lesson-3.json'),
   // Serbian → Italian
   'sr-it/unit-1/lesson-1': require('../../content/sr-it/unit-1/lesson-1.json'),
   'sr-it/unit-1/lesson-2': require('../../content/sr-it/unit-1/lesson-2.json'),
   'sr-it/unit-1/lesson-3': require('../../content/sr-it/unit-1/lesson-3.json'),
+  'sr-it/unit-2/lesson-1': require('../../content/sr-it/unit-2/lesson-1.json'),
+  'sr-it/unit-2/lesson-2': require('../../content/sr-it/unit-2/lesson-2.json'),
+  'sr-it/unit-2/lesson-3': require('../../content/sr-it/unit-2/lesson-3.json'),
 };
 
 export function getCourse(courseId: CourseId): Course | null {

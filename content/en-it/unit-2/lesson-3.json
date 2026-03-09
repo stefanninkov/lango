@@ -1,0 +1,34 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-2",
+  "title": "At the Restaurant",
+  "vocabulary": [
+    { "id": "it-rest-menu", "word": "il menù", "translation": "menu", "pronunciation": "eel meh-NOO", "example": "Posso vedere il menù?", "exampleTranslation": "Can I see the menu?" },
+    { "id": "it-rest-conto", "word": "il conto", "translation": "the bill/check", "pronunciation": "eel KOHN-toh", "example": "Il conto, per favore.", "exampleTranslation": "The check, please." },
+    { "id": "it-rest-tavolo", "word": "il tavolo", "translation": "table", "pronunciation": "eel TAH-voh-loh", "example": "Un tavolo per due, per favore.", "exampleTranslation": "A table for two, please." },
+    { "id": "it-rest-cameriere", "word": "il cameriere", "translation": "waiter", "pronunciation": "eel kah-meh-RYEH-reh", "example": "Il cameriere è gentile.", "exampleTranslation": "The waiter is kind." },
+    { "id": "it-rest-prenotare", "word": "prenotare", "translation": "to reserve", "pronunciation": "preh-noh-TAH-reh", "example": "Vorrei prenotare un tavolo.", "exampleTranslation": "I would like to reserve a table." },
+    { "id": "it-rest-ordinare", "word": "ordinare", "translation": "to order", "pronunciation": "or-dee-NAH-reh", "example": "Siamo pronti per ordinare.", "exampleTranslation": "We are ready to order." },
+    { "id": "it-rest-buono", "word": "buono/buona", "translation": "good/delicious", "pronunciation": "BWOH-noh", "example": "La pasta è molto buona!", "exampleTranslation": "The pasta is very good!" },
+    { "id": "it-rest-piccante", "word": "piccante", "translation": "spicy", "pronunciation": "peek-KAHN-teh", "example": "È piccante questo piatto?", "exampleTranslation": "Is this dish spicy?" }
+  ],
+  "grammar": {
+    "title": "Ordering at a Restaurant",
+    "explanation": "When ordering, use 'vorrei' (I would like) or 'prendo' (I'll have). To ask about dishes, use 'è' (is it) + adjective. 'Per favore' (please) and 'grazie' (thank you) are essential polite expressions. Verbs like 'prenotare' and 'ordinare' are regular -are verbs.",
+    "examples": [
+      { "target": "Prendo la pasta al pesto.", "native": "I'll have the pesto pasta." },
+      { "target": "È vegetariano questo piatto?", "native": "Is this dish vegetarian?" },
+      { "target": "Posso avere dell'acqua?", "native": "Can I have some water?" }
+    ]
+  },
+  "exercises": [
+    { "type": "multiple_choice", "id": "it-rest-ex1", "question": "How do you ask for the check?", "options": ["Il menù, per favore", "Il conto, per favore", "Il tavolo, per favore", "Il cameriere, per favore"], "correctIndex": 1 },
+    { "type": "fill_blank", "id": "it-rest-ex2", "sentence": "Un ___ per due, per favore. (table)", "answer": "tavolo" },
+    { "type": "translation", "id": "it-rest-ex3", "sentence": "I would like to reserve a table", "answer": "Vorrei prenotare un tavolo", "acceptableAnswers": ["vorrei prenotare un tavolo"], "direction": "to_target" }
+  ],
+  "quiz": [
+    { "id": "it-rest-q1", "question": "What does 'ordinare' mean?", "options": ["to pay", "to cook", "to order", "to eat"], "correctIndex": 2 },
+    { "id": "it-rest-q2", "question": "How do you say 'the waiter'?", "options": ["il tavolo", "il conto", "il cameriere", "il menù"], "correctIndex": 2 },
+    { "id": "it-rest-q3", "question": "What does 'piccante' mean?", "options": ["sweet", "salty", "bitter", "spicy"], "correctIndex": 3 }
+  ]
+}

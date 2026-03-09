@@ -1,0 +1,34 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-2",
+  "title": "Hrana i piće",
+  "vocabulary": [
+    { "id": "sr-it-food-acqua", "word": "l'acqua", "translation": "voda", "pronunciation": "LAK-kwah", "example": "Un bicchiere d'acqua, per favore.", "exampleTranslation": "Čašu vode, molim." },
+    { "id": "sr-it-food-pane", "word": "il pane", "translation": "hleb", "pronunciation": "eel PAH-neh", "example": "Il pane è fresco.", "exampleTranslation": "Hleb je svež." },
+    { "id": "sr-it-food-caffe", "word": "il caffè", "translation": "kafa", "pronunciation": "eel kaf-FEH", "example": "Vorrei un caffè.", "exampleTranslation": "Želeo/la bih kafu." },
+    { "id": "sr-it-food-vino", "word": "il vino", "translation": "vino", "pronunciation": "eel VEE-noh", "example": "Un bicchiere di vino rosso.", "exampleTranslation": "Čašu crnog vina." },
+    { "id": "sr-it-food-formaggio", "word": "il formaggio", "translation": "sir", "pronunciation": "eel for-MAH-joh", "example": "Il formaggio italiano è buonissimo.", "exampleTranslation": "Italijanski sir je odličan." },
+    { "id": "sr-it-food-carne", "word": "la carne", "translation": "meso", "pronunciation": "lah KAR-neh", "example": "Non mangio carne.", "exampleTranslation": "Ne jedem meso." },
+    { "id": "sr-it-food-mangiare", "word": "mangiare", "translation": "jesti", "pronunciation": "mahn-JAH-reh", "example": "Andiamo a mangiare!", "exampleTranslation": "Hajdemo da jedemo!" },
+    { "id": "sr-it-food-bere", "word": "bere", "translation": "piti", "pronunciation": "BEH-reh", "example": "Cosa vuoi bere?", "exampleTranslation": "Šta želiš da piješ?" }
+  ],
+  "grammar": {
+    "title": "Glagoli za hranu: mangiare i bere",
+    "explanation": "Glagol 'mangiare' (jesti) je pravilan -are glagol: io mangio, tu mangi, lui mangia. 'Bere' (piti) je nepravilan: io bevo, tu bevi, lui beve. Koristite 'vorrei' (želeo/la bih) za učtivo poručivanje i 'non' ispred glagola za negaciju.",
+    "examples": [
+      { "target": "Io mangio frutta ogni giorno.", "native": "Jedem voće svaki dan." },
+      { "target": "Cosa vuoi mangiare?", "native": "Šta želiš da jedeš?" },
+      { "target": "Non bevo vino.", "native": "Ne pijem vino." }
+    ]
+  },
+  "exercises": [
+    { "type": "multiple_choice", "id": "sr-it-food-ex1", "question": "Kako se kaže 'voda' na italijanskom?", "options": ["il caffè", "l'acqua", "il vino", "il latte"], "correctIndex": 1 },
+    { "type": "fill_blank", "id": "sr-it-food-ex2", "sentence": "Vorrei un ___, per favore. (kafa)", "answer": "caffè" },
+    { "type": "matching", "id": "sr-it-food-ex3", "pairs": [{ "left": "mangiare", "right": "jesti" }, { "left": "bere", "right": "piti" }, { "left": "il pane", "right": "hleb" }, { "left": "la carne", "right": "meso" }] }
+  ],
+  "quiz": [
+    { "id": "sr-it-food-q1", "question": "Šta znači 'il formaggio'?", "options": ["meso", "hleb", "sir", "vino"], "correctIndex": 2 },
+    { "id": "sr-it-food-q2", "question": "Kako se kaže 'Ne jedem meso' na italijanskom?", "options": ["Non bevo carne", "Non mangio carne", "Non voglio carne", "Non ho carne"], "correctIndex": 1 },
+    { "id": "sr-it-food-q3", "question": "Šta znači 'bere'?", "options": ["jesti", "piti", "kuvati", "kupiti"], "correctIndex": 1 }
+  ]
+}

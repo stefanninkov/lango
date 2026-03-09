@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import type { User } from '../types';
+import * as storage from '../services/storageService';
 
 interface AuthState {
   user: User | null;
@@ -9,6 +10,7 @@ interface AuthState {
   setUser: (user: User | null) => void;
   setLoading: (loading: boolean) => void;
   clearUser: () => void;
+  hydrateFromStorage: () => Promise<void>;
 }
 
 export const useAuthStore = create<AuthState>((set) => ({
@@ -16,17 +18,34 @@ export const useAuthStore = create<AuthState>((set) => ({
   isLoading: true,
   isAuthenticated: false,
   isOnboarded: false,
-  setUser: (user) =>
+  setUser: (user) => {
+    if (user) storage.saveUser(user);
     set({
       user,
       isAuthenticated: !!user,
       isOnboarded: !!(user?.nativeLanguage && user?.targetLanguage),
-    }),
+    });
+  },
   setLoading: (isLoading) => set({ isLoading }),
-  clearUser: () =>
+  clearUser: () => {
+    storage.clearUser();
     set({
       user: null,
       isAuthenticated: false,
       isOnboarded: false,
-    }),
+    });
+  },
+  hydrateFromStorage: async () => {
+    const user = await storage.loadUser();
+    if (user) {
+      set({
+        user,
+        isAuthenticated: true,
+        isOnboarded: !!(user.nativeLanguage && user.targetLanguage),
+        isLoading: false,
+      });
+    } else {
+      set({ isLoading: false });
+    }
+  },
 }));

@@ -12,6 +12,17 @@
         { "id": "lesson-2", "title": "Introductions", "order": 2, "wordCount": 8 },
         { "id": "lesson-3", "title": "Polite Expressions", "order": 3, "wordCount": 8 }
       ]
+    },
+    {
+      "id": "unit-2",
+      "title": "Food & Numbers",
+      "description": "Learn numbers, food vocabulary, and how to order at Italian restaurants",
+      "order": 2,
+      "lessons": [
+        { "id": "lesson-1", "title": "Numbers & Counting", "order": 1, "wordCount": 8 },
+        { "id": "lesson-2", "title": "Food & Drinks", "order": 2, "wordCount": 8 },
+        { "id": "lesson-3", "title": "At the Restaurant", "order": 3, "wordCount": 8 }
+      ]
     }
   ]
 }

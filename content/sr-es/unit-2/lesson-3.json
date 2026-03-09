@@ -1,0 +1,34 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-2",
+  "title": "U restoranu",
+  "vocabulary": [
+    { "id": "sr-es-rest-menu", "word": "el menú", "translation": "meni/jelovnik", "pronunciation": "el meh-NOO", "example": "¿Puedo ver el menú?", "exampleTranslation": "Mogu li da vidim meni?" },
+    { "id": "sr-es-rest-cuenta", "word": "la cuenta", "translation": "račun", "pronunciation": "lah KWEN-tah", "example": "La cuenta, por favor.", "exampleTranslation": "Račun, molim." },
+    { "id": "sr-es-rest-mesa", "word": "la mesa", "translation": "sto", "pronunciation": "lah MEH-sah", "example": "Una mesa para dos.", "exampleTranslation": "Sto za dvoje." },
+    { "id": "sr-es-rest-camarero", "word": "el camarero", "translation": "konobar", "pronunciation": "el kah-mah-REH-roh", "example": "El camarero es amable.", "exampleTranslation": "Konobar je ljubazan." },
+    { "id": "sr-es-rest-reservar", "word": "reservar", "translation": "rezervisati", "pronunciation": "reh-ser-BAR", "example": "Quiero reservar una mesa.", "exampleTranslation": "Hoću da rezervišem sto." },
+    { "id": "sr-es-rest-pedir", "word": "pedir", "translation": "naručiti", "pronunciation": "peh-DEER", "example": "Estamos listos para pedir.", "exampleTranslation": "Spremni smo da naručimo." },
+    { "id": "sr-es-rest-rico", "word": "rico/rica", "translation": "ukusno", "pronunciation": "REE-koh", "example": "¡La comida está muy rica!", "exampleTranslation": "Hrana je veoma ukusna!" },
+    { "id": "sr-es-rest-propina", "word": "la propina", "translation": "napojnica/bakšiš", "pronunciation": "lah proh-PEE-nah", "example": "¿Dejamos propina?", "exampleTranslation": "Da li ostavljamo bakšiš?" }
+  ],
+  "grammar": {
+    "title": "Kako poručiti u restoranu",
+    "explanation": "Koristite 'me gustaría' (želeo/la bih) ili 'quiero' (hoću) za poručivanje. Glagol 'pedir' (naručiti) je nepravilan: yo pido, tú pides. Za pitanja o jelima koristite '¿Es...?' ili '¿Tiene...?'. 'Por favor' i 'gracias' su obavezni za učtivost.",
+    "examples": [
+      { "target": "Me gustaría pedir la paella.", "native": "Želeo/la bih da naručim paelju." },
+      { "target": "¿Tiene platos vegetarianos?", "native": "Imate li vegetarijanska jela?" },
+      { "target": "Está delicioso, gracias.", "native": "Veoma je ukusno, hvala." }
+    ]
+  },
+  "exercises": [
+    { "type": "multiple_choice", "id": "sr-es-rest-ex1", "question": "Kako se traži račun na španskom?", "options": ["El menú, por favor", "La cuenta, por favor", "La mesa, por favor", "El camarero, por favor"], "correctIndex": 1 },
+    { "type": "fill_blank", "id": "sr-es-rest-ex2", "sentence": "Una ___ para dos, por favor. (sto)", "answer": "mesa" },
+    { "type": "translation", "id": "sr-es-rest-ex3", "sentence": "Hoću da rezervišem sto", "answer": "Quiero reservar una mesa", "acceptableAnswers": ["quiero reservar una mesa"], "direction": "to_target" }
+  ],
+  "quiz": [
+    { "id": "sr-es-rest-q1", "question": "Šta znači 'pedir'?", "options": ["platiti", "kuvati", "naručiti", "jesti"], "correctIndex": 2 },
+    { "id": "sr-es-rest-q2", "question": "Kako se kaže 'konobar' na španskom?", "options": ["el menú", "la cuenta", "el camarero", "la mesa"], "correctIndex": 2 },
+    { "id": "sr-es-rest-q3", "question": "Šta znači 'la propina'?", "options": ["račun", "meni", "sto", "bakšiš"], "correctIndex": 3 }
+  ]
+}

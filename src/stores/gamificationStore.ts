@@ -1,13 +1,13 @@
 import { create } from 'zustand';
 import type { Achievement, DailyGoal } from '../types';
-import { ACHIEVEMENTS, checkAchievements, getXPProgress } from '../utils/gamification';
+import { ACHIEVEMENTS, checkAchievements } from '../utils/gamification';
+import * as storage from '../services/storageService';
 
 interface GamificationState {
   unlockedAchievements: Achievement[];
   dailyGoal: DailyGoal;
-  newAchievement: Achievement | null; // for showing unlock popup
+  newAchievement: Achievement | null;
 
-  // Check and unlock achievements based on current stats
   refreshAchievements: (stats: {
     lessonsCompleted: number;
     streak: number;
@@ -16,14 +16,11 @@ interface GamificationState {
     perfectQuizzes: number;
   }) => void;
 
-  // Update daily goal progress
   incrementLessons: () => void;
   incrementReviews: (count: number) => void;
   resetDailyGoalIfNeeded: () => void;
-
-  // Clear the "new achievement" popup
   dismissAchievement: () => void;
-
+  hydrateFromStorage: () => Promise<void>;
   reset: () => void;
 }
 
@@ -51,7 +48,6 @@ export const useGamificationStore = create<GamificationState>((set, get) => ({
     const currentIds = new Set(current.map((a) => a.id));
     const unlocked = checkAchievements(stats);
 
-    // Find newly unlocked
     const newlyUnlocked = unlocked.filter((a) => !currentIds.has(a.id));
     const allUnlocked = unlocked.map((a) => ({
       ...a,
@@ -62,29 +58,51 @@ export const useGamificationStore = create<GamificationState>((set, get) => ({
 
     set({
       unlockedAchievements: allUnlocked,
-      // Show the most recent new achievement
       newAchievement: newlyUnlocked.length > 0 ? newlyUnlocked[newlyUnlocked.length - 1] : null,
     });
+    storage.saveAchievements(allUnlocked);
   },
 
   incrementLessons: () => {
     const goal = get().dailyGoal;
-    set({ dailyGoal: { ...goal, lessonsCompleted: goal.lessonsCompleted + 1 } });
+    const updated = { ...goal, lessonsCompleted: goal.lessonsCompleted + 1 };
+    set({ dailyGoal: updated });
+    storage.saveDailyGoal(updated);
   },
 
   incrementReviews: (count) => {
     const goal = get().dailyGoal;
-    set({ dailyGoal: { ...goal, reviewsCompleted: goal.reviewsCompleted + count } });
+    const updated = { ...goal, reviewsCompleted: goal.reviewsCompleted + count };
+    set({ dailyGoal: updated });
+    storage.saveDailyGoal(updated);
   },
 
   resetDailyGoalIfNeeded: () => {
     const goal = get().dailyGoal;
     if (goal.date !== todayStr()) {
-      set({ dailyGoal: defaultDailyGoal() });
+      const fresh = defaultDailyGoal();
+      set({ dailyGoal: fresh });
+      storage.saveDailyGoal(fresh);
     }
   },
 
   dismissAchievement: () => set({ newAchievement: null }),
+
+  hydrateFromStorage: async () => {
+    const [achievements, dailyGoal] = await Promise.all([
+      storage.loadAchievements(),
+      storage.loadDailyGoal(),
+    ]);
+    if (achievements) set({ unlockedAchievements: achievements });
+    if (dailyGoal) {
+      // Reset if stale
+      if (dailyGoal.date !== todayStr()) {
+        set({ dailyGoal: defaultDailyGoal() });
+      } else {
+        set({ dailyGoal });
+      }
+    }
+  },
 
   reset: () => set({
     unlockedAchievements: [],

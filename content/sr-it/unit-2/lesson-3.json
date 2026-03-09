@@ -1,0 +1,34 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-2",
+  "title": "U restoranu",
+  "vocabulary": [
+    { "id": "sr-it-rest-menu", "word": "il menù", "translation": "meni/jelovnik", "pronunciation": "eel meh-NOO", "example": "Posso vedere il menù?", "exampleTranslation": "Mogu li da vidim meni?" },
+    { "id": "sr-it-rest-conto", "word": "il conto", "translation": "račun", "pronunciation": "eel KOHN-toh", "example": "Il conto, per favore.", "exampleTranslation": "Račun, molim." },
+    { "id": "sr-it-rest-tavolo", "word": "il tavolo", "translation": "sto", "pronunciation": "eel TAH-voh-loh", "example": "Un tavolo per due, per favore.", "exampleTranslation": "Sto za dvoje, molim." },
+    { "id": "sr-it-rest-cameriere", "word": "il cameriere", "translation": "konobar", "pronunciation": "eel kah-meh-RYEH-reh", "example": "Il cameriere è gentile.", "exampleTranslation": "Konobar je ljubazan." },
+    { "id": "sr-it-rest-prenotare", "word": "prenotare", "translation": "rezervisati", "pronunciation": "preh-noh-TAH-reh", "example": "Vorrei prenotare un tavolo.", "exampleTranslation": "Želeo/la bih da rezervišem sto." },
+    { "id": "sr-it-rest-ordinare", "word": "ordinare", "translation": "naručiti", "pronunciation": "or-dee-NAH-reh", "example": "Siamo pronti per ordinare.", "exampleTranslation": "Spremni smo da naručimo." },
+    { "id": "sr-it-rest-buono", "word": "buono/buona", "translation": "ukusno/dobro", "pronunciation": "BWOH-noh", "example": "La pasta è molto buona!", "exampleTranslation": "Pasta je veoma ukusna!" },
+    { "id": "sr-it-rest-mancia", "word": "la mancia", "translation": "napojnica/bakšiš", "pronunciation": "lah MAHN-chah", "example": "Lasciamo la mancia?", "exampleTranslation": "Da li ostavljamo bakšiš?" }
+  ],
+  "grammar": {
+    "title": "Kako poručiti u restoranu",
+    "explanation": "Koristite 'vorrei' (želeo/la bih) ili 'prendo' (uzimam/naručujem) za poručivanje. Glagol 'ordinare' (naručiti) je pravilan -are glagol. Za pitanja koristite 'posso' (mogu li) + infinitiv. 'Per favore' i 'grazie' su obavezni za učtivost.",
+    "examples": [
+      { "target": "Vorrei ordinare la pizza.", "native": "Želeo/la bih da naručim picu." },
+      { "target": "Avete piatti vegetariani?", "native": "Imate li vegetarijanska jela?" },
+      { "target": "È delizioso, grazie.", "native": "Veoma je ukusno, hvala." }
+    ]
+  },
+  "exercises": [
+    { "type": "multiple_choice", "id": "sr-it-rest-ex1", "question": "Kako se traži račun na italijanskom?", "options": ["Il menù, per favore", "Il conto, per favore", "Il tavolo, per favore", "Il cameriere, per favore"], "correctIndex": 1 },
+    { "type": "fill_blank", "id": "sr-it-rest-ex2", "sentence": "Un ___ per due, per favore. (sto)", "answer": "tavolo" },
+    { "type": "translation", "id": "sr-it-rest-ex3", "sentence": "Želeo/la bih da rezervišem sto", "answer": "Vorrei prenotare un tavolo", "acceptableAnswers": ["vorrei prenotare un tavolo"], "direction": "to_target" }
+  ],
+  "quiz": [
+    { "id": "sr-it-rest-q1", "question": "Šta znači 'ordinare'?", "options": ["platiti", "kuvati", "naručiti", "jesti"], "correctIndex": 2 },
+    { "id": "sr-it-rest-q2", "question": "Kako se kaže 'konobar' na italijanskom?", "options": ["il menù", "il conto", "il cameriere", "il tavolo"], "correctIndex": 2 },
+    { "id": "sr-it-rest-q3", "question": "Šta znači 'la mancia'?", "options": ["račun", "meni", "sto", "bakšiš"], "correctIndex": 3 }
+  ]
+}
