@@ -1,6 +1,16 @@
 import { Tabs } from 'expo-router';
+import { View, StyleSheet } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { colors } from '../../src/theme';
+import { colors, radius } from '../../src/theme';
+
+function TabIcon({ name, color, focused }: { name: string; color: string; focused: boolean }) {
+  return (
+    <View style={styles.iconContainer}>
+      {focused && <View style={[styles.activeGlow, { backgroundColor: `${color}20` }]} />}
+      <MaterialCommunityIcons name={name as any} size={24} color={color} />
+    </View>
+  );
+}
 
 export default function TabLayout() {
   return (
@@ -10,20 +20,22 @@ export default function TabLayout() {
         tabBarActiveTintColor: colors.primary,
         tabBarInactiveTintColor: colors.textMuted,
         tabBarStyle: {
-          backgroundColor: colors.background,
-          borderTopWidth: 0,
-          elevation: 8,
+          backgroundColor: colors.surface,
+          borderTopWidth: 1,
+          borderTopColor: colors.border,
+          elevation: 0,
           shadowColor: '#000',
-          shadowOffset: { width: 0, height: -2 },
-          shadowOpacity: 0.3,
-          shadowRadius: 8,
-          height: 60,
+          shadowOffset: { width: 0, height: -4 },
+          shadowOpacity: 0.15,
+          shadowRadius: 12,
+          height: 64,
           paddingBottom: 8,
-          paddingTop: 4,
+          paddingTop: 6,
         },
         tabBarLabelStyle: {
           fontSize: 11,
-          fontWeight: '500',
+          fontWeight: '600',
+          letterSpacing: 0.2,
         },
       }}
     >
@@ -31,8 +43,8 @@ export default function TabLayout() {
         name="home"
         options={{
           title: 'Home',
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="home" size={size} color={color} />
+          tabBarIcon: ({ color, focused }) => (
+            <TabIcon name="home" color={color} focused={focused} />
           ),
         }}
       />
@@ -40,8 +52,8 @@ export default function TabLayout() {
         name="lessons"
         options={{
           title: 'Lessons',
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="book-open-variant" size={size} color={color} />
+          tabBarIcon: ({ color, focused }) => (
+            <TabIcon name="book-open-variant" color={color} focused={focused} />
           ),
         }}
       />
@@ -49,8 +61,8 @@ export default function TabLayout() {
         name="practice"
         options={{
           title: 'Practice',
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="chat" size={size} color={color} />
+          tabBarIcon: ({ color, focused }) => (
+            <TabIcon name="chat" color={color} focused={focused} />
           ),
         }}
       />
@@ -58,8 +70,8 @@ export default function TabLayout() {
         name="review"
         options={{
           title: 'Review',
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="cards" size={size} color={color} />
+          tabBarIcon: ({ color, focused }) => (
+            <TabIcon name="cards" color={color} focused={focused} />
           ),
         }}
       />
@@ -67,17 +79,32 @@ export default function TabLayout() {
         name="profile"
         options={{
           title: 'Profile',
-          tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="account" size={size} color={color} />
+          tabBarIcon: ({ color, focused }) => (
+            <TabIcon name="account" color={color} focused={focused} />
           ),
         }}
       />
       <Tabs.Screen
         name="settings"
         options={{
-          href: null, // Hide from tab bar
+          href: null,
         }}
       />
     </Tabs>
   );
 }
+
+const styles = StyleSheet.create({
+  iconContainer: {
+    width: 40,
+    height: 32,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  activeGlow: {
+    position: 'absolute',
+    width: 40,
+    height: 32,
+    borderRadius: radius.md,
+  },
+});

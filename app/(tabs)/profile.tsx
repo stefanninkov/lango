@@ -14,6 +14,8 @@ import { getXPProgress } from '../../src/utils/gamification';
 import { ACHIEVEMENTS } from '../../src/utils/gamification';
 import { getCourseId } from '../../src/utils/content';
 import ProgressBar from '../../src/components/ProgressBar';
+import FadeInView from '../../src/components/FadeInView';
+import CircularProgress from '../../src/components/CircularProgress';
 import type { CourseId, Achievement } from '../../src/types';
 
 const LANGUAGE_NAMES: Record<string, string> = {
@@ -67,9 +69,12 @@ export default function ProfileScreen() {
       style={styles.container}
       contentContainerStyle={[styles.content, { paddingTop: insets.top + spacing.lg }]}
     >
-      <Text style={styles.title}>Profile</Text>
+      <FadeInView delay={0}>
+        <Text style={styles.title}>Profile</Text>
+      </FadeInView>
 
       {/* User Info */}
+      <FadeInView delay={60}>
       <View style={styles.avatarSection}>
         <View style={styles.avatarCircle}>
           <Text style={styles.avatarLetter}>
@@ -83,8 +88,10 @@ export default function ProfileScreen() {
           <Text style={styles.levelText}>Level {xpProgress.level}</Text>
         </View>
       </View>
+      </FadeInView>
 
       {/* XP Progress */}
+      <FadeInView delay={120}>
       <Card style={styles.card}>
         <Card.Content style={styles.xpContent}>
           <View style={styles.xpHeader}>
@@ -97,8 +104,10 @@ export default function ProfileScreen() {
           </Text>
         </Card.Content>
       </Card>
+      </FadeInView>
 
       {/* Stats Grid */}
+      <FadeInView delay={180}>
       <View style={styles.statsGrid}>
         <View style={styles.statBox}>
           <MaterialCommunityIcons name="fire" size={24} color={colors.warning} />
@@ -121,8 +130,10 @@ export default function ProfileScreen() {
           <Text style={styles.statLabel}>Mastered</Text>
         </View>
       </View>
+      </FadeInView>
 
       {/* Language */}
+      <FadeInView delay={240}>
       <Card style={styles.card}>
         <Card.Content style={styles.langContent}>
           <MaterialCommunityIcons name="translate" size={24} color={colors.primary} />
@@ -138,8 +149,10 @@ export default function ProfileScreen() {
           </Pressable>
         </Card.Content>
       </Card>
+      </FadeInView>
 
       {/* Achievements */}
+      <FadeInView delay={300}>
       <View style={styles.sectionHeader}>
         <Text style={styles.sectionTitle}>Achievements</Text>
         <Text style={styles.sectionCount}>
@@ -175,8 +188,10 @@ export default function ProfileScreen() {
           );
         })}
       </View>
+      </FadeInView>
 
       {/* Vocab Mastery Breakdown */}
+      <FadeInView delay={360}>
       <Text style={[styles.sectionTitle, { marginTop: spacing.lg }]}>Vocabulary Mastery</Text>
       <Card style={styles.card}>
         <Card.Content style={styles.masteryContent}>
@@ -186,13 +201,17 @@ export default function ProfileScreen() {
           <MasteryRow label="Mastered" count={vocabStats.mastered} color={colors.secondary} total={vocabStats.total} />
         </Card.Content>
       </Card>
+      </FadeInView>
 
       {/* Settings Button */}
+      <FadeInView delay={420}>
       <Pressable style={styles.settingsRow} onPress={() => router.push('/(tabs)/settings' as any)}>
         <MaterialCommunityIcons name="cog-outline" size={22} color={colors.textSecondary} />
         <Text style={styles.settingsText}>Settings</Text>
         <MaterialCommunityIcons name="chevron-right" size={22} color={colors.textMuted} />
       </Pressable>
+
+      </FadeInView>
 
       {/* Sign Out */}
       <Button

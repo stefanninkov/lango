@@ -8,7 +8,10 @@ import { useAuthStore } from '../../../src/stores/authStore';
 import { useProgressStore } from '../../../src/stores/progressStore';
 import { getCourse, getCourseId } from '../../../src/utils/content';
 import ProgressBar from '../../../src/components/ProgressBar';
+import FadeInView from '../../../src/components/FadeInView';
 import type { UnitMeta } from '../../../src/types';
+
+const UNIT_ICONS = ['book-open-variant', 'food-fork-drink', 'account-group', 'map-marker', 'calendar-clock'];
 
 export default function UnitListScreen() {
   const insets = useSafeAreaInsets();
@@ -26,37 +29,60 @@ export default function UnitListScreen() {
     return completed / unit.lessons.length;
   };
 
-  const renderUnit = ({ item: unit }: { item: UnitMeta }) => (
-    <Card
-      style={styles.card}
-      onPress={() => router.push(`/(tabs)/lessons/${unit.id}`)}
-    >
-      <Card.Content style={styles.cardContent}>
-        <View style={styles.cardHeader}>
-          <MaterialCommunityIcons
-            name="book-open-variant"
-            size={24}
-            color={colors.primary}
-          />
-          <Text style={styles.unitOrder}>Unit {unit.order}</Text>
-        </View>
-        <Text style={styles.unitTitle}>{unit.title}</Text>
-        <Text style={styles.unitDesc}>{unit.description}</Text>
-        <View style={styles.progressRow}>
-          <ProgressBar progress={getUnitProgress(unit)} />
-          <Text style={styles.progressText}>
-            {unit.lessons.filter((l) => progress?.completedLessons.includes(l.id)).length}/
-            {unit.lessons.length} lessons
-          </Text>
-        </View>
-      </Card.Content>
-    </Card>
-  );
+  const renderUnit = ({ item: unit, index }: { item: UnitMeta; index: number }) => {
+    const unitProgress = getUnitProgress(unit);
+    const completedCount = unit.lessons.filter((l) => progress?.completedLessons.includes(l.id)).length;
+    const isComplete = unitProgress >= 1;
+    const iconName = UNIT_ICONS[index % UNIT_ICONS.length];
+
+    return (
+      <FadeInView delay={index * 100}>
+        <Card
+          style={[styles.card, isComplete && styles.cardComplete]}
+          onPress={() => router.push(`/(tabs)/lessons/${unit.id}`)}
+        >
+          <Card.Content style={styles.cardContent}>
+            <View style={styles.cardHeader}>
+              <View style={[styles.unitIconBg, isComplete && styles.unitIconBgComplete]}>
+                <MaterialCommunityIcons
+                  name={isComplete ? 'check' : iconName as any}
+                  size={22}
+                  color={isComplete ? colors.secondary : colors.primary}
+                />
+              </View>
+              <View style={{ flex: 1 }}>
+                <Text style={styles.unitOrder}>Unit {unit.order}</Text>
+                <Text style={styles.unitTitle}>{unit.title}</Text>
+              </View>
+              <MaterialCommunityIcons name="chevron-right" size={22} color={colors.textMuted} />
+            </View>
+            <Text style={styles.unitDesc}>{unit.description}</Text>
+            <View style={styles.progressRow}>
+              <ProgressBar progress={unitProgress} color={isComplete ? colors.secondary : colors.primary} />
+              <View style={styles.progressInfo}>
+                <Text style={styles.progressText}>
+                  {completedCount}/{unit.lessons.length} lessons
+                </Text>
+                {isComplete && (
+                  <View style={styles.completeBadge}>
+                    <MaterialCommunityIcons name="check" size={10} color={colors.secondary} />
+                    <Text style={styles.completeText}>Complete</Text>
+                  </View>
+                )}
+              </View>
+            </View>
+          </Card.Content>
+        </Card>
+      </FadeInView>
+    );
+  };
 
   return (
     <View style={[styles.container, { paddingTop: insets.top + spacing.md }]}>
-      <Text style={styles.title}>Lessons</Text>
-      <Text style={styles.subtitle}>{course?.courseName ?? 'Language Course'}</Text>
+      <FadeInView delay={0}>
+        <Text style={styles.title}>Lessons</Text>
+        <Text style={styles.subtitle}>{course?.courseName ?? 'Language Course'}</Text>
+      </FadeInView>
 
       <FlatList
         data={course?.units ?? []}
@@ -94,13 +120,27 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: colors.border,
   },
+  cardComplete: {
+    borderColor: 'rgba(0, 217, 166, 0.3)',
+  },
   cardContent: {
     gap: spacing.sm,
   },
   cardHeader: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: spacing.sm,
+    gap: spacing.md,
+  },
+  unitIconBg: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: 'rgba(108, 99, 255, 0.12)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  unitIconBgComplete: {
+    backgroundColor: 'rgba(0, 217, 166, 0.12)',
   },
   unitOrder: {
     ...typography.caption,
@@ -109,18 +149,35 @@ const styles = StyleSheet.create({
     letterSpacing: 1,
   },
   unitTitle: {
-    ...typography.h2,
+    ...typography.h3,
   },
   unitDesc: {
     ...typography.bodySmall,
     color: colors.textSecondary,
+    marginLeft: 56,
   },
   progressRow: {
     gap: spacing.xs,
     marginTop: spacing.sm,
   },
+  progressInfo: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
   progressText: {
     ...typography.caption,
     color: colors.textMuted,
+  },
+  completeBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+  },
+  completeText: {
+    ...typography.caption,
+    color: colors.secondary,
+    fontWeight: '600',
+    fontSize: 10,
   },
 });
