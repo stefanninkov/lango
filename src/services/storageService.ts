@@ -8,6 +8,7 @@ const KEYS = {
   DAILY_GOAL: 'lango:daily_goal',
   SETTINGS: 'lango:settings',
   CLAUDE_API_KEY: 'lango:claude_api_key',
+  HAS_SEEN_WELCOME: 'lango:has_seen_welcome',
 };
 
 // Generic save/load helpers
@@ -98,6 +99,16 @@ export async function saveSettings(settings: AppSettings): Promise<void> {
 
 export async function loadSettings(): Promise<AppSettings | null> {
   return load(KEYS.SETTINGS);
+}
+
+// Welcome screen flag
+export async function setHasSeenWelcome(): Promise<void> {
+  await save(KEYS.HAS_SEEN_WELCOME, true);
+}
+
+export async function getHasSeenWelcome(): Promise<boolean> {
+  const seen = await load<boolean>(KEYS.HAS_SEEN_WELCOME);
+  return seen === true;
 }
 
 // Claude API key (stored locally, never sent to any backend)
