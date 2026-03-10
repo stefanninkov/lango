@@ -1,0 +1,155 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-3",
+  "title": "Family Members",
+  "vocabulary": [
+    {
+      "id": "v-1-1",
+      "word": "madre",
+      "translation": "mother",
+      "pronunciation": "MAH-dreh",
+      "example": "Mia madre cucina molto bene.",
+      "exampleTranslation": "My mother cooks very well."
+    },
+    {
+      "id": "v-1-2",
+      "word": "padre",
+      "translation": "father",
+      "pronunciation": "PAH-dreh",
+      "example": "Mio padre lavora in ufficio.",
+      "exampleTranslation": "My father works in an office."
+    },
+    {
+      "id": "v-1-3",
+      "word": "fratello",
+      "translation": "brother",
+      "pronunciation": "frah-TEL-loh",
+      "example": "Ho un fratello maggiore.",
+      "exampleTranslation": "I have an older brother."
+    },
+    {
+      "id": "v-1-4",
+      "word": "sorella",
+      "translation": "sister",
+      "pronunciation": "soh-REL-lah",
+      "example": "Mia sorella studia medicina.",
+      "exampleTranslation": "My sister studies medicine."
+    },
+    {
+      "id": "v-1-5",
+      "word": "figlio",
+      "translation": "son",
+      "pronunciation": "FEE-lyoh",
+      "example": "Il loro figlio ha cinque anni.",
+      "exampleTranslation": "Their son is five years old."
+    },
+    {
+      "id": "v-1-6",
+      "word": "figlia",
+      "translation": "daughter",
+      "pronunciation": "FEE-lyah",
+      "example": "La mia figlia va a scuola.",
+      "exampleTranslation": "My daughter goes to school."
+    },
+    {
+      "id": "v-1-7",
+      "word": "nonno",
+      "translation": "grandfather",
+      "pronunciation": "NON-noh",
+      "example": "Il nonno racconta storie bellissime.",
+      "exampleTranslation": "Grandfather tells beautiful stories."
+    },
+    {
+      "id": "v-1-8",
+      "word": "nonna",
+      "translation": "grandmother",
+      "pronunciation": "NON-nah",
+      "example": "La nonna prepara la pasta ogni domenica.",
+      "exampleTranslation": "Grandmother makes pasta every Sunday."
+    }
+  ],
+  "grammar": {
+    "title": "Possessive Adjectives with Family Members",
+    "explanation": "In Italian, possessive adjectives (mio, tuo, suo, etc.) agree in gender and number with the noun they modify. With singular family members, the definite article is usually dropped: 'mia madre' (my mother), NOT 'la mia madre'. However, with plural family members or modified nouns, the article is kept: 'le mie sorelle' (my sisters), 'la mia cara madre' (my dear mother).",
+    "examples": [
+      { "target": "Mio fratello è alto.", "native": "My brother is tall." },
+      { "target": "Sua sorella lavora a Roma.", "native": "His/Her sister works in Rome." },
+      { "target": "I miei nonni vivono in campagna.", "native": "My grandparents live in the countryside." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1",
+      "question": "How do you say 'mother' in Italian?",
+      "options": ["Sorella", "Madre", "Figlia", "Nonna"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-2",
+      "sentence": "Mio ___ lavora in ufficio.",
+      "answer": "padre",
+      "acceptableAnswers": ["padre", "Padre"],
+      "hint": "My father works in an office."
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-3",
+      "pairs": [
+        { "left": "Madre", "right": "Mother" },
+        { "left": "Fratello", "right": "Brother" },
+        { "left": "Nonno", "right": "Grandfather" },
+        { "left": "Figlia", "right": "Daughter" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-4",
+      "sentence": "I have an older brother.",
+      "answer": "Ho un fratello maggiore.",
+      "acceptableAnswers": ["Ho un fratello maggiore"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-5",
+      "sentence": "La ___ prepara la pasta ogni domenica.",
+      "answer": "nonna",
+      "acceptableAnswers": ["nonna", "Nonna"],
+      "hint": "Grandmother"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "What does 'fratello' mean?",
+      "options": ["Father", "Brother", "Son", "Grandfather"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-2",
+      "question": "How do you say 'daughter' in Italian?",
+      "options": ["Figlio", "Sorella", "Figlia", "Madre"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-3",
+      "question": "Which is the correct way to say 'my mother' in Italian?",
+      "options": ["La mia madre", "Mia madre", "Il mio madre", "Mio madre"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-4",
+      "question": "What does 'nonno' mean?",
+      "options": ["Grandmother", "Uncle", "Grandfather", "Nephew"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-5",
+      "question": "Which sentence means 'My sister studies medicine'?",
+      "options": ["Mia madre cucina bene.", "Mia sorella studia medicina.", "Mio fratello lavora.", "La nonna prepara la pasta."],
+      "correctIndex": 1
+    }
+  ]
+}

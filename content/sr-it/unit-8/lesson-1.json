@@ -1,0 +1,156 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-8",
+  "title": "Telo i zdravlje",
+  "vocabulary": [
+    {
+      "id": "v-8-1-1",
+      "word": "testa",
+      "translation": "glava",
+      "pronunciation": "testa",
+      "example": "Mi fa male la testa.",
+      "exampleTranslation": "Boli me glava."
+    },
+    {
+      "id": "v-8-1-2",
+      "word": "stomaco",
+      "translation": "stomak",
+      "pronunciation": "stomako",
+      "example": "Ho mal di stomaco.",
+      "exampleTranslation": "Boli me stomak."
+    },
+    {
+      "id": "v-8-1-3",
+      "word": "medicina",
+      "translation": "lek",
+      "pronunciation": "medičina",
+      "example": "Devo prendere la medicina.",
+      "exampleTranslation": "Moram da uzmem lek."
+    },
+    {
+      "id": "v-8-1-4",
+      "word": "dolore",
+      "translation": "bol",
+      "pronunciation": "dolore",
+      "example": "Ho un forte dolore alla schiena.",
+      "exampleTranslation": "Imam jak bol u leđima."
+    },
+    {
+      "id": "v-8-1-5",
+      "word": "febbre",
+      "translation": "temperatura",
+      "pronunciation": "febre",
+      "example": "Ho la febbre alta.",
+      "exampleTranslation": "Imam visoku temperaturu."
+    },
+    {
+      "id": "v-8-1-6",
+      "word": "tosse",
+      "translation": "kašalj",
+      "pronunciation": "tose",
+      "example": "Ho la tosse da tre giorni.",
+      "exampleTranslation": "Imam kašalj već tri dana."
+    },
+    {
+      "id": "v-8-1-7",
+      "word": "influenza",
+      "translation": "grip",
+      "pronunciation": "influenca",
+      "example": "Ha preso l'influenza.",
+      "exampleTranslation": "Dobio je grip."
+    },
+    {
+      "id": "v-8-1-8",
+      "word": "vitamina",
+      "translation": "vitamin",
+      "pronunciation": "vitamina",
+      "example": "Prendo le vitamine ogni giorno.",
+      "exampleTranslation": "Uzimam vitamine svaki dan."
+    }
+  ],
+  "grammar": {
+    "title": "Izražavanje bola i simptoma – 'avere' i 'fare male'",
+    "explanation": "U italijanskom jeziku za izražavanje zdravstvenih tegoba koriste se dva glavna izraza. 'Avere' (imati) + imenica: 'Ho la febbre' (Imam temperaturu), 'Ho la tosse' (Imam kašalj), 'Ho mal di testa' (Imam glavobolju). 'Fare male' (boleti): 'Mi fa male la testa' (Boli me glava), gde 'mi' označava koga boli. Za množinu: 'Mi fanno male le gambe' (Bole me noge).",
+    "examples": [
+      { "target": "Ho mal di testa.", "native": "Imam glavobolju." },
+      { "target": "Mi fa male lo stomaco.", "native": "Boli me stomak." },
+      { "target": "Ho la febbre e la tosse.", "native": "Imam temperaturu i kašalj." },
+      { "target": "Mi fanno male le gambe.", "native": "Bole me noge." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-8-1-1",
+      "question": "Kako se kaže 'glava' na italijanskom?",
+      "options": ["stomaco", "dolore", "testa", "febbre"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-8-1-2",
+      "sentence": "Ho la ___ alta.",
+      "answer": "febbre",
+      "acceptableAnswers": ["febbre"],
+      "hint": "Imam visoku temperaturu."
+    },
+    {
+      "type": "matching",
+      "id": "ex-8-1-3",
+      "pairs": [
+        { "left": "testa", "right": "glava" },
+        { "left": "stomaco", "right": "stomak" },
+        { "left": "febbre", "right": "temperatura" },
+        { "left": "tosse", "right": "kašalj" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-8-1-4",
+      "sentence": "Moram da uzmem lek.",
+      "answer": "Devo prendere la medicina.",
+      "acceptableAnswers": ["Devo prendere la medicina.", "Devo prendere la medicina"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-8-1-5",
+      "sentence": "Ho un forte ___ alla schiena.",
+      "answer": "dolore",
+      "acceptableAnswers": ["dolore"],
+      "hint": "Imam jak bol u leđima."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-8-1-1",
+      "question": "Šta znači 'influenza'?",
+      "options": ["lek", "kašalj", "grip", "temperatura"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-8-1-2",
+      "question": "Kako se kaže 'bol' na italijanskom?",
+      "options": ["febbre", "dolore", "tosse", "medicina"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-8-1-3",
+      "question": "Šta znači 'medicina'?",
+      "options": ["bol", "glava", "lek", "vitamin"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-8-1-4",
+      "question": "Koji je tačan način da kažete 'Boli me glava'?",
+      "options": ["Ho male la testa.", "Mi fa male la testa.", "Fa male testa.", "La testa fa male mi."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-8-1-5",
+      "question": "Kako se kaže 'kašalj' na italijanskom?",
+      "options": ["febbre", "dolore", "influenza", "tosse"],
+      "correctIndex": 3
+    }
+  ]
+}

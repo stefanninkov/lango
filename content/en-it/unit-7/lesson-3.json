@@ -1,0 +1,155 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-7",
+  "title": "Phone & Communication",
+  "vocabulary": [
+    {
+      "id": "v-3-1",
+      "word": "chiamata",
+      "translation": "call (phone)",
+      "pronunciation": "kyah-MAH-tah",
+      "example": "Ho ricevuto una chiamata importante dal cliente.",
+      "exampleTranslation": "I received an important call from the client."
+    },
+    {
+      "id": "v-3-2",
+      "word": "messaggio",
+      "translation": "message",
+      "pronunciation": "mes-SAHJ-joh",
+      "example": "Ti ho lasciato un messaggio in segreteria.",
+      "exampleTranslation": "I left you a message on voicemail."
+    },
+    {
+      "id": "v-3-3",
+      "word": "rispondere",
+      "translation": "to answer / to reply",
+      "pronunciation": "ree-SPON-deh-reh",
+      "example": "Non ha ancora risposto alla mia email.",
+      "exampleTranslation": "He/She hasn't replied to my email yet."
+    },
+    {
+      "id": "v-3-4",
+      "word": "inviare",
+      "translation": "to send",
+      "pronunciation": "een-VEE-ah-reh",
+      "example": "Devo inviare il documento entro le cinque.",
+      "exampleTranslation": "I need to send the document by five."
+    },
+    {
+      "id": "v-3-5",
+      "word": "allegare",
+      "translation": "to attach",
+      "pronunciation": "ahl-leh-GAH-reh",
+      "example": "Ho allegato il file alla email.",
+      "exampleTranslation": "I attached the file to the email."
+    },
+    {
+      "id": "v-3-6",
+      "word": "confermare",
+      "translation": "to confirm",
+      "pronunciation": "kon-fer-MAH-reh",
+      "example": "Potrebbe confermare la Sua partecipazione?",
+      "exampleTranslation": "Could you confirm your participation? (formal)"
+    },
+    {
+      "id": "v-3-7",
+      "word": "segreteria",
+      "translation": "voicemail / answering machine",
+      "pronunciation": "seh-greh-teh-REE-ah",
+      "example": "La segreteria telefonica è piena.",
+      "exampleTranslation": "The voicemail is full."
+    },
+    {
+      "id": "v-3-8",
+      "word": "conferenza",
+      "translation": "conference",
+      "pronunciation": "kon-feh-REN-tsah",
+      "example": "Parteciperemo a una conferenza internazionale.",
+      "exampleTranslation": "We will participate in an international conference."
+    }
+  ],
+  "grammar": {
+    "title": "The Future Tense (Futuro Semplice) for Plans and Formal Communication",
+    "explanation": "The future tense in Italian is formed by modifying the infinitive ending: -are verbs change -are to -er, then add: -ò, -ai, -à, -emo, -ete, -anno. For -ere and -ire verbs, drop the final -e and add the same endings. Irregular stems include: avere -> avr-, essere -> sar-, andare -> andr-, fare -> far-, potere -> potr-. In formal business Italian, the future is preferred over the present for plans: 'Invierò il rapporto domani' (I will send the report tomorrow).",
+    "examples": [
+      { "target": "Invierò il documento domani mattina.", "native": "I will send the document tomorrow morning." },
+      { "target": "La conferenza si terrà a Milano.", "native": "The conference will be held in Milan." },
+      { "target": "Risponderemo alla Sua richiesta entro una settimana.", "native": "We will reply to your request within a week. (formal)" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1",
+      "question": "How do you say 'to attach' in Italian?",
+      "options": ["Inviare", "Allegare", "Confermare", "Rispondere"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2",
+      "sentence": "Non ha ancora ___ alla mia email.",
+      "answer": "risposto",
+      "acceptableAnswers": ["risposto", "Risposto"],
+      "hint": "Past participle of 'rispondere' (to reply)"
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-3",
+      "pairs": [
+        { "left": "Chiamata", "right": "Call" },
+        { "left": "Messaggio", "right": "Message" },
+        { "left": "Segreteria", "right": "Voicemail" },
+        { "left": "Conferenza", "right": "Conference" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-4",
+      "sentence": "Could you confirm your participation?",
+      "answer": "Potrebbe confermare la Sua partecipazione?",
+      "acceptableAnswers": ["Potrebbe confermare la Sua partecipazione?", "Potrebbe confermare la Sua partecipazione"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-5",
+      "sentence": "Parteciperemo a una ___ internazionale.",
+      "answer": "conferenza",
+      "acceptableAnswers": ["conferenza", "Conferenza"],
+      "hint": "Conference"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "What does 'allegare' mean?",
+      "options": ["To allege", "To attach", "To alert", "To align"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-2",
+      "question": "What is the future tense of 'inviare' (first person singular)?",
+      "options": ["Invio", "Inviai", "Invierò", "Inviavo"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-3",
+      "question": "What does 'segreteria telefonica' mean?",
+      "options": ["Secretary", "Telephone directory", "Voicemail", "Phone number"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-4",
+      "question": "How do you say 'I left you a message' in Italian?",
+      "options": ["Ti ho mandato un messaggio.", "Ti ho lasciato un messaggio.", "Ho un messaggio per te.", "Ti scrivo un messaggio."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-5",
+      "question": "What is the irregular future stem of 'essere'?",
+      "options": ["Esser-", "Sar-", "Ser-", "Er-"],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-6",
+  "title": "U prodavnici",
+  "vocabulary": [
+    {
+      "id": "precio",
+      "word": "precio",
+      "translation": "cena",
+      "pronunciation": "PRE-sjo",
+      "example": "¿Cuál es el precio de esta camisa?",
+      "exampleTranslation": "Kolika je cena ove košulje?"
+    },
+    {
+      "id": "tamano",
+      "word": "tamaño",
+      "translation": "veličina",
+      "pronunciation": "ta-MA-njo",
+      "example": "¿Tiene un tamaño más grande?",
+      "exampleTranslation": "Imate li veću veličinu?"
+    },
+    {
+      "id": "ropa",
+      "word": "ropa",
+      "translation": "odeća",
+      "pronunciation": "RO-pa",
+      "example": "Esta tienda tiene ropa bonita.",
+      "exampleTranslation": "Ova prodavnica ima lepu odeću."
+    },
+    {
+      "id": "zapatos",
+      "word": "zapatos",
+      "translation": "cipele",
+      "pronunciation": "sa-PA-tos",
+      "example": "Necesito zapatos nuevos.",
+      "exampleTranslation": "Trebaju mi nove cipele."
+    },
+    {
+      "id": "bolsa",
+      "word": "bolsa",
+      "translation": "torba",
+      "pronunciation": "BOL-sa",
+      "example": "¿Necesita una bolsa?",
+      "exampleTranslation": "Da li vam treba torba?"
+    },
+    {
+      "id": "barato",
+      "word": "barato",
+      "translation": "jeftino",
+      "pronunciation": "ba-RA-to",
+      "example": "Este vestido es muy barato.",
+      "exampleTranslation": "Ova haljina je veoma jeftina."
+    },
+    {
+      "id": "caro",
+      "word": "caro",
+      "translation": "skupo",
+      "pronunciation": "KA-ro",
+      "example": "Los zapatos son demasiado caros.",
+      "exampleTranslation": "Cipele su previše skupe."
+    },
+    {
+      "id": "descuento",
+      "word": "descuento",
+      "translation": "popust",
+      "pronunciation": "des-KUEN-to",
+      "example": "¿Hay algún descuento?",
+      "exampleTranslation": "Ima li nekog popusta?"
+    }
+  ],
+  "grammar": {
+    "title": "Poređenje prideva - más/menos",
+    "explanation": "Za poređenje u španskom koristimo:\n\n• más + pridev + que: más caro que (skuplje od)\n• menos + pridev + que: menos barato que (manje jeftino od)\n• tan + pridev + como: tan grande como (isto tako veliko kao)\n\nNepravilna poređenja:\n• bueno → mejor (bolji)\n• malo → peor (gori)\n• grande → mayor (veći)\n• pequeño → menor (manji)",
+    "examples": [
+      { "target": "Esta camisa es más cara que esa.", "native": "Ova košulja je skuplja od one." },
+      { "target": "Los zapatos son menos caros aquí.", "native": "Cipele su manje skupe ovde." },
+      { "target": "Esta tienda es mejor que la otra.", "native": "Ova prodavnica je bolja od one druge." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1",
+      "question": "Kako se kaže 'cena' na španskom?",
+      "options": ["descuento", "tamaño", "precio", "bolsa"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-2",
+      "sentence": "Necesito ___ nuevos.",
+      "answer": "zapatos",
+      "acceptableAnswers": ["zapatos", "Zapatos"],
+      "hint": "Reč za 'cipele'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-3",
+      "pairs": [
+        { "left": "precio", "right": "cena" },
+        { "left": "ropa", "right": "odeća" },
+        { "left": "barato", "right": "jeftino" },
+        { "left": "caro", "right": "skupo" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-4",
+      "sentence": "Ima li nekog popusta?",
+      "answer": "¿Hay algún descuento?",
+      "acceptableAnswers": ["¿Hay algún descuento?", "Hay algún descuento?", "¿Hay algún descuento"],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-5",
+      "question": "Šta znači 'bolsa'?",
+      "options": ["cipele", "odeća", "torba", "veličina"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "Koji je suprotan pridev od 'barato'?",
+      "options": ["grande", "pequeño", "caro", "nuevo"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-2",
+      "question": "Kako se kaže 'odeća' na španskom?",
+      "options": ["zapatos", "bolsa", "ropa", "precio"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-3",
+      "question": "Šta znači 'descuento'?",
+      "options": ["cena", "veličina", "torba", "popust"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-1-4",
+      "question": "Kako se kaže 'Ova košulja je skuplja od one' na španskom?",
+      "options": ["Esta camisa es más cara que esa.", "Esta camisa es menos cara que esa.", "Esta camisa es tan cara como esa.", "Esta camisa es cara."],
+      "correctIndex": 0
+    },
+    {
+      "id": "q-1-5",
+      "question": "Šta znači 'tamaño'?",
+      "options": ["cena", "veličina", "popust", "torba"],
+      "correctIndex": 1
+    }
+  ]
+}

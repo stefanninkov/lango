@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-6",
+  "title": "Dnevna rutina",
+  "vocabulary": [
+    {
+      "id": "despertar",
+      "word": "despertar",
+      "translation": "probuditi se",
+      "pronunciation": "des-per-TAR",
+      "example": "Me despierto a las siete.",
+      "exampleTranslation": "Budim se u sedam."
+    },
+    {
+      "id": "ducharse",
+      "word": "ducharse",
+      "translation": "tuširati se",
+      "pronunciation": "du-ČAR-se",
+      "example": "Me ducho por la mañana.",
+      "exampleTranslation": "Tuširam se ujutru."
+    },
+    {
+      "id": "vestirse",
+      "word": "vestirse",
+      "translation": "obući se",
+      "pronunciation": "ves-TIR-se",
+      "example": "Me visto rápidamente.",
+      "exampleTranslation": "Oblačim se brzo."
+    },
+    {
+      "id": "trabajar",
+      "word": "trabajar",
+      "translation": "raditi",
+      "pronunciation": "tra-ba-HAR",
+      "example": "Trabajo de nueve a cinco.",
+      "exampleTranslation": "Radim od devet do pet."
+    },
+    {
+      "id": "descansar",
+      "word": "descansar",
+      "translation": "odmarati se",
+      "pronunciation": "des-kan-SAR",
+      "example": "Los domingos descanso en casa.",
+      "exampleTranslation": "Nedeljom se odmaram kod kuće."
+    },
+    {
+      "id": "acostarse",
+      "word": "acostarse",
+      "translation": "leći",
+      "pronunciation": "a-kos-TAR-se",
+      "example": "Me acuesto a las once.",
+      "exampleTranslation": "Legnem u jedanaest."
+    },
+    {
+      "id": "levantarse",
+      "word": "levantarse",
+      "translation": "ustati",
+      "pronunciation": "le-van-TAR-se",
+      "example": "Me levanto temprano.",
+      "exampleTranslation": "Ustajem rano."
+    },
+    {
+      "id": "cenar",
+      "word": "cenar",
+      "translation": "večerati",
+      "pronunciation": "se-NAR",
+      "example": "Cenamos a las nueve.",
+      "exampleTranslation": "Večeramo u devet."
+    }
+  ],
+  "grammar": {
+    "title": "Povratni glagoli u španskom",
+    "explanation": "Povratni glagoli u španskom imaju zamenicu 'se' na kraju infinitiva:\n\n• levantarse: me levanto, te levantas, se levanta\n• ducharse: me ducho, te duchas, se ducha\n• acostarse: me acuesto, te acuestas, se acuesta\n\nPovratna zamenica se menja prema licu:\n• me (ja), te (ti), se (on/ona), nos (mi), os (vi), se (oni)\n\nNeki od ovih glagola su nepravilni: despertarse (e→ie), vestirse (e→i), acostarse (o→ue).",
+    "examples": [
+      { "target": "Me levanto a las seis y me ducho.", "native": "Ustajem u šest i tuširam se." },
+      { "target": "¿A qué hora te acuestas?", "native": "U koliko sati legneš?" },
+      { "target": "Nos vestimos después de ducharnos.", "native": "Oblačimo se nakon tuširanja." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-1",
+      "question": "Kako se kaže 'probuditi se' na španskom?",
+      "options": ["acostarse", "levantarse", "despertar", "ducharse"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-2",
+      "sentence": "Me ___ a las once.",
+      "answer": "acuesto",
+      "acceptableAnswers": ["acuesto", "Acuesto"],
+      "hint": "Oblik glagola 'acostarse' u prvom licu"
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-3",
+      "pairs": [
+        { "left": "levantarse", "right": "ustati" },
+        { "left": "ducharse", "right": "tuširati se" },
+        { "left": "trabajar", "right": "raditi" },
+        { "left": "descansar", "right": "odmarati se" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-4",
+      "sentence": "Ustajem rano.",
+      "answer": "Me levanto temprano.",
+      "acceptableAnswers": ["Me levanto temprano", "Me levanto temprano."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-5",
+      "question": "Šta znači 'vestirse'?",
+      "options": ["tuširati se", "obući se", "leći", "ustati"],
+      "correctIndex": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "Kako se kaže 'večerati' na španskom?",
+      "options": ["descansar", "trabajar", "cenar", "despertar"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-2",
+      "question": "Šta znači 'levantarse'?",
+      "options": ["leći", "ustati", "tuširati se", "obući se"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-3",
+      "question": "Koji od ovih glagola NIJE povratan?",
+      "options": ["ducharse", "vestirse", "trabajar", "acostarse"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-4",
+      "question": "Kako je pravilan oblik 'despertarse' za 'yo'?",
+      "options": ["me desperto", "me despierto", "me despieroto", "me despiertarse"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-5",
+      "question": "Šta znači 'descansar'?",
+      "options": ["raditi", "ustati", "odmarati se", "večerati"],
+      "correctIndex": 2
+    }
+  ]
+}

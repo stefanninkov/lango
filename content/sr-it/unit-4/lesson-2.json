@@ -1,0 +1,156 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-4",
+  "title": "U restoranu",
+  "vocabulary": [
+    {
+      "id": "v-4-2-1",
+      "word": "menù",
+      "translation": "jelovnik",
+      "pronunciation": "meniu",
+      "example": "Posso vedere il menù, per favore?",
+      "exampleTranslation": "Mogu li da vidim jelovnik, molim?"
+    },
+    {
+      "id": "v-4-2-2",
+      "word": "cameriere",
+      "translation": "konobar",
+      "pronunciation": "kamerjere",
+      "example": "Il cameriere porta le bevande.",
+      "exampleTranslation": "Konobar donosi piće."
+    },
+    {
+      "id": "v-4-2-3",
+      "word": "conto",
+      "translation": "račun",
+      "pronunciation": "konto",
+      "example": "Il conto, per favore!",
+      "exampleTranslation": "Račun, molim!"
+    },
+    {
+      "id": "v-4-2-4",
+      "word": "tavolo",
+      "translation": "sto",
+      "pronunciation": "tavolo",
+      "example": "Vorrei un tavolo per due.",
+      "exampleTranslation": "Želeo bih sto za dvoje."
+    },
+    {
+      "id": "v-4-2-5",
+      "word": "prenotazione",
+      "translation": "rezervacija",
+      "pronunciation": "prenotacjone",
+      "example": "Ho una prenotazione per stasera.",
+      "exampleTranslation": "Imam rezervaciju za večeras."
+    },
+    {
+      "id": "v-4-2-6",
+      "word": "piatto",
+      "translation": "jelo",
+      "pronunciation": "pjato",
+      "example": "Questo piatto è delizioso.",
+      "exampleTranslation": "Ovo jelo je ukusno."
+    },
+    {
+      "id": "v-4-2-7",
+      "word": "mancia",
+      "translation": "napojnica",
+      "pronunciation": "manča",
+      "example": "Lasciamo la mancia al cameriere.",
+      "exampleTranslation": "Ostavljamo napojnicu konobaru."
+    },
+    {
+      "id": "v-4-2-8",
+      "word": "dolce",
+      "translation": "desert",
+      "pronunciation": "dolče",
+      "example": "Vorrei un dolce dopo la cena.",
+      "exampleTranslation": "Želeo bih desert posle večere."
+    }
+  ],
+  "grammar": {
+    "title": "Uslovni način (condizionale) za učtive zahteve",
+    "explanation": "U italijanskom jeziku uslovni način (condizionale presente) koristi se za učtive zahteve u restoranu i drugim formalnim situacijama. Glagol 'volere' (želeti) u uslovnom načinu postaje 'vorrei' (želeo bih). Ovo je mnogo učtivije nego 'voglio' (želim). Slično tome, 'potere' (moći) postaje 'potrei' (mogao bih). Učtiva forma je veoma važna u italijanskoj kulturi, naročito u restoranima.",
+    "examples": [
+      { "target": "Vorrei un tavolo per due.", "native": "Želeo bih sto za dvoje." },
+      { "target": "Potrei vedere il menù?", "native": "Mogu li da vidim jelovnik?" },
+      { "target": "Vorremmo ordinare.", "native": "Želeli bismo da naručimo." },
+      { "target": "Potrebbe portare il conto?", "native": "Da li biste mogli doneti račun?" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-4-2-1",
+      "question": "Kako se kaže 'jelovnik' na italijanskom?",
+      "options": ["conto", "tavolo", "menù", "piatto"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-4-2-2",
+      "sentence": "Il ___, per favore!",
+      "answer": "conto",
+      "acceptableAnswers": ["conto", "menù"],
+      "hint": "Račun, molim!"
+    },
+    {
+      "type": "matching",
+      "id": "ex-4-2-3",
+      "pairs": [
+        { "left": "menù", "right": "jelovnik" },
+        { "left": "cameriere", "right": "konobar" },
+        { "left": "conto", "right": "račun" },
+        { "left": "mancia", "right": "napojnica" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-4-2-4",
+      "sentence": "Želeo bih sto za dvoje.",
+      "answer": "Vorrei un tavolo per due.",
+      "acceptableAnswers": ["Vorrei un tavolo per due.", "Vorrei un tavolo per due"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-4-2-5",
+      "sentence": "Ho una ___ per stasera.",
+      "answer": "prenotazione",
+      "acceptableAnswers": ["prenotazione"],
+      "hint": "Imam rezervaciju za večeras."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-4-2-1",
+      "question": "Šta znači 'cameriere'?",
+      "options": ["račun", "konobar", "sto", "jelo"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-4-2-2",
+      "question": "Kako se kaže 'desert' na italijanskom?",
+      "options": ["piatto", "mancia", "dolce", "menù"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-4-2-3",
+      "question": "Šta znači 'prenotazione'?",
+      "options": ["napojnica", "jelo", "račun", "rezervacija"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-4-2-4",
+      "question": "Kako se učtivo traži nešto u italijanskom restoranu?",
+      "options": ["Voglio il menù.", "Dammi il menù.", "Vorrei il menù, per favore.", "Portare il menù."],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-4-2-5",
+      "question": "Šta znači 'tavolo'?",
+      "options": ["jelovnik", "konobar", "jelo", "sto"],
+      "correctIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-7",
+  "title": "Office & Workplace",
+  "vocabulary": [
+    {
+      "id": "reunion",
+      "word": "Reunión",
+      "translation": "Meeting",
+      "pronunciation": "rreh-oo-NYON",
+      "example": "Tenemos una reunión con el equipo a las diez.",
+      "exampleTranslation": "We have a meeting with the team at ten."
+    },
+    {
+      "id": "correo",
+      "word": "Correo",
+      "translation": "Email / Mail",
+      "pronunciation": "koh-RREH-oh",
+      "example": "Le envié un correo electrónico esta mañana.",
+      "exampleTranslation": "I sent him an email this morning."
+    },
+    {
+      "id": "jefe",
+      "word": "Jefe",
+      "translation": "Boss",
+      "pronunciation": "HEH-feh",
+      "example": "Mi jefe es muy exigente pero justo.",
+      "exampleTranslation": "My boss is very demanding but fair."
+    },
+    {
+      "id": "empresa",
+      "word": "Empresa",
+      "translation": "Company",
+      "pronunciation": "ehm-PREH-sah",
+      "example": "Trabajo en una empresa de tecnología.",
+      "exampleTranslation": "I work at a technology company."
+    },
+    {
+      "id": "oficina",
+      "word": "Oficina",
+      "translation": "Office",
+      "pronunciation": "oh-fee-SEE-nah",
+      "example": "La oficina está en el tercer piso del edificio.",
+      "exampleTranslation": "The office is on the third floor of the building."
+    },
+    {
+      "id": "proyecto",
+      "word": "Proyecto",
+      "translation": "Project",
+      "pronunciation": "proh-YEK-toh",
+      "example": "Estamos trabajando en un proyecto muy importante.",
+      "exampleTranslation": "We are working on a very important project."
+    },
+    {
+      "id": "informe",
+      "word": "Informe",
+      "translation": "Report",
+      "pronunciation": "een-FOR-meh",
+      "example": "Necesito entregar el informe antes del viernes.",
+      "exampleTranslation": "I need to submit the report before Friday."
+    },
+    {
+      "id": "plazo",
+      "word": "Plazo",
+      "translation": "Deadline",
+      "pronunciation": "PLAH-soh",
+      "example": "El plazo para terminar el proyecto es el lunes.",
+      "exampleTranslation": "The deadline to finish the project is Monday."
+    }
+  ],
+  "grammar": {
+    "title": "The Present Progressive and Formal Register",
+    "explanation": "In a professional context, Spanish often uses the present progressive (estar + gerund) to describe ongoing tasks:\n\n• Estoy preparando el informe. - I am preparing the report.\n• Estamos revisando el proyecto. - We are reviewing the project.\n\nGerund forms: -ar → -ando (trabajando), -er/-ir → -iendo (escribiendo, recibiendo)\n\nFormal workplace expressions:\n• Le informo que... - I am informing you that...\n• Le adjunto el informe. - I am attaching the report.\n• Quedo a su disposición. - I remain at your disposal.\n• Atentamente - Sincerely (in emails)",
+    "examples": [
+      { "target": "Estoy terminando el informe para la reunión.", "native": "I am finishing the report for the meeting." },
+      { "target": "Le informo que el plazo se ha extendido.", "native": "I am informing you that the deadline has been extended." },
+      { "target": "Estamos trabajando en un nuevo proyecto.", "native": "We are working on a new project." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-7-1",
+      "question": "How do you say 'We have a meeting at ten' in Spanish?",
+      "options": ["Tenemos una reunión a las diez.", "Hacemos una reunión a las diez.", "Somos una reunión a las diez.", "Estamos una reunión a las diez."],
+      "correctIndex": 0
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-7-2",
+      "sentence": "Necesito entregar el ___ antes del viernes.",
+      "answer": "informe",
+      "acceptableAnswers": ["informe", "Informe"],
+      "hint": "A written document with findings or updates"
+    },
+    {
+      "type": "matching",
+      "id": "ex-7-3",
+      "pairs": [
+        { "left": "Reunión", "right": "Meeting" },
+        { "left": "Empresa", "right": "Company" },
+        { "left": "Proyecto", "right": "Project" },
+        { "left": "Plazo", "right": "Deadline" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-7-4",
+      "sentence": "I am finishing the report for the meeting.",
+      "answer": "Estoy terminando el informe para la reunión.",
+      "acceptableAnswers": ["Estoy terminando el informe para la reunión", "Estoy terminando el informe para la reunión."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-7-5",
+      "question": "What does 'jefe' mean?",
+      "options": ["Chef", "Boss", "Colleague", "Employee"],
+      "correctIndex": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-7-1",
+      "question": "What is 'correo electrónico'?",
+      "options": ["Electronic device", "Email", "Electric current", "Mail carrier"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-7-2",
+      "question": "How do you form the gerund of 'trabajar'?",
+      "options": ["Trabajiendo", "Trabajando", "Trabajado", "Trabajante"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-7-3",
+      "question": "What does 'plazo' mean?",
+      "options": ["Place", "Plaza", "Deadline", "Plan"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-7-4",
+      "question": "How do you say 'company' in Spanish?",
+      "options": ["Compañía", "Empresa", "Both A and B", "Oficina"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-7-5",
+      "question": "Which is the formal way to end a business email?",
+      "options": ["Hasta luego", "Adiós", "Atentamente", "Chao"],
+      "correctIndex": 2
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { View, StyleSheet, ScrollView, Pressable } from 'react-native';
 import { Text, Switch, Button } from 'react-native-paper';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -8,6 +8,12 @@ import { colors, spacing, typography, radius } from '../../src/theme';
 import { useAuthStore } from '../../src/stores/authStore';
 import { useGamificationStore } from '../../src/stores/gamificationStore';
 import { updateUserProfile } from '../../src/services/authService';
+import {
+  requestPermissions,
+  scheduleDailyReminder,
+  cancelDailyReminder,
+  getPermissionStatus,
+} from '../../src/services/notificationService';
 import type { NativeLanguage, TargetLanguage } from '../../src/types';
 
 const NATIVE_LANGUAGES: { id: NativeLanguage; label: string }[] = [
@@ -32,8 +38,26 @@ export default function SettingsScreen() {
   const [targetLang, setTargetLang] = useState<TargetLanguage>(user?.targetLanguage ?? 'es');
   const [lessonsTarget, setLessonsTarget] = useState(dailyGoal.lessonsTarget);
   const [reviewsTarget, setReviewsTarget] = useState(dailyGoal.reviewsTarget);
-  const [notifications, setNotifications] = useState(true);
+  const [notifications, setNotifications] = useState(false);
   const [saving, setSaving] = useState(false);
+
+  useEffect(() => {
+    getPermissionStatus().then(setNotifications);
+  }, []);
+
+  const handleToggleNotifications = async (value: boolean) => {
+    setNotifications(value);
+    if (value) {
+      const token = await requestPermissions();
+      if (token) {
+        await scheduleDailyReminder(19, 0); // 7 PM daily
+      } else {
+        setNotifications(false); // Permission denied
+      }
+    } else {
+      await cancelDailyReminder();
+    }
+  };
 
   const hasLanguageChange =
     nativeLang !== user?.nativeLanguage || targetLang !== user?.targetLanguage;
@@ -159,7 +183,7 @@ export default function SettingsScreen() {
         </View>
         <Switch
           value={notifications}
-          onValueChange={setNotifications}
+          onValueChange={handleToggleNotifications}
           color={colors.primary}
         />
       </View>

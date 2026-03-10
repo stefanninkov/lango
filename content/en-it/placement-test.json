@@ -1,0 +1,230 @@
+{
+  "courseId": "en-it",
+  "questions": [
+    {
+      "id": "pt-1",
+      "level": "beginner",
+      "skill": "vocabulary",
+      "question": "How do you say 'Hello' in Italian?",
+      "options": ["Arrivederci", "Ciao", "Grazie", "Prego"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-2",
+      "level": "beginner",
+      "skill": "vocabulary",
+      "question": "What does 'Buongiorno' mean?",
+      "options": ["Good night", "Goodbye", "Good morning/day", "Thank you"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-3",
+      "level": "beginner",
+      "skill": "grammar",
+      "question": "Which is the correct way to say 'I am' in Italian?",
+      "options": ["Io sono", "Io è", "Io sei", "Io siamo"],
+      "correctIndex": 0
+    },
+    {
+      "id": "pt-4",
+      "level": "beginner",
+      "skill": "vocabulary",
+      "question": "What number is 'cinque'?",
+      "options": ["3", "4", "5", "6"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-5",
+      "level": "beginner",
+      "skill": "reading",
+      "question": "What does 'Mi chiamo Marco' mean?",
+      "options": ["I call Marco", "My name is Marco", "I like Marco", "Marco calls me"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-6",
+      "level": "beginner",
+      "skill": "grammar",
+      "question": "Choose the correct article: '___ casa è grande.'",
+      "options": ["Il", "La", "I", "Un"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-7",
+      "level": "beginner",
+      "skill": "vocabulary",
+      "question": "What color is 'rosso'?",
+      "options": ["Blue", "Green", "Red", "Yellow"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-8",
+      "level": "beginner",
+      "skill": "reading",
+      "question": "What does 'Ho due fratelli' mean?",
+      "options": ["I have two sisters", "I have two brothers", "I have two friends", "I have two children"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-9",
+      "level": "intermediate",
+      "skill": "vocabulary",
+      "question": "What does 'conto' mean at a restaurant?",
+      "options": ["Menu", "Table", "Bill/Check", "Tip"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-10",
+      "level": "intermediate",
+      "skill": "grammar",
+      "question": "Choose the correct past tense: 'Ieri io ___ al mercato.'",
+      "options": ["vado", "sono andato", "andavo", "andrò"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-11",
+      "level": "intermediate",
+      "skill": "vocabulary",
+      "question": "What does 'sinistra' mean?",
+      "options": ["Right", "Straight", "Left", "Corner"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-12",
+      "level": "intermediate",
+      "skill": "grammar",
+      "question": "Which reflexive form is correct? '___ chiamo Giovanni.'",
+      "options": ["Si", "Ti", "Mi", "Ci"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-13",
+      "level": "intermediate",
+      "skill": "reading",
+      "question": "What does 'Devo comprare scarpe perché le mie sono rotte' mean?",
+      "options": [
+        "I want to sell my shoes because they are new",
+        "I need to buy shoes because mine are broken",
+        "I like buying shoes because they are red",
+        "I need to return shoes because they don't fit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-14",
+      "level": "intermediate",
+      "skill": "vocabulary",
+      "question": "What does 'sconto' mean?",
+      "options": ["Receipt", "Discount", "Price", "Payment"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-15",
+      "level": "intermediate",
+      "skill": "grammar",
+      "question": "Choose the correct form: 'Se io ___ più soldi, viaggerei di più.'",
+      "options": ["ho", "avessi", "avrò", "avevo"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-16",
+      "level": "intermediate",
+      "skill": "reading",
+      "question": "What does 'Fa molto caldo oggi, dovresti portare vestiti leggeri' mean?",
+      "options": [
+        "It's very cold today, you should wear a coat",
+        "It's very hot today, you should wear light clothes",
+        "It's raining today, you should bring an umbrella",
+        "It's windy today, you should stay inside"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-17",
+      "level": "advanced",
+      "skill": "vocabulary",
+      "question": "What does 'scadenza' mean in a business context?",
+      "options": ["Sale", "Deadline", "Floor", "Discount"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-18",
+      "level": "advanced",
+      "skill": "grammar",
+      "question": "Choose the correct subjunctive: 'È importante che tu ___ in tempo.'",
+      "options": ["arrivi", "arriva", "arriverai", "arrivavi"],
+      "correctIndex": 0
+    },
+    {
+      "id": "pt-19",
+      "level": "advanced",
+      "skill": "vocabulary",
+      "question": "What does 'sostenibile' mean?",
+      "options": ["Sustainable", "Substantial", "Supportive", "Susceptible"],
+      "correctIndex": 0
+    },
+    {
+      "id": "pt-20",
+      "level": "advanced",
+      "skill": "grammar",
+      "question": "Which connector correctly completes: 'Non sono d'accordo; ___, rispetto la tua opinione.'",
+      "options": ["inoltre", "tuttavia", "quindi", "perché"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-21",
+      "level": "advanced",
+      "skill": "reading",
+      "question": "What does 'Nonostante il progetto abbia affrontato numerosi ostacoli, il team è riuscito a rispettare le scadenze stabilite' mean?",
+      "options": [
+        "The project was cancelled due to numerous obstacles",
+        "Despite facing numerous obstacles, the team managed to meet the established deadlines",
+        "The team asked for more time because of the obstacles",
+        "The project obstacles were easily overcome by the team"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-22",
+      "level": "advanced",
+      "skill": "vocabulary",
+      "question": "What does 'riciclaggio' mean?",
+      "options": ["Recovery", "Recycling", "Recital", "Recipe"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-23",
+      "level": "advanced",
+      "skill": "grammar",
+      "question": "Choose the correct form: 'Se avessi saputo, non ___ venuto.'",
+      "options": ["sarei", "fossi", "ero", "sarò"],
+      "correctIndex": 0
+    },
+    {
+      "id": "pt-24",
+      "level": "advanced",
+      "skill": "reading",
+      "question": "What does 'La diversità culturale arricchisce le comunità e favorisce la tolleranza tra i suoi membri' mean?",
+      "options": [
+        "Cultural diversity creates problems in communities",
+        "Cultural diversity enriches communities and fosters tolerance among their members",
+        "Diverse communities are less tolerant of their members",
+        "Cultural tolerance is only possible in small communities"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-25",
+      "level": "advanced",
+      "skill": "grammar",
+      "question": "Which is grammatically correct?",
+      "options": [
+        "Avendo finito il rapporto, lo ha inviato per email.",
+        "Essendo finito il rapporto, lo ha inviato per email.",
+        "Tenendo finito il rapporto, lo ha inviato per email.",
+        "Stando finito il rapporto, lo ha inviato per email."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

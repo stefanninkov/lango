@@ -1,0 +1,154 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-7",
+  "title": "Komunikacija",
+  "vocabulary": [
+    {
+      "id": "llamada",
+      "word": "llamada",
+      "translation": "poziv",
+      "pronunciation": "ja-MA-da",
+      "example": "Tengo una llamada importante.",
+      "exampleTranslation": "Imam važan poziv."
+    },
+    {
+      "id": "mensaje",
+      "word": "mensaje",
+      "translation": "poruka",
+      "pronunciation": "men-SA-he",
+      "example": "Te envié un mensaje.",
+      "exampleTranslation": "Poslao sam ti poruku."
+    },
+    {
+      "id": "responder",
+      "word": "responder",
+      "translation": "odgovoriti",
+      "pronunciation": "res-pon-DER",
+      "example": "Necesito responder al correo.",
+      "exampleTranslation": "Moram da odgovorim na imejl."
+    },
+    {
+      "id": "enviar",
+      "word": "enviar",
+      "translation": "poslati",
+      "pronunciation": "en-VJAR",
+      "example": "Voy a enviar el documento hoy.",
+      "exampleTranslation": "Poslaću dokument danas."
+    },
+    {
+      "id": "adjuntar",
+      "word": "adjuntar",
+      "translation": "priložiti",
+      "pronunciation": "ad-hun-TAR",
+      "example": "Voy a adjuntar el archivo.",
+      "exampleTranslation": "Priložiću fajl."
+    },
+    {
+      "id": "confirmar",
+      "word": "confirmar",
+      "translation": "potvrditi",
+      "pronunciation": "kon-fir-MAR",
+      "example": "¿Puede confirmar la reunión?",
+      "exampleTranslation": "Možete li potvrditi sastanak?"
+    },
+    {
+      "id": "buzon",
+      "word": "buzón",
+      "translation": "sandučić",
+      "pronunciation": "bu-SON",
+      "example": "Tienes un mensaje en el buzón.",
+      "exampleTranslation": "Imaš poruku u sandučiću."
+    },
+    {
+      "id": "conferencia",
+      "word": "conferencia",
+      "translation": "konferencija",
+      "pronunciation": "kon-fe-REN-sja",
+      "example": "La conferencia es a las tres.",
+      "exampleTranslation": "Konferencija je u tri."
+    }
+  ],
+  "grammar": {
+    "title": "Budućnost sa 'ir a + infinitiv'",
+    "explanation": "Za izražavanje budućih radnji koristimo konstrukciju 'ir a + infinitiv':\n\n• Voy a enviar - Poslaću\n• Vas a responder - Odgovorićeš\n• Va a confirmar - Potvrdićee\n• Vamos a llamar - Pozvaćemo\n\nOva konstrukcija je slična engleskom 'going to' i koristi se za planove i namere.\n\nTakođe možete koristiti prosto buduće vreme: enviaré (poslaću), responderé (odgovoriću).",
+    "examples": [
+      { "target": "Voy a enviar el mensaje ahora.", "native": "Poslaću poruku sada." },
+      { "target": "¿Vas a responder a la llamada?", "native": "Hoćeš li odgovoriti na poziv?" },
+      { "target": "Vamos a confirmar la conferencia.", "native": "Potvrdićemo konferenciju." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1",
+      "question": "Kako se kaže 'poruka' na španskom?",
+      "options": ["llamada", "correo", "mensaje", "buzón"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2",
+      "sentence": "Voy a ___ el archivo.",
+      "answer": "adjuntar",
+      "acceptableAnswers": ["adjuntar", "Adjuntar"],
+      "hint": "Glagol koji znači 'priložiti'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-3",
+      "pairs": [
+        { "left": "llamada", "right": "poziv" },
+        { "left": "enviar", "right": "poslati" },
+        { "left": "confirmar", "right": "potvrditi" },
+        { "left": "responder", "right": "odgovoriti" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-4",
+      "sentence": "Moram da odgovorim na imejl.",
+      "answer": "Necesito responder al correo.",
+      "acceptableAnswers": ["Necesito responder al correo", "Necesito responder al correo."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-5",
+      "question": "Šta znači 'buzón'?",
+      "options": ["poruka", "poziv", "sandučić", "konferencija"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "Kako se kaže 'poslati' na španskom?",
+      "options": ["responder", "adjuntar", "confirmar", "enviar"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-3-2",
+      "question": "Šta znači 'adjuntar'?",
+      "options": ["odgovoriti", "priložiti", "potvrditi", "poslati"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-3",
+      "question": "Kako se kaže 'Poslaću poruku sada' koristeći 'ir a'?",
+      "options": ["Envío el mensaje ahora.", "Enviaré el mensaje ahora.", "Voy a enviar el mensaje ahora.", "Enviaba el mensaje ahora."],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-4",
+      "question": "Šta znači 'conferencia'?",
+      "options": ["poziv", "poruka", "konferencija", "sandučić"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-5",
+      "question": "Kako se kaže 'poziv' na španskom?",
+      "options": ["mensaje", "buzón", "conferencia", "llamada"],
+      "correctIndex": 3
+    }
+  ]
+}

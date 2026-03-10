@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-3",
+  "title": "Opisivanje ljudi",
+  "vocabulary": [
+    {
+      "id": "alto",
+      "word": "alto",
+      "translation": "visok",
+      "pronunciation": "AL-to",
+      "example": "Mi hermano es muy alto.",
+      "exampleTranslation": "Moj brat je veoma visok."
+    },
+    {
+      "id": "bajo",
+      "word": "bajo",
+      "translation": "nizak",
+      "pronunciation": "BA-ho",
+      "example": "El niño es bajo para su edad.",
+      "exampleTranslation": "Dečak je nizak za svoje godine."
+    },
+    {
+      "id": "joven",
+      "word": "joven",
+      "translation": "mlad",
+      "pronunciation": "HO-ven",
+      "example": "Ella es muy joven.",
+      "exampleTranslation": "Ona je veoma mlada."
+    },
+    {
+      "id": "viejo",
+      "word": "viejo",
+      "translation": "star",
+      "pronunciation": "VJE-ho",
+      "example": "El edificio es muy viejo.",
+      "exampleTranslation": "Zgrada je veoma stara."
+    },
+    {
+      "id": "guapo",
+      "word": "guapo",
+      "translation": "lep",
+      "pronunciation": "GUA-po",
+      "example": "Tu novio es muy guapo.",
+      "exampleTranslation": "Tvoj dečko je veoma lep."
+    },
+    {
+      "id": "inteligente",
+      "word": "inteligente",
+      "translation": "inteligentan",
+      "pronunciation": "in-te-li-HEN-te",
+      "example": "María es una chica inteligente.",
+      "exampleTranslation": "Marija je inteligentna devojka."
+    },
+    {
+      "id": "amable",
+      "word": "amable",
+      "translation": "ljubazan",
+      "pronunciation": "a-MA-ble",
+      "example": "El profesor es muy amable.",
+      "exampleTranslation": "Profesor je veoma ljubazan."
+    },
+    {
+      "id": "fuerte",
+      "word": "fuerte",
+      "translation": "jak",
+      "pronunciation": "FUER-te",
+      "example": "Mi padre es fuerte.",
+      "exampleTranslation": "Moj otac je jak."
+    }
+  ],
+  "grammar": {
+    "title": "Pridevi u španskom - rod i broj",
+    "explanation": "Španski pridevi se slažu u rodu i broju sa imenicom:\n\n• Muški rod jednina: alto, bajo, guapo\n• Ženski rod jednina: alta, baja, guapa\n• Muški rod množina: altos, bajos, guapos\n• Ženski rod množina: altas, bajas, guapas\n\nPridevi koji se završavaju na -e (inteligente, amable, fuerte) imaju isti oblik za muški i ženski rod.",
+    "examples": [
+      { "target": "El chico es alto. La chica es alta.", "native": "Dečak je visok. Devojka je visoka." },
+      { "target": "Los niños son inteligentes.", "native": "Deca su inteligentna." },
+      { "target": "Mis hermanas son amables.", "native": "Moje sestre su ljubazne." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-1",
+      "question": "Kako se kaže 'visok' na španskom?",
+      "options": ["bajo", "fuerte", "alto", "viejo"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-2",
+      "sentence": "El profesor es muy ___.",
+      "answer": "amable",
+      "acceptableAnswers": ["amable", "Amable"],
+      "hint": "Reč za 'ljubazan'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-3",
+      "pairs": [
+        { "left": "alto", "right": "visok" },
+        { "left": "joven", "right": "mlad" },
+        { "left": "fuerte", "right": "jak" },
+        { "left": "guapo", "right": "lep" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-4",
+      "sentence": "Ona je veoma mlada.",
+      "answer": "Ella es muy joven.",
+      "acceptableAnswers": ["Ella es muy joven", "Ella es muy joven."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-5",
+      "question": "Šta znači 'viejo'?",
+      "options": ["mlad", "nizak", "star", "jak"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "Koji je suprotan pridev od 'alto'?",
+      "options": ["viejo", "bajo", "fuerte", "joven"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-2",
+      "question": "Kako se kaže 'inteligentan' na španskom?",
+      "options": ["amable", "fuerte", "inteligente", "guapo"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-3",
+      "question": "Šta znači 'amable'?",
+      "options": ["jak", "lep", "nizak", "ljubazan"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-2-4",
+      "question": "Koji je ženski oblik prideva 'guapo'?",
+      "options": ["guapa", "guape", "guapos", "guapas"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q-2-5",
+      "question": "Koji pridev ima isti oblik za muški i ženski rod?",
+      "options": ["alto", "guapo", "bajo", "inteligente"],
+      "correctIndex": 3
+    }
+  ]
+}

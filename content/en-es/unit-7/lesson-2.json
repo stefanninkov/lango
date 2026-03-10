@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-7",
+  "title": "Professions & Career",
+  "vocabulary": [
+    {
+      "id": "salario",
+      "word": "Salario",
+      "translation": "Salary",
+      "pronunciation": "sah-LAH-ryoh",
+      "example": "El salario depende de la experiencia del candidato.",
+      "exampleTranslation": "The salary depends on the candidate's experience."
+    },
+    {
+      "id": "experiencia",
+      "word": "Experiencia",
+      "translation": "Experience",
+      "pronunciation": "ehk-speh-RYEHN-syah",
+      "example": "Se requiere al menos tres años de experiencia.",
+      "exampleTranslation": "At least three years of experience are required."
+    },
+    {
+      "id": "solicitar",
+      "word": "Solicitar",
+      "translation": "To apply for",
+      "pronunciation": "soh-lee-see-TAR",
+      "example": "Quiero solicitar el puesto de director de ventas.",
+      "exampleTranslation": "I want to apply for the sales director position."
+    },
+    {
+      "id": "entrevista",
+      "word": "Entrevista",
+      "translation": "Interview",
+      "pronunciation": "ehn-treh-VEE-stah",
+      "example": "La entrevista de trabajo es el próximo martes.",
+      "exampleTranslation": "The job interview is next Tuesday."
+    },
+    {
+      "id": "curriculum",
+      "word": "Currículum",
+      "translation": "Resume / CV",
+      "pronunciation": "koo-RREE-koo-loom",
+      "example": "Envié mi currículum a varias empresas.",
+      "exampleTranslation": "I sent my resume to several companies."
+    },
+    {
+      "id": "ascenso",
+      "word": "Ascenso",
+      "translation": "Promotion",
+      "pronunciation": "ah-SEHN-soh",
+      "example": "Recibió un ascenso después de cinco años en la empresa.",
+      "exampleTranslation": "She received a promotion after five years at the company."
+    },
+    {
+      "id": "contrato",
+      "word": "Contrato",
+      "translation": "Contract",
+      "pronunciation": "kohn-TRAH-toh",
+      "example": "Firmé un contrato por dos años.",
+      "exampleTranslation": "I signed a two-year contract."
+    },
+    {
+      "id": "renunciar",
+      "word": "Renunciar",
+      "translation": "To resign / To quit",
+      "pronunciation": "rreh-noon-SYAR",
+      "example": "Decidió renunciar a su puesto para emprender un negocio.",
+      "exampleTranslation": "He decided to resign from his position to start a business."
+    }
+  ],
+  "grammar": {
+    "title": "The Preterite vs. Imperfect for Career Narratives",
+    "explanation": "When talking about career history, Spanish uses two past tenses:\n\n• Preterite (pretérito indefinido): For completed actions and specific events.\n  Firmé el contrato en enero. - I signed the contract in January.\n  Recibió un ascenso. - She received a promotion.\n\n• Imperfect (pretérito imperfecto): For ongoing states, habitual actions, or background.\n  Trabajaba en una empresa grande. - I used to work at a large company.\n  El salario era bueno. - The salary was good.\n\nOften both are used together:\n  Trabajaba en Madrid cuando solicité el nuevo puesto. - I was working in Madrid when I applied for the new position.",
+    "examples": [
+      { "target": "Trabajé en esa empresa durante cinco años.", "native": "I worked at that company for five years." },
+      { "target": "Cuando era joven, quería ser ingeniero.", "native": "When I was young, I wanted to be an engineer." },
+      { "target": "Renunció porque el salario no era suficiente.", "native": "He resigned because the salary was not enough." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-7-6",
+      "question": "Which tense would you use for 'I signed the contract in January'?",
+      "options": ["Imperfect", "Preterite", "Present", "Future"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-7-7",
+      "sentence": "Envié mi ___ a varias empresas.",
+      "answer": "currículum",
+      "acceptableAnswers": ["currículum", "Currículum", "curriculum", "Curriculum"],
+      "hint": "A document listing your work history and education"
+    },
+    {
+      "type": "matching",
+      "id": "ex-7-8",
+      "pairs": [
+        { "left": "Salario", "right": "Salary" },
+        { "left": "Entrevista", "right": "Interview" },
+        { "left": "Ascenso", "right": "Promotion" },
+        { "left": "Renunciar", "right": "To resign" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-7-9",
+      "sentence": "She received a promotion after five years at the company.",
+      "answer": "Recibió un ascenso después de cinco años en la empresa.",
+      "acceptableAnswers": ["Recibió un ascenso después de cinco años en la empresa", "Recibió un ascenso después de cinco años en la empresa.", "Ella recibió un ascenso después de cinco años en la empresa."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-7-10",
+      "question": "What does 'solicitar' mean?",
+      "options": ["To request", "To apply for", "To demand", "Both A and B"],
+      "correctIndex": 3
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-7-6",
+      "question": "What is 'contrato' in English?",
+      "options": ["Contractor", "Contract", "Control", "Contrary"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-7-7",
+      "question": "Which tense is used for habitual past actions?",
+      "options": ["Preterite", "Imperfect", "Present perfect", "Future"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-7-8",
+      "question": "How do you say 'job interview' in Spanish?",
+      "options": ["Entrevista de trabajo", "Reunión de trabajo", "Solicitud de trabajo", "Puesto de trabajo"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q-7-9",
+      "question": "What does 'ascenso' mean?",
+      "options": ["Elevator", "Promotion", "Salary raise", "Transfer"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-7-10",
+      "question": "'Decidió renunciar a su puesto' means:",
+      "options": ["He decided to accept the position.", "He decided to apply for the position.", "He decided to resign from his position.", "He decided to change his position."],
+      "correctIndex": 2
+    }
+  ]
+}

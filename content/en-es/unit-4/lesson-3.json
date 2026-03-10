@@ -1,0 +1,154 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-4",
+  "title": "Cooking & Meals",
+  "vocabulary": [
+    {
+      "id": "desayuno",
+      "word": "Desayuno",
+      "translation": "Breakfast",
+      "pronunciation": "deh-sah-YOO-noh",
+      "example": "El desayuno es la comida más importante del día.",
+      "exampleTranslation": "Breakfast is the most important meal of the day."
+    },
+    {
+      "id": "almuerzo",
+      "word": "Almuerzo",
+      "translation": "Lunch",
+      "pronunciation": "ahl-MWEHR-soh",
+      "example": "En España, el almuerzo es a las dos de la tarde.",
+      "exampleTranslation": "In Spain, lunch is at two in the afternoon."
+    },
+    {
+      "id": "cena",
+      "word": "Cena",
+      "translation": "Dinner",
+      "pronunciation": "SEH-nah",
+      "example": "La cena en España suele ser tarde.",
+      "exampleTranslation": "Dinner in Spain is usually late."
+    },
+    {
+      "id": "cocinar",
+      "word": "Cocinar",
+      "translation": "To cook",
+      "pronunciation": "koh-see-NAR",
+      "example": "A mi madre le encanta cocinar platos nuevos.",
+      "exampleTranslation": "My mother loves cooking new dishes."
+    },
+    {
+      "id": "hervir",
+      "word": "Hervir",
+      "translation": "To boil",
+      "pronunciation": "ehr-VEER",
+      "example": "Hay que hervir el agua antes de hacer la pasta.",
+      "exampleTranslation": "You have to boil the water before making the pasta."
+    },
+    {
+      "id": "freir",
+      "word": "Freír",
+      "translation": "To fry",
+      "pronunciation": "freh-EER",
+      "example": "Voy a freír los huevos con aceite de oliva.",
+      "exampleTranslation": "I'm going to fry the eggs with olive oil."
+    },
+    {
+      "id": "hornear",
+      "word": "Hornear",
+      "translation": "To bake",
+      "pronunciation": "or-neh-AR",
+      "example": "Mi abuela hornea un pastel todos los domingos.",
+      "exampleTranslation": "My grandmother bakes a cake every Sunday."
+    },
+    {
+      "id": "receta",
+      "word": "Receta",
+      "translation": "Recipe",
+      "pronunciation": "rreh-SEH-tah",
+      "example": "Esta receta es de mi familia.",
+      "exampleTranslation": "This recipe is from my family."
+    }
+  ],
+  "grammar": {
+    "title": "Infinitive Constructions: 'Hay que', 'Tener que', 'Ir a'",
+    "explanation": "Spanish has several common constructions that use infinitive verbs (the base form ending in -ar, -er, -ir):\n\n• Hay que + infinitive: One must / You have to (impersonal)\n  Hay que hervir el agua. - You have to boil the water.\n\n• Tener que + infinitive: To have to (personal)\n  Tengo que cocinar la cena. - I have to cook dinner.\n\n• Ir a + infinitive: Going to (near future)\n  Voy a freír el pescado. - I'm going to fry the fish.\n\nThese constructions are extremely common in everyday speech and are essential for giving instructions in recipes.",
+    "examples": [
+      { "target": "Hay que hornear el pan durante treinta minutos.", "native": "You have to bake the bread for thirty minutes." },
+      { "target": "Tenemos que preparar el desayuno.", "native": "We have to prepare breakfast." },
+      { "target": "Voy a cocinar la cena esta noche.", "native": "I'm going to cook dinner tonight." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-4-11",
+      "question": "Which meal is 'almuerzo'?",
+      "options": ["Breakfast", "Lunch", "Dinner", "Snack"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-4-12",
+      "sentence": "Hay que ___ el agua antes de hacer la pasta.",
+      "answer": "hervir",
+      "acceptableAnswers": ["hervir", "Hervir"],
+      "hint": "To heat water until it bubbles"
+    },
+    {
+      "type": "matching",
+      "id": "ex-4-13",
+      "pairs": [
+        { "left": "Cocinar", "right": "To cook" },
+        { "left": "Hervir", "right": "To boil" },
+        { "left": "Freír", "right": "To fry" },
+        { "left": "Hornear", "right": "To bake" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-4-14",
+      "sentence": "I'm going to cook dinner tonight.",
+      "answer": "Voy a cocinar la cena esta noche.",
+      "acceptableAnswers": ["Voy a cocinar la cena esta noche", "Voy a cocinar la cena esta noche.", "Voy a cocinar cena esta noche."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-4-15",
+      "question": "What does 'receta' mean?",
+      "options": ["Receipt", "Recipe", "Restaurant", "Reservation"],
+      "correctIndex": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-4-11",
+      "question": "What is 'breakfast' in Spanish?",
+      "options": ["Almuerzo", "Cena", "Desayuno", "Comida"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-4-12",
+      "question": "Which construction means 'one must' (impersonal)?",
+      "options": ["Tener que", "Ir a", "Hay que", "Poder"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-4-13",
+      "question": "How do you say 'to fry' in Spanish?",
+      "options": ["Hervir", "Hornear", "Cocinar", "Freír"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-4-14",
+      "question": "When is 'la cena' typically eaten in Spain?",
+      "options": ["In the morning", "At noon", "In the late evening", "At midnight"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-4-15",
+      "question": "What does 'Voy a hornear un pastel' mean?",
+      "options": ["I baked a cake.", "I'm going to bake a cake.", "I want to bake a cake.", "I have to bake a cake."],
+      "correctIndex": 1
+    }
+  ]
+}

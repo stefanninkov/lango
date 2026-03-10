@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { View, StyleSheet, Pressable } from 'react-native';
 import { Text, Button } from 'react-native-paper';
 import { router } from 'expo-router';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { colors, spacing, typography, radius } from '../../src/theme';
 import { useAuthStore } from '../../src/stores/authStore';
 import { updateUserProfile } from '../../src/services/authService';
@@ -55,6 +56,26 @@ export default function OnboardingScreen() {
     }
   };
 
+  const handleTakePlacementTest = async () => {
+    if (!user || !nativeLang || !targetLang) return;
+    // Save language choices first so placement test can load correct content
+    try {
+      await updateUserProfile(user.uid, {
+        nativeLanguage: nativeLang,
+        targetLanguage: targetLang,
+      });
+      setUser({
+        ...user,
+        nativeLanguage: nativeLang,
+        targetLanguage: targetLang,
+        level: 'beginner', // temporary, will be updated by placement test
+      });
+    } catch {
+      // Continue anyway — placement test will still work
+    }
+    router.push('/(auth)/placement-test');
+  };
+
   const handleNext = () => {
     if (step === 'native' && nativeLang) setStep('target');
     else if (step === 'target' && targetLang) setStep('level');
@@ -101,17 +122,43 @@ export default function OnboardingScreen() {
             </Pressable>
           ))}
 
-        {step === 'level' &&
-          LEVELS.map((lvl) => (
+        {step === 'level' && (
+          <>
+            {/* Placement test option */}
             <Pressable
-              key={lvl.id}
-              style={[styles.levelCard, level === lvl.id && styles.cardSelected]}
-              onPress={() => setLevel(lvl.id)}
+              style={styles.placementCard}
+              onPress={handleTakePlacementTest}
             >
-              <Text style={styles.levelLabel}>{lvl.label}</Text>
-              <Text style={styles.levelDesc}>{lvl.description}</Text>
+              <View style={styles.placementIconBg}>
+                <MaterialCommunityIcons name="clipboard-text-outline" size={24} color={colors.primary} />
+              </View>
+              <View style={styles.placementContent}>
+                <Text style={styles.placementTitle}>Take Placement Test</Text>
+                <Text style={styles.placementDesc}>
+                  25 questions to find your exact level
+                </Text>
+              </View>
+              <MaterialCommunityIcons name="chevron-right" size={22} color={colors.primary} />
             </Pressable>
-          ))}
+
+            <View style={styles.dividerRow}>
+              <View style={styles.dividerLine} />
+              <Text style={styles.dividerText}>or choose manually</Text>
+              <View style={styles.dividerLine} />
+            </View>
+
+            {LEVELS.map((lvl) => (
+              <Pressable
+                key={lvl.id}
+                style={[styles.levelCard, level === lvl.id && styles.cardSelected]}
+                onPress={() => setLevel(lvl.id)}
+              >
+                <Text style={styles.levelLabel}>{lvl.label}</Text>
+                <Text style={styles.levelDesc}>{lvl.description}</Text>
+              </Pressable>
+            ))}
+          </>
+        )}
       </View>
 
       <Button
@@ -186,6 +233,55 @@ const styles = StyleSheet.create({
   cardLabel: {
     ...typography.h3,
   },
+  // Placement test card
+  placementCard: {
+    width: '100%',
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: 'rgba(108, 99, 255, 0.08)',
+    borderRadius: radius.lg,
+    borderWidth: 1,
+    borderColor: colors.primary,
+    padding: spacing.lg,
+    gap: spacing.md,
+  },
+  placementIconBg: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    backgroundColor: 'rgba(108, 99, 255, 0.15)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  placementContent: {
+    flex: 1,
+  },
+  placementTitle: {
+    ...typography.h3,
+    color: colors.primary,
+  },
+  placementDesc: {
+    ...typography.caption,
+    color: colors.textMuted,
+  },
+  // Divider
+  dividerRow: {
+    width: '100%',
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.md,
+    paddingVertical: spacing.sm,
+  },
+  dividerLine: {
+    flex: 1,
+    height: 1,
+    backgroundColor: colors.border,
+  },
+  dividerText: {
+    ...typography.caption,
+    color: colors.textMuted,
+  },
+  // Level cards
   levelCard: {
     width: '100%',
     backgroundColor: colors.surface,

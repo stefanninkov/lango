@@ -1,0 +1,154 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-6",
+  "title": "Vreme i godišnja doba",
+  "vocabulary": [
+    {
+      "id": "calor",
+      "word": "calor",
+      "translation": "vrućina",
+      "pronunciation": "ka-LOR",
+      "example": "Hace mucho calor en verano.",
+      "exampleTranslation": "Veoma je vruće leti."
+    },
+    {
+      "id": "frio",
+      "word": "frío",
+      "translation": "hladnoća",
+      "pronunciation": "FRI-o",
+      "example": "En invierno hace mucho frío.",
+      "exampleTranslation": "Zimi je veoma hladno."
+    },
+    {
+      "id": "lluvia",
+      "word": "lluvia",
+      "translation": "kiša",
+      "pronunciation": "JU-vja",
+      "example": "La lluvia es fuerte hoy.",
+      "exampleTranslation": "Kiša je jaka danas."
+    },
+    {
+      "id": "nieve",
+      "word": "nieve",
+      "translation": "sneg",
+      "pronunciation": "NJE-ve",
+      "example": "En la montaña hay nieve.",
+      "exampleTranslation": "Na planini ima snega."
+    },
+    {
+      "id": "sol",
+      "word": "sol",
+      "translation": "sunce",
+      "pronunciation": "SOL",
+      "example": "Hoy hace sol.",
+      "exampleTranslation": "Danas je sunčano."
+    },
+    {
+      "id": "viento",
+      "word": "viento",
+      "translation": "vetar",
+      "pronunciation": "VJEN-to",
+      "example": "Hay mucho viento hoy.",
+      "exampleTranslation": "Danas ima mnogo vetra."
+    },
+    {
+      "id": "primavera",
+      "word": "primavera",
+      "translation": "proleće",
+      "pronunciation": "pri-ma-VE-ra",
+      "example": "La primavera es mi estación favorita.",
+      "exampleTranslation": "Proleće je moje omiljeno godišnje doba."
+    },
+    {
+      "id": "invierno",
+      "word": "invierno",
+      "translation": "zima",
+      "pronunciation": "in-VJER-no",
+      "example": "El invierno es frío en España.",
+      "exampleTranslation": "Zima je hladna u Španiji."
+    }
+  ],
+  "grammar": {
+    "title": "Izražavanje vremenskih uslova - 'Hace' i 'Hay'",
+    "explanation": "Za opisivanje vremena u španskom koristimo posebne konstrukcije:\n\n• Hace + imenica: Hace calor (Vruće je), Hace frío (Hladno je), Hace sol (Sunčano je), Hace viento (Vetrovito je)\n• Hay + imenica: Hay nieve (Ima snega), Hay niebla (Ima magle)\n• Llueve (Pada kiša), Nieva (Pada sneg) - bezlični glagoli\n\nZa pitanje o vremenu: '¿Qué tiempo hace?' (Kakvo je vreme?)",
+    "examples": [
+      { "target": "Hoy hace mucho calor.", "native": "Danas je veoma vruće." },
+      { "target": "En invierno nieva mucho.", "native": "Zimi mnogo pada sneg." },
+      { "target": "¿Qué tiempo hace hoy?", "native": "Kakvo je vreme danas?" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1",
+      "question": "Kako se kaže 'kiša' na španskom?",
+      "options": ["nieve", "viento", "lluvia", "sol"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2",
+      "sentence": "Hace mucho ___ en verano.",
+      "answer": "calor",
+      "acceptableAnswers": ["calor", "Calor"],
+      "hint": "Reč za 'vrućina'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-3",
+      "pairs": [
+        { "left": "calor", "right": "vrućina" },
+        { "left": "nieve", "right": "sneg" },
+        { "left": "primavera", "right": "proleće" },
+        { "left": "invierno", "right": "zima" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-4",
+      "sentence": "Zimi je veoma hladno.",
+      "answer": "En invierno hace mucho frío.",
+      "acceptableAnswers": ["En invierno hace mucho frío", "En invierno hace mucho frío."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-5",
+      "question": "Šta znači 'viento'?",
+      "options": ["sneg", "kiša", "sunce", "vetar"],
+      "correctIndex": 3
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "Kako se kaže 'proleće' na španskom?",
+      "options": ["invierno", "verano", "primavera", "otoño"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-2",
+      "question": "Šta znači 'Hace sol'?",
+      "options": ["Hladno je", "Sunčano je", "Vetrovito je", "Pada kiša"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-3",
+      "question": "Koja konstrukcija je tačna za 'Hladno je'?",
+      "options": ["Es frío", "Está frío", "Hace frío", "Hay frío"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-4",
+      "question": "Šta znači 'nieve'?",
+      "options": ["kiša", "vetar", "sneg", "sunce"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-5",
+      "question": "Kako pitate 'Kakvo je vreme danas?' na španskom?",
+      "options": ["¿Cómo está el tiempo?", "¿Qué tiempo hace hoy?", "¿Cuál es el tiempo?", "¿Hace tiempo hoy?"],
+      "correctIndex": 1
+    }
+  ]
+}

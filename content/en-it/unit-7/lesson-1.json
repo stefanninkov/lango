@@ -1,0 +1,155 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-7",
+  "title": "Office & Workplace",
+  "vocabulary": [
+    {
+      "id": "v-1-1",
+      "word": "riunione",
+      "translation": "meeting",
+      "pronunciation": "ree-oo-NYOH-neh",
+      "example": "La riunione è stata rinviata a domani.",
+      "exampleTranslation": "The meeting has been postponed to tomorrow."
+    },
+    {
+      "id": "v-1-2",
+      "word": "email",
+      "translation": "email",
+      "pronunciation": "ee-MEYL",
+      "example": "Le ho inviato un'email con i dettagli.",
+      "exampleTranslation": "I sent her an email with the details."
+    },
+    {
+      "id": "v-1-3",
+      "word": "capo",
+      "translation": "boss",
+      "pronunciation": "KAH-poh",
+      "example": "Il capo vuole che il rapporto sia pronto entro venerdì.",
+      "exampleTranslation": "The boss wants the report to be ready by Friday."
+    },
+    {
+      "id": "v-1-4",
+      "word": "azienda",
+      "translation": "company",
+      "pronunciation": "ah-TSYEN-dah",
+      "example": "L'azienda ha più di duecento dipendenti.",
+      "exampleTranslation": "The company has more than two hundred employees."
+    },
+    {
+      "id": "v-1-5",
+      "word": "ufficio",
+      "translation": "office",
+      "pronunciation": "oof-FEE-choh",
+      "example": "Il mio ufficio è al terzo piano.",
+      "exampleTranslation": "My office is on the third floor."
+    },
+    {
+      "id": "v-1-6",
+      "word": "progetto",
+      "translation": "project",
+      "pronunciation": "proh-JET-toh",
+      "example": "Stiamo lavorando a un nuovo progetto importante.",
+      "exampleTranslation": "We are working on an important new project."
+    },
+    {
+      "id": "v-1-7",
+      "word": "rapporto",
+      "translation": "report",
+      "pronunciation": "rahp-POR-toh",
+      "example": "Devo scrivere il rapporto trimestrale.",
+      "exampleTranslation": "I need to write the quarterly report."
+    },
+    {
+      "id": "v-1-8",
+      "word": "scadenza",
+      "translation": "deadline",
+      "pronunciation": "skah-DEN-tsah",
+      "example": "La scadenza per la consegna è lunedì prossimo.",
+      "exampleTranslation": "The deadline for delivery is next Monday."
+    }
+  ],
+  "grammar": {
+    "title": "The Subjunctive with 'Volere che' (Congiuntivo Presente)",
+    "explanation": "In Italian, when the main clause expresses a wish, desire, or command (e.g., 'voglio che', 'è necessario che'), the subordinate clause requires the subjunctive mood (congiuntivo). The present subjunctive of -are verbs: parli, parli, parli, parliamo, parliate, parlino. For -ere: scriva, scriva, scriva, scriviamo, scriviate, scrivano. For -ire: finisca, finisca, finisca, finiamo, finiate, finiscano. Common triggers: volere che, sperare che, è importante che, bisogna che.",
+    "examples": [
+      { "target": "Il capo vuole che io finisca il rapporto.", "native": "The boss wants me to finish the report." },
+      { "target": "È necessario che tutti partecipino alla riunione.", "native": "It is necessary that everyone attend the meeting." },
+      { "target": "Spero che il progetto vada bene.", "native": "I hope the project goes well." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1",
+      "question": "How do you say 'deadline' in Italian?",
+      "options": ["Progetto", "Rapporto", "Scadenza", "Riunione"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-2",
+      "sentence": "Il capo vuole che il rapporto ___ pronto entro venerdì.",
+      "answer": "sia",
+      "acceptableAnswers": ["sia", "Sia"],
+      "hint": "Subjunctive of 'essere' (to be)"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-3",
+      "pairs": [
+        { "left": "Riunione", "right": "Meeting" },
+        { "left": "Azienda", "right": "Company" },
+        { "left": "Scadenza", "right": "Deadline" },
+        { "left": "Rapporto", "right": "Report" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-4",
+      "sentence": "We are working on an important new project.",
+      "answer": "Stiamo lavorando a un nuovo progetto importante.",
+      "acceptableAnswers": ["Stiamo lavorando a un nuovo progetto importante", "Stiamo lavorando su un nuovo progetto importante"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-5",
+      "sentence": "L'___ ha più di duecento dipendenti.",
+      "answer": "azienda",
+      "acceptableAnswers": ["azienda", "Azienda"],
+      "hint": "Company"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "What does 'riunione' mean?",
+      "options": ["Reunion", "Meeting", "Report", "Office"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-2",
+      "question": "Which mood is required after 'voglio che'?",
+      "options": ["Indicative", "Conditional", "Subjunctive", "Imperative"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-3",
+      "question": "What does 'scadenza' mean?",
+      "options": ["Schedule", "Deadline", "Scale", "Scanner"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-4",
+      "question": "How do you say 'My office is on the third floor'?",
+      "options": ["L'ufficio è grande.", "Il mio ufficio è al terzo piano.", "Lavoro al terzo piano.", "Ho un ufficio nuovo."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-5",
+      "question": "What is the present subjunctive of 'andare' (third person singular)?",
+      "options": ["Va", "Vada", "Anda", "Vadi"],
+      "correctIndex": 1
+    }
+  ]
+}

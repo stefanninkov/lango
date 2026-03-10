@@ -1,0 +1,155 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-4",
+  "title": "Common Foods",
+  "vocabulary": [
+    {
+      "id": "v-1-1",
+      "word": "pane",
+      "translation": "bread",
+      "pronunciation": "PAH-neh",
+      "example": "Compro il pane fresco ogni mattina.",
+      "exampleTranslation": "I buy fresh bread every morning."
+    },
+    {
+      "id": "v-1-2",
+      "word": "acqua",
+      "translation": "water",
+      "pronunciation": "AHK-kwah",
+      "example": "Vorrei un bicchiere d'acqua, per favore.",
+      "exampleTranslation": "I would like a glass of water, please."
+    },
+    {
+      "id": "v-1-3",
+      "word": "carne",
+      "translation": "meat",
+      "pronunciation": "KAR-neh",
+      "example": "Non mangio la carne, sono vegetariano.",
+      "exampleTranslation": "I don't eat meat, I'm vegetarian."
+    },
+    {
+      "id": "v-1-4",
+      "word": "pesce",
+      "translation": "fish",
+      "pronunciation": "PEH-sheh",
+      "example": "Il pesce fresco è delizioso.",
+      "exampleTranslation": "Fresh fish is delicious."
+    },
+    {
+      "id": "v-1-5",
+      "word": "riso",
+      "translation": "rice",
+      "pronunciation": "REE-zoh",
+      "example": "Il risotto si fa con il riso.",
+      "exampleTranslation": "Risotto is made with rice."
+    },
+    {
+      "id": "v-1-6",
+      "word": "frutta",
+      "translation": "fruit",
+      "pronunciation": "FROOT-tah",
+      "example": "Mangio molta frutta in estate.",
+      "exampleTranslation": "I eat a lot of fruit in summer."
+    },
+    {
+      "id": "v-1-7",
+      "word": "verdura",
+      "translation": "vegetables",
+      "pronunciation": "ver-DOO-rah",
+      "example": "La verdura fresca è molto salutare.",
+      "exampleTranslation": "Fresh vegetables are very healthy."
+    },
+    {
+      "id": "v-1-8",
+      "word": "latte",
+      "translation": "milk",
+      "pronunciation": "LAHT-teh",
+      "example": "Prendo il caffè con il latte.",
+      "exampleTranslation": "I take my coffee with milk."
+    }
+  ],
+  "grammar": {
+    "title": "Partitive Articles (di + article)",
+    "explanation": "In Italian, when talking about 'some' or an unspecified quantity of food, you use the partitive article formed by 'di' + the definite article: del (di + il), della (di + la), dell' (di + l'), dello (di + lo), dei (di + i), delle (di + le), degli (di + gli). For example: 'Compro del pane' (I buy some bread), 'Vorrei dell'acqua' (I would like some water). This is commonly used with food and drink items.",
+    "examples": [
+      { "target": "Compro del pane e della frutta.", "native": "I buy some bread and some fruit." },
+      { "target": "Vorrei dell'acqua minerale.", "native": "I would like some mineral water." },
+      { "target": "Mangio delle verdure a pranzo.", "native": "I eat some vegetables at lunch." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1",
+      "question": "How do you say 'bread' in Italian?",
+      "options": ["Pesce", "Riso", "Pane", "Carne"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-2",
+      "sentence": "Vorrei un bicchiere d'___, per favore.",
+      "answer": "acqua",
+      "acceptableAnswers": ["acqua", "Acqua"],
+      "hint": "Water"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-3",
+      "pairs": [
+        { "left": "Pane", "right": "Bread" },
+        { "left": "Pesce", "right": "Fish" },
+        { "left": "Frutta", "right": "Fruit" },
+        { "left": "Latte", "right": "Milk" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-4",
+      "sentence": "I don't eat meat, I'm vegetarian.",
+      "answer": "Non mangio la carne, sono vegetariano.",
+      "acceptableAnswers": ["Non mangio la carne, sono vegetariano", "Non mangio carne, sono vegetariano"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-5",
+      "sentence": "Il risotto si fa con il ___.",
+      "answer": "riso",
+      "acceptableAnswers": ["riso", "Riso"],
+      "hint": "Rice"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "What does 'verdura' mean?",
+      "options": ["Fruit", "Meat", "Vegetables", "Rice"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-2",
+      "question": "Which is the correct partitive article for 'pane' (masculine)?",
+      "options": ["Della pane", "Del pane", "Dello pane", "Dei pane"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-3",
+      "question": "How do you say 'I take my coffee with milk'?",
+      "options": ["Prendo il caffè con il latte.", "Bevo caffè e latte.", "Mangio il caffè.", "Compro il latte."],
+      "correctIndex": 0
+    },
+    {
+      "id": "q-1-4",
+      "question": "What does 'pesce' mean?",
+      "options": ["Peach", "Fish", "Pasta", "Bread"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-5",
+      "question": "Which sentence means 'I eat a lot of fruit in summer'?",
+      "options": ["Mangio molta frutta in estate.", "Compro la frutta al mercato.", "La frutta è cara.", "Vorrei della frutta."],
+      "correctIndex": 0
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-3",
+  "title": "Zanimanja",
+  "vocabulary": [
+    {
+      "id": "v-3-3-1",
+      "word": "professore",
+      "translation": "profesor",
+      "pronunciation": "profesore",
+      "example": "Il professore insegna matematica.",
+      "exampleTranslation": "Profesor predaje matematiku."
+    },
+    {
+      "id": "v-3-3-2",
+      "word": "medico",
+      "translation": "lekar",
+      "pronunciation": "mediko",
+      "example": "Il medico visita i pazienti.",
+      "exampleTranslation": "Lekar pregleda pacijente."
+    },
+    {
+      "id": "v-3-3-3",
+      "word": "studente",
+      "translation": "student",
+      "pronunciation": "studente",
+      "example": "Lo studente studia all'università.",
+      "exampleTranslation": "Student studira na univerzitetu."
+    },
+    {
+      "id": "v-3-3-4",
+      "word": "avvocato",
+      "translation": "advokat",
+      "pronunciation": "avokato",
+      "example": "L'avvocato difende il cliente.",
+      "exampleTranslation": "Advokat brani klijenta."
+    },
+    {
+      "id": "v-3-3-5",
+      "word": "ingegnere",
+      "translation": "inženjer",
+      "pronunciation": "indženjere",
+      "example": "L'ingegnere progetta edifici.",
+      "exampleTranslation": "Inženjer projektuje zgrade."
+    },
+    {
+      "id": "v-3-3-6",
+      "word": "infermiere",
+      "translation": "medicinski tehničar",
+      "pronunciation": "infermjere",
+      "example": "L'infermiere aiuta i malati.",
+      "exampleTranslation": "Medicinski tehničar pomaže bolesnicima."
+    },
+    {
+      "id": "v-3-3-7",
+      "word": "cuoco",
+      "translation": "kuvar",
+      "pronunciation": "kuoko",
+      "example": "Il cuoco prepara piatti deliziosi.",
+      "exampleTranslation": "Kuvar priprema ukusna jela."
+    },
+    {
+      "id": "v-3-3-8",
+      "word": "poliziotto",
+      "translation": "policajac",
+      "pronunciation": "policjoto",
+      "example": "Il poliziotto controlla il traffico.",
+      "exampleTranslation": "Policajac kontroliše saobraćaj."
+    }
+  ],
+  "grammar": {
+    "title": "Imenice za zanimanja – muški i ženski rod",
+    "explanation": "U italijanskom jeziku mnoga zanimanja imaju muški i ženski oblik. Imenice na '-ore' (professore) u ženskom rodu postaju '-oressa' (professoressa). Imenice na '-iere' (infermiere) postaju '-iera' (infermiera). Neka zanimanja kao 'medico' i 'avvocato' tradicionalno koriste muški oblik, ali sve češće se koriste i oblici 'medica' i 'avvocata'. Član ispred imenice takođe ukazuje na rod: 'il medico' / 'la medica'.",
+    "examples": [
+      { "target": "Il professore è bravo.", "native": "Profesor je dobar." },
+      { "target": "La professoressa è brava.", "native": "Profesorka je dobra." },
+      { "target": "L'infermiere lavora di notte.", "native": "Medicinski tehničar radi noću." },
+      { "target": "L'infermiera lavora di giorno.", "native": "Medicinska sestra radi danju." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-3-1",
+      "question": "Kako se kaže 'lekar' na italijanskom?",
+      "options": ["infermiere", "medico", "avvocato", "cuoco"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-3-2",
+      "sentence": "Il ___ prepara piatti deliziosi.",
+      "answer": "cuoco",
+      "acceptableAnswers": ["cuoco"],
+      "hint": "Kuvar priprema ukusna jela."
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-3-3",
+      "pairs": [
+        { "left": "professore", "right": "profesor" },
+        { "left": "medico", "right": "lekar" },
+        { "left": "avvocato", "right": "advokat" },
+        { "left": "cuoco", "right": "kuvar" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-3-4",
+      "sentence": "Student studira na univerzitetu.",
+      "answer": "Lo studente studia all'università.",
+      "acceptableAnswers": ["Lo studente studia all'università.", "Lo studente studia all'università"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-3-5",
+      "sentence": "L'___ progetta edifici.",
+      "answer": "ingegnere",
+      "acceptableAnswers": ["ingegnere"],
+      "hint": "Inženjer projektuje zgrade."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-3-1",
+      "question": "Šta znači 'avvocato'?",
+      "options": ["lekar", "inženjer", "advokat", "profesor"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-3-2",
+      "question": "Kako se kaže 'policajac' na italijanskom?",
+      "options": ["cuoco", "infermiere", "ingegnere", "poliziotto"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-3-3-3",
+      "question": "Šta znači 'infermiere'?",
+      "options": ["kuvar", "medicinski tehničar", "student", "profesor"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-3-4",
+      "question": "Koji je tačan prevod za 'Profesor predaje matematiku'?",
+      "options": ["Il medico insegna matematica.", "Il professore insegna matematica.", "Lo studente insegna matematica.", "L'avvocato insegna matematica."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-3-5",
+      "question": "Kako se kaže 'kuvar' na italijanskom?",
+      "options": ["poliziotto", "studente", "cuoco", "medico"],
+      "correctIndex": 2
+    }
+  ]
+}

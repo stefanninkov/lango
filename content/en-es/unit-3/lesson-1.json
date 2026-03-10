@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-3",
+  "title": "Family Members",
+  "vocabulary": [
+    {
+      "id": "madre",
+      "word": "Madre",
+      "translation": "Mother",
+      "pronunciation": "MAH-dreh",
+      "example": "Mi madre cocina muy bien.",
+      "exampleTranslation": "My mother cooks very well."
+    },
+    {
+      "id": "padre",
+      "word": "Padre",
+      "translation": "Father",
+      "pronunciation": "PAH-dreh",
+      "example": "Mi padre trabaja en una oficina.",
+      "exampleTranslation": "My father works in an office."
+    },
+    {
+      "id": "hermano",
+      "word": "Hermano",
+      "translation": "Brother",
+      "pronunciation": "ehr-MAH-no",
+      "example": "Mi hermano tiene diez años.",
+      "exampleTranslation": "My brother is ten years old."
+    },
+    {
+      "id": "hermana",
+      "word": "Hermana",
+      "translation": "Sister",
+      "pronunciation": "ehr-MAH-nah",
+      "example": "Mi hermana estudia en la universidad.",
+      "exampleTranslation": "My sister studies at the university."
+    },
+    {
+      "id": "hijo",
+      "word": "Hijo",
+      "translation": "Son",
+      "pronunciation": "EE-hoh",
+      "example": "Su hijo es muy inteligente.",
+      "exampleTranslation": "Her son is very intelligent."
+    },
+    {
+      "id": "hija",
+      "word": "Hija",
+      "translation": "Daughter",
+      "pronunciation": "EE-hah",
+      "example": "Nuestra hija tiene tres años.",
+      "exampleTranslation": "Our daughter is three years old."
+    },
+    {
+      "id": "abuelo",
+      "word": "Abuelo",
+      "translation": "Grandfather",
+      "pronunciation": "ah-BWEH-lo",
+      "example": "Mi abuelo cuenta historias interesantes.",
+      "exampleTranslation": "My grandfather tells interesting stories."
+    },
+    {
+      "id": "abuela",
+      "word": "Abuela",
+      "translation": "Grandmother",
+      "pronunciation": "ah-BWEH-lah",
+      "example": "Mi abuela vive en el campo.",
+      "exampleTranslation": "My grandmother lives in the countryside."
+    }
+  ],
+  "grammar": {
+    "title": "Possessive Adjectives",
+    "explanation": "In Spanish, possessive adjectives indicate who owns or is related to something. They must agree in number (and sometimes gender) with the noun they modify:\n\n• mi/mis - my\n• tu/tus - your (informal)\n• su/sus - his/her/your (formal)/their\n• nuestro/nuestra/nuestros/nuestras - our\n\nNote: 'mi', 'tu', and 'su' do not change for gender, only for number. 'Nuestro' changes for both gender and number.",
+    "examples": [
+      { "target": "Mi madre es profesora.", "native": "My mother is a teacher." },
+      { "target": "Nuestros abuelos viven en España.", "native": "Our grandparents live in Spain." },
+      { "target": "Sus hijos son muy amables.", "native": "Their children are very kind." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1",
+      "question": "How do you say 'Mother' in Spanish?",
+      "options": ["Hermana", "Madre", "Abuela", "Hija"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2",
+      "sentence": "Mi ___ trabaja en una oficina.",
+      "answer": "padre",
+      "acceptableAnswers": ["padre", "Padre"],
+      "hint": "The male parent"
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-3",
+      "pairs": [
+        { "left": "Madre", "right": "Mother" },
+        { "left": "Hermano", "right": "Brother" },
+        { "left": "Abuelo", "right": "Grandfather" },
+        { "left": "Hija", "right": "Daughter" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-4",
+      "sentence": "My sister studies at the university.",
+      "answer": "Mi hermana estudia en la universidad.",
+      "acceptableAnswers": ["Mi hermana estudia en la universidad", "Mi hermana estudia en la universidad."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-5",
+      "question": "What does 'abuelo' mean?",
+      "options": ["Father", "Uncle", "Grandfather", "Brother"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "What is the Spanish word for 'Brother'?",
+      "options": ["Hijo", "Padre", "Hermano", "Abuelo"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-2",
+      "question": "What does 'hija' mean in English?",
+      "options": ["Son", "Daughter", "Sister", "Grandmother"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-3",
+      "question": "Which is the correct possessive: '___ madre cocina bien'?",
+      "options": ["Mío", "Mi", "Mis", "Me"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-4",
+      "question": "What is 'Grandmother' in Spanish?",
+      "options": ["Madre", "Hermana", "Hija", "Abuela"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-3-5",
+      "question": "How do you say 'My son is very intelligent'?",
+      "options": ["Mi hijo es muy inteligente.", "Mi padre es muy inteligente.", "Su hijo es muy grande.", "Mi hermano es inteligente."],
+      "correctIndex": 0
+    }
+  ]
+}

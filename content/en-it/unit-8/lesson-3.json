@@ -1,0 +1,155 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-8",
+  "title": "Emergencies",
+  "vocabulary": [
+    {
+      "id": "v-3-1",
+      "word": "aiuto",
+      "translation": "help",
+      "pronunciation": "ah-YOO-toh",
+      "example": "Aiuto! Qualcuno chiami un'ambulanza!",
+      "exampleTranslation": "Help! Someone call an ambulance!"
+    },
+    {
+      "id": "v-3-2",
+      "word": "polizia",
+      "translation": "police",
+      "pronunciation": "poh-lee-TSEE-ah",
+      "example": "Ho chiamato la polizia subito dopo l'incidente.",
+      "exampleTranslation": "I called the police right after the accident."
+    },
+    {
+      "id": "v-3-3",
+      "word": "pompieri",
+      "translation": "firefighters",
+      "pronunciation": "pom-PYEH-ree",
+      "example": "I pompieri sono arrivati in cinque minuti.",
+      "exampleTranslation": "The firefighters arrived in five minutes."
+    },
+    {
+      "id": "v-3-4",
+      "word": "ambulanza",
+      "translation": "ambulance",
+      "pronunciation": "ahm-boo-LAHN-tsah",
+      "example": "L'ambulanza ha portato il ferito all'ospedale.",
+      "exampleTranslation": "The ambulance took the injured person to the hospital."
+    },
+    {
+      "id": "v-3-5",
+      "word": "emergenza",
+      "translation": "emergency",
+      "pronunciation": "eh-mer-JEN-tsah",
+      "example": "In caso di emergenza, chiamate il 112.",
+      "exampleTranslation": "In case of emergency, call 112."
+    },
+    {
+      "id": "v-3-6",
+      "word": "pericolo",
+      "translation": "danger",
+      "pronunciation": "peh-REE-koh-loh",
+      "example": "Attenzione, c'è pericolo di caduta massi.",
+      "exampleTranslation": "Warning, there is danger of falling rocks."
+    },
+    {
+      "id": "v-3-7",
+      "word": "incidente",
+      "translation": "accident",
+      "pronunciation": "een-chee-DEN-teh",
+      "example": "C'è stato un incidente stradale sulla tangenziale.",
+      "exampleTranslation": "There was a traffic accident on the ring road."
+    },
+    {
+      "id": "v-3-8",
+      "word": "urgente",
+      "translation": "urgent",
+      "pronunciation": "oor-JEN-teh",
+      "example": "È una situazione urgente, abbiamo bisogno di aiuto.",
+      "exampleTranslation": "It is an urgent situation, we need help."
+    }
+  ],
+  "grammar": {
+    "title": "The Imperative for Urgent Commands and the Passato Prossimo for Reporting",
+    "explanation": "In emergencies, the imperative mood is crucial: 'chiami!' (call! - formal), 'chiamate!' (call! - plural), 'aiutatemi!' (help me!). For the subjunctive-imperative with 'Lei': 'chiami un'ambulanza!' (call an ambulance!). When reporting an incident, the passato prossimo is used: 'c'è stato un incidente' (there was an accident), 'ho chiamato la polizia' (I called the police). The construction 'c'è/ci sono' in the past becomes 'c'è stato/ci sono stati'. Emergency number in Italy: 112 (European emergency number).",
+    "examples": [
+      { "target": "Chiami subito un'ambulanza, per favore!", "native": "Call an ambulance right away, please! (formal)" },
+      { "target": "C'è stato un incidente grave.", "native": "There was a serious accident." },
+      { "target": "Aiutatemi, c'è un uomo ferito!", "native": "Help me, there is an injured man!" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1",
+      "question": "What is the emergency number in Italy?",
+      "options": ["911", "999", "112", "118"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2",
+      "sentence": "Ho chiamato la ___ subito dopo l'incidente.",
+      "answer": "polizia",
+      "acceptableAnswers": ["polizia", "Polizia"],
+      "hint": "Police"
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-3",
+      "pairs": [
+        { "left": "Aiuto", "right": "Help" },
+        { "left": "Pompieri", "right": "Firefighters" },
+        { "left": "Pericolo", "right": "Danger" },
+        { "left": "Incidente", "right": "Accident" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-4",
+      "sentence": "It is an urgent situation, we need help.",
+      "answer": "È una situazione urgente, abbiamo bisogno di aiuto.",
+      "acceptableAnswers": ["È una situazione urgente, abbiamo bisogno di aiuto"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-5",
+      "sentence": "L'___ ha portato il ferito all'ospedale.",
+      "answer": "ambulanza",
+      "acceptableAnswers": ["ambulanza", "Ambulanza"],
+      "hint": "Ambulance"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "What does 'pericolo' mean?",
+      "options": ["Period", "Permission", "Danger", "Person"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-2",
+      "question": "How do you say 'There was an accident' in Italian?",
+      "options": ["Ci fu un incidente.", "C'è stato un incidente.", "Era un incidente.", "Ha avuto un incidente."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-3",
+      "question": "What does 'pompieri' mean?",
+      "options": ["Pumps", "Firefighters", "Police officers", "Paramedics"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-4",
+      "question": "How do you formally tell someone to call an ambulance?",
+      "options": ["Chiama un'ambulanza!", "Chiamate un'ambulanza!", "Chiami un'ambulanza!", "Chiamare un'ambulanza!"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-5",
+      "question": "What does 'urgente' mean?",
+      "options": ["Urging", "Urgent", "Urban", "Unique"],
+      "correctIndex": 1
+    }
+  ]
+}

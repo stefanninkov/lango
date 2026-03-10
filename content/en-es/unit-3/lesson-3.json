@@ -1,0 +1,154 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-3",
+  "title": "Occupations",
+  "vocabulary": [
+    {
+      "id": "profesor",
+      "word": "Profesor",
+      "translation": "Teacher / Professor",
+      "pronunciation": "proh-feh-SOR",
+      "example": "El profesor enseña matemáticas.",
+      "exampleTranslation": "The teacher teaches mathematics."
+    },
+    {
+      "id": "medico",
+      "word": "Médico",
+      "translation": "Doctor",
+      "pronunciation": "MEH-dee-koh",
+      "example": "El médico trabaja en el hospital.",
+      "exampleTranslation": "The doctor works at the hospital."
+    },
+    {
+      "id": "estudiante",
+      "word": "Estudiante",
+      "translation": "Student",
+      "pronunciation": "eh-stoo-DYAHN-teh",
+      "example": "Soy estudiante de español.",
+      "exampleTranslation": "I am a student of Spanish."
+    },
+    {
+      "id": "abogado",
+      "word": "Abogado",
+      "translation": "Lawyer",
+      "pronunciation": "ah-boh-GAH-doh",
+      "example": "Mi madre es abogada.",
+      "exampleTranslation": "My mother is a lawyer."
+    },
+    {
+      "id": "ingeniero",
+      "word": "Ingeniero",
+      "translation": "Engineer",
+      "pronunciation": "een-heh-NYEH-roh",
+      "example": "Mi padre es ingeniero civil.",
+      "exampleTranslation": "My father is a civil engineer."
+    },
+    {
+      "id": "enfermero",
+      "word": "Enfermero",
+      "translation": "Nurse",
+      "pronunciation": "ehn-fehr-MEH-roh",
+      "example": "El enfermero cuida a los pacientes.",
+      "exampleTranslation": "The nurse takes care of the patients."
+    },
+    {
+      "id": "cocinero",
+      "word": "Cocinero",
+      "translation": "Cook / Chef",
+      "pronunciation": "koh-see-NEH-roh",
+      "example": "El cocinero prepara platos deliciosos.",
+      "exampleTranslation": "The cook prepares delicious dishes."
+    },
+    {
+      "id": "policia",
+      "word": "Policía",
+      "translation": "Police officer",
+      "pronunciation": "poh-lee-SEE-ah",
+      "example": "La policía protege la ciudad.",
+      "exampleTranslation": "The police officer protects the city."
+    }
+  ],
+  "grammar": {
+    "title": "Using 'Ser' for Occupations",
+    "explanation": "In Spanish, you use the verb 'ser' (to be) to talk about occupations. Unlike English, you typically do NOT use an article (a/an) before the profession:\n\n• Yo soy profesor. - I am a teacher.\n• Ella es médica. - She is a doctor.\n• Ellos son ingenieros. - They are engineers.\n\nHowever, if you add an adjective, you include the article: 'Ella es una buena médica.' (She is a good doctor.)\n\nMany professions have masculine and feminine forms: profesor/profesora, médico/médica, abogado/abogada.",
+    "examples": [
+      { "target": "Soy estudiante de la universidad.", "native": "I am a university student." },
+      { "target": "Mi hermana es enfermera.", "native": "My sister is a nurse." },
+      { "target": "Ellos son buenos cocineros.", "native": "They are good cooks." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-11",
+      "question": "How do you say 'I am a student' in Spanish?",
+      "options": ["Yo es estudiante.", "Yo soy estudiante.", "Yo estoy estudiante.", "Yo ser estudiante."],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-12",
+      "sentence": "El ___ trabaja en el hospital.",
+      "answer": "médico",
+      "acceptableAnswers": ["médico", "Médico", "medico"],
+      "hint": "A person who treats sick people"
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-13",
+      "pairs": [
+        { "left": "Profesor", "right": "Teacher" },
+        { "left": "Abogado", "right": "Lawyer" },
+        { "left": "Enfermero", "right": "Nurse" },
+        { "left": "Cocinero", "right": "Cook" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-14",
+      "sentence": "My father is an engineer.",
+      "answer": "Mi padre es ingeniero.",
+      "acceptableAnswers": ["Mi padre es ingeniero", "Mi padre es ingeniero."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-15",
+      "question": "What does 'policía' mean?",
+      "options": ["Firefighter", "Police officer", "Lawyer", "Nurse"],
+      "correctIndex": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-11",
+      "question": "Which verb is used for occupations in Spanish?",
+      "options": ["Estar", "Tener", "Ser", "Haber"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-12",
+      "question": "What is the feminine form of 'cocinero'?",
+      "options": ["Cocinera", "Cociniera", "Cocina", "Cocinara"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q-3-13",
+      "question": "How do you say 'Lawyer' in Spanish?",
+      "options": ["Ingeniero", "Profesor", "Abogado", "Médico"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-14",
+      "question": "What does 'ingeniero' mean?",
+      "options": ["Doctor", "Engineer", "Nurse", "Student"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-15",
+      "question": "Which is correct: 'Ella es ___ médica.'?",
+      "options": ["un", "una", "el", "No article needed"],
+      "correctIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-9",
+  "title": "Društvo",
+  "vocabulary": [
+    {
+      "id": "sociedad",
+      "word": "sociedad",
+      "translation": "društvo",
+      "pronunciation": "so-sje-DAD",
+      "example": "La sociedad está cambiando rápidamente.",
+      "exampleTranslation": "Društvo se brzo menja."
+    },
+    {
+      "id": "medio-ambiente",
+      "word": "medio ambiente",
+      "translation": "životna sredina",
+      "pronunciation": "ME-djo am-BJEN-te",
+      "example": "Debemos proteger el medio ambiente.",
+      "exampleTranslation": "Moramo da zaštitimo životnu sredinu."
+    },
+    {
+      "id": "igualdad",
+      "word": "igualdad",
+      "translation": "jednakost",
+      "pronunciation": "i-gual-DAD",
+      "example": "La igualdad es un derecho fundamental.",
+      "exampleTranslation": "Jednakost je osnovno pravo."
+    },
+    {
+      "id": "diversidad",
+      "word": "diversidad",
+      "translation": "raznolikost",
+      "pronunciation": "di-ver-si-DAD",
+      "example": "La diversidad cultural es importante.",
+      "exampleTranslation": "Kulturna raznolikost je važna."
+    },
+    {
+      "id": "sostenible",
+      "word": "sostenible",
+      "translation": "održiv",
+      "pronunciation": "sos-te-NI-ble",
+      "example": "Necesitamos un desarrollo sostenible.",
+      "exampleTranslation": "Potreban nam je održivi razvoj."
+    },
+    {
+      "id": "reciclaje",
+      "word": "reciclaje",
+      "translation": "reciklaža",
+      "pronunciation": "re-si-KLA-he",
+      "example": "El reciclaje ayuda al medio ambiente.",
+      "exampleTranslation": "Reciklaža pomaže životnoj sredini."
+    },
+    {
+      "id": "comunidad",
+      "word": "comunidad",
+      "translation": "zajednica",
+      "pronunciation": "ko-mu-ni-DAD",
+      "example": "Nuestra comunidad es muy unida.",
+      "exampleTranslation": "Naša zajednica je veoma složna."
+    },
+    {
+      "id": "voluntario",
+      "word": "voluntario",
+      "translation": "volonter",
+      "pronunciation": "vo-lun-TA-rjo",
+      "example": "Soy voluntario en una organización.",
+      "exampleTranslation": "Ja sam volonter u jednoj organizaciji."
+    }
+  ],
+  "grammar": {
+    "title": "Subjunktiv za izražavanje želje i potrebe",
+    "explanation": "Za izražavanje želja i potreba o društvenim temama koristimo subjunktiv:\n\n• Es necesario que + subjunktiv: Es necesario que reciclemos (Neophodno je da recikliramo)\n• Es importante que + subjunktiv: Es importante que protejamos el medio ambiente (Važno je da zaštitimo životnu sredinu)\n• Espero que + subjunktiv: Espero que la sociedad cambie (Nadam se da će se društvo promeniti)\n\nTakođe se koristi za neosobne konstrukcije:\n• Se debe + infinitiv: Se debe reciclar (Treba reciklirati)\n• Hay que + infinitiv: Hay que proteger la naturaleza (Treba zaštititi prirodu)",
+    "examples": [
+      { "target": "Es importante que protejamos el medio ambiente.", "native": "Važno je da zaštitimo životnu sredinu." },
+      { "target": "Espero que haya más igualdad.", "native": "Nadam se da će biti više jednakosti." },
+      { "target": "Hay que fomentar la diversidad.", "native": "Treba podsticati raznolikost." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1",
+      "question": "Kako se kaže 'životna sredina' na španskom?",
+      "options": ["sociedad", "comunidad", "medio ambiente", "igualdad"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2",
+      "sentence": "El ___ ayuda al medio ambiente.",
+      "answer": "reciclaje",
+      "acceptableAnswers": ["reciclaje", "Reciclaje"],
+      "hint": "Reč za 'reciklaža'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-3",
+      "pairs": [
+        { "left": "sociedad", "right": "društvo" },
+        { "left": "igualdad", "right": "jednakost" },
+        { "left": "comunidad", "right": "zajednica" },
+        { "left": "voluntario", "right": "volonter" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-4",
+      "sentence": "Moramo da zaštitimo životnu sredinu.",
+      "answer": "Debemos proteger el medio ambiente.",
+      "acceptableAnswers": ["Debemos proteger el medio ambiente", "Debemos proteger el medio ambiente.", "Tenemos que proteger el medio ambiente"],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-5",
+      "question": "Šta znači 'sostenible'?",
+      "options": ["raznolik", "jednak", "održiv", "dobrovoljan"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "Kako se kaže 'jednakost' na španskom?",
+      "options": ["diversidad", "igualdad", "sociedad", "comunidad"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-2",
+      "question": "Šta znači 'diversidad'?",
+      "options": ["jednakost", "zajednica", "raznolikost", "društvo"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-3",
+      "question": "Kako se kaže 'zajednica' na španskom?",
+      "options": ["sociedad", "voluntario", "comunidad", "igualdad"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-4",
+      "question": "Šta znači 'reciclaje'?",
+      "options": ["održivost", "reciklaža", "zajednica", "raznolikost"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-5",
+      "question": "Kako kažete 'Treba zaštititi prirodu' na španskom?",
+      "options": ["Es proteger la naturaleza.", "Debemos naturaleza proteger.", "Hay que proteger la naturaleza.", "Proteger hay la naturaleza."],
+      "correctIndex": 2
+    }
+  ]
+}

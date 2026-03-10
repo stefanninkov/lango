@@ -1,0 +1,156 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-6",
+  "title": "Vreme i godišnja doba",
+  "vocabulary": [
+    {
+      "id": "v-6-3-1",
+      "word": "caldo",
+      "translation": "vrućina",
+      "pronunciation": "kaldo",
+      "example": "Oggi fa molto caldo.",
+      "exampleTranslation": "Danas je velika vrućina."
+    },
+    {
+      "id": "v-6-3-2",
+      "word": "freddo",
+      "translation": "hladnoća",
+      "pronunciation": "fredo",
+      "example": "In inverno fa molto freddo.",
+      "exampleTranslation": "Zimi je velika hladnoća."
+    },
+    {
+      "id": "v-6-3-3",
+      "word": "pioggia",
+      "translation": "kiša",
+      "pronunciation": "pjodža",
+      "example": "La pioggia dura tutto il giorno.",
+      "exampleTranslation": "Kiša traje ceo dan."
+    },
+    {
+      "id": "v-6-3-4",
+      "word": "neve",
+      "translation": "sneg",
+      "pronunciation": "neve",
+      "example": "La neve copre le montagne.",
+      "exampleTranslation": "Sneg pokriva planine."
+    },
+    {
+      "id": "v-6-3-5",
+      "word": "sole",
+      "translation": "sunce",
+      "pronunciation": "sole",
+      "example": "Il sole splende oggi.",
+      "exampleTranslation": "Sunce sija danas."
+    },
+    {
+      "id": "v-6-3-6",
+      "word": "vento",
+      "translation": "vetar",
+      "pronunciation": "vento",
+      "example": "C'è molto vento stasera.",
+      "exampleTranslation": "Večeras ima mnogo vetra."
+    },
+    {
+      "id": "v-6-3-7",
+      "word": "primavera",
+      "translation": "proleće",
+      "pronunciation": "primavera",
+      "example": "In primavera i fiori sbocciano.",
+      "exampleTranslation": "U proleće cveće cveta."
+    },
+    {
+      "id": "v-6-3-8",
+      "word": "inverno",
+      "translation": "zima",
+      "pronunciation": "inverno",
+      "example": "L'inverno in Italia è mite.",
+      "exampleTranslation": "Zima u Italiji je blaga."
+    }
+  ],
+  "grammar": {
+    "title": "Bezlični izrazi za vreme – 'fa' i 'c'è'",
+    "explanation": "U italijanskom jeziku za opisivanje vremena koriste se bezlični izrazi sa glagolom 'fare': 'fa caldo' (vruće je), 'fa freddo' (hladno je). Za prirodne pojave koristi se 'c'è' (ima): 'c'è il sole' (ima sunca), 'c'è vento' (ima vetra). Za kišu i sneg koristi se glagol kao subjekat: 'piove' (pada kiša), 'nevica' (pada sneg). Godišnja doba idu sa predlogom 'in': 'in primavera' (u proleće), 'in inverno' (zimi).",
+    "examples": [
+      { "target": "Oggi fa caldo.", "native": "Danas je vruće." },
+      { "target": "C'è il sole.", "native": "Ima sunca." },
+      { "target": "In inverno fa freddo.", "native": "Zimi je hladno." },
+      { "target": "Piove molto in autunno.", "native": "Mnogo pada kiša u jesen." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-6-3-1",
+      "question": "Kako se kaže 'kiša' na italijanskom?",
+      "options": ["neve", "vento", "pioggia", "sole"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-6-3-2",
+      "sentence": "Oggi fa molto ___.",
+      "answer": "caldo",
+      "acceptableAnswers": ["caldo", "freddo"],
+      "hint": "Danas je velika vrućina."
+    },
+    {
+      "type": "matching",
+      "id": "ex-6-3-3",
+      "pairs": [
+        { "left": "pioggia", "right": "kiša" },
+        { "left": "neve", "right": "sneg" },
+        { "left": "sole", "right": "sunce" },
+        { "left": "vento", "right": "vetar" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-6-3-4",
+      "sentence": "U proleće cveće cveta.",
+      "answer": "In primavera i fiori sbocciano.",
+      "acceptableAnswers": ["In primavera i fiori sbocciano.", "In primavera i fiori sbocciano"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-6-3-5",
+      "sentence": "In ___ fa molto freddo.",
+      "answer": "inverno",
+      "acceptableAnswers": ["inverno"],
+      "hint": "Zimi je velika hladnoća."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-6-3-1",
+      "question": "Šta znači 'primavera'?",
+      "options": ["zima", "leto", "proleće", "jesen"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-6-3-2",
+      "question": "Kako se kaže 'sneg' na italijanskom?",
+      "options": ["pioggia", "vento", "sole", "neve"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-6-3-3",
+      "question": "Koji izraz se koristi za 'vruće je' na italijanskom?",
+      "options": ["c'è caldo", "fa caldo", "è caldo", "sta caldo"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-6-3-4",
+      "question": "Šta znači 'vento'?",
+      "options": ["kiša", "sunce", "sneg", "vetar"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-6-3-5",
+      "question": "Kako se kaže 'zima' na italijanskom?",
+      "options": ["primavera", "estate", "autunno", "inverno"],
+      "correctIndex": 3
+    }
+  ]
+}

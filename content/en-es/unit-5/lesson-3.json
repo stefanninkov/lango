@@ -1,0 +1,154 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-5",
+  "title": "Transportation",
+  "vocabulary": [
+    {
+      "id": "autobus",
+      "word": "Autobús",
+      "translation": "Bus",
+      "pronunciation": "ow-toh-BOOS",
+      "example": "El autobús sale cada quince minutos.",
+      "exampleTranslation": "The bus leaves every fifteen minutes."
+    },
+    {
+      "id": "tren",
+      "word": "Tren",
+      "translation": "Train",
+      "pronunciation": "TREHN",
+      "example": "El tren a Barcelona tarda tres horas.",
+      "exampleTranslation": "The train to Barcelona takes three hours."
+    },
+    {
+      "id": "avion",
+      "word": "Avión",
+      "translation": "Airplane",
+      "pronunciation": "ah-VYON",
+      "example": "Prefiero viajar en avión porque es más rápido.",
+      "exampleTranslation": "I prefer to travel by airplane because it's faster."
+    },
+    {
+      "id": "taxi",
+      "word": "Taxi",
+      "translation": "Taxi",
+      "pronunciation": "TAHK-see",
+      "example": "Vamos a tomar un taxi al hotel.",
+      "exampleTranslation": "Let's take a taxi to the hotel."
+    },
+    {
+      "id": "billete",
+      "word": "Billete",
+      "translation": "Ticket",
+      "pronunciation": "bee-YEH-teh",
+      "example": "Necesito comprar un billete de ida y vuelta.",
+      "exampleTranslation": "I need to buy a round-trip ticket."
+    },
+    {
+      "id": "parada",
+      "word": "Parada",
+      "translation": "Stop",
+      "pronunciation": "pah-RAH-dah",
+      "example": "La parada de autobús está en la esquina.",
+      "exampleTranslation": "The bus stop is on the corner."
+    },
+    {
+      "id": "llegada",
+      "word": "Llegada",
+      "translation": "Arrival",
+      "pronunciation": "yeh-GAH-dah",
+      "example": "La hora de llegada es a las ocho de la mañana.",
+      "exampleTranslation": "The arrival time is at eight in the morning."
+    },
+    {
+      "id": "salida",
+      "word": "Salida",
+      "translation": "Departure",
+      "pronunciation": "sah-LEE-dah",
+      "example": "La salida del vuelo se ha retrasado una hora.",
+      "exampleTranslation": "The flight departure has been delayed one hour."
+    }
+  ],
+  "grammar": {
+    "title": "Prepositions of Transport: 'En' and 'A'",
+    "explanation": "In Spanish, use 'en' with most forms of transportation:\n\n• Viajar en tren/autobús/avión/taxi - To travel by train/bus/plane/taxi\n• Ir en coche/bicicleta/metro - To go by car/bicycle/subway\n\nUse 'a' only with 'a pie' (on foot): Voy a pie al trabajo. (I walk to work.)\n\nUseful travel expressions:\n• billete de ida - one-way ticket\n• billete de ida y vuelta - round-trip ticket\n• ¿A qué hora sale/llega...? - What time does ... leave/arrive?\n• El vuelo sale a las... - The flight leaves at...",
+    "examples": [
+      { "target": "Viajamos en tren de Madrid a Sevilla.", "native": "We travel by train from Madrid to Seville." },
+      { "target": "¿A qué hora sale el próximo autobús?", "native": "What time does the next bus leave?" },
+      { "target": "Quiero un billete de ida y vuelta, por favor.", "native": "I want a round-trip ticket, please." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-5-11",
+      "question": "How do you say 'I travel by train' in Spanish?",
+      "options": ["Viajo a tren.", "Viajo por tren.", "Viajo en tren.", "Viajo con tren."],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-5-12",
+      "sentence": "Necesito comprar un ___ de ida y vuelta.",
+      "answer": "billete",
+      "acceptableAnswers": ["billete", "Billete"],
+      "hint": "You need this to board the train"
+    },
+    {
+      "type": "matching",
+      "id": "ex-5-13",
+      "pairs": [
+        { "left": "Autobús", "right": "Bus" },
+        { "left": "Avión", "right": "Airplane" },
+        { "left": "Llegada", "right": "Arrival" },
+        { "left": "Salida", "right": "Departure" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-5-14",
+      "sentence": "What time does the next bus leave?",
+      "answer": "¿A qué hora sale el próximo autobús?",
+      "acceptableAnswers": ["¿A qué hora sale el próximo autobús?", "A qué hora sale el próximo autobús", "¿A qué hora sale el siguiente autobús?"],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-5-15",
+      "question": "What does 'parada' mean?",
+      "options": ["Parade", "Stop", "Wall", "Park"],
+      "correctIndex": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-5-11",
+      "question": "What is 'billete de ida y vuelta'?",
+      "options": ["One-way ticket", "Round-trip ticket", "Bus pass", "First-class ticket"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-5-12",
+      "question": "Which preposition is used with transportation?",
+      "options": ["a", "por", "en", "con"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-5-13",
+      "question": "What does 'llegada' mean?",
+      "options": ["Departure", "Delay", "Arrival", "Platform"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-5-14",
+      "question": "How do you say 'airplane' in Spanish?",
+      "options": ["Autobús", "Tren", "Taxi", "Avión"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-5-15",
+      "question": "What is 'La salida del vuelo se ha retrasado' in English?",
+      "options": ["The flight arrival was early.", "The flight departure has been delayed.", "The flight has been cancelled.", "The flight is on time."],
+      "correctIndex": 1
+    }
+  ]
+}

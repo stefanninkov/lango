@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-5",
+  "title": "Mesta u gradu",
+  "vocabulary": [
+    {
+      "id": "hotel",
+      "word": "hotel",
+      "translation": "hotel",
+      "pronunciation": "o-TEL",
+      "example": "El hotel está cerca del centro.",
+      "exampleTranslation": "Hotel je blizu centra."
+    },
+    {
+      "id": "aeropuerto",
+      "word": "aeropuerto",
+      "translation": "aerodrom",
+      "pronunciation": "a-e-ro-PUER-to",
+      "example": "El aeropuerto está lejos de la ciudad.",
+      "exampleTranslation": "Aerodrom je daleko od grada."
+    },
+    {
+      "id": "estacion",
+      "word": "estación",
+      "translation": "stanica",
+      "pronunciation": "es-ta-SJON",
+      "example": "La estación de tren está aquí.",
+      "exampleTranslation": "Železnička stanica je ovde."
+    },
+    {
+      "id": "museo",
+      "word": "museo",
+      "translation": "muzej",
+      "pronunciation": "mu-SE-o",
+      "example": "El museo abre a las diez.",
+      "exampleTranslation": "Muzej se otvara u deset."
+    },
+    {
+      "id": "banco",
+      "word": "banco",
+      "translation": "banka",
+      "pronunciation": "BAN-ko",
+      "example": "Necesito ir al banco.",
+      "exampleTranslation": "Moram da idem u banku."
+    },
+    {
+      "id": "farmacia",
+      "word": "farmacia",
+      "translation": "apoteka",
+      "pronunciation": "far-MA-sja",
+      "example": "¿Hay una farmacia por aquí?",
+      "exampleTranslation": "Ima li apoteka u blizini?"
+    },
+    {
+      "id": "hospital",
+      "word": "hospital",
+      "translation": "bolnica",
+      "pronunciation": "os-pi-TAL",
+      "example": "El hospital está en la calle principal.",
+      "exampleTranslation": "Bolnica je u glavnoj ulici."
+    },
+    {
+      "id": "iglesia",
+      "word": "iglesia",
+      "translation": "crkva",
+      "pronunciation": "i-GLE-sja",
+      "example": "La iglesia es muy antigua.",
+      "exampleTranslation": "Crkva je veoma stara."
+    }
+  ],
+  "grammar": {
+    "title": "Pitanje za pravac - '¿Dónde está...?'",
+    "explanation": "Za pitanje gde se nešto nalazi koristimo '¿Dónde está...?' (Gde je...?):\n\n• ¿Dónde está el banco? - Gde je banka?\n• ¿Dónde está la farmacia? - Gde je apoteka?\n\nZa pitanje da li nešto postoji u blizini: '¿Hay un/una... por aquí?' (Ima li... u blizini?)\n\nKorisni predlozi: en (u), cerca de (blizu), lejos de (daleko od), al lado de (pored).",
+    "examples": [
+      { "target": "¿Dónde está el museo?", "native": "Gde je muzej?" },
+      { "target": "¿Hay una farmacia por aquí?", "native": "Ima li apoteka u blizini?" },
+      { "target": "El hotel está al lado del banco.", "native": "Hotel je pored banke." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1",
+      "question": "Kako se kaže 'aerodrom' na španskom?",
+      "options": ["estación", "hospital", "aeropuerto", "hotel"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-2",
+      "sentence": "¿Hay una ___ por aquí?",
+      "answer": "farmacia",
+      "acceptableAnswers": ["farmacia", "Farmacia"],
+      "hint": "Reč za 'apoteka'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-3",
+      "pairs": [
+        { "left": "museo", "right": "muzej" },
+        { "left": "banco", "right": "banka" },
+        { "left": "hospital", "right": "bolnica" },
+        { "left": "iglesia", "right": "crkva" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-4",
+      "sentence": "Moram da idem u banku.",
+      "answer": "Necesito ir al banco.",
+      "acceptableAnswers": ["Necesito ir al banco", "Necesito ir al banco."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-5",
+      "question": "Šta znači 'estación'?",
+      "options": ["bolnica", "stanica", "crkva", "hotel"],
+      "correctIndex": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "Kako se kaže 'apoteka' na španskom?",
+      "options": ["hospital", "banco", "farmacia", "museo"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-2",
+      "question": "Šta znači 'iglesia'?",
+      "options": ["muzej", "bolnica", "banka", "crkva"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-1-3",
+      "question": "Kako pitate 'Gde je muzej?' na španskom?",
+      "options": ["¿Qué es el museo?", "¿Dónde está el museo?", "¿Hay un museo?", "¿Cómo es el museo?"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-4",
+      "question": "Šta znači 'aeropuerto'?",
+      "options": ["stanica", "hotel", "aerodrom", "bolnica"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-5",
+      "question": "Kako se kaže 'bolnica' na španskom?",
+      "options": ["farmacia", "hospital", "iglesia", "banco"],
+      "correctIndex": 1
+    }
+  ]
+}

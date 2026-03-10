@@ -1,0 +1,154 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-7",
+  "title": "Phone & Communication",
+  "vocabulary": [
+    {
+      "id": "llamada",
+      "word": "Llamada",
+      "translation": "Call",
+      "pronunciation": "yah-MAH-dah",
+      "example": "Recibí una llamada importante del cliente.",
+      "exampleTranslation": "I received an important call from the client."
+    },
+    {
+      "id": "mensaje",
+      "word": "Mensaje",
+      "translation": "Message",
+      "pronunciation": "mehn-SAH-heh",
+      "example": "¿Podría dejarle un mensaje, por favor?",
+      "exampleTranslation": "Could I leave him a message, please?"
+    },
+    {
+      "id": "responder",
+      "word": "Responder",
+      "translation": "To respond / To answer",
+      "pronunciation": "rreh-spohn-DEHR",
+      "example": "Le responderé a su correo esta tarde.",
+      "exampleTranslation": "I will respond to your email this afternoon."
+    },
+    {
+      "id": "enviar",
+      "word": "Enviar",
+      "translation": "To send",
+      "pronunciation": "ehn-VYAR",
+      "example": "Voy a enviar el documento por correo electrónico.",
+      "exampleTranslation": "I am going to send the document by email."
+    },
+    {
+      "id": "adjuntar",
+      "word": "Adjuntar",
+      "translation": "To attach",
+      "pronunciation": "ahd-hoon-TAR",
+      "example": "Le adjunto el informe que solicitó.",
+      "exampleTranslation": "I am attaching the report that you requested."
+    },
+    {
+      "id": "confirmar",
+      "word": "Confirmar",
+      "translation": "To confirm",
+      "pronunciation": "kohn-feer-MAR",
+      "example": "¿Podría confirmar la hora de la reunión?",
+      "exampleTranslation": "Could you confirm the time of the meeting?"
+    },
+    {
+      "id": "buzon",
+      "word": "Buzón",
+      "translation": "Voicemail / Mailbox",
+      "pronunciation": "boo-SOHN",
+      "example": "Su llamada fue derivada al buzón de voz.",
+      "exampleTranslation": "Your call was sent to voicemail."
+    },
+    {
+      "id": "conferencia",
+      "word": "Conferencia",
+      "translation": "Conference",
+      "pronunciation": "kohn-feh-REHN-syah",
+      "example": "Tenemos una conferencia telefónica a las tres.",
+      "exampleTranslation": "We have a phone conference at three."
+    }
+  ],
+  "grammar": {
+    "title": "The Conditional Tense for Polite Requests",
+    "explanation": "The conditional tense is widely used in formal and professional Spanish for polite requests and suggestions:\n\n• Formation: infinitive + -ía, -ías, -ía, -íamos, -íais, -ían\n  Responder → respondería (I would respond)\n  Poder → podría (could)\n\nCommon polite expressions:\n• ¿Podría usted...? - Could you...?\n• ¿Sería posible...? - Would it be possible...?\n• Le agradecería que... - I would appreciate it if...\n• Me gustaría... - I would like...\n\nThis is much more formal than using the present tense for requests.",
+    "examples": [
+      { "target": "¿Podría enviarme el documento lo antes posible?", "native": "Could you send me the document as soon as possible?" },
+      { "target": "Le agradecería que confirmara la asistencia.", "native": "I would appreciate it if you confirmed attendance." },
+      { "target": "¿Sería posible reprogramar la conferencia?", "native": "Would it be possible to reschedule the conference?" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-7-11",
+      "question": "Which is the most polite way to ask 'Can you send me the file?'",
+      "options": ["Envíame el archivo.", "¿Puedes enviarme el archivo?", "¿Podría enviarme el archivo?", "Quiero el archivo."],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-7-12",
+      "sentence": "Le ___ el informe que solicitó.",
+      "answer": "adjunto",
+      "acceptableAnswers": ["adjunto", "Adjunto"],
+      "hint": "To include a file with an email"
+    },
+    {
+      "type": "matching",
+      "id": "ex-7-13",
+      "pairs": [
+        { "left": "Llamada", "right": "Call" },
+        { "left": "Mensaje", "right": "Message" },
+        { "left": "Enviar", "right": "To send" },
+        { "left": "Confirmar", "right": "To confirm" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-7-14",
+      "sentence": "Could you confirm the time of the meeting?",
+      "answer": "¿Podría confirmar la hora de la reunión?",
+      "acceptableAnswers": ["¿Podría confirmar la hora de la reunión?", "Podría confirmar la hora de la reunión", "¿Podría usted confirmar la hora de la reunión?"],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-7-15",
+      "question": "What does 'buzón de voz' mean?",
+      "options": ["Voice recorder", "Voicemail", "Speaker", "Microphone"],
+      "correctIndex": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-7-11",
+      "question": "How do you form the conditional of 'enviar'?",
+      "options": ["Enviaré", "Enviaría", "Enviaba", "Envié"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-7-12",
+      "question": "What does 'adjuntar' mean?",
+      "options": ["To join", "To add", "To attach", "To adjust"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-7-13",
+      "question": "How do you say 'phone conference' in Spanish?",
+      "options": ["Llamada de grupo", "Conferencia telefónica", "Reunión por teléfono", "Comunicación directa"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-7-14",
+      "question": "What does '¿Sería posible...?' mean?",
+      "options": ["Is it possible...?", "Would it be possible...?", "Was it possible...?", "Will it be possible...?"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-7-15",
+      "question": "'Le responderé esta tarde' means:",
+      "options": ["I responded this afternoon.", "I would respond this afternoon.", "I will respond this afternoon.", "I am responding this afternoon."],
+      "correctIndex": 2
+    }
+  ]
+}

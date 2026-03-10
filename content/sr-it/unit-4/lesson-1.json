@@ -1,0 +1,156 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-4",
+  "title": "Uobičajena hrana",
+  "vocabulary": [
+    {
+      "id": "v-4-1-1",
+      "word": "pane",
+      "translation": "hleb",
+      "pronunciation": "pane",
+      "example": "Compro il pane ogni mattina.",
+      "exampleTranslation": "Kupujem hleb svakog jutra."
+    },
+    {
+      "id": "v-4-1-2",
+      "word": "acqua",
+      "translation": "voda",
+      "pronunciation": "akva",
+      "example": "Vorrei un bicchiere d'acqua.",
+      "exampleTranslation": "Želeo bih čašu vode."
+    },
+    {
+      "id": "v-4-1-3",
+      "word": "carne",
+      "translation": "meso",
+      "pronunciation": "karne",
+      "example": "La carne è fresca oggi.",
+      "exampleTranslation": "Meso je sveže danas."
+    },
+    {
+      "id": "v-4-1-4",
+      "word": "pesce",
+      "translation": "riba",
+      "pronunciation": "peše",
+      "example": "Mi piace il pesce alla griglia.",
+      "exampleTranslation": "Volim ribu sa roštilja."
+    },
+    {
+      "id": "v-4-1-5",
+      "word": "riso",
+      "translation": "pirinač",
+      "pronunciation": "rizo",
+      "example": "Il riso è un alimento base.",
+      "exampleTranslation": "Pirinač je osnovna namirnica."
+    },
+    {
+      "id": "v-4-1-6",
+      "word": "frutta",
+      "translation": "voće",
+      "pronunciation": "fruta",
+      "example": "La frutta è molto sana.",
+      "exampleTranslation": "Voće je veoma zdravo."
+    },
+    {
+      "id": "v-4-1-7",
+      "word": "verdura",
+      "translation": "povrće",
+      "pronunciation": "verdura",
+      "example": "Mangio verdura ogni giorno.",
+      "exampleTranslation": "Jedem povrće svaki dan."
+    },
+    {
+      "id": "v-4-1-8",
+      "word": "latte",
+      "translation": "mleko",
+      "pronunciation": "late",
+      "example": "Bevo il latte a colazione.",
+      "exampleTranslation": "Pijem mleko za doručak."
+    }
+  ],
+  "grammar": {
+    "title": "Član uz imenice za hranu",
+    "explanation": "U italijanskom jeziku imenice za hranu obično idu sa određenim članom kada govorimo o hrani uopšteno: 'il pane' (hleb), 'la carne' (meso), 'il pesce' (riba). Kada naručujemo ili tražimo nešto, koristimo neodređeni član ili partitivni član: 'del pane' (malo hleba), 'dell'acqua' (malo vode). Partitivni član 'di + član' koristi se za izražavanje neodređene količine.",
+    "examples": [
+      { "target": "Il pane è fresco.", "native": "Hleb je svež." },
+      { "target": "Vorrei del pane.", "native": "Želeo bih (malo) hleba." },
+      { "target": "La frutta è buona.", "native": "Voće je dobro." },
+      { "target": "Compro della frutta.", "native": "Kupujem (malo) voća." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-4-1-1",
+      "question": "Kako se kaže 'hleb' na italijanskom?",
+      "options": ["carne", "pesce", "pane", "riso"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-4-1-2",
+      "sentence": "Vorrei un bicchiere d'___.",
+      "answer": "acqua",
+      "acceptableAnswers": ["acqua"],
+      "hint": "Želeo bih čašu vode."
+    },
+    {
+      "type": "matching",
+      "id": "ex-4-1-3",
+      "pairs": [
+        { "left": "pane", "right": "hleb" },
+        { "left": "carne", "right": "meso" },
+        { "left": "pesce", "right": "riba" },
+        { "left": "latte", "right": "mleko" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-4-1-4",
+      "sentence": "Jedem povrće svaki dan.",
+      "answer": "Mangio verdura ogni giorno.",
+      "acceptableAnswers": ["Mangio verdura ogni giorno.", "Mangio verdura ogni giorno"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-4-1-5",
+      "sentence": "La ___ è molto sana.",
+      "answer": "frutta",
+      "acceptableAnswers": ["frutta", "verdura"],
+      "hint": "Voće je veoma zdravo."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-4-1-1",
+      "question": "Šta znači 'pesce'?",
+      "options": ["meso", "hleb", "riba", "pirinač"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-4-1-2",
+      "question": "Kako se kaže 'mleko' na italijanskom?",
+      "options": ["acqua", "latte", "riso", "pane"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-4-1-3",
+      "question": "Šta znači 'verdura'?",
+      "options": ["voće", "meso", "voda", "povrće"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-4-1-4",
+      "question": "Koji je tačan prevod za 'Kupujem hleb svakog jutra'?",
+      "options": ["Compro la carne ogni mattina.", "Compro il pane ogni mattina.", "Compro il riso ogni mattina.", "Compro il latte ogni mattina."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-4-1-5",
+      "question": "Kako se kaže 'pirinač' na italijanskom?",
+      "options": ["pane", "pesce", "riso", "carne"],
+      "correctIndex": 2
+    }
+  ]
+}

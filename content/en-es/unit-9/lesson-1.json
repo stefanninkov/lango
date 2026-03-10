@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-9",
+  "title": "Arts & Entertainment",
+  "vocabulary": [
+    {
+      "id": "pelicula",
+      "word": "Película",
+      "translation": "Movie / Film",
+      "pronunciation": "peh-LEE-koo-lah",
+      "example": "Anoche vimos una película española muy interesante.",
+      "exampleTranslation": "Last night we watched a very interesting Spanish movie."
+    },
+    {
+      "id": "musica",
+      "word": "Música",
+      "translation": "Music",
+      "pronunciation": "MOO-see-kah",
+      "example": "La música latina se ha vuelto muy popular en todo el mundo.",
+      "exampleTranslation": "Latin music has become very popular worldwide."
+    },
+    {
+      "id": "libro",
+      "word": "Libro",
+      "translation": "Book",
+      "pronunciation": "LEE-broh",
+      "example": "Este libro fue escrito por un autor colombiano.",
+      "exampleTranslation": "This book was written by a Colombian author."
+    },
+    {
+      "id": "teatro",
+      "word": "Teatro",
+      "translation": "Theater",
+      "pronunciation": "teh-AH-troh",
+      "example": "Fuimos al teatro a ver una obra de García Lorca.",
+      "exampleTranslation": "We went to the theater to see a play by García Lorca."
+    },
+    {
+      "id": "pintura",
+      "word": "Pintura",
+      "translation": "Painting",
+      "pronunciation": "peen-TOO-rah",
+      "example": "Las pinturas de Picasso se exhiben en este museo.",
+      "exampleTranslation": "Picasso's paintings are exhibited in this museum."
+    },
+    {
+      "id": "concierto",
+      "word": "Concierto",
+      "translation": "Concert",
+      "pronunciation": "kohn-SYEHR-toh",
+      "example": "El concierto de anoche fue absolutamente increíble.",
+      "exampleTranslation": "Last night's concert was absolutely incredible."
+    },
+    {
+      "id": "exposicion",
+      "word": "Exposición",
+      "translation": "Exhibition",
+      "pronunciation": "ehk-spoh-see-SYON",
+      "example": "Hay una exposición de arte contemporáneo en la galería.",
+      "exampleTranslation": "There is a contemporary art exhibition at the gallery."
+    },
+    {
+      "id": "espectaculo",
+      "word": "Espectáculo",
+      "translation": "Show / Performance",
+      "pronunciation": "eh-spek-TAH-koo-loh",
+      "example": "El espectáculo de flamenco fue emocionante.",
+      "exampleTranslation": "The flamenco show was exciting."
+    }
+  ],
+  "grammar": {
+    "title": "The Passive Voice and 'Fue' + Past Participle",
+    "explanation": "In advanced Spanish, the passive voice is used frequently in cultural and artistic contexts:\n\n• Ser + past participle (+ por):\n  El libro fue escrito por Cervantes. - The book was written by Cervantes.\n  La película fue dirigida por Almodóvar. - The film was directed by Almodóvar.\n\nPast participle formation: -ar → -ado, -er/-ir → -ido\n  pintar → pintado, escribir → escrito (irregular), dirigir → dirigido\n\nCommon irregular past participles:\n  escribir → escrito, hacer → hecho, ver → visto, abrir → abierto, decir → dicho\n\nThe passive with 'se' is also very common:\n  Se exhiben las obras en el museo. - The works are exhibited in the museum.",
+    "examples": [
+      { "target": "El Guernica fue pintado por Picasso en 1937.", "native": "Guernica was painted by Picasso in 1937." },
+      { "target": "La exposición fue inaugurada por el alcalde.", "native": "The exhibition was inaugurated by the mayor." },
+      { "target": "Se presentan tres espectáculos cada noche.", "native": "Three shows are presented every night." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-9-1",
+      "question": "How do you say 'The book was written by Cervantes' in Spanish?",
+      "options": ["El libro escribió por Cervantes.", "El libro fue escrito por Cervantes.", "El libro era escrito por Cervantes.", "El libro se escribió Cervantes."],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-9-2",
+      "sentence": "Hay una ___ de arte contemporáneo en la galería.",
+      "answer": "exposición",
+      "acceptableAnswers": ["exposición", "Exposición", "exposicion"],
+      "hint": "A public display of art or objects"
+    },
+    {
+      "type": "matching",
+      "id": "ex-9-3",
+      "pairs": [
+        { "left": "Película", "right": "Movie" },
+        { "left": "Pintura", "right": "Painting" },
+        { "left": "Concierto", "right": "Concert" },
+        { "left": "Espectáculo", "right": "Show" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-9-4",
+      "sentence": "Last night's concert was absolutely incredible.",
+      "answer": "El concierto de anoche fue absolutamente increíble.",
+      "acceptableAnswers": ["El concierto de anoche fue absolutamente increíble", "El concierto de anoche fue absolutamente increíble."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-9-5",
+      "question": "What is the past participle of 'escribir'?",
+      "options": ["Escribido", "Escribado", "Escrito", "Escribiendo"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-9-1",
+      "question": "What does 'exposición' mean?",
+      "options": ["Explosion", "Exhibition", "Exposition", "Both B and C"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-9-2",
+      "question": "How do you say 'theater' in Spanish?",
+      "options": ["Cine", "Teatro", "Escenario", "Sala"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-9-3",
+      "question": "Which is an irregular past participle?",
+      "options": ["Pintado", "Cantado", "Escrito", "Bailado"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-9-4",
+      "question": "What does 'espectáculo' mean?",
+      "options": ["Spectacle", "Show / Performance", "Spectacular", "Audience"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-9-5",
+      "question": "'La película fue dirigida por Almodóvar' is in which voice?",
+      "options": ["Active", "Passive", "Reflexive", "Impersonal"],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-4",
+  "title": "Common Foods",
+  "vocabulary": [
+    {
+      "id": "pan",
+      "word": "Pan",
+      "translation": "Bread",
+      "pronunciation": "PAHN",
+      "example": "Compro pan fresco todas las mañanas.",
+      "exampleTranslation": "I buy fresh bread every morning."
+    },
+    {
+      "id": "agua",
+      "word": "Agua",
+      "translation": "Water",
+      "pronunciation": "AH-gwah",
+      "example": "¿Me puede traer un vaso de agua, por favor?",
+      "exampleTranslation": "Can you bring me a glass of water, please?"
+    },
+    {
+      "id": "carne",
+      "word": "Carne",
+      "translation": "Meat",
+      "pronunciation": "KAR-neh",
+      "example": "La carne de esta región es excelente.",
+      "exampleTranslation": "The meat from this region is excellent."
+    },
+    {
+      "id": "pescado",
+      "word": "Pescado",
+      "translation": "Fish",
+      "pronunciation": "peh-SKAH-doh",
+      "example": "El pescado está muy fresco hoy.",
+      "exampleTranslation": "The fish is very fresh today."
+    },
+    {
+      "id": "arroz",
+      "word": "Arroz",
+      "translation": "Rice",
+      "pronunciation": "ah-ROHS",
+      "example": "La paella lleva mucho arroz.",
+      "exampleTranslation": "Paella has a lot of rice."
+    },
+    {
+      "id": "fruta",
+      "word": "Fruta",
+      "translation": "Fruit",
+      "pronunciation": "FROO-tah",
+      "example": "Me gusta comer fruta después de la comida.",
+      "exampleTranslation": "I like to eat fruit after the meal."
+    },
+    {
+      "id": "verdura",
+      "word": "Verdura",
+      "translation": "Vegetable",
+      "pronunciation": "vehr-DOO-rah",
+      "example": "Las verduras son importantes para la salud.",
+      "exampleTranslation": "Vegetables are important for health."
+    },
+    {
+      "id": "leche",
+      "word": "Leche",
+      "translation": "Milk",
+      "pronunciation": "LEH-cheh",
+      "example": "Tomo café con leche por la mañana.",
+      "exampleTranslation": "I drink coffee with milk in the morning."
+    }
+  ],
+  "grammar": {
+    "title": "The Verb 'Gustar' (To Like)",
+    "explanation": "In Spanish, 'gustar' works differently from English. Instead of 'I like something,' the structure is literally 'Something is pleasing to me':\n\n• Me gusta + singular noun: Me gusta el pan. (I like bread.)\n• Me gustan + plural noun: Me gustan las frutas. (I like fruits.)\n\nThe indirect object pronouns are: me (I), te (you), le (he/she/you formal), nos (we), les (they/you all).\n\nTo express dislike, add 'no' before the pronoun: No me gusta la carne. (I don't like meat.)",
+    "examples": [
+      { "target": "Me gusta mucho el arroz con pescado.", "native": "I really like rice with fish." },
+      { "target": "¿Te gustan las verduras?", "native": "Do you like vegetables?" },
+      { "target": "No nos gusta la leche fría.", "native": "We don't like cold milk." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-4-1",
+      "question": "How do you say 'I like bread' in Spanish?",
+      "options": ["Yo gusto el pan.", "Me gusta el pan.", "Me gustan el pan.", "Yo como el pan."],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-4-2",
+      "sentence": "El ___ está muy fresco hoy.",
+      "answer": "pescado",
+      "acceptableAnswers": ["pescado", "Pescado"],
+      "hint": "An animal that lives in water"
+    },
+    {
+      "type": "matching",
+      "id": "ex-4-3",
+      "pairs": [
+        { "left": "Pan", "right": "Bread" },
+        { "left": "Carne", "right": "Meat" },
+        { "left": "Verdura", "right": "Vegetable" },
+        { "left": "Leche", "right": "Milk" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-4-4",
+      "sentence": "I drink coffee with milk in the morning.",
+      "answer": "Tomo café con leche por la mañana.",
+      "acceptableAnswers": ["Tomo café con leche por la mañana", "Tomo café con leche por la mañana.", "Yo tomo café con leche por la mañana."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-4-5",
+      "question": "What does 'arroz' mean?",
+      "options": ["Bread", "Fish", "Rice", "Fruit"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-4-1",
+      "question": "Which is the correct form: 'Me ___ las frutas.'?",
+      "options": ["gusta", "gustan", "gusto", "gustas"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-4-2",
+      "question": "What is 'water' in Spanish?",
+      "options": ["Leche", "Agua", "Arroz", "Pan"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-4-3",
+      "question": "How do you say 'The meat is excellent'?",
+      "options": ["La carne es excelente.", "El carne es excelente.", "La carne está excelente.", "Las carnes son excelentes."],
+      "correctIndex": 0
+    },
+    {
+      "id": "q-4-4",
+      "question": "What does 'verdura' mean?",
+      "options": ["Truth", "Green", "Vegetable", "Garden"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-4-5",
+      "question": "Which sentence correctly uses 'gustar'?",
+      "options": ["Yo gusto el pan.", "El pan me gusta.", "Me gusta el pan.", "Both B and C are correct."],
+      "correctIndex": 3
+    }
+  ]
+}

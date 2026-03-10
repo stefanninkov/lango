@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-8",
+  "title": "At the Doctor",
+  "vocabulary": [
+    {
+      "id": "sintoma",
+      "word": "Síntoma",
+      "translation": "Symptom",
+      "pronunciation": "SEEN-toh-mah",
+      "example": "¿Cuáles son sus síntomas principales?",
+      "exampleTranslation": "What are your main symptoms?"
+    },
+    {
+      "id": "receta",
+      "word": "Receta",
+      "translation": "Prescription",
+      "pronunciation": "rreh-SEH-tah",
+      "example": "El médico le dio una receta para los antibióticos.",
+      "exampleTranslation": "The doctor gave her a prescription for antibiotics."
+    },
+    {
+      "id": "diagnostico",
+      "word": "Diagnóstico",
+      "translation": "Diagnosis",
+      "pronunciation": "dyahg-NOH-stee-koh",
+      "example": "El diagnóstico fue una infección respiratoria.",
+      "exampleTranslation": "The diagnosis was a respiratory infection."
+    },
+    {
+      "id": "tratamiento",
+      "word": "Tratamiento",
+      "translation": "Treatment",
+      "pronunciation": "trah-tah-MYEHN-toh",
+      "example": "El tratamiento dura dos semanas.",
+      "exampleTranslation": "The treatment lasts two weeks."
+    },
+    {
+      "id": "analisis",
+      "word": "Análisis",
+      "translation": "Test / Analysis",
+      "pronunciation": "ah-NAH-lee-sees",
+      "example": "Necesita hacerse unos análisis de sangre.",
+      "exampleTranslation": "You need to have some blood tests done."
+    },
+    {
+      "id": "alergia",
+      "word": "Alergia",
+      "translation": "Allergy",
+      "pronunciation": "ah-LEHR-hyah",
+      "example": "Tengo alergia al polen en primavera.",
+      "exampleTranslation": "I have an allergy to pollen in spring."
+    },
+    {
+      "id": "cita",
+      "word": "Cita",
+      "translation": "Appointment",
+      "pronunciation": "SEE-tah",
+      "example": "Tengo una cita con el especialista a las cuatro.",
+      "exampleTranslation": "I have an appointment with the specialist at four."
+    },
+    {
+      "id": "cirugia",
+      "word": "Cirugía",
+      "translation": "Surgery",
+      "pronunciation": "see-roo-HEE-ah",
+      "example": "La cirugía fue exitosa y el paciente se recupera bien.",
+      "exampleTranslation": "The surgery was successful and the patient is recovering well."
+    }
+  ],
+  "grammar": {
+    "title": "The Subjunctive for Medical Recommendations",
+    "explanation": "In medical contexts, doctors often use the subjunctive mood after expressions of recommendation, necessity, or desire:\n\n• Es importante que + subjunctive:\n  Es importante que tome la medicina cada ocho horas. - It's important that you take the medicine every eight hours.\n\n• Le recomiendo que + subjunctive:\n  Le recomiendo que descanse durante una semana. - I recommend that you rest for a week.\n\n• Es necesario que + subjunctive:\n  Es necesario que se haga los análisis. - It's necessary that you get the tests done.\n\nPresent subjunctive formation: -ar verbs → -e endings; -er/-ir verbs → -a endings.\n  tomar → tome; comer → coma; dormir → duerma",
+    "examples": [
+      { "target": "Le recomiendo que no haga ejercicio durante dos semanas.", "native": "I recommend that you not exercise for two weeks." },
+      { "target": "Es necesario que tome estos antibióticos durante diez días.", "native": "It's necessary that you take these antibiotics for ten days." },
+      { "target": "Es importante que venga a la cita de seguimiento.", "native": "It's important that you come to the follow-up appointment." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-8-6",
+      "question": "Which mood is used after 'Es importante que...'?",
+      "options": ["Indicative", "Subjunctive", "Imperative", "Conditional"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-8-7",
+      "sentence": "El ___ fue una infección respiratoria.",
+      "answer": "diagnóstico",
+      "acceptableAnswers": ["diagnóstico", "Diagnóstico", "diagnostico"],
+      "hint": "The doctor's identification of an illness"
+    },
+    {
+      "type": "matching",
+      "id": "ex-8-8",
+      "pairs": [
+        { "left": "Síntoma", "right": "Symptom" },
+        { "left": "Tratamiento", "right": "Treatment" },
+        { "left": "Alergia", "right": "Allergy" },
+        { "left": "Cirugía", "right": "Surgery" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-8-9",
+      "sentence": "I recommend that you rest for a week.",
+      "answer": "Le recomiendo que descanse durante una semana.",
+      "acceptableAnswers": ["Le recomiendo que descanse durante una semana", "Le recomiendo que descanse durante una semana.", "Le recomiendo que descanse por una semana."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-8-10",
+      "question": "What does 'análisis de sangre' mean?",
+      "options": ["Blood pressure", "Blood test", "Blood type", "Blood donation"],
+      "correctIndex": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-8-6",
+      "question": "What is a 'cita' in a medical context?",
+      "options": ["Citation", "Appointment", "Quote", "Date"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-8-7",
+      "question": "What is the subjunctive of 'tomar' (usted)?",
+      "options": ["Toma", "Tome", "Tomara", "Tomaría"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-8-8",
+      "question": "What does 'receta' mean in a medical context?",
+      "options": ["Recipe", "Prescription", "Receipt", "Report"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-8-9",
+      "question": "How do you say 'The treatment lasts two weeks'?",
+      "options": ["El tratamiento es dos semanas.", "El tratamiento dura dos semanas.", "El tratamiento tiene dos semanas.", "El tratamiento hace dos semanas."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-8-10",
+      "question": "What does 'cirugía' mean?",
+      "options": ["Circulation", "Surgery", "Circle", "Circus"],
+      "correctIndex": 1
+    }
+  ]
+}

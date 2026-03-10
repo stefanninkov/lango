@@ -1,0 +1,156 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-5",
+  "title": "Pravci",
+  "vocabulary": [
+    {
+      "id": "v-5-2-1",
+      "word": "sinistra",
+      "translation": "levo",
+      "pronunciation": "sinistra",
+      "example": "Gira a sinistra al semaforo.",
+      "exampleTranslation": "Skreni levo na semaforu."
+    },
+    {
+      "id": "v-5-2-2",
+      "word": "destra",
+      "translation": "desno",
+      "pronunciation": "destra",
+      "example": "La farmacia è a destra.",
+      "exampleTranslation": "Apoteka je desno."
+    },
+    {
+      "id": "v-5-2-3",
+      "word": "dritto",
+      "translation": "pravo",
+      "pronunciation": "drito",
+      "example": "Vai sempre dritto per due isolati.",
+      "exampleTranslation": "Idi stalno pravo dva bloka."
+    },
+    {
+      "id": "v-5-2-4",
+      "word": "vicino",
+      "translation": "blizu",
+      "pronunciation": "vičino",
+      "example": "Il museo è vicino a qui.",
+      "exampleTranslation": "Muzej je blizu odavde."
+    },
+    {
+      "id": "v-5-2-5",
+      "word": "lontano",
+      "translation": "daleko",
+      "pronunciation": "lontano",
+      "example": "L'aeroporto è lontano.",
+      "exampleTranslation": "Aerodrom je daleko."
+    },
+    {
+      "id": "v-5-2-6",
+      "word": "angolo",
+      "translation": "ugao",
+      "pronunciation": "angolo",
+      "example": "La banca è all'angolo della strada.",
+      "exampleTranslation": "Banka je na uglu ulice."
+    },
+    {
+      "id": "v-5-2-7",
+      "word": "attraversare",
+      "translation": "preći",
+      "pronunciation": "atraversare",
+      "example": "Devi attraversare la piazza.",
+      "exampleTranslation": "Moraš preći trg."
+    },
+    {
+      "id": "v-5-2-8",
+      "word": "semaforo",
+      "translation": "semafor",
+      "pronunciation": "semaforo",
+      "example": "Fermati al semaforo rosso.",
+      "exampleTranslation": "Stani na crvenom semaforu."
+    }
+  ],
+  "grammar": {
+    "title": "Imperativ – davanje uputstava",
+    "explanation": "U italijanskom jeziku imperativ se koristi za davanje uputstava i pravaca. Za neformalno obraćanje (tu), glagoli na '-are' dobijaju nastavak '-a' (gira = skreni), glagoli na '-ere' dobijaju '-i' (prendi = uzmi), a glagoli na '-ire' dobijaju '-i' (segui = prati). Za formalno obraćanje (Lei), koristi se konjunktiv: 'giri' (skrenite), 'prenda' (uzmite). Negativni imperativ za 'tu' formu koristi 'non' + infinitiv: 'non girare' (ne skreći).",
+    "examples": [
+      { "target": "Gira a sinistra.", "native": "Skreni levo." },
+      { "target": "Vai dritto.", "native": "Idi pravo." },
+      { "target": "Attraversa la strada.", "native": "Pređi ulicu." },
+      { "target": "Non girare a destra.", "native": "Ne skreći desno." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-5-2-1",
+      "question": "Kako se kaže 'levo' na italijanskom?",
+      "options": ["destra", "dritto", "sinistra", "vicino"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-5-2-2",
+      "sentence": "Vai sempre ___ per due isolati.",
+      "answer": "dritto",
+      "acceptableAnswers": ["dritto"],
+      "hint": "Idi stalno pravo dva bloka."
+    },
+    {
+      "type": "matching",
+      "id": "ex-5-2-3",
+      "pairs": [
+        { "left": "sinistra", "right": "levo" },
+        { "left": "destra", "right": "desno" },
+        { "left": "vicino", "right": "blizu" },
+        { "left": "lontano", "right": "daleko" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-5-2-4",
+      "sentence": "Skreni levo na semaforu.",
+      "answer": "Gira a sinistra al semaforo.",
+      "acceptableAnswers": ["Gira a sinistra al semaforo.", "Gira a sinistra al semaforo"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-5-2-5",
+      "sentence": "Fermati al ___ rosso.",
+      "answer": "semaforo",
+      "acceptableAnswers": ["semaforo"],
+      "hint": "Stani na crvenom semaforu."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-5-2-1",
+      "question": "Šta znači 'attraversare'?",
+      "options": ["skrenuti", "stajati", "preći", "ići"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-5-2-2",
+      "question": "Kako se kaže 'desno' na italijanskom?",
+      "options": ["sinistra", "destra", "dritto", "angolo"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-5-2-3",
+      "question": "Šta znači 'angolo'?",
+      "options": ["semafor", "ulica", "trg", "ugao"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-5-2-4",
+      "question": "Koji je tačan prevod za 'Idi pravo'?",
+      "options": ["Gira a sinistra.", "Vai dritto.", "Attraversa la strada.", "Fermati qui."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-5-2-5",
+      "question": "Kako se kaže 'semafor' na italijanskom?",
+      "options": ["angolo", "incrocio", "semaforo", "strada"],
+      "correctIndex": 2
+    }
+  ]
+}

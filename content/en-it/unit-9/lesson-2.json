@@ -1,0 +1,155 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-9",
+  "title": "Expressing Opinions",
+  "vocabulary": [
+    {
+      "id": "v-2-1",
+      "word": "pensare",
+      "translation": "to think",
+      "pronunciation": "pen-SAH-reh",
+      "example": "Penso che questa sia una buona idea.",
+      "exampleTranslation": "I think this is a good idea."
+    },
+    {
+      "id": "v-2-2",
+      "word": "credere",
+      "translation": "to believe",
+      "pronunciation": "KREH-deh-reh",
+      "example": "Credo che abbiano ragione.",
+      "exampleTranslation": "I believe they are right."
+    },
+    {
+      "id": "v-2-3",
+      "word": "essere d'accordo",
+      "translation": "to agree",
+      "pronunciation": "ES-seh-reh dahk-KOR-doh",
+      "example": "Sono d'accordo con il Suo punto di vista.",
+      "exampleTranslation": "I agree with your point of view. (formal)"
+    },
+    {
+      "id": "v-2-4",
+      "word": "tuttavia",
+      "translation": "however",
+      "pronunciation": "toot-tah-VEE-ah",
+      "example": "È un buon piano; tuttavia, ci sono dei rischi.",
+      "exampleTranslation": "It is a good plan; however, there are risks."
+    },
+    {
+      "id": "v-2-5",
+      "word": "sebbene",
+      "translation": "although",
+      "pronunciation": "seb-BEH-neh",
+      "example": "Sebbene sia difficile, non è impossibile.",
+      "exampleTranslation": "Although it is difficult, it is not impossible."
+    },
+    {
+      "id": "v-2-6",
+      "word": "inoltre",
+      "translation": "moreover / furthermore",
+      "pronunciation": "ee-NOL-treh",
+      "example": "Inoltre, vorrei aggiungere un'osservazione.",
+      "exampleTranslation": "Furthermore, I would like to add an observation."
+    },
+    {
+      "id": "v-2-7",
+      "word": "quindi",
+      "translation": "therefore",
+      "pronunciation": "KWEEN-dee",
+      "example": "Non c'è tempo, quindi dobbiamo decidere subito.",
+      "exampleTranslation": "There is no time, therefore we must decide immediately."
+    },
+    {
+      "id": "v-2-8",
+      "word": "invece",
+      "translation": "instead / on the contrary",
+      "pronunciation": "een-VEH-cheh",
+      "example": "Lui è d'accordo; io, invece, ho dei dubbi.",
+      "exampleTranslation": "He agrees; I, on the contrary, have doubts."
+    }
+  ],
+  "grammar": {
+    "title": "The Subjunctive after Opinion Verbs and Conjunctions",
+    "explanation": "In Italian, verbs of opinion (pensare, credere, ritenere) and concessive conjunctions (sebbene, benché, nonostante) require the subjunctive in the subordinate clause: 'Penso che sia giusto' (I think it is right), 'Sebbene faccia freddo, esco' (Although it is cold, I go out). Connectors like 'tuttavia', 'quindi', 'inoltre', and 'invece' do NOT trigger the subjunctive as they connect independent clauses. The key is distinguishing between conjunctions that require subjunctive (sebbene, affinché, prima che) and connectors that do not (tuttavia, quindi, perciò).",
+    "examples": [
+      { "target": "Penso che il governo debba intervenire.", "native": "I think the government should intervene." },
+      { "target": "Sebbene il problema sia complesso, possiamo risolverlo.", "native": "Although the problem is complex, we can solve it." },
+      { "target": "Non sono d'accordo; tuttavia, rispetto la Sua opinione.", "native": "I don't agree; however, I respect your opinion. (formal)" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-1",
+      "question": "Which conjunction requires the subjunctive?",
+      "options": ["Quindi", "Tuttavia", "Sebbene", "Invece"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-2",
+      "sentence": "Penso che questa ___ una buona idea.",
+      "answer": "sia",
+      "acceptableAnswers": ["sia", "Sia"],
+      "hint": "Subjunctive of 'essere'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-3",
+      "pairs": [
+        { "left": "Tuttavia", "right": "However" },
+        { "left": "Quindi", "right": "Therefore" },
+        { "left": "Inoltre", "right": "Furthermore" },
+        { "left": "Invece", "right": "Instead" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-4",
+      "sentence": "Although it is difficult, it is not impossible.",
+      "answer": "Sebbene sia difficile, non è impossibile.",
+      "acceptableAnswers": ["Sebbene sia difficile, non è impossibile"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-5",
+      "sentence": "Non c'è tempo, ___ dobbiamo decidere subito.",
+      "answer": "quindi",
+      "acceptableAnswers": ["quindi", "Quindi"],
+      "hint": "Therefore"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "What does 'essere d'accordo' mean?",
+      "options": ["To be in accord", "To agree", "To accept", "To approve"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-2",
+      "question": "What does 'sebbene' mean?",
+      "options": ["Because", "Although", "Therefore", "Instead"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-3",
+      "question": "Which sentence correctly uses the subjunctive?",
+      "options": ["Penso che è giusto.", "Penso che sia giusto.", "Penso che sarà giusto.", "Penso che era giusto."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-4",
+      "question": "What does 'tuttavia' mean?",
+      "options": ["Always", "However", "Already", "All the way"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-5",
+      "question": "Which word means 'furthermore'?",
+      "options": ["Invece", "Quindi", "Inoltre", "Tuttavia"],
+      "correctIndex": 2
+    }
+  ]
+}

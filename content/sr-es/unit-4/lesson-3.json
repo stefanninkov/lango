@@ -1,0 +1,154 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-4",
+  "title": "Kuvanje i obroci",
+  "vocabulary": [
+    {
+      "id": "desayuno",
+      "word": "desayuno",
+      "translation": "doručak",
+      "pronunciation": "de-sa-JU-no",
+      "example": "El desayuno es la comida más importante.",
+      "exampleTranslation": "Doručak je najvažniji obrok."
+    },
+    {
+      "id": "almuerzo",
+      "word": "almuerzo",
+      "translation": "ručak",
+      "pronunciation": "al-MUER-so",
+      "example": "¿A qué hora es el almuerzo?",
+      "exampleTranslation": "U koliko sati je ručak?"
+    },
+    {
+      "id": "cena",
+      "word": "cena",
+      "translation": "večera",
+      "pronunciation": "SE-na",
+      "example": "La cena está lista.",
+      "exampleTranslation": "Večera je gotova."
+    },
+    {
+      "id": "cocinar",
+      "word": "cocinar",
+      "translation": "kuvati",
+      "pronunciation": "ko-si-NAR",
+      "example": "Me gusta cocinar los fines de semana.",
+      "exampleTranslation": "Volim da kuvam vikendom."
+    },
+    {
+      "id": "hervir",
+      "word": "hervir",
+      "translation": "kuvati/ključati",
+      "pronunciation": "er-VIR",
+      "example": "Hay que hervir el agua primero.",
+      "exampleTranslation": "Prvo treba prokuvati vodu."
+    },
+    {
+      "id": "freir",
+      "word": "freír",
+      "translation": "pržiti",
+      "pronunciation": "fre-IR",
+      "example": "Voy a freír los huevos.",
+      "exampleTranslation": "Pržiću jaja."
+    },
+    {
+      "id": "hornear",
+      "word": "hornear",
+      "translation": "peći",
+      "pronunciation": "or-ne-AR",
+      "example": "Mi madre sabe hornear pasteles.",
+      "exampleTranslation": "Moja majka ume da peče kolače."
+    },
+    {
+      "id": "receta",
+      "word": "receta",
+      "translation": "recept",
+      "pronunciation": "re-SE-ta",
+      "example": "Esta receta es de mi abuela.",
+      "exampleTranslation": "Ovaj recept je od moje bake."
+    }
+  ],
+  "grammar": {
+    "title": "Glagoli za kuvanje - pravilni i nepravilni",
+    "explanation": "Glagoli za kuvanje u španskom mogu biti pravilni i nepravilni:\n\n• Pravilni (-ar): cocinar (kuvati), hornear (peći) - cocino, cocinas, cocina\n• Pravilni (-ir): freír (pržiti) - nepravilan: frío, fríes, fríe\n• Nepravilni: hervir (ključati) - hiervo, hierves, hierve\n\nZa izražavanje navika koristi se 'soler + infinitiv': 'Suelo desayunar a las ocho' (Obično doručkujem u osam).",
+    "examples": [
+      { "target": "Cocino la cena todos los días.", "native": "Kuvam večeru svaki dan." },
+      { "target": "¿Sabes hervir arroz?", "native": "Da li umeš da kuvaš pirinač?" },
+      { "target": "Suelo desayunar a las siete.", "native": "Obično doručkujem u sedam." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1",
+      "question": "Kako se kaže 'doručak' na španskom?",
+      "options": ["cena", "almuerzo", "desayuno", "receta"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2",
+      "sentence": "Hay que ___ el agua primero.",
+      "answer": "hervir",
+      "acceptableAnswers": ["hervir", "Hervir"],
+      "hint": "Glagol koji znači 'kuvati/ključati'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-3",
+      "pairs": [
+        { "left": "desayuno", "right": "doručak" },
+        { "left": "almuerzo", "right": "ručak" },
+        { "left": "cena", "right": "večera" },
+        { "left": "cocinar", "right": "kuvati" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-4",
+      "sentence": "Volim da kuvam vikendom.",
+      "answer": "Me gusta cocinar los fines de semana.",
+      "acceptableAnswers": ["Me gusta cocinar los fines de semana", "Me gusta cocinar los fines de semana."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-5",
+      "question": "Šta znači 'hornear'?",
+      "options": ["pržiti", "kuvati", "peći", "ključati"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "Kako se kaže 'ručak' na španskom?",
+      "options": ["desayuno", "cena", "almuerzo", "receta"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-2",
+      "question": "Šta znači 'freír'?",
+      "options": ["peći", "kuvati", "pržiti", "ključati"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-3",
+      "question": "Koji od ovih glagola je nepravilan?",
+      "options": ["cocinar", "hornear", "hervir", "cenar"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-4",
+      "question": "Šta znači 'receta'?",
+      "options": ["račun", "jelovnik", "obrok", "recept"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-3-5",
+      "question": "Koji je najvažniji obrok prema španskoj izreci?",
+      "options": ["la cena", "el almuerzo", "el desayuno", "la merienda"],
+      "correctIndex": 2
+    }
+  ]
+}

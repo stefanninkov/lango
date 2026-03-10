@@ -1,0 +1,156 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-8",
+  "title": "Hitni slučajevi",
+  "vocabulary": [
+    {
+      "id": "v-8-3-1",
+      "word": "aiuto",
+      "translation": "pomoć",
+      "pronunciation": "ajuto",
+      "example": "Aiuto! Ho bisogno di aiuto!",
+      "exampleTranslation": "Pomoć! Trebam pomoć!"
+    },
+    {
+      "id": "v-8-3-2",
+      "word": "polizia",
+      "translation": "policija",
+      "pronunciation": "policija",
+      "example": "Chiama la polizia!",
+      "exampleTranslation": "Pozovi policiju!"
+    },
+    {
+      "id": "v-8-3-3",
+      "word": "pompieri",
+      "translation": "vatrogasci",
+      "pronunciation": "pompjeri",
+      "example": "I pompieri sono arrivati subito.",
+      "exampleTranslation": "Vatrogasci su stigli odmah."
+    },
+    {
+      "id": "v-8-3-4",
+      "word": "ambulanza",
+      "translation": "hitna pomoć",
+      "pronunciation": "ambulanca",
+      "example": "Chiamate un'ambulanza!",
+      "exampleTranslation": "Pozovite hitnu pomoć!"
+    },
+    {
+      "id": "v-8-3-5",
+      "word": "emergenza",
+      "translation": "hitnost",
+      "pronunciation": "emerdženca",
+      "example": "È un'emergenza, fate presto!",
+      "exampleTranslation": "Ovo je hitnost, požurite!"
+    },
+    {
+      "id": "v-8-3-6",
+      "word": "pericolo",
+      "translation": "opasnost",
+      "pronunciation": "perikolo",
+      "example": "Attenzione, c'è pericolo!",
+      "exampleTranslation": "Pažnja, ima opasnosti!"
+    },
+    {
+      "id": "v-8-3-7",
+      "word": "incidente",
+      "translation": "nesreća",
+      "pronunciation": "inčidente",
+      "example": "C'è stato un incidente stradale.",
+      "exampleTranslation": "Desila se saobraćajna nesreća."
+    },
+    {
+      "id": "v-8-3-8",
+      "word": "urgente",
+      "translation": "hitno",
+      "pronunciation": "urdžente",
+      "example": "È una situazione urgente.",
+      "exampleTranslation": "Ovo je hitna situacija."
+    }
+  ],
+  "grammar": {
+    "title": "Imperativ za hitne situacije",
+    "explanation": "U hitnim situacijama na italijanskom koristi se imperativ za brzo davanje naredbi. Za 'tu' (ti): 'Chiama!' (Pozovi!), 'Corri!' (Trči!). Za 'voi' (vi): 'Chiamate!' (Pozovite!), 'Correte!' (Trčite!). Za formalno 'Lei': 'Chiami!' (Pozovite! - formalno). Negativni imperativ: 'Non toccare!' (Ne diraj!). Uzvik 'Aiuto!' (Pomoć!) se koristi bez glagola. Broj za hitne službe u Italiji je 112 ili 118 (medicinska pomoć).",
+    "examples": [
+      { "target": "Chiama la polizia!", "native": "Pozovi policiju!" },
+      { "target": "Chiamate un'ambulanza!", "native": "Pozovite hitnu pomoć!" },
+      { "target": "Non toccare niente!", "native": "Ne diraj ništa!" },
+      { "target": "Corri, è un'emergenza!", "native": "Trči, ovo je hitnost!" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-8-3-1",
+      "question": "Kako se kaže 'pomoć' na italijanskom?",
+      "options": ["pericolo", "aiuto", "emergenza", "urgente"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-8-3-2",
+      "sentence": "Chiama la ___!",
+      "answer": "polizia",
+      "acceptableAnswers": ["polizia"],
+      "hint": "Pozovi policiju!"
+    },
+    {
+      "type": "matching",
+      "id": "ex-8-3-3",
+      "pairs": [
+        { "left": "aiuto", "right": "pomoć" },
+        { "left": "polizia", "right": "policija" },
+        { "left": "pompieri", "right": "vatrogasci" },
+        { "left": "ambulanza", "right": "hitna pomoć" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-8-3-4",
+      "sentence": "Desila se saobraćajna nesreća.",
+      "answer": "C'è stato un incidente stradale.",
+      "acceptableAnswers": ["C'è stato un incidente stradale.", "C'è stato un incidente stradale"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-8-3-5",
+      "sentence": "È un'___, fate presto!",
+      "answer": "emergenza",
+      "acceptableAnswers": ["emergenza"],
+      "hint": "Ovo je hitnost, požurite!"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-8-3-1",
+      "question": "Šta znači 'pericolo'?",
+      "options": ["hitnost", "nesreća", "opasnost", "pomoć"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-8-3-2",
+      "question": "Kako se kaže 'vatrogasci' na italijanskom?",
+      "options": ["polizia", "ambulanza", "emergenza", "pompieri"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-8-3-3",
+      "question": "Šta znači 'incidente'?",
+      "options": ["opasnost", "hitnost", "nesreća", "pomoć"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-8-3-4",
+      "question": "Koji je tačan prevod za 'Pozovite hitnu pomoć!'?",
+      "options": ["Chiamate la polizia!", "Chiamate un'ambulanza!", "Chiamate i pompieri!", "Chiamate aiuto!"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-8-3-5",
+      "question": "Kako se kaže 'hitno' na italijanskom?",
+      "options": ["emergenza", "pericolo", "incidente", "urgente"],
+      "correctIndex": 3
+    }
+  ]
+}

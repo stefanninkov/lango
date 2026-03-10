@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-4",
+  "title": "Uobičajena hrana",
+  "vocabulary": [
+    {
+      "id": "pan",
+      "word": "pan",
+      "translation": "hleb",
+      "pronunciation": "PAN",
+      "example": "Compro pan todos los días.",
+      "exampleTranslation": "Kupujem hleb svaki dan."
+    },
+    {
+      "id": "agua",
+      "word": "agua",
+      "translation": "voda",
+      "pronunciation": "A-gua",
+      "example": "Quiero un vaso de agua.",
+      "exampleTranslation": "Hoću čašu vode."
+    },
+    {
+      "id": "carne",
+      "word": "carne",
+      "translation": "meso",
+      "pronunciation": "KAR-ne",
+      "example": "No como carne, soy vegetariano.",
+      "exampleTranslation": "Ne jedem meso, vegetarijanac sam."
+    },
+    {
+      "id": "pescado",
+      "word": "pescado",
+      "translation": "riba",
+      "pronunciation": "pes-KA-do",
+      "example": "El pescado es muy fresco.",
+      "exampleTranslation": "Riba je veoma sveža."
+    },
+    {
+      "id": "arroz",
+      "word": "arroz",
+      "translation": "pirinač",
+      "pronunciation": "a-ROS",
+      "example": "El arroz con pollo es delicioso.",
+      "exampleTranslation": "Pirinač sa piletinom je ukusan."
+    },
+    {
+      "id": "fruta",
+      "word": "fruta",
+      "translation": "voće",
+      "pronunciation": "FRU-ta",
+      "example": "La fruta es buena para la salud.",
+      "exampleTranslation": "Voće je dobro za zdravlje."
+    },
+    {
+      "id": "verdura",
+      "word": "verdura",
+      "translation": "povrće",
+      "pronunciation": "ver-DU-ra",
+      "example": "Como verdura todos los días.",
+      "exampleTranslation": "Jedem povrće svaki dan."
+    },
+    {
+      "id": "leche",
+      "word": "leche",
+      "translation": "mleko",
+      "pronunciation": "LE-če",
+      "example": "Tomo leche con el café.",
+      "exampleTranslation": "Pijem mleko uz kafu."
+    }
+  ],
+  "grammar": {
+    "title": "Članovi u španskom - el, la, los, las",
+    "explanation": "U španskom imenice imaju rod (muški ili ženski) i koriste određeni član:\n\n• el - muški rod jednina: el pan (hleb), el arroz (pirinač)\n• la - ženski rod jednina: la carne (meso), la fruta (voće)\n• los - muški rod množina: los pescados (ribe)\n• las - ženski rod množina: las verduras (povrće)\n\nIzuzetak: 'el agua' - iako je 'agua' ženskog roda, koristi 'el' jer počinje naglašenim 'a'.",
+    "examples": [
+      { "target": "El pan está en la mesa.", "native": "Hleb je na stolu." },
+      { "target": "La carne es cara.", "native": "Meso je skupo." },
+      { "target": "Las frutas son deliciosas.", "native": "Voće je ukusno." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1",
+      "question": "Kako se kaže 'hleb' na španskom?",
+      "options": ["carne", "pan", "arroz", "leche"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-2",
+      "sentence": "Quiero un vaso de ___.",
+      "answer": "agua",
+      "acceptableAnswers": ["agua", "Agua"],
+      "hint": "Reč za 'voda'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-3",
+      "pairs": [
+        { "left": "pan", "right": "hleb" },
+        { "left": "carne", "right": "meso" },
+        { "left": "fruta", "right": "voće" },
+        { "left": "leche", "right": "mleko" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-4",
+      "sentence": "Riba je veoma sveža.",
+      "answer": "El pescado es muy fresco.",
+      "acceptableAnswers": ["El pescado es muy fresco", "El pescado es muy fresco."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-5",
+      "question": "Šta znači 'verdura'?",
+      "options": ["voće", "meso", "povrće", "pirinač"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "Kako se kaže 'pirinač' na španskom?",
+      "options": ["pan", "carne", "arroz", "pescado"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-2",
+      "question": "Šta znači 'leche'?",
+      "options": ["voda", "mleko", "hleb", "meso"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-3",
+      "question": "Koji član se koristi sa rečju 'agua'?",
+      "options": ["la", "el", "los", "las"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-4",
+      "question": "Kako se kaže 'meso' na španskom?",
+      "options": ["pescado", "fruta", "carne", "pan"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-5",
+      "question": "Šta znači 'pescado'?",
+      "options": ["pirinač", "riba", "povrće", "hleb"],
+      "correctIndex": 1
+    }
+  ]
+}

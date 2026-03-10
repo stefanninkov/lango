@@ -1,0 +1,154 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-8",
+  "title": "Emergencies",
+  "vocabulary": [
+    {
+      "id": "ayuda",
+      "word": "Ayuda",
+      "translation": "Help",
+      "pronunciation": "ah-YOO-dah",
+      "example": "¡Ayuda! Necesitamos ayuda aquí.",
+      "exampleTranslation": "Help! We need help here."
+    },
+    {
+      "id": "policia-emergency",
+      "word": "Policía",
+      "translation": "Police",
+      "pronunciation": "poh-lee-SEE-ah",
+      "example": "Llame a la policía inmediatamente.",
+      "exampleTranslation": "Call the police immediately."
+    },
+    {
+      "id": "bomberos",
+      "word": "Bomberos",
+      "translation": "Firefighters",
+      "pronunciation": "bohm-BEH-rohs",
+      "example": "Los bomberos llegaron en cinco minutos.",
+      "exampleTranslation": "The firefighters arrived in five minutes."
+    },
+    {
+      "id": "ambulancia",
+      "word": "Ambulancia",
+      "translation": "Ambulance",
+      "pronunciation": "ahm-boo-LAHN-syah",
+      "example": "Necesitamos una ambulancia, hay una persona herida.",
+      "exampleTranslation": "We need an ambulance, there is an injured person."
+    },
+    {
+      "id": "emergencia",
+      "word": "Emergencia",
+      "translation": "Emergency",
+      "pronunciation": "eh-mehr-HEN-syah",
+      "example": "En caso de emergencia, llame al 112.",
+      "exampleTranslation": "In case of emergency, call 112."
+    },
+    {
+      "id": "peligro",
+      "word": "Peligro",
+      "translation": "Danger",
+      "pronunciation": "peh-LEE-groh",
+      "example": "¡Peligro! No entre en esta zona.",
+      "exampleTranslation": "Danger! Do not enter this area."
+    },
+    {
+      "id": "accidente",
+      "word": "Accidente",
+      "translation": "Accident",
+      "pronunciation": "ahk-see-DEN-teh",
+      "example": "Ha habido un accidente de tráfico en la autopista.",
+      "exampleTranslation": "There has been a traffic accident on the highway."
+    },
+    {
+      "id": "urgente",
+      "word": "Urgente",
+      "translation": "Urgent",
+      "pronunciation": "oor-HEN-teh",
+      "example": "Es urgente que el médico vea a este paciente.",
+      "exampleTranslation": "It is urgent that the doctor see this patient."
+    }
+  ],
+  "grammar": {
+    "title": "Imperative for Emergencies and the Subjunctive with 'Es urgente que'",
+    "explanation": "In emergencies, you need both imperative commands and subjunctive constructions:\n\nImperative (direct commands):\n• ¡Llame a la policía! - Call the police! (usted)\n• ¡No se mueva! - Don't move! (usted)\n• ¡Ayúdeme! - Help me!\n• ¡Salga del edificio! - Get out of the building!\n\nSubjunctive with urgency expressions:\n• Es urgente que + subjunctive: Es urgente que llegue la ambulancia. (It's urgent that the ambulance arrive.)\n• Es necesario que + subjunctive: Es necesario que evacuen el edificio. (It's necessary that they evacuate the building.)\n\nNegative usted commands use the subjunctive form: ¡No entre! (Don't enter!)",
+    "examples": [
+      { "target": "¡Llame al 112, hay una emergencia!", "native": "Call 112, there is an emergency!" },
+      { "target": "Es urgente que envíen una ambulancia a esta dirección.", "native": "It's urgent that they send an ambulance to this address." },
+      { "target": "¡No se acerque, es peligroso!", "native": "Don't come closer, it's dangerous!" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-8-11",
+      "question": "What number do you call in an emergency in Spain?",
+      "options": ["911", "999", "112", "110"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-8-12",
+      "sentence": "Ha habido un ___ de tráfico en la autopista.",
+      "answer": "accidente",
+      "acceptableAnswers": ["accidente", "Accidente"],
+      "hint": "An unexpected harmful event"
+    },
+    {
+      "type": "matching",
+      "id": "ex-8-13",
+      "pairs": [
+        { "left": "Bomberos", "right": "Firefighters" },
+        { "left": "Ambulancia", "right": "Ambulance" },
+        { "left": "Peligro", "right": "Danger" },
+        { "left": "Emergencia", "right": "Emergency" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-8-14",
+      "sentence": "We need an ambulance, there is an injured person.",
+      "answer": "Necesitamos una ambulancia, hay una persona herida.",
+      "acceptableAnswers": ["Necesitamos una ambulancia, hay una persona herida", "Necesitamos una ambulancia, hay una persona herida."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-8-15",
+      "question": "What does 'urgente' mean?",
+      "options": ["Dangerous", "Important", "Urgent", "Serious"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-8-11",
+      "question": "How do you say 'Help!' in Spanish?",
+      "options": ["¡Auxilio!", "¡Ayuda!", "Both A and B", "¡Socorro!"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-8-12",
+      "question": "What does 'peligro' mean?",
+      "options": ["Danger", "Emergency", "Accident", "Fire"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q-8-13",
+      "question": "How do you formally command someone to call the police?",
+      "options": ["Llama a la policía.", "Llame a la policía.", "Llamar a la policía.", "Llamas a la policía."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-8-14",
+      "question": "What are 'bomberos'?",
+      "options": ["Police officers", "Paramedics", "Firefighters", "Soldiers"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-8-15",
+      "question": "'Es urgente que el médico vea a este paciente' uses which mood?",
+      "options": ["Indicative", "Conditional", "Imperative", "Subjunctive"],
+      "correctIndex": 3
+    }
+  ]
+}

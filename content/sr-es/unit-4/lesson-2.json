@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-4",
+  "title": "U restoranu",
+  "vocabulary": [
+    {
+      "id": "menu",
+      "word": "menú",
+      "translation": "meni/jelovnik",
+      "pronunciation": "me-NU",
+      "example": "¿Me puede traer el menú?",
+      "exampleTranslation": "Možete li mi doneti jelovnik?"
+    },
+    {
+      "id": "camarero",
+      "word": "camarero",
+      "translation": "konobar",
+      "pronunciation": "ka-ma-RE-ro",
+      "example": "El camarero nos atendió muy bien.",
+      "exampleTranslation": "Konobar nas je veoma dobro usluživao."
+    },
+    {
+      "id": "cuenta",
+      "word": "cuenta",
+      "translation": "račun",
+      "pronunciation": "KUEN-ta",
+      "example": "La cuenta, por favor.",
+      "exampleTranslation": "Račun, molim."
+    },
+    {
+      "id": "mesa",
+      "word": "mesa",
+      "translation": "sto",
+      "pronunciation": "ME-sa",
+      "example": "Queremos una mesa para cuatro.",
+      "exampleTranslation": "Želimo sto za četvoro."
+    },
+    {
+      "id": "reserva",
+      "word": "reserva",
+      "translation": "rezervacija",
+      "pronunciation": "re-SER-va",
+      "example": "Tengo una reserva a las ocho.",
+      "exampleTranslation": "Imam rezervaciju u osam."
+    },
+    {
+      "id": "plato",
+      "word": "plato",
+      "translation": "jelo/tanjir",
+      "pronunciation": "PLA-to",
+      "example": "El plato del día es paella.",
+      "exampleTranslation": "Jelo dana je paelja."
+    },
+    {
+      "id": "propina",
+      "word": "propina",
+      "translation": "napojnica",
+      "pronunciation": "pro-PI-na",
+      "example": "Dejamos una buena propina.",
+      "exampleTranslation": "Ostavili smo dobru napojnicu."
+    },
+    {
+      "id": "postre",
+      "word": "postre",
+      "translation": "desert",
+      "pronunciation": "POS-tre",
+      "example": "¿Quieres pedir un postre?",
+      "exampleTranslation": "Želiš li da naručiš desert?"
+    }
+  ],
+  "grammar": {
+    "title": "Naručivanje u restoranu - korisni izrazi",
+    "explanation": "Za naručivanje u španskom restoranu koristite sledeće izraze:\n\n• 'Me gustaría...' - Želeo/la bih...\n• 'Quiero...' - Hoću... (manje formalno)\n• 'Para mí...' - Za mene...\n• '¿Tiene...?' - Imate li...?\n• 'La cuenta, por favor' - Račun, molim\n\nZa pitanja o jelima: '¿Qué recomienda?' (Šta preporučujete?)",
+    "examples": [
+      { "target": "Me gustaría el plato del día.", "native": "Želeo/la bih jelo dana." },
+      { "target": "¿Tiene una mesa libre?", "native": "Imate li slobodan sto?" },
+      { "target": "La cuenta, por favor.", "native": "Račun, molim." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-1",
+      "question": "Kako se kaže 'račun' na španskom?",
+      "options": ["menú", "reserva", "cuenta", "plato"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-2",
+      "sentence": "Tengo una ___ a las ocho.",
+      "answer": "reserva",
+      "acceptableAnswers": ["reserva", "Reserva"],
+      "hint": "Reč za 'rezervacija'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-3",
+      "pairs": [
+        { "left": "camarero", "right": "konobar" },
+        { "left": "cuenta", "right": "račun" },
+        { "left": "postre", "right": "desert" },
+        { "left": "propina", "right": "napojnica" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-4",
+      "sentence": "Želimo sto za četvoro.",
+      "answer": "Queremos una mesa para cuatro.",
+      "acceptableAnswers": ["Queremos una mesa para cuatro", "Queremos una mesa para cuatro."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-5",
+      "question": "Šta znači 'postre'?",
+      "options": ["sto", "jelo", "desert", "napojnica"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "Kako se kaže 'konobar' na španskom?",
+      "options": ["camarero", "cocinero", "cuenta", "plato"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q-2-2",
+      "question": "Šta znači 'plato del día'?",
+      "options": ["račun dana", "jelo dana", "sto dana", "desert dana"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-3",
+      "question": "Kako tražite račun u restoranu?",
+      "options": ["El menú, por favor.", "La mesa, por favor.", "La cuenta, por favor.", "El postre, por favor."],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-4",
+      "question": "Šta znači 'propina'?",
+      "options": ["rezervacija", "napojnica", "jelovnik", "tanjir"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-5",
+      "question": "Kako se kaže 'sto' na španskom?",
+      "options": ["plato", "reserva", "mesa", "cuenta"],
+      "correctIndex": 2
+    }
+  ]
+}

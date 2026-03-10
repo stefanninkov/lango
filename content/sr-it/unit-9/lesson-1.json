@@ -1,0 +1,156 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-9",
+  "title": "Umetnost",
+  "vocabulary": [
+    {
+      "id": "v-9-1-1",
+      "word": "film",
+      "translation": "film",
+      "pronunciation": "film",
+      "example": "Ieri ho visto un bel film.",
+      "exampleTranslation": "Juče sam gledao lep film."
+    },
+    {
+      "id": "v-9-1-2",
+      "word": "musica",
+      "translation": "muzika",
+      "pronunciation": "muzika",
+      "example": "Mi piace la musica italiana.",
+      "exampleTranslation": "Sviđa mi se italijanska muzika."
+    },
+    {
+      "id": "v-9-1-3",
+      "word": "libro",
+      "translation": "knjiga",
+      "pronunciation": "libro",
+      "example": "Sto leggendo un libro interessante.",
+      "exampleTranslation": "Čitam zanimljivu knjigu."
+    },
+    {
+      "id": "v-9-1-4",
+      "word": "teatro",
+      "translation": "pozorište",
+      "pronunciation": "teatro",
+      "example": "Andiamo a teatro stasera.",
+      "exampleTranslation": "Idemo u pozorište večeras."
+    },
+    {
+      "id": "v-9-1-5",
+      "word": "pittura",
+      "translation": "slikarstvo",
+      "pronunciation": "pitura",
+      "example": "La pittura rinascimentale è famosa.",
+      "exampleTranslation": "Renesansno slikarstvo je poznato."
+    },
+    {
+      "id": "v-9-1-6",
+      "word": "concerto",
+      "translation": "koncert",
+      "pronunciation": "končerto",
+      "example": "Il concerto inizia alle nove.",
+      "exampleTranslation": "Koncert počinje u devet."
+    },
+    {
+      "id": "v-9-1-7",
+      "word": "mostra",
+      "translation": "izložba",
+      "pronunciation": "mostra",
+      "example": "C'è una mostra d'arte al museo.",
+      "exampleTranslation": "Ima izložba umetnosti u muzeju."
+    },
+    {
+      "id": "v-9-1-8",
+      "word": "spettacolo",
+      "translation": "predstava",
+      "pronunciation": "spetakolo",
+      "example": "Lo spettacolo è stato magnifico.",
+      "exampleTranslation": "Predstava je bila veličanstvena."
+    }
+  ],
+  "grammar": {
+    "title": "Glagol 'piacere' – izražavanje dopadanja",
+    "explanation": "Glagol 'piacere' (sviđati se) ima posebnu konstrukciju u italijanskom. Subjekat u srpskom postaje indirektni objekat u italijanskom, a ono što se sviđa postaje subjekat: 'Mi piace la musica' (Sviđa mi se muzika - doslovno: 'Meni se sviđa muzika'). Za množinu: 'Mi piacciono i film italiani' (Sviđaju mi se italijanski filmovi). Indirektni objekat: mi, ti, gli/le, ci, vi, gli (loro).",
+    "examples": [
+      { "target": "Mi piace la musica.", "native": "Sviđa mi se muzika." },
+      { "target": "Ti piace il teatro?", "native": "Da li ti se sviđa pozorište?" },
+      { "target": "Mi piacciono i libri.", "native": "Sviđaju mi se knjige." },
+      { "target": "Le piace la pittura.", "native": "Njoj se sviđa slikarstvo." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-9-1-1",
+      "question": "Kako se kaže 'knjiga' na italijanskom?",
+      "options": ["film", "musica", "libro", "teatro"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-9-1-2",
+      "sentence": "Mi piace la ___ italiana.",
+      "answer": "musica",
+      "acceptableAnswers": ["musica", "pittura"],
+      "hint": "Sviđa mi se italijanska muzika."
+    },
+    {
+      "type": "matching",
+      "id": "ex-9-1-3",
+      "pairs": [
+        { "left": "libro", "right": "knjiga" },
+        { "left": "teatro", "right": "pozorište" },
+        { "left": "concerto", "right": "koncert" },
+        { "left": "mostra", "right": "izložba" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-9-1-4",
+      "sentence": "Idemo u pozorište večeras.",
+      "answer": "Andiamo a teatro stasera.",
+      "acceptableAnswers": ["Andiamo a teatro stasera.", "Andiamo a teatro stasera"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-9-1-5",
+      "sentence": "Lo ___ è stato magnifico.",
+      "answer": "spettacolo",
+      "acceptableAnswers": ["spettacolo", "concerto"],
+      "hint": "Predstava je bila veličanstvena."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-9-1-1",
+      "question": "Šta znači 'mostra'?",
+      "options": ["koncert", "predstava", "izložba", "film"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-9-1-2",
+      "question": "Kako se kaže 'pozorište' na italijanskom?",
+      "options": ["concerto", "teatro", "spettacolo", "mostra"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-9-1-3",
+      "question": "Šta znači 'pittura'?",
+      "options": ["muzika", "knjiga", "film", "slikarstvo"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-9-1-4",
+      "question": "Kako se pravilno kaže 'Sviđaju mi se knjige'?",
+      "options": ["Mi piace i libri.", "Mi piacciono i libri.", "Mi piace il libro.", "A me piace libri."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-9-1-5",
+      "question": "Kako se kaže 'predstava' na italijanskom?",
+      "options": ["mostra", "pittura", "spettacolo", "concerto"],
+      "correctIndex": 2
+    }
+  ]
+}

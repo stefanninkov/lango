@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { View, StyleSheet, Dimensions } from 'react-native';
+import { View, StyleSheet, Dimensions, Pressable } from 'react-native';
 import { Text } from 'react-native-paper';
 import { Gesture, GestureDetector } from 'react-native-gesture-handler';
 import Animated, {
@@ -13,7 +13,8 @@ import Animated, {
 } from 'react-native-reanimated';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { colors, spacing, typography, radius } from '../theme';
-import type { VocabularyItem } from '../types';
+import { speak, speakSlow } from '../utils/tts';
+import type { VocabularyItem, TargetLanguage } from '../types';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 const SWIPE_THRESHOLD = SCREEN_WIDTH * 0.25;
@@ -22,9 +23,10 @@ interface Props {
   item: VocabularyItem;
   onNext: () => void;
   showIndex?: string; // e.g. "3 of 8"
+  targetLanguage?: TargetLanguage;
 }
 
-export default function SwipeableVocabCard({ item, onNext, showIndex }: Props) {
+export default function SwipeableVocabCard({ item, onNext, showIndex, targetLanguage }: Props) {
   const [flipped, setFlipped] = useState(false);
   const rotation = useSharedValue(0);
   const translateX = useSharedValue(0);
@@ -94,6 +96,15 @@ export default function SwipeableVocabCard({ item, onNext, showIndex }: Props) {
           <Animated.View style={[styles.card, frontStyle]}>
             <Text style={styles.word}>{item.word}</Text>
             <Text style={styles.pronunciation}>{item.pronunciation}</Text>
+            {targetLanguage && (
+              <Pressable
+                style={styles.speakButton}
+                onPress={() => speak(item.word, targetLanguage)}
+                hitSlop={12}
+              >
+                <MaterialCommunityIcons name="volume-high" size={22} color={colors.primary} />
+              </Pressable>
+            )}
             <Text style={styles.tapHint}>Tap to flip</Text>
           </Animated.View>
           <Animated.View style={[styles.card, styles.cardBack, backStyle]}>
@@ -101,6 +112,16 @@ export default function SwipeableVocabCard({ item, onNext, showIndex }: Props) {
             <View style={styles.divider} />
             <Text style={styles.example}>{item.example}</Text>
             <Text style={styles.exampleTranslation}>{item.exampleTranslation}</Text>
+            {targetLanguage && (
+              <Pressable
+                style={styles.speakButtonBack}
+                onPress={() => speakSlow(item.example, targetLanguage)}
+                hitSlop={12}
+              >
+                <MaterialCommunityIcons name="volume-high" size={18} color={colors.primary} />
+                <Text style={styles.speakLabel}>Listen</Text>
+              </Pressable>
+            )}
           </Animated.View>
         </Animated.View>
       </GestureDetector>
@@ -183,6 +204,32 @@ const styles = StyleSheet.create({
   exampleTranslation: {
     ...typography.bodySmall,
     textAlign: 'center',
+  },
+  speakButton: {
+    position: 'absolute',
+    top: spacing.md,
+    right: spacing.md,
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: 'rgba(108, 99, 255, 0.12)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  speakButtonBack: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    marginTop: spacing.md,
+    paddingHorizontal: spacing.md,
+    paddingVertical: spacing.xs,
+    borderRadius: radius.full,
+    backgroundColor: 'rgba(108, 99, 255, 0.12)',
+  },
+  speakLabel: {
+    ...typography.caption,
+    color: colors.primary,
+    fontWeight: '600',
   },
   swipeHint: {
     flexDirection: 'row',

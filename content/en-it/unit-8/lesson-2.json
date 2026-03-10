@@ -1,0 +1,155 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-8",
+  "title": "At the Doctor",
+  "vocabulary": [
+    {
+      "id": "v-2-1",
+      "word": "sintomo",
+      "translation": "symptom",
+      "pronunciation": "SEEN-toh-moh",
+      "example": "Quali sono i Suoi sintomi?",
+      "exampleTranslation": "What are your symptoms? (formal)"
+    },
+    {
+      "id": "v-2-2",
+      "word": "ricetta",
+      "translation": "prescription",
+      "pronunciation": "ree-CHET-tah",
+      "example": "Il medico mi ha scritto una ricetta.",
+      "exampleTranslation": "The doctor wrote me a prescription."
+    },
+    {
+      "id": "v-2-3",
+      "word": "diagnosi",
+      "translation": "diagnosis",
+      "pronunciation": "dee-AH-nyoh-zee",
+      "example": "La diagnosi è stata rassicurante.",
+      "exampleTranslation": "The diagnosis was reassuring."
+    },
+    {
+      "id": "v-2-4",
+      "word": "trattamento",
+      "translation": "treatment",
+      "pronunciation": "traht-tah-MEN-toh",
+      "example": "Il trattamento durerà circa un mese.",
+      "exampleTranslation": "The treatment will last about a month."
+    },
+    {
+      "id": "v-2-5",
+      "word": "analisi",
+      "translation": "test / analysis",
+      "pronunciation": "ah-NAH-lee-zee",
+      "example": "Bisogna che Lei faccia le analisi del sangue.",
+      "exampleTranslation": "You need to have blood tests done. (formal)"
+    },
+    {
+      "id": "v-2-6",
+      "word": "allergia",
+      "translation": "allergy",
+      "pronunciation": "ahl-ler-JEE-ah",
+      "example": "Ho un'allergia alla penicillina.",
+      "exampleTranslation": "I have an allergy to penicillin."
+    },
+    {
+      "id": "v-2-7",
+      "word": "appuntamento",
+      "translation": "appointment",
+      "pronunciation": "ahp-poon-tah-MEN-toh",
+      "example": "Vorrei fissare un appuntamento con il dottore.",
+      "exampleTranslation": "I would like to make an appointment with the doctor."
+    },
+    {
+      "id": "v-2-8",
+      "word": "chirurgia",
+      "translation": "surgery",
+      "pronunciation": "kee-roor-JEE-ah",
+      "example": "La chirurgia è andata bene, non si preoccupi.",
+      "exampleTranslation": "The surgery went well, don't worry. (formal)"
+    }
+  ],
+  "grammar": {
+    "title": "The Subjunctive with Impersonal Expressions (Bisogna che, È necessario che)",
+    "explanation": "Impersonal expressions of necessity, possibility, or opinion trigger the subjunctive in Italian: 'bisogna che' (it is necessary that), 'è importante che' (it is important that), 'è possibile che' (it is possible that), 'sembra che' (it seems that). The subjunctive of 'fare' is: faccia, faccia, faccia, facciamo, facciate, facciano. The subjunctive of 'essere' is: sia, sia, sia, siamo, siate, siano. In medical contexts, these are used frequently with formal 'Lei'.",
+    "examples": [
+      { "target": "Bisogna che Lei prenda la medicina ogni giorno.", "native": "You need to take the medicine every day. (formal)" },
+      { "target": "È possibile che sia un'infezione.", "native": "It is possible that it is an infection." },
+      { "target": "È importante che il paziente si riposi.", "native": "It is important that the patient rests." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-1",
+      "question": "How do you say 'appointment' in Italian?",
+      "options": ["Analisi", "Appuntamento", "Trattamento", "Diagnosi"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-2",
+      "sentence": "Il medico mi ha scritto una ___.",
+      "answer": "ricetta",
+      "acceptableAnswers": ["ricetta", "Ricetta"],
+      "hint": "Prescription"
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-3",
+      "pairs": [
+        { "left": "Sintomo", "right": "Symptom" },
+        { "left": "Diagnosi", "right": "Diagnosis" },
+        { "left": "Allergia", "right": "Allergy" },
+        { "left": "Chirurgia", "right": "Surgery" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-4",
+      "sentence": "I would like to make an appointment with the doctor.",
+      "answer": "Vorrei fissare un appuntamento con il dottore.",
+      "acceptableAnswers": ["Vorrei fissare un appuntamento con il dottore", "Vorrei prendere un appuntamento con il dottore"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-5",
+      "sentence": "Bisogna che Lei ___ le analisi del sangue.",
+      "answer": "faccia",
+      "acceptableAnswers": ["faccia", "Faccia"],
+      "hint": "Subjunctive of 'fare'"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "What does 'ricetta' mean in a medical context?",
+      "options": ["Recipe", "Prescription", "Receipt", "Record"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-2",
+      "question": "What does 'Bisogna che Lei prenda la medicina' mean?",
+      "options": ["You must buy medicine.", "You need to take the medicine. (formal)", "The medicine is necessary.", "Please give me medicine."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-3",
+      "question": "What does 'analisi del sangue' mean?",
+      "options": ["Blood pressure", "Blood type", "Blood tests", "Blood donation"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-4",
+      "question": "What is the present subjunctive of 'essere' (third person singular)?",
+      "options": ["È", "Sia", "Sia stato", "Fosse"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-5",
+      "question": "What does 'trattamento' mean?",
+      "options": ["Trauma", "Treatment", "Transport", "Transfer"],
+      "correctIndex": 1
+    }
+  ]
+}

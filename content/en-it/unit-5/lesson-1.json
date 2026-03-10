@@ -1,0 +1,155 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-5",
+  "title": "Places in Town",
+  "vocabulary": [
+    {
+      "id": "v-1-1",
+      "word": "albergo",
+      "translation": "hotel",
+      "pronunciation": "ahl-BEHR-goh",
+      "example": "L'albergo si trova vicino alla stazione.",
+      "exampleTranslation": "The hotel is located near the station."
+    },
+    {
+      "id": "v-1-2",
+      "word": "aeroporto",
+      "translation": "airport",
+      "pronunciation": "ah-eh-roh-POR-toh",
+      "example": "L'aeroporto è a venti chilometri dalla città.",
+      "exampleTranslation": "The airport is twenty kilometers from the city."
+    },
+    {
+      "id": "v-1-3",
+      "word": "stazione",
+      "translation": "station",
+      "pronunciation": "stah-TSYOH-neh",
+      "example": "Il treno parte dalla stazione centrale.",
+      "exampleTranslation": "The train leaves from the central station."
+    },
+    {
+      "id": "v-1-4",
+      "word": "museo",
+      "translation": "museum",
+      "pronunciation": "moo-ZEH-oh",
+      "example": "Il museo è aperto dalle nove alle cinque.",
+      "exampleTranslation": "The museum is open from nine to five."
+    },
+    {
+      "id": "v-1-5",
+      "word": "banca",
+      "translation": "bank",
+      "pronunciation": "BAHN-kah",
+      "example": "Devo andare in banca a cambiare i soldi.",
+      "exampleTranslation": "I need to go to the bank to exchange money."
+    },
+    {
+      "id": "v-1-6",
+      "word": "farmacia",
+      "translation": "pharmacy",
+      "pronunciation": "far-mah-CHEE-ah",
+      "example": "La farmacia è aperta anche di notte.",
+      "exampleTranslation": "The pharmacy is open even at night."
+    },
+    {
+      "id": "v-1-7",
+      "word": "ospedale",
+      "translation": "hospital",
+      "pronunciation": "oh-speh-DAH-leh",
+      "example": "L'ospedale è in fondo alla strada.",
+      "exampleTranslation": "The hospital is at the end of the street."
+    },
+    {
+      "id": "v-1-8",
+      "word": "chiesa",
+      "translation": "church",
+      "pronunciation": "KYEH-zah",
+      "example": "La chiesa del paese è molto antica.",
+      "exampleTranslation": "The village church is very old."
+    }
+  ],
+  "grammar": {
+    "title": "Prepositions of Place (in, a, da, di)",
+    "explanation": "Italian uses different prepositions to express location: 'in' is used with large places, regions, and countries (in Italia, in centro); 'a' is used with cities and specific locations (a Roma, a scuola); 'da' indicates 'at someone's place' or origin (dal dottore, dalla stazione); 'di' expresses possession or origin (di Roma, del paese). These prepositions combine with definite articles: in + il = nel, a + il = al, da + il = dal, di + il = del.",
+    "examples": [
+      { "target": "Vado in banca.", "native": "I'm going to the bank." },
+      { "target": "L'albergo è vicino alla stazione.", "native": "The hotel is near the station." },
+      { "target": "Il museo si trova nel centro della città.", "native": "The museum is located in the city center." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1",
+      "question": "How do you say 'hospital' in Italian?",
+      "options": ["Albergo", "Ospedale", "Farmacia", "Stazione"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-2",
+      "sentence": "Devo andare in ___ a cambiare i soldi.",
+      "answer": "banca",
+      "acceptableAnswers": ["banca", "Banca"],
+      "hint": "Bank"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-3",
+      "pairs": [
+        { "left": "Aeroporto", "right": "Airport" },
+        { "left": "Museo", "right": "Museum" },
+        { "left": "Farmacia", "right": "Pharmacy" },
+        { "left": "Chiesa", "right": "Church" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-4",
+      "sentence": "The museum is open from nine to five.",
+      "answer": "Il museo è aperto dalle nove alle cinque.",
+      "acceptableAnswers": ["Il museo è aperto dalle nove alle cinque", "Il museo è aperto dalle 9 alle 5"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-5",
+      "sentence": "Il treno parte dalla ___ centrale.",
+      "answer": "stazione",
+      "acceptableAnswers": ["stazione", "Stazione"],
+      "hint": "Station"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "What does 'albergo' mean?",
+      "options": ["Airport", "Hospital", "Hotel", "Museum"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-2",
+      "question": "Which preposition is used with 'banca' to say 'to the bank'?",
+      "options": ["A banca", "In banca", "Da banca", "Su banca"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-3",
+      "question": "What does 'farmacia' mean?",
+      "options": ["Farm", "Pharmacy", "Factory", "Family"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-4",
+      "question": "How do you say 'The church is very old'?",
+      "options": ["La chiesa è molto nuova.", "La chiesa è molto antica.", "La chiesa è molto grande.", "La chiesa è molto bella."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-5",
+      "question": "What does 'stazione' mean?",
+      "options": ["Stationary", "Season", "Station", "Stadium"],
+      "correctIndex": 2
+    }
+  ]
+}

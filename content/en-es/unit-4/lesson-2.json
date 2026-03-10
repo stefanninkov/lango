@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-4",
+  "title": "At the Restaurant",
+  "vocabulary": [
+    {
+      "id": "menu",
+      "word": "Menú",
+      "translation": "Menu",
+      "pronunciation": "meh-NOO",
+      "example": "¿Nos puede traer el menú, por favor?",
+      "exampleTranslation": "Can you bring us the menu, please?"
+    },
+    {
+      "id": "camarero",
+      "word": "Camarero",
+      "translation": "Waiter",
+      "pronunciation": "kah-mah-REH-roh",
+      "example": "El camarero es muy atento.",
+      "exampleTranslation": "The waiter is very attentive."
+    },
+    {
+      "id": "cuenta",
+      "word": "Cuenta",
+      "translation": "Bill / Check",
+      "pronunciation": "KWEN-tah",
+      "example": "La cuenta, por favor.",
+      "exampleTranslation": "The bill, please."
+    },
+    {
+      "id": "mesa",
+      "word": "Mesa",
+      "translation": "Table",
+      "pronunciation": "MEH-sah",
+      "example": "Queremos una mesa para cuatro personas.",
+      "exampleTranslation": "We want a table for four people."
+    },
+    {
+      "id": "reserva",
+      "word": "Reserva",
+      "translation": "Reservation",
+      "pronunciation": "rreh-SEHR-vah",
+      "example": "Tengo una reserva a nombre de García.",
+      "exampleTranslation": "I have a reservation under the name García."
+    },
+    {
+      "id": "plato",
+      "word": "Plato",
+      "translation": "Dish / Plate",
+      "pronunciation": "PLAH-toh",
+      "example": "El plato del día es paella.",
+      "exampleTranslation": "The dish of the day is paella."
+    },
+    {
+      "id": "propina",
+      "word": "Propina",
+      "translation": "Tip",
+      "pronunciation": "proh-PEE-nah",
+      "example": "En España, la propina no es obligatoria.",
+      "exampleTranslation": "In Spain, the tip is not mandatory."
+    },
+    {
+      "id": "postre",
+      "word": "Postre",
+      "translation": "Dessert",
+      "pronunciation": "POH-streh",
+      "example": "¿Qué tienen de postre?",
+      "exampleTranslation": "What do you have for dessert?"
+    }
+  ],
+  "grammar": {
+    "title": "Polite Requests with 'Poder' and 'Querer'",
+    "explanation": "When ordering at a restaurant or making polite requests, Spanish uses the verbs 'poder' (can) and 'querer' (to want) in the conditional or present tense:\n\n• ¿Puede traerme...? - Can you bring me...?\n• ¿Nos puede traer...? - Can you bring us...?\n• Quiero / Quisiera... - I want / I would like...\n• Me gustaría... - I would like...\n\nThe conditional form 'quisiera' or 'me gustaría' is more polite than 'quiero'. Always add 'por favor' for politeness.",
+    "examples": [
+      { "target": "Quisiera reservar una mesa para dos.", "native": "I would like to reserve a table for two." },
+      { "target": "¿Me puede traer la cuenta, por favor?", "native": "Can you bring me the bill, please?" },
+      { "target": "Me gustaría ver el menú de postres.", "native": "I would like to see the dessert menu." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-4-6",
+      "question": "How do you politely ask for the bill in Spanish?",
+      "options": ["Dame la cuenta.", "La cuenta, por favor.", "Quiero la cuenta ahora.", "Cuenta aquí."],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-4-7",
+      "sentence": "Tengo una ___ a nombre de García.",
+      "answer": "reserva",
+      "acceptableAnswers": ["reserva", "Reserva"],
+      "hint": "A booking made in advance"
+    },
+    {
+      "type": "matching",
+      "id": "ex-4-8",
+      "pairs": [
+        { "left": "Camarero", "right": "Waiter" },
+        { "left": "Cuenta", "right": "Bill" },
+        { "left": "Propina", "right": "Tip" },
+        { "left": "Postre", "right": "Dessert" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-4-9",
+      "sentence": "I would like to reserve a table for two.",
+      "answer": "Quisiera reservar una mesa para dos.",
+      "acceptableAnswers": ["Quisiera reservar una mesa para dos", "Quisiera reservar una mesa para dos.", "Me gustaría reservar una mesa para dos."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-4-10",
+      "question": "What does 'plato del día' mean?",
+      "options": ["Daily special / Dish of the day", "Plate of food", "Dinner plate", "First course"],
+      "correctIndex": 0
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-4-6",
+      "question": "What is a 'camarero'?",
+      "options": ["Chef", "Waiter", "Customer", "Manager"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-4-7",
+      "question": "Which is the most polite way to order?",
+      "options": ["Quiero agua.", "Dame agua.", "Quisiera agua, por favor.", "Agua aquí."],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-4-8",
+      "question": "What does 'propina' mean?",
+      "options": ["Dessert", "Reservation", "Tip", "Menu"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-4-9",
+      "question": "How do you say 'a table for four people'?",
+      "options": ["Una mesa de cuatro.", "Una mesa para cuatro personas.", "Cuatro mesas por favor.", "Una mesa con cuatro."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-4-10",
+      "question": "What do you ask to see at the start of a meal?",
+      "options": ["La cuenta", "La propina", "El menú", "El postre"],
+      "correctIndex": 2
+    }
+  ]
+}

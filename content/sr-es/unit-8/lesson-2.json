@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-8",
+  "title": "Kod lekara",
+  "vocabulary": [
+    {
+      "id": "sintoma",
+      "word": "síntoma",
+      "translation": "simptom",
+      "pronunciation": "SIN-to-ma",
+      "example": "¿Cuáles son sus síntomas?",
+      "exampleTranslation": "Koji su vaši simptomi?"
+    },
+    {
+      "id": "receta",
+      "word": "receta",
+      "translation": "recept",
+      "pronunciation": "re-SE-ta",
+      "example": "El médico me dio una receta.",
+      "exampleTranslation": "Lekar mi je dao recept."
+    },
+    {
+      "id": "diagnostico",
+      "word": "diagnóstico",
+      "translation": "dijagnoza",
+      "pronunciation": "djag-NOS-ti-ko",
+      "example": "El diagnóstico fue positivo.",
+      "exampleTranslation": "Dijagnoza je bila pozitivna."
+    },
+    {
+      "id": "tratamiento",
+      "word": "tratamiento",
+      "translation": "lečenje",
+      "pronunciation": "tra-ta-MJEN-to",
+      "example": "El tratamiento dura tres semanas.",
+      "exampleTranslation": "Lečenje traje tri nedelje."
+    },
+    {
+      "id": "analisis",
+      "word": "análisis",
+      "translation": "analiza",
+      "pronunciation": "a-NA-li-sis",
+      "example": "Necesito hacerme un análisis de sangre.",
+      "exampleTranslation": "Moram da uradim analizu krvi."
+    },
+    {
+      "id": "alergia",
+      "word": "alergia",
+      "translation": "alergija",
+      "pronunciation": "a-LER-hja",
+      "example": "Tengo alergia al polen.",
+      "exampleTranslation": "Imam alergiju na polen."
+    },
+    {
+      "id": "cita",
+      "word": "cita",
+      "translation": "zakazan termin",
+      "pronunciation": "SI-ta",
+      "example": "Tengo cita con el médico a las cuatro.",
+      "exampleTranslation": "Imam zakazan termin kod lekara u četiri."
+    },
+    {
+      "id": "cirugia",
+      "word": "cirugía",
+      "translation": "hirurgija",
+      "pronunciation": "si-ru-HI-a",
+      "example": "La cirugía fue exitosa.",
+      "exampleTranslation": "Hirurška intervencija je bila uspešna."
+    }
+  ],
+  "grammar": {
+    "title": "Subjunktiv za savete - 'Es importante que...'",
+    "explanation": "Za davanje medicinskih saveta koristimo subjunktiv nakon izraza kao što su:\n\n• Es importante que + subjunktiv: Es importante que tome la medicina (Važno je da uzmete lek)\n• Es necesario que + subjunktiv: Es necesario que descanse (Neophodno je da se odmarate)\n• Le recomiendo que + subjunktiv: Le recomiendo que vaya al médico (Preporučujem vam da odete kod lekara)\n\nSubjunktiv za pravilne glagole (-ar): tome, tomes, tome, tomemos, tomen\nSubjunktiv za pravilne glagole (-er/-ir): beba, bebas, beba, bebamos, beban",
+    "examples": [
+      { "target": "Es importante que tome la medicina.", "native": "Važno je da uzmete lek." },
+      { "target": "Le recomiendo que descanse.", "native": "Preporučujem vam da se odmarate." },
+      { "target": "Es necesario que haga un análisis.", "native": "Neophodno je da uradite analizu." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-1",
+      "question": "Kako se kaže 'simptom' na španskom?",
+      "options": ["receta", "síntoma", "diagnóstico", "tratamiento"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-2",
+      "sentence": "El ___ dura tres semanas.",
+      "answer": "tratamiento",
+      "acceptableAnswers": ["tratamiento", "Tratamiento"],
+      "hint": "Reč za 'lečenje'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-3",
+      "pairs": [
+        { "left": "receta", "right": "recept" },
+        { "left": "diagnóstico", "right": "dijagnoza" },
+        { "left": "alergia", "right": "alergija" },
+        { "left": "cirugía", "right": "hirurgija" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-4",
+      "sentence": "Imam zakazan termin kod lekara u četiri.",
+      "answer": "Tengo cita con el médico a las cuatro.",
+      "acceptableAnswers": ["Tengo cita con el médico a las cuatro", "Tengo cita con el médico a las cuatro."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-5",
+      "question": "Šta znači 'análisis'?",
+      "options": ["lečenje", "recept", "analiza", "dijagnoza"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "Kako se kaže 'dijagnoza' na španskom?",
+      "options": ["síntoma", "diagnóstico", "tratamiento", "receta"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-2",
+      "question": "Šta znači 'cita'?",
+      "options": ["recept", "alergija", "zakazan termin", "hirurgija"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-3",
+      "question": "Kako se kaže 'alergija' na španskom?",
+      "options": ["análisis", "cirugía", "síntoma", "alergia"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-2-4",
+      "question": "Šta znači 'tratamiento'?",
+      "options": ["simptom", "lečenje", "analiza", "recept"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-5",
+      "question": "Kako kažete 'Važno je da uzmete lek' na španskom?",
+      "options": ["Es importante tomar la medicina.", "Es importante que tome la medicina.", "Es importante que toma la medicina.", "Importante que tome la medicina."],
+      "correctIndex": 1
+    }
+  ]
+}

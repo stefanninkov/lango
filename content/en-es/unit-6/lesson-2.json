@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-6",
+  "title": "Daily Routine",
+  "vocabulary": [
+    {
+      "id": "despertar",
+      "word": "Despertar",
+      "translation": "To wake up",
+      "pronunciation": "deh-spehr-TAR",
+      "example": "Me despierto a las siete de la mañana.",
+      "exampleTranslation": "I wake up at seven in the morning."
+    },
+    {
+      "id": "ducharse",
+      "word": "Ducharse",
+      "translation": "To shower",
+      "pronunciation": "doo-CHAR-seh",
+      "example": "Me ducho después de hacer ejercicio.",
+      "exampleTranslation": "I shower after exercising."
+    },
+    {
+      "id": "vestirse",
+      "word": "Vestirse",
+      "translation": "To get dressed",
+      "pronunciation": "veh-STEER-seh",
+      "example": "Me visto rápidamente antes de salir.",
+      "exampleTranslation": "I get dressed quickly before leaving."
+    },
+    {
+      "id": "trabajar",
+      "word": "Trabajar",
+      "translation": "To work",
+      "pronunciation": "trah-bah-HAR",
+      "example": "Trabajo de lunes a viernes en una oficina.",
+      "exampleTranslation": "I work Monday to Friday in an office."
+    },
+    {
+      "id": "descansar",
+      "word": "Descansar",
+      "translation": "To rest",
+      "pronunciation": "deh-skahn-SAR",
+      "example": "Los fines de semana me gusta descansar.",
+      "exampleTranslation": "On weekends I like to rest."
+    },
+    {
+      "id": "acostarse",
+      "word": "Acostarse",
+      "translation": "To go to bed",
+      "pronunciation": "ah-koh-STAR-seh",
+      "example": "Me acuesto a las once de la noche.",
+      "exampleTranslation": "I go to bed at eleven at night."
+    },
+    {
+      "id": "levantarse",
+      "word": "Levantarse",
+      "translation": "To get up",
+      "pronunciation": "leh-vahn-TAR-seh",
+      "example": "No me gusta levantarme temprano.",
+      "exampleTranslation": "I don't like getting up early."
+    },
+    {
+      "id": "cenar",
+      "word": "Cenar",
+      "translation": "To have dinner",
+      "pronunciation": "seh-NAR",
+      "example": "Cenamos juntos en familia todas las noches.",
+      "exampleTranslation": "We have dinner together as a family every night."
+    }
+  ],
+  "grammar": {
+    "title": "Reflexive Verbs in Daily Routines",
+    "explanation": "Many daily routine verbs in Spanish are reflexive, meaning the action is performed on oneself. They use reflexive pronouns:\n\n• me (myself) - me despierto, me ducho\n• te (yourself) - te despiertas, te duchas\n• se (himself/herself) - se despierta, se ducha\n• nos (ourselves) - nos despertamos\n• se (themselves) - se despiertan\n\nThe reflexive pronoun goes before the conjugated verb: Me levanto a las siete.\nWith infinitives, it attaches to the end: Voy a ducharme. Or: Me voy a duchar.\n\nNote: despertar becomes 'despertarse' (reflexive), and the stem changes: e → ie (me despierto).",
+    "examples": [
+      { "target": "Me despierto, me ducho y me visto.", "native": "I wake up, shower, and get dressed." },
+      { "target": "¿A qué hora te acuestas normalmente?", "native": "What time do you normally go to bed?" },
+      { "target": "Mi hijo no quiere levantarse temprano.", "native": "My son doesn't want to get up early." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-6-6",
+      "question": "Which pronoun completes '___ despierto a las siete'?",
+      "options": ["Yo", "Mi", "Me", "Mí"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-6-7",
+      "sentence": "No me gusta ___ temprano los fines de semana.",
+      "answer": "levantarme",
+      "acceptableAnswers": ["levantarme", "Levantarme"],
+      "hint": "To get up (reflexive infinitive, with pronoun attached)"
+    },
+    {
+      "type": "matching",
+      "id": "ex-6-8",
+      "pairs": [
+        { "left": "Ducharse", "right": "To shower" },
+        { "left": "Vestirse", "right": "To get dressed" },
+        { "left": "Acostarse", "right": "To go to bed" },
+        { "left": "Levantarse", "right": "To get up" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-6-9",
+      "sentence": "I go to bed at eleven at night.",
+      "answer": "Me acuesto a las once de la noche.",
+      "acceptableAnswers": ["Me acuesto a las once de la noche", "Me acuesto a las once de la noche."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-6-10",
+      "question": "What does 'descansar' mean?",
+      "options": ["To eat dinner", "To work", "To rest", "To shower"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-6-6",
+      "question": "Which verb is NOT reflexive?",
+      "options": ["Ducharse", "Trabajar", "Vestirse", "Acostarse"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-6-7",
+      "question": "What is 'to have dinner' in Spanish?",
+      "options": ["Almorzar", "Desayunar", "Cenar", "Comer"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-6-8",
+      "question": "How do you say 'She wakes up at eight'?",
+      "options": ["Ella despierta a las ocho.", "Ella se despierta a las ocho.", "Ella me despierta a las ocho.", "Ella despertarse a las ocho."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-6-9",
+      "question": "What does 'vestirse' mean?",
+      "options": ["To undress", "To get dressed", "To shower", "To rest"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-6-10",
+      "question": "Where does the reflexive pronoun go with a conjugated verb?",
+      "options": ["After the verb", "Before the verb", "Attached to the end", "It doesn't matter"],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-3",
+  "title": "Članovi porodice",
+  "vocabulary": [
+    {
+      "id": "madre",
+      "word": "madre",
+      "translation": "majka",
+      "pronunciation": "MA-dre",
+      "example": "Mi madre cocina muy bien.",
+      "exampleTranslation": "Moja majka kuva veoma dobro."
+    },
+    {
+      "id": "padre",
+      "word": "padre",
+      "translation": "otac",
+      "pronunciation": "PA-dre",
+      "example": "Mi padre trabaja en una oficina.",
+      "exampleTranslation": "Moj otac radi u kancelariji."
+    },
+    {
+      "id": "hermano",
+      "word": "hermano",
+      "translation": "brat",
+      "pronunciation": "er-MA-no",
+      "example": "Tengo un hermano mayor.",
+      "exampleTranslation": "Imam starijeg brata."
+    },
+    {
+      "id": "hermana",
+      "word": "hermana",
+      "translation": "sestra",
+      "pronunciation": "er-MA-na",
+      "example": "Mi hermana estudia medicina.",
+      "exampleTranslation": "Moja sestra studira medicinu."
+    },
+    {
+      "id": "hijo",
+      "word": "hijo",
+      "translation": "sin",
+      "pronunciation": "I-ho",
+      "example": "Su hijo tiene cinco años.",
+      "exampleTranslation": "Njen sin ima pet godina."
+    },
+    {
+      "id": "hija",
+      "word": "hija",
+      "translation": "ćerka",
+      "pronunciation": "I-ha",
+      "example": "Mi hija es muy inteligente.",
+      "exampleTranslation": "Moja ćerka je veoma inteligentna."
+    },
+    {
+      "id": "abuelo",
+      "word": "abuelo",
+      "translation": "deda",
+      "pronunciation": "a-BUE-lo",
+      "example": "Mi abuelo tiene ochenta años.",
+      "exampleTranslation": "Moj deda ima osamdeset godina."
+    },
+    {
+      "id": "abuela",
+      "word": "abuela",
+      "translation": "baka",
+      "pronunciation": "a-BUE-la",
+      "example": "La abuela cuenta historias bonitas.",
+      "exampleTranslation": "Baka priča lepe priče."
+    }
+  ],
+  "grammar": {
+    "title": "Prisvojni pridevi u španskom",
+    "explanation": "U španskom jeziku, prisvojni pridevi se menjaju prema licu i broju:\n\n• mi/mis - moj/moji\n• tu/tus - tvoj/tvoji\n• su/sus - njegov/njen/njihov\n• nuestro/nuestra - naš/naša\n\nPrisvojni pridev se slaže u broju sa imenicom koju opisuje: 'mi hermano' (moj brat) ali 'mis hermanos' (moji braća).",
+    "examples": [
+      { "target": "Mi madre es profesora.", "native": "Moja majka je profesorka." },
+      { "target": "Mis hermanos son altos.", "native": "Moja braća su visoka." },
+      { "target": "Nuestra abuela vive en Madrid.", "native": "Naša baka živi u Madridu." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1",
+      "question": "Kako se kaže 'majka' na španskom?",
+      "options": ["hermana", "madre", "hija", "abuela"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-2",
+      "sentence": "Mi ___ trabaja en una oficina.",
+      "answer": "padre",
+      "acceptableAnswers": ["padre", "Padre"],
+      "hint": "Reč za 'otac'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-3",
+      "pairs": [
+        { "left": "madre", "right": "majka" },
+        { "left": "hermano", "right": "brat" },
+        { "left": "abuelo", "right": "deda" },
+        { "left": "hija", "right": "ćerka" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-4",
+      "sentence": "Imam starijeg brata.",
+      "answer": "Tengo un hermano mayor.",
+      "acceptableAnswers": ["Tengo un hermano mayor", "Tengo un hermano mayor."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-5",
+      "question": "Šta znači 'abuela'?",
+      "options": ["sestra", "majka", "ćerka", "baka"],
+      "correctIndex": 3
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "Kako se kaže 'brat' na španskom?",
+      "options": ["hijo", "padre", "hermano", "abuelo"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-2",
+      "question": "Šta znači 'hijo'?",
+      "options": ["otac", "sin", "brat", "deda"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-3",
+      "question": "Koji je ženski oblik reči 'hermano'?",
+      "options": ["hermana", "madre", "hija", "abuela"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q-1-4",
+      "question": "Kako se kaže 'Moj deda ima osamdeset godina' na španskom?",
+      "options": ["Mi padre tiene ochenta años.", "Mi abuelo tiene ochenta años.", "Mi hermano tiene ochenta años.", "Mi hijo tiene ochenta años."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-5",
+      "question": "Šta znači 'padre'?",
+      "options": ["baka", "deda", "majka", "otac"],
+      "correctIndex": 3
+    }
+  ]
+}

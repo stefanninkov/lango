@@ -1,0 +1,155 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-8",
+  "title": "Body & Health",
+  "vocabulary": [
+    {
+      "id": "v-1-1",
+      "word": "testa",
+      "translation": "head",
+      "pronunciation": "TEH-stah",
+      "example": "Mi fa male la testa da stamattina.",
+      "exampleTranslation": "My head has been hurting since this morning."
+    },
+    {
+      "id": "v-1-2",
+      "word": "stomaco",
+      "translation": "stomach",
+      "pronunciation": "STOH-mah-koh",
+      "example": "Ho mal di stomaco dopo pranzo.",
+      "exampleTranslation": "I have a stomachache after lunch."
+    },
+    {
+      "id": "v-1-3",
+      "word": "medicina",
+      "translation": "medicine",
+      "pronunciation": "meh-dee-CHEE-nah",
+      "example": "Devo prendere la medicina tre volte al giorno.",
+      "exampleTranslation": "I need to take the medicine three times a day."
+    },
+    {
+      "id": "v-1-4",
+      "word": "dolore",
+      "translation": "pain",
+      "pronunciation": "doh-LOH-reh",
+      "example": "Sento un forte dolore alla schiena.",
+      "exampleTranslation": "I feel a strong pain in my back."
+    },
+    {
+      "id": "v-1-5",
+      "word": "febbre",
+      "translation": "fever",
+      "pronunciation": "FEB-breh",
+      "example": "Ha la febbre alta, deve restare a letto.",
+      "exampleTranslation": "He/She has a high fever, he/she must stay in bed."
+    },
+    {
+      "id": "v-1-6",
+      "word": "tosse",
+      "translation": "cough",
+      "pronunciation": "TOS-seh",
+      "example": "Questa tosse non mi passa da una settimana.",
+      "exampleTranslation": "This cough hasn't gone away for a week."
+    },
+    {
+      "id": "v-1-7",
+      "word": "influenza",
+      "translation": "flu",
+      "pronunciation": "een-floo-EN-tsah",
+      "example": "L'influenza si diffonde rapidamente in inverno.",
+      "exampleTranslation": "The flu spreads rapidly in winter."
+    },
+    {
+      "id": "v-1-8",
+      "word": "vitamina",
+      "translation": "vitamin",
+      "pronunciation": "vee-tah-MEE-nah",
+      "example": "È importante assumere abbastanza vitamine.",
+      "exampleTranslation": "It is important to get enough vitamins."
+    }
+  ],
+  "grammar": {
+    "title": "Expressing Pain: 'Mi fa male' and 'Ho mal di'",
+    "explanation": "Italian has two common constructions to express pain: 'mi fa male + body part' (literally 'it hurts me') where the body part is the subject: 'mi fa male la testa' (my head hurts), 'mi fanno male le gambe' (my legs hurt). The other construction is 'ho mal di + body part': 'ho mal di testa' (I have a headache), 'ho mal di stomaco' (I have a stomachache). Note that 'mal di' is used without the article. For more formal/medical contexts: 'sento un dolore a/al...' (I feel a pain in...).",
+    "examples": [
+      { "target": "Mi fa male la testa, ho bisogno di un'aspirina.", "native": "My head hurts, I need an aspirin." },
+      { "target": "Ho mal di gola e tosse.", "native": "I have a sore throat and a cough." },
+      { "target": "Sento un dolore acuto al ginocchio.", "native": "I feel a sharp pain in my knee." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1",
+      "question": "How do you say 'I have a headache' in Italian?",
+      "options": ["Ho male la testa.", "Ho mal di testa.", "Mi male la testa.", "Sono mal di testa."],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-2",
+      "sentence": "Ha la ___ alta, deve restare a letto.",
+      "answer": "febbre",
+      "acceptableAnswers": ["febbre", "Febbre"],
+      "hint": "Fever"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-3",
+      "pairs": [
+        { "left": "Testa", "right": "Head" },
+        { "left": "Dolore", "right": "Pain" },
+        { "left": "Tosse", "right": "Cough" },
+        { "left": "Febbre", "right": "Fever" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-4",
+      "sentence": "I need to take the medicine three times a day.",
+      "answer": "Devo prendere la medicina tre volte al giorno.",
+      "acceptableAnswers": ["Devo prendere la medicina tre volte al giorno"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-5",
+      "sentence": "L'___ si diffonde rapidamente in inverno.",
+      "answer": "influenza",
+      "acceptableAnswers": ["influenza", "Influenza"],
+      "hint": "Flu"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "What does 'dolore' mean?",
+      "options": ["Dollar", "Pain", "Doctor", "Medicine"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-2",
+      "question": "How do you say 'My stomach hurts'?",
+      "options": ["Ho lo stomaco.", "Mi fa male lo stomaco.", "Sono stomaco.", "Faccio male lo stomaco."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-3",
+      "question": "What does 'tosse' mean?",
+      "options": ["Toss", "Toast", "Cough", "Touch"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-4",
+      "question": "What does 'È importante assumere abbastanza vitamine' mean?",
+      "options": ["Vitamins are important for health.", "It is important to get enough vitamins.", "You should buy vitamins.", "Vitamins are expensive."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-5",
+      "question": "Which construction means 'I have a sore throat'?",
+      "options": ["Ho il mal gola.", "Mi fa male gola.", "Ho mal di gola.", "Sento la gola."],
+      "correctIndex": 2
+    }
+  ]
+}

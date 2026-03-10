@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-9",
+  "title": "Expressing Opinions",
+  "vocabulary": [
+    {
+      "id": "opinar",
+      "word": "Opinar",
+      "translation": "To think / To give an opinion",
+      "pronunciation": "oh-pee-NAR",
+      "example": "¿Qué opinas sobre la situación actual?",
+      "exampleTranslation": "What do you think about the current situation?"
+    },
+    {
+      "id": "creer",
+      "word": "Creer",
+      "translation": "To believe / To think",
+      "pronunciation": "kreh-EHR",
+      "example": "Creo que esta es una buena idea.",
+      "exampleTranslation": "I think this is a good idea."
+    },
+    {
+      "id": "estar-de-acuerdo",
+      "word": "Estar de acuerdo",
+      "translation": "To agree",
+      "pronunciation": "eh-STAR deh ah-KWEHR-doh",
+      "example": "Estoy de acuerdo con tu propuesta.",
+      "exampleTranslation": "I agree with your proposal."
+    },
+    {
+      "id": "sin-embargo",
+      "word": "Sin embargo",
+      "translation": "However",
+      "pronunciation": "seen ehm-BAR-goh",
+      "example": "Es una buena idea; sin embargo, necesita más investigación.",
+      "exampleTranslation": "It's a good idea; however, it needs more research."
+    },
+    {
+      "id": "aunque",
+      "word": "Aunque",
+      "translation": "Although / Even though",
+      "pronunciation": "ah-OON-keh",
+      "example": "Aunque no estoy de acuerdo, respeto tu opinión.",
+      "exampleTranslation": "Although I don't agree, I respect your opinion."
+    },
+    {
+      "id": "ademas",
+      "word": "Además",
+      "translation": "Furthermore / Besides",
+      "pronunciation": "ah-deh-MAHS",
+      "example": "El proyecto es viable y, además, es económico.",
+      "exampleTranslation": "The project is viable and, furthermore, it's economical."
+    },
+    {
+      "id": "por-lo-tanto",
+      "word": "Por lo tanto",
+      "translation": "Therefore",
+      "pronunciation": "por loh TAHN-toh",
+      "example": "Los datos son claros; por lo tanto, debemos actuar.",
+      "exampleTranslation": "The data is clear; therefore, we must act."
+    },
+    {
+      "id": "en-cambio",
+      "word": "En cambio",
+      "translation": "On the other hand",
+      "pronunciation": "ehn KAHM-byoh",
+      "example": "A él le gusta el cine; en cambio, ella prefiere el teatro.",
+      "exampleTranslation": "He likes cinema; on the other hand, she prefers theater."
+    }
+  ],
+  "grammar": {
+    "title": "Subjunctive vs. Indicative with Opinion Expressions",
+    "explanation": "Whether to use subjunctive or indicative depends on the type of opinion expression:\n\nIndicative (certainty, affirmation):\n• Creo que + indicative: Creo que es verdad. (I think it's true.)\n• Estoy seguro de que + indicative: Estoy seguro de que tiene razón. (I'm sure he's right.)\n\nSubjunctive (doubt, denial, negation):\n• No creo que + subjunctive: No creo que sea verdad. (I don't think it's true.)\n• Dudo que + subjunctive: Dudo que tenga razón. (I doubt he's right.)\n• Es posible que + subjunctive: Es posible que llueva mañana. (It's possible it will rain tomorrow.)\n\nKey rule: Negating a belief/certainty expression triggers the subjunctive.",
+    "examples": [
+      { "target": "Creo que tienes razón, aunque no estoy completamente seguro.", "native": "I think you're right, although I'm not completely sure." },
+      { "target": "No creo que sea buena idea; sin embargo, respeto tu decisión.", "native": "I don't think it's a good idea; however, I respect your decision." },
+      { "target": "Es posible que estemos de acuerdo en algunos puntos.", "native": "It's possible that we agree on some points." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-9-6",
+      "question": "Which mood follows 'No creo que...'?",
+      "options": ["Indicative", "Subjunctive", "Conditional", "Imperative"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-9-7",
+      "sentence": "Es una buena idea; ___, necesita más investigación.",
+      "answer": "sin embargo",
+      "acceptableAnswers": ["sin embargo", "Sin embargo"],
+      "hint": "A connector meaning 'however'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-9-8",
+      "pairs": [
+        { "left": "Sin embargo", "right": "However" },
+        { "left": "Además", "right": "Furthermore" },
+        { "left": "Por lo tanto", "right": "Therefore" },
+        { "left": "En cambio", "right": "On the other hand" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-9-9",
+      "sentence": "Although I don't agree, I respect your opinion.",
+      "answer": "Aunque no estoy de acuerdo, respeto tu opinión.",
+      "acceptableAnswers": ["Aunque no estoy de acuerdo, respeto tu opinión", "Aunque no estoy de acuerdo, respeto tu opinión.", "Aunque no estoy de acuerdo respeto tu opinión."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-9-10",
+      "question": "What does 'estar de acuerdo' mean?",
+      "options": ["To remember", "To agree", "To disagree", "To decide"],
+      "correctIndex": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-9-6",
+      "question": "Which takes the indicative?",
+      "options": ["No creo que...", "Es posible que...", "Creo que...", "Dudo que..."],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-9-7",
+      "question": "What does 'además' mean?",
+      "options": ["However", "Therefore", "Furthermore", "Although"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-9-8",
+      "question": "How do you say 'I agree with you'?",
+      "options": ["Soy de acuerdo contigo.", "Estoy de acuerdo contigo.", "Tengo acuerdo contigo.", "Hago acuerdo contigo."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-9-9",
+      "question": "What is 'en cambio' in English?",
+      "options": ["In exchange", "On the other hand", "In change", "However"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-9-10",
+      "question": "Complete: 'No creo que ___ verdad.' (ser)",
+      "options": ["es", "sea", "será", "fue"],
+      "correctIndex": 1
+    }
+  ]
+}

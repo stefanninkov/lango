@@ -1,0 +1,156 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-6",
+  "title": "Dnevna rutina",
+  "vocabulary": [
+    {
+      "id": "v-6-2-1",
+      "word": "svegliarsi",
+      "translation": "probuditi se",
+      "pronunciation": "zveljarsi",
+      "example": "Mi sveglio alle sette ogni mattina.",
+      "exampleTranslation": "Budim se u sedam svakog jutra."
+    },
+    {
+      "id": "v-6-2-2",
+      "word": "fare la doccia",
+      "translation": "tuširati se",
+      "pronunciation": "fare la doča",
+      "example": "Faccio la doccia dopo la palestra.",
+      "exampleTranslation": "Tuširam se posle teretane."
+    },
+    {
+      "id": "v-6-2-3",
+      "word": "vestirsi",
+      "translation": "obući se",
+      "pronunciation": "vestirsi",
+      "example": "Mi vesto rapidamente la mattina.",
+      "exampleTranslation": "Brzo se oblačim ujutru."
+    },
+    {
+      "id": "v-6-2-4",
+      "word": "lavorare",
+      "translation": "raditi",
+      "pronunciation": "lavorare",
+      "example": "Lavoro dalle nove alle cinque.",
+      "exampleTranslation": "Radim od devet do pet."
+    },
+    {
+      "id": "v-6-2-5",
+      "word": "riposare",
+      "translation": "odmarati se",
+      "pronunciation": "ripozare",
+      "example": "Il sabato mi riposo a casa.",
+      "exampleTranslation": "Subotom se odmaram kod kuće."
+    },
+    {
+      "id": "v-6-2-6",
+      "word": "andare a letto",
+      "translation": "leći",
+      "pronunciation": "andare a leto",
+      "example": "Vado a letto alle undici.",
+      "exampleTranslation": "Ležem u jedanaest."
+    },
+    {
+      "id": "v-6-2-7",
+      "word": "alzarsi",
+      "translation": "ustati",
+      "pronunciation": "alcarsi",
+      "example": "Mi alzo presto ogni giorno.",
+      "exampleTranslation": "Ustajem rano svaki dan."
+    },
+    {
+      "id": "v-6-2-8",
+      "word": "cenare",
+      "translation": "večerati",
+      "pronunciation": "čenare",
+      "example": "Ceniamo alle otto di sera.",
+      "exampleTranslation": "Večeramo u osam uveče."
+    }
+  ],
+  "grammar": {
+    "title": "Povratni glagoli u italijanskom",
+    "explanation": "Povratni glagoli (verbi riflessivi) u italijanskom koriste povratne zamenice: mi, ti, si, ci, vi, si. U infinitivu se završavaju na '-rsi': svegliarsi, vestirsi, alzarsi. Kada se konjuguju, povratna zamenica dolazi ispred glagola: 'mi sveglio' (budim se), 'ti vesti' (oblačiš se). U perfektu (passato prossimo) povratni glagoli koriste pomoćni glagol 'essere': 'mi sono svegliato/a' (probudio/la sam se).",
+    "examples": [
+      { "target": "Mi sveglio alle sette.", "native": "Budim se u sedam." },
+      { "target": "Ti vesti rapidamente.", "native": "Oblačiš se brzo." },
+      { "target": "Si alza presto.", "native": "Ustaje rano." },
+      { "target": "Ci riposiamo il weekend.", "native": "Odmaramo se vikendom." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-6-2-1",
+      "question": "Kako se kaže 'probuditi se' na italijanskom?",
+      "options": ["alzarsi", "vestirsi", "svegliarsi", "riposare"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-6-2-2",
+      "sentence": "Mi ___ alle sette ogni mattina.",
+      "answer": "sveglio",
+      "acceptableAnswers": ["sveglio", "alzo"],
+      "hint": "Budim se u sedam svakog jutra."
+    },
+    {
+      "type": "matching",
+      "id": "ex-6-2-3",
+      "pairs": [
+        { "left": "svegliarsi", "right": "probuditi se" },
+        { "left": "vestirsi", "right": "obući se" },
+        { "left": "alzarsi", "right": "ustati" },
+        { "left": "riposare", "right": "odmarati se" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-6-2-4",
+      "sentence": "Radim od devet do pet.",
+      "answer": "Lavoro dalle nove alle cinque.",
+      "acceptableAnswers": ["Lavoro dalle nove alle cinque.", "Lavoro dalle nove alle cinque"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-6-2-5",
+      "sentence": "Vado a ___ alle undici.",
+      "answer": "letto",
+      "acceptableAnswers": ["letto"],
+      "hint": "Ležem u jedanaest."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-6-2-1",
+      "question": "Šta znači 'alzarsi'?",
+      "options": ["leći", "probuditi se", "ustati", "obući se"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-6-2-2",
+      "question": "Kako se kaže 'večerati' na italijanskom?",
+      "options": ["lavorare", "riposare", "cenare", "vestirsi"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-6-2-3",
+      "question": "Šta znači 'fare la doccia'?",
+      "options": ["obući se", "raditi", "tuširati se", "ustati"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-6-2-4",
+      "question": "Koji pomoćni glagol koriste povratni glagoli u perfektu?",
+      "options": ["avere", "essere", "fare", "stare"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-6-2-5",
+      "question": "Kako se kaže 'raditi' na italijanskom?",
+      "options": ["riposare", "cenare", "alzarsi", "lavorare"],
+      "correctIndex": 3
+    }
+  ]
+}

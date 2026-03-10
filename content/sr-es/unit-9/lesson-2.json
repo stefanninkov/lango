@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-9",
+  "title": "Izražavanje mišljenja",
+  "vocabulary": [
+    {
+      "id": "opinar",
+      "word": "opinar",
+      "translation": "misliti",
+      "pronunciation": "o-pi-NAR",
+      "example": "¿Qué opinas sobre este tema?",
+      "exampleTranslation": "Šta misliš o ovoj temi?"
+    },
+    {
+      "id": "creer",
+      "word": "creer",
+      "translation": "verovati",
+      "pronunciation": "kre-ER",
+      "example": "Creo que tienes razón.",
+      "exampleTranslation": "Verujem da si u pravu."
+    },
+    {
+      "id": "estar-de-acuerdo",
+      "word": "estar de acuerdo",
+      "translation": "slagati se",
+      "pronunciation": "es-TAR de a-KUER-do",
+      "example": "Estoy de acuerdo contigo.",
+      "exampleTranslation": "Slažem se sa tobom."
+    },
+    {
+      "id": "sin-embargo",
+      "word": "sin embargo",
+      "translation": "međutim",
+      "pronunciation": "sin em-BAR-go",
+      "example": "Es caro; sin embargo, vale la pena.",
+      "exampleTranslation": "Skupo je; međutim, vredi."
+    },
+    {
+      "id": "aunque",
+      "word": "aunque",
+      "translation": "iako",
+      "pronunciation": "a-UN-ke",
+      "example": "Aunque llueve, vamos a salir.",
+      "exampleTranslation": "Iako pada kiša, izaći ćemo."
+    },
+    {
+      "id": "ademas",
+      "word": "además",
+      "translation": "osim toga",
+      "pronunciation": "a-de-MAS",
+      "example": "Además, es muy interesante.",
+      "exampleTranslation": "Osim toga, veoma je zanimljivo."
+    },
+    {
+      "id": "por-lo-tanto",
+      "word": "por lo tanto",
+      "translation": "prema tome",
+      "pronunciation": "por lo TAN-to",
+      "example": "No estudió; por lo tanto, no aprobó.",
+      "exampleTranslation": "Nije učio; prema tome, nije položio."
+    },
+    {
+      "id": "en-cambio",
+      "word": "en cambio",
+      "translation": "s druge strane",
+      "pronunciation": "en KAM-bjo",
+      "example": "A mí me gusta; en cambio, a él no.",
+      "exampleTranslation": "Meni se sviđa; s druge strane, njemu ne."
+    }
+  ],
+  "grammar": {
+    "title": "Veznici za izražavanje mišljenja i argumentacije",
+    "explanation": "Za strukturiranje argumenata u španskom koristimo veznike:\n\n• Za dodavanje: además (osim toga), también (takođe)\n• Za kontrast: sin embargo (međutim), aunque (iako), en cambio (s druge strane)\n• Za zaključak: por lo tanto (prema tome), en conclusión (u zaključku)\n• Za mišljenje: creo que (verujem da), opino que (mislim da), en mi opinión (po mom mišljenju)\n\nNakon 'creo que' koristimo indikativ: 'Creo que es interesante.'\nNakon 'no creo que' koristimo subjunktiv: 'No creo que sea interesante.'",
+    "examples": [
+      { "target": "Creo que es una buena idea.", "native": "Verujem da je to dobra ideja." },
+      { "target": "No estoy de acuerdo; sin embargo, respeto tu opinión.", "native": "Ne slažem se; međutim, poštujem tvoje mišljenje." },
+      { "target": "Aunque es difícil, es posible.", "native": "Iako je teško, moguće je." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-1",
+      "question": "Kako se kaže 'verovati' na španskom?",
+      "options": ["opinar", "creer", "pensar", "saber"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-2",
+      "sentence": "Estoy de ___ contigo.",
+      "answer": "acuerdo",
+      "acceptableAnswers": ["acuerdo", "Acuerdo"],
+      "hint": "Izraz 'estar de ___' znači 'slagati se'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-3",
+      "pairs": [
+        { "left": "sin embargo", "right": "međutim" },
+        { "left": "aunque", "right": "iako" },
+        { "left": "además", "right": "osim toga" },
+        { "left": "por lo tanto", "right": "prema tome" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-4",
+      "sentence": "Verujem da si u pravu.",
+      "answer": "Creo que tienes razón.",
+      "acceptableAnswers": ["Creo que tienes razón", "Creo que tienes razón."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-5",
+      "question": "Šta znači 'en cambio'?",
+      "options": ["osim toga", "prema tome", "međutim", "s druge strane"],
+      "correctIndex": 3
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "Kako se kaže 'međutim' na španskom?",
+      "options": ["además", "aunque", "sin embargo", "por lo tanto"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-2",
+      "question": "Šta znači 'aunque'?",
+      "options": ["osim toga", "prema tome", "s druge strane", "iako"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-2-3",
+      "question": "Kako kažete 'Slažem se sa tobom' na španskom?",
+      "options": ["Creo contigo.", "Opino contigo.", "Estoy de acuerdo contigo.", "Soy de acuerdo contigo."],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-4",
+      "question": "Šta znači 'opinar'?",
+      "options": ["verovati", "misliti", "slagati se", "znati"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-5",
+      "question": "Koji veznik se koristi za zaključak?",
+      "options": ["aunque", "sin embargo", "además", "por lo tanto"],
+      "correctIndex": 3
+    }
+  ]
+}

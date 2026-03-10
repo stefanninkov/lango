@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-5",
+  "title": "Pravci",
+  "vocabulary": [
+    {
+      "id": "izquierda",
+      "word": "izquierda",
+      "translation": "levo",
+      "pronunciation": "is-KJER-da",
+      "example": "Gira a la izquierda en la esquina.",
+      "exampleTranslation": "Skreni levo na ćošku."
+    },
+    {
+      "id": "derecha",
+      "word": "derecha",
+      "translation": "desno",
+      "pronunciation": "de-RE-ča",
+      "example": "El banco está a la derecha.",
+      "exampleTranslation": "Banka je desno."
+    },
+    {
+      "id": "recto",
+      "word": "recto",
+      "translation": "pravo",
+      "pronunciation": "REK-to",
+      "example": "Siga recto dos calles.",
+      "exampleTranslation": "Idite pravo dve ulice."
+    },
+    {
+      "id": "cerca",
+      "word": "cerca",
+      "translation": "blizu",
+      "pronunciation": "SER-ka",
+      "example": "El hotel está cerca de aquí.",
+      "exampleTranslation": "Hotel je blizu odavde."
+    },
+    {
+      "id": "lejos",
+      "word": "lejos",
+      "translation": "daleko",
+      "pronunciation": "LE-hos",
+      "example": "El aeropuerto está lejos.",
+      "exampleTranslation": "Aerodrom je daleko."
+    },
+    {
+      "id": "esquina",
+      "word": "esquina",
+      "translation": "ćošak/ugao",
+      "pronunciation": "es-KI-na",
+      "example": "La farmacia está en la esquina.",
+      "exampleTranslation": "Apoteka je na ćošku."
+    },
+    {
+      "id": "cruzar",
+      "word": "cruzar",
+      "translation": "preći",
+      "pronunciation": "kru-SAR",
+      "example": "Tienes que cruzar la calle.",
+      "exampleTranslation": "Moraš da pređeš ulicu."
+    },
+    {
+      "id": "semaforo",
+      "word": "semáforo",
+      "translation": "semafor",
+      "pronunciation": "se-MA-fo-ro",
+      "example": "Para en el semáforo.",
+      "exampleTranslation": "Stani na semaforu."
+    }
+  ],
+  "grammar": {
+    "title": "Davanje uputstava - imperativ",
+    "explanation": "Za davanje pravaca koristimo imperativ (zapovedni način):\n\n• Neformalno (tú): gira (skreni), sigue (nastavi), cruza (pređi)\n• Formalno (usted): gire (skrenite), siga (nastavite), cruce (pređite)\n\nKorisni izrazi:\n• 'a la izquierda/derecha' - levo/desno\n• 'todo recto' - pravo\n• 'hasta el semáforo' - do semafora",
+    "examples": [
+      { "target": "Gire a la derecha en el semáforo.", "native": "Skrenite desno na semaforu." },
+      { "target": "Siga todo recto y cruce la calle.", "native": "Idite pravo i pređite ulicu." },
+      { "target": "Está cerca, a dos minutos.", "native": "Blizu je, na dva minuta." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-1",
+      "question": "Kako se kaže 'levo' na španskom?",
+      "options": ["derecha", "recto", "izquierda", "cerca"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-2",
+      "sentence": "Siga ___ dos calles.",
+      "answer": "recto",
+      "acceptableAnswers": ["recto", "Recto"],
+      "hint": "Reč za 'pravo'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-3",
+      "pairs": [
+        { "left": "izquierda", "right": "levo" },
+        { "left": "derecha", "right": "desno" },
+        { "left": "cerca", "right": "blizu" },
+        { "left": "lejos", "right": "daleko" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-4",
+      "sentence": "Moraš da pređeš ulicu.",
+      "answer": "Tienes que cruzar la calle.",
+      "acceptableAnswers": ["Tienes que cruzar la calle", "Tienes que cruzar la calle."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-5",
+      "question": "Šta znači 'esquina'?",
+      "options": ["semafor", "ulica", "ćošak/ugao", "most"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "Koji je suprotan pravac od 'izquierda'?",
+      "options": ["recto", "cerca", "derecha", "lejos"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-2",
+      "question": "Šta znači 'cruzar'?",
+      "options": ["skrenuti", "preći", "stati", "ići"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-3",
+      "question": "Kako se kaže 'semafor' na španskom?",
+      "options": ["esquina", "semáforo", "cruce", "parada"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-4",
+      "question": "Šta znači 'Siga recto'?",
+      "options": ["Skrenite levo", "Pređite ulicu", "Idite pravo", "Stanite"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-5",
+      "question": "Koji je suprotan prilog od 'cerca'?",
+      "options": ["derecha", "recto", "izquierda", "lejos"],
+      "correctIndex": 3
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-6",
+  "title": "U prodavnici",
+  "vocabulary": [
+    {
+      "id": "v-6-1-1",
+      "word": "prezzo",
+      "translation": "cena",
+      "pronunciation": "preco",
+      "example": "Qual è il prezzo di questa borsa?",
+      "exampleTranslation": "Koja je cena ove torbe?"
+    },
+    {
+      "id": "v-6-1-2",
+      "word": "taglia",
+      "translation": "veličina",
+      "pronunciation": "talja",
+      "example": "Che taglia porti?",
+      "exampleTranslation": "Koju veličinu nosiš?"
+    },
+    {
+      "id": "v-6-1-3",
+      "word": "vestiti",
+      "translation": "odeća",
+      "pronunciation": "vestiti",
+      "example": "I vestiti sono in saldo.",
+      "exampleTranslation": "Odeća je na rasprodaji."
+    },
+    {
+      "id": "v-6-1-4",
+      "word": "scarpe",
+      "translation": "cipele",
+      "pronunciation": "skarpe",
+      "example": "Queste scarpe sono comode.",
+      "exampleTranslation": "Ove cipele su udobne."
+    },
+    {
+      "id": "v-6-1-5",
+      "word": "borsa",
+      "translation": "torba",
+      "pronunciation": "borsa",
+      "example": "La borsa è di pelle.",
+      "exampleTranslation": "Torba je od kože."
+    },
+    {
+      "id": "v-6-1-6",
+      "word": "economico",
+      "translation": "jeftino",
+      "pronunciation": "ekonomiko",
+      "example": "Questo negozio è molto economico.",
+      "exampleTranslation": "Ova prodavnica je veoma jeftina."
+    },
+    {
+      "id": "v-6-1-7",
+      "word": "costoso",
+      "translation": "skupo",
+      "pronunciation": "kostozo",
+      "example": "Quella giacca è troppo costosa.",
+      "exampleTranslation": "Ona jakna je previše skupa."
+    },
+    {
+      "id": "v-6-1-8",
+      "word": "sconto",
+      "translation": "popust",
+      "pronunciation": "skonto",
+      "example": "C'è uno sconto del venti per cento.",
+      "exampleTranslation": "Ima popust od dvadeset posto."
+    }
+  ],
+  "grammar": {
+    "title": "Pokazni pridevi – 'questo' i 'quello'",
+    "explanation": "U italijanskom jeziku pokazni pridevi 'questo' (ovaj) i 'quello' (onaj) se slažu sa imenicom u rodu i broju. 'Questo' ima oblike: questo (m. jd.), questa (ž. jd.), questi (m. mn.), queste (ž. mn.). 'Quello' prati oblike određenog člana: quel, quello, quella, quei, quegli, quelle. Na primer: 'questa borsa' (ova torba), 'quelle scarpe' (one cipele).",
+    "examples": [
+      { "target": "Questa borsa è bella.", "native": "Ova torba je lepa." },
+      { "target": "Queste scarpe sono comode.", "native": "Ove cipele su udobne." },
+      { "target": "Quel vestito è costoso.", "native": "Ono odelo je skupo." },
+      { "target": "Quanto costa quello?", "native": "Koliko košta ono?" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-6-1-1",
+      "question": "Kako se kaže 'cena' na italijanskom?",
+      "options": ["sconto", "taglia", "prezzo", "conto"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-6-1-2",
+      "sentence": "Queste ___ sono comode.",
+      "answer": "scarpe",
+      "acceptableAnswers": ["scarpe"],
+      "hint": "Ove cipele su udobne."
+    },
+    {
+      "type": "matching",
+      "id": "ex-6-1-3",
+      "pairs": [
+        { "left": "prezzo", "right": "cena" },
+        { "left": "scarpe", "right": "cipele" },
+        { "left": "economico", "right": "jeftino" },
+        { "left": "costoso", "right": "skupo" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-6-1-4",
+      "sentence": "Ima popust od dvadeset posto.",
+      "answer": "C'è uno sconto del venti per cento.",
+      "acceptableAnswers": ["C'è uno sconto del venti per cento.", "C'è uno sconto del venti per cento"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-6-1-5",
+      "sentence": "Quella giacca è troppo ___.",
+      "answer": "costosa",
+      "acceptableAnswers": ["costosa"],
+      "hint": "Ona jakna je previše skupa."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-6-1-1",
+      "question": "Šta znači 'sconto'?",
+      "options": ["cena", "veličina", "popust", "torba"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-6-1-2",
+      "question": "Kako se kaže 'cipele' na italijanskom?",
+      "options": ["vestiti", "borsa", "taglia", "scarpe"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-6-1-3",
+      "question": "Šta znači 'economico'?",
+      "options": ["skupo", "jeftino", "lepo", "veliko"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-6-1-4",
+      "question": "Koji je suprotni pridev od 'costoso'?",
+      "options": ["prezzo", "sconto", "economico", "taglia"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-6-1-5",
+      "question": "Kako se kaže 'torba' na italijanskom?",
+      "options": ["scarpe", "vestiti", "taglia", "borsa"],
+      "correctIndex": 3
+    }
+  ]
+}

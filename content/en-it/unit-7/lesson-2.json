@@ -1,0 +1,155 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-7",
+  "title": "Professions & Career",
+  "vocabulary": [
+    {
+      "id": "v-2-1",
+      "word": "stipendio",
+      "translation": "salary",
+      "pronunciation": "stee-PEN-dyoh",
+      "example": "Lo stipendio viene accreditato alla fine del mese.",
+      "exampleTranslation": "The salary is credited at the end of the month."
+    },
+    {
+      "id": "v-2-2",
+      "word": "esperienza",
+      "translation": "experience",
+      "pronunciation": "eh-speh-RYEN-tsah",
+      "example": "Servono almeno tre anni di esperienza.",
+      "exampleTranslation": "At least three years of experience are required."
+    },
+    {
+      "id": "v-2-3",
+      "word": "candidarsi",
+      "translation": "to apply (for a job)",
+      "pronunciation": "kahn-dee-DAR-see",
+      "example": "Mi sono candidato per quella posizione.",
+      "exampleTranslation": "I applied for that position."
+    },
+    {
+      "id": "v-2-4",
+      "word": "colloquio",
+      "translation": "interview",
+      "pronunciation": "kol-LOH-kwyoh",
+      "example": "Ho un colloquio di lavoro domani mattina.",
+      "exampleTranslation": "I have a job interview tomorrow morning."
+    },
+    {
+      "id": "v-2-5",
+      "word": "curriculum",
+      "translation": "resume / CV",
+      "pronunciation": "koor-REE-koo-loom",
+      "example": "Mandi il Suo curriculum via email.",
+      "exampleTranslation": "Please send your resume by email. (formal)"
+    },
+    {
+      "id": "v-2-6",
+      "word": "promozione",
+      "translation": "promotion",
+      "pronunciation": "proh-moh-TSYOH-neh",
+      "example": "Ha ricevuto una promozione dopo due anni.",
+      "exampleTranslation": "He/She received a promotion after two years."
+    },
+    {
+      "id": "v-2-7",
+      "word": "contratto",
+      "translation": "contract",
+      "pronunciation": "kon-TRAHT-toh",
+      "example": "Il contratto è a tempo indeterminato.",
+      "exampleTranslation": "The contract is permanent (open-ended)."
+    },
+    {
+      "id": "v-2-8",
+      "word": "dimettersi",
+      "translation": "to resign",
+      "pronunciation": "dee-MET-ter-see",
+      "example": "Si è dimesso per motivi personali.",
+      "exampleTranslation": "He resigned for personal reasons."
+    }
+  ],
+  "grammar": {
+    "title": "The Passato Prossimo with Reflexive Verbs and Formal Register",
+    "explanation": "In professional Italian, reflexive verbs in the passato prossimo always use 'essere' as the auxiliary, and the past participle agrees with the subject: 'mi sono candidato/a' (I applied), 'si è dimesso/a' (he/she resigned). In formal business contexts, use 'Lei' (capitalized) instead of 'tu': 'Si è candidato per la posizione?' (Did you apply for the position? - formal). The formal register also uses the conditional for polite requests: 'Potrebbe inviarmi il curriculum?' (Could you send me the resume?).",
+    "examples": [
+      { "target": "Mi sono candidata per il ruolo di direttrice.", "native": "I applied for the role of director. (female speaker)" },
+      { "target": "Si è dimesso dopo aver ricevuto un'offerta migliore.", "native": "He resigned after receiving a better offer." },
+      { "target": "Potrebbe inviare il Suo curriculum?", "native": "Could you send your resume? (formal)" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-1",
+      "question": "How do you say 'salary' in Italian?",
+      "options": ["Scadenza", "Stipendio", "Contratto", "Promozione"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-2",
+      "sentence": "Ho un ___ di lavoro domani mattina.",
+      "answer": "colloquio",
+      "acceptableAnswers": ["colloquio", "Colloquio"],
+      "hint": "Job interview"
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-3",
+      "pairs": [
+        { "left": "Stipendio", "right": "Salary" },
+        { "left": "Colloquio", "right": "Interview" },
+        { "left": "Promozione", "right": "Promotion" },
+        { "left": "Dimettersi", "right": "To resign" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-4",
+      "sentence": "The contract is permanent.",
+      "answer": "Il contratto è a tempo indeterminato.",
+      "acceptableAnswers": ["Il contratto è a tempo indeterminato"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-5",
+      "sentence": "Servono almeno tre anni di ___.",
+      "answer": "esperienza",
+      "acceptableAnswers": ["esperienza", "Esperienza"],
+      "hint": "Experience"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "What does 'candidarsi' mean?",
+      "options": ["To be a candidate", "To apply for a job", "To cancel", "To compete"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-2",
+      "question": "What does 'dimettersi' mean?",
+      "options": ["To be dismissed", "To diminish", "To resign", "To retire"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-3",
+      "question": "Which auxiliary verb do reflexive verbs use in the passato prossimo?",
+      "options": ["Avere", "Essere", "Fare", "Stare"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-4",
+      "question": "How do you formally ask someone to send their CV?",
+      "options": ["Manda il curriculum!", "Potrebbe inviare il Suo curriculum?", "Dammi il tuo curriculum.", "Vuoi mandare il curriculum?"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-5",
+      "question": "What does 'contratto a tempo indeterminato' mean?",
+      "options": ["Temporary contract", "Part-time contract", "Permanent contract", "Freelance contract"],
+      "correctIndex": 2
+    }
+  ]
+}

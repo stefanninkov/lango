@@ -30,7 +30,30 @@ export interface UnitMeta {
   title: string;
   description: string;
   order: number;
+  level: Level;
+  requiredUnit?: string; // unit id that must be completed first (or skipped via placement)
   lessons: LessonMeta[];
+}
+
+// Placement Test
+export interface PlacementQuestion {
+  id: string;
+  level: Level;
+  skill: 'vocabulary' | 'grammar' | 'reading';
+  question: string;
+  options: string[];
+  correctIndex: number;
+}
+
+export interface PlacementTest {
+  courseId: CourseId;
+  questions: PlacementQuestion[];
+}
+
+export interface PlacementResult {
+  level: Level;
+  score: number; // 0-100
+  startUnit: string; // unit id to start from
 }
 
 export interface LessonMeta {

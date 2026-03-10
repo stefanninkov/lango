@@ -30,17 +30,34 @@ describe('content utils', () => {
       expect(getCourse('xx-yy' as any)).toBeNull();
     });
 
-    it('each course has at least one unit with lessons', () => {
+    it('each course has 9 units with 3 lessons each', () => {
       const courseIds = ['en-es', 'en-it', 'sr-es', 'sr-it'] as const;
       for (const id of courseIds) {
         const course = getCourse(id);
-        expect(course!.units.length).toBeGreaterThan(0);
+        expect(course!.units.length).toBe(9);
         for (const unit of course!.units) {
-          expect(unit.lessons.length).toBeGreaterThan(0);
+          expect(unit.lessons.length).toBe(3);
           expect(unit.id).toBeTruthy();
           expect(unit.title).toBeTruthy();
+          expect(unit.level).toBeTruthy();
         }
       }
+    });
+
+    it('units have correct level assignments', () => {
+      const course = getCourse('en-es')!;
+      // Units 1-3: beginner
+      expect(course.units[0].level).toBe('beginner');
+      expect(course.units[1].level).toBe('beginner');
+      expect(course.units[2].level).toBe('beginner');
+      // Units 4-6: intermediate
+      expect(course.units[3].level).toBe('intermediate');
+      expect(course.units[4].level).toBe('intermediate');
+      expect(course.units[5].level).toBe('intermediate');
+      // Units 7-9: advanced
+      expect(course.units[6].level).toBe('advanced');
+      expect(course.units[7].level).toBe('advanced');
+      expect(course.units[8].level).toBe('advanced');
     });
   });
 
@@ -54,6 +71,18 @@ describe('content utils', () => {
 
     it('returns null for invalid lesson path', () => {
       expect(getLesson('en-es', 'unit-99', 'lesson-99')).toBeNull();
+    });
+
+    it('loads new intermediate and advanced lessons', () => {
+      // Intermediate
+      const intLesson = getLesson('en-es', 'unit-4', 'lesson-1');
+      expect(intLesson).not.toBeNull();
+      expect(intLesson!.title).toBeTruthy();
+
+      // Advanced
+      const advLesson = getLesson('en-es', 'unit-7', 'lesson-1');
+      expect(advLesson).not.toBeNull();
+      expect(advLesson!.title).toBeTruthy();
     });
 
     it('each lesson has required sections', () => {

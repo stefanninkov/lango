@@ -1,0 +1,156 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-9",
+  "title": "Društvo",
+  "vocabulary": [
+    {
+      "id": "v-9-3-1",
+      "word": "società",
+      "translation": "društvo",
+      "pronunciation": "sočijeta",
+      "example": "La società moderna è complessa.",
+      "exampleTranslation": "Moderno društvo je složeno."
+    },
+    {
+      "id": "v-9-3-2",
+      "word": "ambiente",
+      "translation": "životna sredina",
+      "pronunciation": "ambjente",
+      "example": "Dobbiamo proteggere l'ambiente.",
+      "exampleTranslation": "Moramo zaštititi životnu sredinu."
+    },
+    {
+      "id": "v-9-3-3",
+      "word": "uguaglianza",
+      "translation": "jednakost",
+      "pronunciation": "ugvaljanca",
+      "example": "L'uguaglianza è un diritto fondamentale.",
+      "exampleTranslation": "Jednakost je osnovno pravo."
+    },
+    {
+      "id": "v-9-3-4",
+      "word": "diversità",
+      "translation": "raznolikost",
+      "pronunciation": "diversita",
+      "example": "La diversità culturale arricchisce la società.",
+      "exampleTranslation": "Kulturna raznolikost obogaćuje društvo."
+    },
+    {
+      "id": "v-9-3-5",
+      "word": "sostenibile",
+      "translation": "održiv",
+      "pronunciation": "sostenibile",
+      "example": "Lo sviluppo sostenibile è importante.",
+      "exampleTranslation": "Održivi razvoj je važan."
+    },
+    {
+      "id": "v-9-3-6",
+      "word": "riciclaggio",
+      "translation": "reciklaža",
+      "pronunciation": "ričikladžo",
+      "example": "Il riciclaggio riduce l'inquinamento.",
+      "exampleTranslation": "Reciklaža smanjuje zagađenje."
+    },
+    {
+      "id": "v-9-3-7",
+      "word": "comunità",
+      "translation": "zajednica",
+      "pronunciation": "komunita",
+      "example": "La comunità locale è molto unita.",
+      "exampleTranslation": "Lokalna zajednica je veoma ujedinjena."
+    },
+    {
+      "id": "v-9-3-8",
+      "word": "volontario",
+      "translation": "volonter",
+      "pronunciation": "volontarijo",
+      "example": "Lavoro come volontario ogni sabato.",
+      "exampleTranslation": "Radim kao volonter svakog vikenda."
+    }
+  ],
+  "grammar": {
+    "title": "Pasivna konstrukcija – 'essere' + participio prošli",
+    "explanation": "Pasiv u italijanskom jeziku se gradi pomoću glagola 'essere' i participa prošlog glavnog glagola. Particip se slaže u rodu i broju sa subjektom: 'L'ambiente è protetto' (Životna sredina je zaštićena). U različitim vremenima: prezent 'è protetto', prošlo 'è stato protetto', buduće 'sarà protetto'. Pasiv se često koristi u formalnim i novinarskim tekstovima o društvenim temama.",
+    "examples": [
+      { "target": "L'ambiente deve essere protetto.", "native": "Životna sredina mora biti zaštićena." },
+      { "target": "L'uguaglianza è garantita dalla legge.", "native": "Jednakost je garantovana zakonom." },
+      { "target": "I rifiuti vengono riciclati.", "native": "Otpad se reciklira." },
+      { "target": "La comunità è stata aiutata.", "native": "Zajednici je pomognuto." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-9-3-1",
+      "question": "Kako se kaže 'životna sredina' na italijanskom?",
+      "options": ["società", "comunità", "ambiente", "diversità"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-9-3-2",
+      "sentence": "Dobbiamo proteggere l'___.",
+      "answer": "ambiente",
+      "acceptableAnswers": ["ambiente"],
+      "hint": "Moramo zaštititi životnu sredinu."
+    },
+    {
+      "type": "matching",
+      "id": "ex-9-3-3",
+      "pairs": [
+        { "left": "società", "right": "društvo" },
+        { "left": "uguaglianza", "right": "jednakost" },
+        { "left": "diversità", "right": "raznolikost" },
+        { "left": "comunità", "right": "zajednica" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-9-3-4",
+      "sentence": "Održivi razvoj je važan.",
+      "answer": "Lo sviluppo sostenibile è importante.",
+      "acceptableAnswers": ["Lo sviluppo sostenibile è importante.", "Lo sviluppo sostenibile è importante"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-9-3-5",
+      "sentence": "Il ___ riduce l'inquinamento.",
+      "answer": "riciclaggio",
+      "acceptableAnswers": ["riciclaggio"],
+      "hint": "Reciklaža smanjuje zagađenje."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-9-3-1",
+      "question": "Šta znači 'sostenibile'?",
+      "options": ["raznolik", "jednak", "održiv", "dobrovoljan"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-9-3-2",
+      "question": "Kako se kaže 'zajednica' na italijanskom?",
+      "options": ["società", "diversità", "uguaglianza", "comunità"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-9-3-3",
+      "question": "Šta znači 'riciclaggio'?",
+      "options": ["jednakost", "reciklaža", "raznolikost", "volonter"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-9-3-4",
+      "question": "Koji je tačan prevod za 'Kulturna raznolikost obogaćuje društvo'?",
+      "options": ["La comunità culturale arricchisce la società.", "La diversità culturale arricchisce la società.", "L'uguaglianza culturale arricchisce la società.", "L'ambiente culturale arricchisce la società."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-9-3-5",
+      "question": "Kako se kaže 'volonter' na italijanskom?",
+      "options": ["comunità", "sostenibile", "volontario", "riciclaggio"],
+      "correctIndex": 2
+    }
+  ]
+}

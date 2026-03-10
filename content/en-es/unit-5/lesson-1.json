@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-5",
+  "title": "Places in Town",
+  "vocabulary": [
+    {
+      "id": "hotel",
+      "word": "Hotel",
+      "translation": "Hotel",
+      "pronunciation": "oh-TEL",
+      "example": "Nos quedamos en un hotel cerca de la playa.",
+      "exampleTranslation": "We stayed at a hotel near the beach."
+    },
+    {
+      "id": "aeropuerto",
+      "word": "Aeropuerto",
+      "translation": "Airport",
+      "pronunciation": "ah-eh-roh-PWEHR-toh",
+      "example": "El aeropuerto está a treinta minutos de la ciudad.",
+      "exampleTranslation": "The airport is thirty minutes from the city."
+    },
+    {
+      "id": "estacion",
+      "word": "Estación",
+      "translation": "Station",
+      "pronunciation": "eh-stah-SYON",
+      "example": "La estación de tren está en el centro.",
+      "exampleTranslation": "The train station is downtown."
+    },
+    {
+      "id": "museo",
+      "word": "Museo",
+      "translation": "Museum",
+      "pronunciation": "moo-SEH-oh",
+      "example": "El Museo del Prado es famoso en todo el mundo.",
+      "exampleTranslation": "The Prado Museum is famous worldwide."
+    },
+    {
+      "id": "banco",
+      "word": "Banco",
+      "translation": "Bank",
+      "pronunciation": "BAHN-koh",
+      "example": "Necesito ir al banco para cambiar dinero.",
+      "exampleTranslation": "I need to go to the bank to exchange money."
+    },
+    {
+      "id": "farmacia",
+      "word": "Farmacia",
+      "translation": "Pharmacy",
+      "pronunciation": "far-MAH-syah",
+      "example": "La farmacia más cercana está en la esquina.",
+      "exampleTranslation": "The nearest pharmacy is on the corner."
+    },
+    {
+      "id": "hospital",
+      "word": "Hospital",
+      "translation": "Hospital",
+      "pronunciation": "oh-spee-TAHL",
+      "example": "El hospital está abierto las veinticuatro horas.",
+      "exampleTranslation": "The hospital is open twenty-four hours."
+    },
+    {
+      "id": "iglesia",
+      "word": "Iglesia",
+      "translation": "Church",
+      "pronunciation": "ee-GLEH-syah",
+      "example": "La iglesia del pueblo es muy antigua.",
+      "exampleTranslation": "The village church is very old."
+    }
+  ],
+  "grammar": {
+    "title": "Asking for and Giving Locations with 'Estar'",
+    "explanation": "To describe where places are located, Spanish uses the verb 'estar' (not 'ser'):\n\n• ¿Dónde está el banco? - Where is the bank?\n• El banco está en la calle Mayor. - The bank is on Main Street.\n\nCommon location prepositions:\n• en - in/on/at\n• cerca de - near\n• lejos de - far from\n• al lado de - next to\n• enfrente de - in front of / across from\n• detrás de - behind\n• entre - between",
+    "examples": [
+      { "target": "¿Dónde está la farmacia más cercana?", "native": "Where is the nearest pharmacy?" },
+      { "target": "El museo está al lado del hotel.", "native": "The museum is next to the hotel." },
+      { "target": "La estación está enfrente de la iglesia.", "native": "The station is across from the church." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-5-1",
+      "question": "Which verb do you use to describe where a place is located?",
+      "options": ["Ser", "Estar", "Haber", "Tener"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-5-2",
+      "sentence": "Necesito ir al ___ para cambiar dinero.",
+      "answer": "banco",
+      "acceptableAnswers": ["banco", "Banco"],
+      "hint": "A financial institution"
+    },
+    {
+      "type": "matching",
+      "id": "ex-5-3",
+      "pairs": [
+        { "left": "Aeropuerto", "right": "Airport" },
+        { "left": "Farmacia", "right": "Pharmacy" },
+        { "left": "Museo", "right": "Museum" },
+        { "left": "Iglesia", "right": "Church" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-5-4",
+      "sentence": "Where is the nearest pharmacy?",
+      "answer": "¿Dónde está la farmacia más cercana?",
+      "acceptableAnswers": ["¿Dónde está la farmacia más cercana?", "Dónde está la farmacia más cercana", "¿Dónde está la farmacia más cercana"],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-5-5",
+      "question": "What does 'estación' mean?",
+      "options": ["Season", "Station", "Statue", "State"],
+      "correctIndex": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-5-1",
+      "question": "How do you say 'airport' in Spanish?",
+      "options": ["Avión", "Aeropuerto", "Estación", "Puerto"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-5-2",
+      "question": "What does 'al lado de' mean?",
+      "options": ["Far from", "Behind", "Next to", "In front of"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-5-3",
+      "question": "What is 'hospital' in Spanish?",
+      "options": ["Hospital", "Hostal", "Hospicio", "Hospitalidad"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q-5-4",
+      "question": "Which is correct: 'El museo ___ en el centro.'?",
+      "options": ["es", "está", "hay", "tiene"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-5-5",
+      "question": "What does 'farmacia' mean?",
+      "options": ["Farm", "Factory", "Pharmacy", "Family"],
+      "correctIndex": 2
+    }
+  ]
+}

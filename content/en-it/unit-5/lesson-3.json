@@ -1,0 +1,155 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-5",
+  "title": "Transportation",
+  "vocabulary": [
+    {
+      "id": "v-3-1",
+      "word": "autobus",
+      "translation": "bus",
+      "pronunciation": "OW-toh-boos",
+      "example": "L'autobus arriva ogni dieci minuti.",
+      "exampleTranslation": "The bus arrives every ten minutes."
+    },
+    {
+      "id": "v-3-2",
+      "word": "treno",
+      "translation": "train",
+      "pronunciation": "TREH-noh",
+      "example": "Prendo il treno per andare a Milano.",
+      "exampleTranslation": "I take the train to go to Milan."
+    },
+    {
+      "id": "v-3-3",
+      "word": "aereo",
+      "translation": "airplane",
+      "pronunciation": "ah-EH-reh-oh",
+      "example": "L'aereo atterra alle tre del pomeriggio.",
+      "exampleTranslation": "The airplane lands at three in the afternoon."
+    },
+    {
+      "id": "v-3-4",
+      "word": "taxi",
+      "translation": "taxi",
+      "pronunciation": "TAHK-see",
+      "example": "Prendiamo un taxi per l'aeroporto.",
+      "exampleTranslation": "Let's take a taxi to the airport."
+    },
+    {
+      "id": "v-3-5",
+      "word": "biglietto",
+      "translation": "ticket",
+      "pronunciation": "bee-LYET-toh",
+      "example": "Ho comprato un biglietto di andata e ritorno.",
+      "exampleTranslation": "I bought a round-trip ticket."
+    },
+    {
+      "id": "v-3-6",
+      "word": "fermata",
+      "translation": "stop (bus/tram)",
+      "pronunciation": "fer-MAH-tah",
+      "example": "La fermata dell'autobus è qui vicino.",
+      "exampleTranslation": "The bus stop is nearby."
+    },
+    {
+      "id": "v-3-7",
+      "word": "arrivo",
+      "translation": "arrival",
+      "pronunciation": "ahr-REE-voh",
+      "example": "L'orario di arrivo è alle dieci.",
+      "exampleTranslation": "The arrival time is at ten."
+    },
+    {
+      "id": "v-3-8",
+      "word": "partenza",
+      "translation": "departure",
+      "pronunciation": "par-TEN-tsah",
+      "example": "La partenza del volo è in ritardo.",
+      "exampleTranslation": "The flight departure is delayed."
+    }
+  ],
+  "grammar": {
+    "title": "Prendere (To Take) with Transportation",
+    "explanation": "The verb 'prendere' (to take) is commonly used with means of transportation: 'prendere il treno/l'autobus/l'aereo/un taxi'. It conjugates as: prendo, prendi, prende, prendiamo, prendete, prendono. You can also use 'andare in/con' for traveling: 'andare in treno' (to go by train), 'andare in aereo' (to go by plane). Note that 'a piedi' means 'on foot': 'Vado a piedi' (I go on foot).",
+    "examples": [
+      { "target": "Prendo il treno delle otto.", "native": "I take the eight o'clock train." },
+      { "target": "Andiamo in aereo a Napoli.", "native": "We go by plane to Naples." },
+      { "target": "Preferisco andare a piedi.", "native": "I prefer to go on foot." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1",
+      "question": "How do you say 'ticket' in Italian?",
+      "options": ["Fermata", "Biglietto", "Arrivo", "Partenza"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2",
+      "sentence": "Prendo il ___ per andare a Milano.",
+      "answer": "treno",
+      "acceptableAnswers": ["treno", "Treno"],
+      "hint": "Train"
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-3",
+      "pairs": [
+        { "left": "Autobus", "right": "Bus" },
+        { "left": "Aereo", "right": "Airplane" },
+        { "left": "Arrivo", "right": "Arrival" },
+        { "left": "Partenza", "right": "Departure" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-4",
+      "sentence": "I bought a round-trip ticket.",
+      "answer": "Ho comprato un biglietto di andata e ritorno.",
+      "acceptableAnswers": ["Ho comprato un biglietto di andata e ritorno"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-5",
+      "sentence": "La ___ dell'autobus è qui vicino.",
+      "answer": "fermata",
+      "acceptableAnswers": ["fermata", "Fermata"],
+      "hint": "Bus stop"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "What does 'fermata' mean?",
+      "options": ["Farm", "Stop", "Station", "Terminal"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-2",
+      "question": "How do you say 'Let's take a taxi to the airport'?",
+      "options": ["Andiamo in taxi.", "Prendiamo un taxi per l'aeroporto.", "Il taxi va all'aeroporto.", "Chiamiamo un taxi."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-3",
+      "question": "What does 'partenza' mean?",
+      "options": ["Party", "Departure", "Part", "Arrival"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-4",
+      "question": "Which verb is commonly used with transportation in Italian?",
+      "options": ["Fare", "Avere", "Prendere", "Essere"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-5",
+      "question": "How do you say 'to go by plane'?",
+      "options": ["Andare in aereo", "Prendere con aereo", "Fare l'aereo", "Viaggiare aereo"],
+      "correctIndex": 0
+    }
+  ]
+}

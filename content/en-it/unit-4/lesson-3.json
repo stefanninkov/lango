@@ -1,0 +1,154 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-4",
+  "title": "Cooking & Meals",
+  "vocabulary": [
+    {
+      "id": "v-3-1",
+      "word": "colazione",
+      "translation": "breakfast",
+      "pronunciation": "koh-lah-TSYOH-neh",
+      "example": "Faccio colazione alle sette.",
+      "exampleTranslation": "I have breakfast at seven."
+    },
+    {
+      "id": "v-3-2",
+      "word": "pranzo",
+      "translation": "lunch",
+      "pronunciation": "PRAHN-tsoh",
+      "example": "A pranzo mangio spesso la pasta.",
+      "exampleTranslation": "At lunch I often eat pasta."
+    },
+    {
+      "id": "v-3-3",
+      "word": "cena",
+      "translation": "dinner",
+      "pronunciation": "CHEH-nah",
+      "example": "La cena è pronta alle otto.",
+      "exampleTranslation": "Dinner is ready at eight."
+    },
+    {
+      "id": "v-3-4",
+      "word": "cucinare",
+      "translation": "to cook",
+      "pronunciation": "koo-chee-NAH-reh",
+      "example": "Mi piace cucinare piatti italiani.",
+      "exampleTranslation": "I like to cook Italian dishes."
+    },
+    {
+      "id": "v-3-5",
+      "word": "bollire",
+      "translation": "to boil",
+      "pronunciation": "bohl-LEE-reh",
+      "example": "Devi bollire l'acqua per la pasta.",
+      "exampleTranslation": "You need to boil the water for the pasta."
+    },
+    {
+      "id": "v-3-6",
+      "word": "friggere",
+      "translation": "to fry",
+      "pronunciation": "FREED-jeh-reh",
+      "example": "Non mi piace friggere perché fa odore.",
+      "exampleTranslation": "I don't like frying because it makes a smell."
+    },
+    {
+      "id": "v-3-7",
+      "word": "cuocere al forno",
+      "translation": "to bake",
+      "pronunciation": "KWOH-cheh-reh ahl FOR-noh",
+      "example": "Voglio cuocere al forno una torta.",
+      "exampleTranslation": "I want to bake a cake."
+    },
+    {
+      "id": "v-3-8",
+      "word": "ricetta",
+      "translation": "recipe",
+      "pronunciation": "ree-CHET-tah",
+      "example": "Questa ricetta è della mia nonna.",
+      "exampleTranslation": "This recipe is from my grandmother."
+    }
+  ],
+  "grammar": {
+    "title": "Reflexive Verbs and Daily Meal Expressions",
+    "explanation": "Italian uses specific expressions for meals: 'fare colazione' (to have breakfast), 'pranzare' (to have lunch), 'cenare' (to have dinner). Cooking verbs follow regular conjugation patterns: cucinare (-are), bollire (-ire), friggere (-ere). Note that 'friggere' is irregular in the past participle: 'fritto'. The expression 'mi piace + infinitive' means 'I like to...' and is commonly used with cooking verbs.",
+    "examples": [
+      { "target": "Faccio colazione con cornetto e caffè.", "native": "I have breakfast with a croissant and coffee." },
+      { "target": "Mi piace cucinare la pasta al pomodoro.", "native": "I like to cook pasta with tomato sauce." },
+      { "target": "Devo bollire le patate per venti minuti.", "native": "I need to boil the potatoes for twenty minutes." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1",
+      "question": "How do you say 'breakfast' in Italian?",
+      "options": ["Pranzo", "Cena", "Colazione", "Ricetta"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2",
+      "sentence": "Devi ___ l'acqua per la pasta.",
+      "answer": "bollire",
+      "acceptableAnswers": ["bollire", "Bollire"],
+      "hint": "To boil"
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-3",
+      "pairs": [
+        { "left": "Colazione", "right": "Breakfast" },
+        { "left": "Pranzo", "right": "Lunch" },
+        { "left": "Cucinare", "right": "To cook" },
+        { "left": "Ricetta", "right": "Recipe" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-4",
+      "sentence": "I like to cook Italian dishes.",
+      "answer": "Mi piace cucinare piatti italiani.",
+      "acceptableAnswers": ["Mi piace cucinare piatti italiani"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-5",
+      "question": "What does 'friggere' mean?",
+      "options": ["To boil", "To bake", "To fry", "To cook"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "What does 'cuocere al forno' mean?",
+      "options": ["To fry", "To boil", "To bake", "To grill"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-2",
+      "question": "How do you say 'I have breakfast at seven'?",
+      "options": ["Pranzo alle sette.", "Faccio colazione alle sette.", "Ceno alle sette.", "Cucino alle sette."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-3",
+      "question": "What does 'ricetta' mean?",
+      "options": ["Receipt", "Recipe", "Restaurant", "Reservation"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-4",
+      "question": "Which verb means 'to boil'?",
+      "options": ["Cucinare", "Friggere", "Bollire", "Cuocere al forno"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-5",
+      "question": "What is the main meal of the day in Italy, usually eaten around 1 PM?",
+      "options": ["Colazione", "Pranzo", "Cena", "Merenda"],
+      "correctIndex": 1
+    }
+  ]
+}

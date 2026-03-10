@@ -1,0 +1,156 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-7",
+  "title": "Karijera",
+  "vocabulary": [
+    {
+      "id": "v-7-2-1",
+      "word": "stipendio",
+      "translation": "plata",
+      "pronunciation": "stipendjo",
+      "example": "Lo stipendio viene pagato ogni mese.",
+      "exampleTranslation": "Plata se isplaćuje svakog meseca."
+    },
+    {
+      "id": "v-7-2-2",
+      "word": "esperienza",
+      "translation": "iskustvo",
+      "pronunciation": "esperijenca",
+      "example": "Ho cinque anni di esperienza.",
+      "exampleTranslation": "Imam pet godina iskustva."
+    },
+    {
+      "id": "v-7-2-3",
+      "word": "candidarsi",
+      "translation": "prijaviti se",
+      "pronunciation": "kandidarsi",
+      "example": "Voglio candidarmi per questa posizione.",
+      "exampleTranslation": "Želim da se prijavim za ovu poziciju."
+    },
+    {
+      "id": "v-7-2-4",
+      "word": "colloquio",
+      "translation": "intervju",
+      "pronunciation": "kolokwio",
+      "example": "Ho un colloquio di lavoro domani.",
+      "exampleTranslation": "Imam intervju za posao sutra."
+    },
+    {
+      "id": "v-7-2-5",
+      "word": "curriculum",
+      "translation": "biografija",
+      "pronunciation": "kurikulum",
+      "example": "Devo aggiornare il mio curriculum.",
+      "exampleTranslation": "Moram da ažuriram svoju biografiju."
+    },
+    {
+      "id": "v-7-2-6",
+      "word": "promozione",
+      "translation": "unapređenje",
+      "pronunciation": "promocjone",
+      "example": "Ha ricevuto una promozione.",
+      "exampleTranslation": "Dobio je unapređenje."
+    },
+    {
+      "id": "v-7-2-7",
+      "word": "contratto",
+      "translation": "ugovor",
+      "pronunciation": "kontrato",
+      "example": "Ho firmato il contratto di lavoro.",
+      "exampleTranslation": "Potpisao sam ugovor o radu."
+    },
+    {
+      "id": "v-7-2-8",
+      "word": "dimettersi",
+      "translation": "dati otkaz",
+      "pronunciation": "dimetersi",
+      "example": "Ha deciso di dimettersi.",
+      "exampleTranslation": "Odlučio je da da otkaz."
+    }
+  ],
+  "grammar": {
+    "title": "Prošlo vreme (passato prossimo) – glagoli sa 'avere' i 'essere'",
+    "explanation": "Passato prossimo se gradi od pomoćnog glagola 'avere' ili 'essere' u prezentu i participa prošlog (participio passato). Većina glagola koristi 'avere': 'Ho firmato' (Potpisao sam). Glagoli kretanja i povratni glagoli koriste 'essere': 'Si è dimesso' (Dao je otkaz). Participi: '-are' → '-ato', '-ere' → '-uto', '-ire' → '-ito'. Sa 'essere' particip se slaže u rodu i broju: 'Lei si è candidata' (Ona se prijavila).",
+    "examples": [
+      { "target": "Ho firmato il contratto.", "native": "Potpisao sam ugovor." },
+      { "target": "Ha ricevuto una promozione.", "native": "Dobio/la je unapređenje." },
+      { "target": "Mi sono candidato per il lavoro.", "native": "Prijavio sam se za posao." },
+      { "target": "Si è dimessa ieri.", "native": "Dala je otkaz juče." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-7-2-1",
+      "question": "Kako se kaže 'plata' na italijanskom?",
+      "options": ["contratto", "colloquio", "stipendio", "promozione"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-7-2-2",
+      "sentence": "Ho un ___ di lavoro domani.",
+      "answer": "colloquio",
+      "acceptableAnswers": ["colloquio"],
+      "hint": "Imam intervju za posao sutra."
+    },
+    {
+      "type": "matching",
+      "id": "ex-7-2-3",
+      "pairs": [
+        { "left": "stipendio", "right": "plata" },
+        { "left": "colloquio", "right": "intervju" },
+        { "left": "contratto", "right": "ugovor" },
+        { "left": "promozione", "right": "unapređenje" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-7-2-4",
+      "sentence": "Imam pet godina iskustva.",
+      "answer": "Ho cinque anni di esperienza.",
+      "acceptableAnswers": ["Ho cinque anni di esperienza.", "Ho cinque anni di esperienza"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-7-2-5",
+      "sentence": "Devo aggiornare il mio ___.",
+      "answer": "curriculum",
+      "acceptableAnswers": ["curriculum"],
+      "hint": "Moram da ažuriram svoju biografiju."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-7-2-1",
+      "question": "Šta znači 'colloquio'?",
+      "options": ["ugovor", "plata", "intervju", "iskustvo"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-7-2-2",
+      "question": "Kako se kaže 'dati otkaz' na italijanskom?",
+      "options": ["candidarsi", "dimettersi", "promozione", "contratto"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-7-2-3",
+      "question": "Šta znači 'esperienza'?",
+      "options": ["plata", "ugovor", "biografija", "iskustvo"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-7-2-4",
+      "question": "Koji je tačan prevod za 'Potpisao sam ugovor o radu'?",
+      "options": ["Ho ricevuto il contratto di lavoro.", "Ho firmato il contratto di lavoro.", "Ho letto il contratto di lavoro.", "Ho mandato il contratto di lavoro."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-7-2-5",
+      "question": "Kako se kaže 'unapređenje' na italijanskom?",
+      "options": ["stipendio", "esperienza", "promozione", "curriculum"],
+      "correctIndex": 2
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "courseId": "en-es",
+  "questions": [
+    {
+      "id": "pt-1",
+      "level": "beginner",
+      "skill": "vocabulary",
+      "question": "How do you say 'Hello' in Spanish?",
+      "options": ["Adiós", "Hola", "Gracias", "Por favor"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-2",
+      "level": "beginner",
+      "skill": "vocabulary",
+      "question": "What does 'Buenos días' mean?",
+      "options": ["Good night", "Goodbye", "Good morning", "Thank you"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-3",
+      "level": "beginner",
+      "skill": "grammar",
+      "question": "Which is the correct way to say 'I am' in Spanish?",
+      "options": ["Yo soy", "Yo es", "Yo eres", "Yo son"],
+      "correctIndex": 0
+    },
+    {
+      "id": "pt-4",
+      "level": "beginner",
+      "skill": "vocabulary",
+      "question": "What number is 'cinco'?",
+      "options": ["3", "4", "5", "6"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-5",
+      "level": "beginner",
+      "skill": "reading",
+      "question": "What does 'Me llamo María' mean?",
+      "options": ["I call María", "My name is María", "I like María", "María calls me"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-6",
+      "level": "beginner",
+      "skill": "grammar",
+      "question": "Choose the correct article: '___ casa es grande.'",
+      "options": ["El", "La", "Los", "Un"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-7",
+      "level": "beginner",
+      "skill": "vocabulary",
+      "question": "What color is 'rojo'?",
+      "options": ["Blue", "Green", "Red", "Yellow"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-8",
+      "level": "beginner",
+      "skill": "reading",
+      "question": "What does 'Tengo dos hermanos' mean?",
+      "options": ["I have two sisters", "I have two brothers", "I have two friends", "I have two children"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-9",
+      "level": "intermediate",
+      "skill": "vocabulary",
+      "question": "What does 'cuenta' mean at a restaurant?",
+      "options": ["Menu", "Table", "Bill/Check", "Tip"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-10",
+      "level": "intermediate",
+      "skill": "grammar",
+      "question": "Choose the correct past tense: 'Ayer yo ___ al mercado.'",
+      "options": ["voy", "fui", "iba", "iré"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-11",
+      "level": "intermediate",
+      "skill": "vocabulary",
+      "question": "What does 'izquierda' mean?",
+      "options": ["Right", "Straight", "Left", "Corner"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-12",
+      "level": "intermediate",
+      "skill": "grammar",
+      "question": "Which reflexive form is correct? '___ llamo Juan.'",
+      "options": ["Se", "Te", "Me", "Nos"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-13",
+      "level": "intermediate",
+      "skill": "reading",
+      "question": "What does 'Necesito comprar zapatos porque los míos están rotos' mean?",
+      "options": [
+        "I want to sell my shoes because they are new",
+        "I need to buy shoes because mine are broken",
+        "I like buying shoes because they are red",
+        "I need to return shoes because they don't fit"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-14",
+      "level": "intermediate",
+      "skill": "vocabulary",
+      "question": "What does 'descuento' mean?",
+      "options": ["Receipt", "Discount", "Price", "Payment"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-15",
+      "level": "intermediate",
+      "skill": "grammar",
+      "question": "Choose the correct form: 'Si yo ___ más dinero, viajaría más.'",
+      "options": ["tengo", "tuviera", "tendré", "tenía"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-16",
+      "level": "intermediate",
+      "skill": "reading",
+      "question": "What does 'Hace mucho calor hoy, debería llevar ropa ligera' mean?",
+      "options": [
+        "It's very cold today, I should wear a coat",
+        "It's very hot today, I should wear light clothes",
+        "It's raining today, I should bring an umbrella",
+        "It's windy today, I should stay inside"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-17",
+      "level": "advanced",
+      "skill": "vocabulary",
+      "question": "What does 'plazo' mean in a business context?",
+      "options": ["Plaza/square", "Deadline", "Floor/level", "Place"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-18",
+      "level": "advanced",
+      "skill": "grammar",
+      "question": "Choose the correct subjunctive: 'Es importante que tú ___ a tiempo.'",
+      "options": ["llegas", "llegues", "llegarás", "llegabas"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-19",
+      "level": "advanced",
+      "skill": "vocabulary",
+      "question": "What does 'sostenible' mean?",
+      "options": ["Sustainable", "Substantial", "Supportive", "Susceptible"],
+      "correctIndex": 0
+    },
+    {
+      "id": "pt-20",
+      "level": "advanced",
+      "skill": "grammar",
+      "question": "Which connector correctly completes: 'No estoy de acuerdo; ___, respeto tu opinión.'",
+      "options": ["además", "sin embargo", "por lo tanto", "porque"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-21",
+      "level": "advanced",
+      "skill": "reading",
+      "question": "What does 'A pesar de que el proyecto enfrentó numerosos obstáculos, el equipo logró cumplir con los plazos establecidos' mean?",
+      "options": [
+        "The project was cancelled due to numerous obstacles",
+        "Despite facing numerous obstacles, the team managed to meet the established deadlines",
+        "The team asked for more time because of the obstacles",
+        "The project obstacles were easily overcome by the team"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-22",
+      "level": "advanced",
+      "skill": "vocabulary",
+      "question": "What does 'reciclaje' mean?",
+      "options": ["Recovery", "Recycling", "Recital", "Recipe"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-23",
+      "level": "advanced",
+      "skill": "grammar",
+      "question": "Choose the correct form: 'Si hubiera sabido, no ___ venido.'",
+      "options": ["habría", "hubiera", "había", "habrá"],
+      "correctIndex": 0
+    },
+    {
+      "id": "pt-24",
+      "level": "advanced",
+      "skill": "reading",
+      "question": "What does 'La diversidad cultural enriquece a las comunidades y fomenta la tolerancia entre sus miembros' mean?",
+      "options": [
+        "Cultural diversity creates problems in communities",
+        "Cultural diversity enriches communities and fosters tolerance among their members",
+        "Diverse communities are less tolerant of their members",
+        "Cultural tolerance is only possible in small communities"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-25",
+      "level": "advanced",
+      "skill": "grammar",
+      "question": "Which is grammatically correct?",
+      "options": [
+        "Habiéndo terminado el informe, lo envió por correo.",
+        "Habiendo terminado el informe, lo envió por correo.",
+        "Teniendo terminado el informe, lo envió por correo.",
+        "Siendo terminado el informe, lo envió por correo."
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

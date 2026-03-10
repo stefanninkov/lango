@@ -1,0 +1,154 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-5",
+  "title": "Prevoz",
+  "vocabulary": [
+    {
+      "id": "autobus",
+      "word": "autobús",
+      "translation": "autobus",
+      "pronunciation": "au-to-BUS",
+      "example": "El autobús llega en cinco minutos.",
+      "exampleTranslation": "Autobus stiže za pet minuta."
+    },
+    {
+      "id": "tren",
+      "word": "tren",
+      "translation": "voz",
+      "pronunciation": "TREN",
+      "example": "El tren a Barcelona sale a las tres.",
+      "exampleTranslation": "Voz za Barselonu polazi u tri."
+    },
+    {
+      "id": "avion",
+      "word": "avión",
+      "translation": "avion",
+      "pronunciation": "a-VJON",
+      "example": "El avión aterriza a las seis.",
+      "exampleTranslation": "Avion sleće u šest."
+    },
+    {
+      "id": "taxi",
+      "word": "taxi",
+      "translation": "taksi",
+      "pronunciation": "TAK-si",
+      "example": "Vamos a tomar un taxi.",
+      "exampleTranslation": "Hajde da uzmemo taksi."
+    },
+    {
+      "id": "billete",
+      "word": "billete",
+      "translation": "karta",
+      "pronunciation": "bi-JE-te",
+      "example": "Necesito comprar un billete.",
+      "exampleTranslation": "Moram da kupim kartu."
+    },
+    {
+      "id": "parada",
+      "word": "parada",
+      "translation": "stanica",
+      "pronunciation": "pa-RA-da",
+      "example": "La parada de autobús está allí.",
+      "exampleTranslation": "Autobuska stanica je tamo."
+    },
+    {
+      "id": "llegada",
+      "word": "llegada",
+      "translation": "dolazak",
+      "pronunciation": "je-GA-da",
+      "example": "La hora de llegada es a las diez.",
+      "exampleTranslation": "Vreme dolaska je u deset."
+    },
+    {
+      "id": "salida",
+      "word": "salida",
+      "translation": "polazak",
+      "pronunciation": "sa-LI-da",
+      "example": "La salida del vuelo es a las ocho.",
+      "exampleTranslation": "Polazak leta je u osam."
+    }
+  ],
+  "grammar": {
+    "title": "Glagoli kretanja i prevoza",
+    "explanation": "Za razgovor o prevozu koristimo sledeće glagole:\n\n• ir en + prevozno sredstvo: ir en tren (ići vozom), ir en autobús (ići autobusom)\n• tomar - uzeti (prevoz): tomar un taxi (uzeti taksi)\n• llegar - stići: El tren llega a las tres (Voz stiže u tri)\n• salir - krenuti/poći: El avión sale a las ocho (Avion polazi u osam)\n\nVažno: Kaže se 'ir a pie' (ići peške), a ne 'ir en pie'.",
+    "examples": [
+      { "target": "Voy al trabajo en tren.", "native": "Idem na posao vozom." },
+      { "target": "¿A qué hora sale el autobús?", "native": "U koliko sati polazi autobus?" },
+      { "target": "El avión llega con retraso.", "native": "Avion kasni." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1",
+      "question": "Kako se kaže 'voz' na španskom?",
+      "options": ["autobús", "avión", "tren", "taxi"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2",
+      "sentence": "Necesito comprar un ___.",
+      "answer": "billete",
+      "acceptableAnswers": ["billete", "Billete"],
+      "hint": "Reč za 'karta'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-3",
+      "pairs": [
+        { "left": "tren", "right": "voz" },
+        { "left": "billete", "right": "karta" },
+        { "left": "llegada", "right": "dolazak" },
+        { "left": "salida", "right": "polazak" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-4",
+      "sentence": "Hajde da uzmemo taksi.",
+      "answer": "Vamos a tomar un taxi.",
+      "acceptableAnswers": ["Vamos a tomar un taxi", "Vamos a tomar un taxi."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-5",
+      "question": "Šta znači 'parada'?",
+      "options": ["karta", "dolazak", "stanica", "polazak"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "Kako se kaže 'karta' na španskom?",
+      "options": ["parada", "salida", "billete", "llegada"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-2",
+      "question": "Šta znači 'llegada'?",
+      "options": ["polazak", "dolazak", "karta", "stanica"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-3",
+      "question": "Kako kažete 'Idem na posao autobusom' na španskom?",
+      "options": ["Voy al trabajo en autobús.", "Voy al trabajo a autobús.", "Voy al trabajo con autobús.", "Voy al trabajo por autobús."],
+      "correctIndex": 0
+    },
+    {
+      "id": "q-3-4",
+      "question": "Šta znači 'salida'?",
+      "options": ["dolazak", "karta", "stanica", "polazak"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-3-5",
+      "question": "Kako se kaže 'avion' na španskom?",
+      "options": ["tren", "autobús", "avión", "taxi"],
+      "correctIndex": 2
+    }
+  ]
+}

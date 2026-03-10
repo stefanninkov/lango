@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-7",
+  "title": "Karijera",
+  "vocabulary": [
+    {
+      "id": "salario",
+      "word": "salario",
+      "translation": "plata",
+      "pronunciation": "sa-LA-rjo",
+      "example": "El salario es bueno en esta empresa.",
+      "exampleTranslation": "Plata je dobra u ovoj kompaniji."
+    },
+    {
+      "id": "experiencia",
+      "word": "experiencia",
+      "translation": "iskustvo",
+      "pronunciation": "eks-pe-RJEN-sja",
+      "example": "Tengo cinco años de experiencia.",
+      "exampleTranslation": "Imam pet godina iskustva."
+    },
+    {
+      "id": "solicitar",
+      "word": "solicitar",
+      "translation": "prijaviti se",
+      "pronunciation": "so-li-si-TAR",
+      "example": "Quiero solicitar este puesto.",
+      "exampleTranslation": "Želim da se prijavim za ovu poziciju."
+    },
+    {
+      "id": "entrevista",
+      "word": "entrevista",
+      "translation": "intervju",
+      "pronunciation": "en-tre-VIS-ta",
+      "example": "Tengo una entrevista mañana.",
+      "exampleTranslation": "Imam intervju sutra."
+    },
+    {
+      "id": "curriculum",
+      "word": "currículum",
+      "translation": "biografija",
+      "pronunciation": "ku-RI-ku-lum",
+      "example": "Envié mi currículum por correo.",
+      "exampleTranslation": "Poslao sam svoju biografiju imejlom."
+    },
+    {
+      "id": "ascenso",
+      "word": "ascenso",
+      "translation": "unapređenje",
+      "pronunciation": "as-SEN-so",
+      "example": "Recibí un ascenso el mes pasado.",
+      "exampleTranslation": "Dobio sam unapređenje prošlog meseca."
+    },
+    {
+      "id": "contrato",
+      "word": "contrato",
+      "translation": "ugovor",
+      "pronunciation": "kon-TRA-to",
+      "example": "Firmé el contrato ayer.",
+      "exampleTranslation": "Potpisao sam ugovor juče."
+    },
+    {
+      "id": "renunciar",
+      "word": "renunciar",
+      "translation": "dati otkaz",
+      "pronunciation": "re-nun-SJAR",
+      "example": "Decidió renunciar a su trabajo.",
+      "exampleTranslation": "Odlučio je da da otkaz."
+    }
+  ],
+  "grammar": {
+    "title": "Prošlo vreme - Pretérito perfecto",
+    "explanation": "Za izražavanje nedavnih prošlih radnji koristimo 'pretérito perfecto':\n\nhaber (u sadašnjem vremenu) + participio pasado\n\n• he, has, ha, hemos, habéis, han + -ado (za -ar glagole) / -ido (za -er/-ir glagole)\n\nPrimeri:\n• He trabajado (Radio sam)\n• Has solicitado (Prijavio si se)\n• Ha firmado (Potpisao je)\n\nNepravilni participi: escrito (napisao), dicho (rekao), hecho (uradio).",
+    "examples": [
+      { "target": "He enviado mi currículum.", "native": "Poslao sam svoju biografiju." },
+      { "target": "¿Has tenido una entrevista?", "native": "Da li si imao intervju?" },
+      { "target": "Ha recibido un ascenso.", "native": "Dobio je unapređenje." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-1",
+      "question": "Kako se kaže 'plata' na španskom?",
+      "options": ["contrato", "salario", "ascenso", "experiencia"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-2",
+      "sentence": "Tengo una ___ mañana.",
+      "answer": "entrevista",
+      "acceptableAnswers": ["entrevista", "Entrevista"],
+      "hint": "Reč za 'intervju'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-3",
+      "pairs": [
+        { "left": "salario", "right": "plata" },
+        { "left": "contrato", "right": "ugovor" },
+        { "left": "ascenso", "right": "unapređenje" },
+        { "left": "renunciar", "right": "dati otkaz" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-4",
+      "sentence": "Imam pet godina iskustva.",
+      "answer": "Tengo cinco años de experiencia.",
+      "acceptableAnswers": ["Tengo cinco años de experiencia", "Tengo cinco años de experiencia."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-5",
+      "question": "Šta znači 'renunciar'?",
+      "options": ["prijaviti se", "potpisati", "dati otkaz", "unaprediti"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "Kako se kaže 'intervju' na španskom?",
+      "options": ["contrato", "currículum", "entrevista", "ascenso"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-2",
+      "question": "Šta znači 'currículum'?",
+      "options": ["ugovor", "biografija", "plata", "iskustvo"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-3",
+      "question": "Kako se kaže 'Poslao sam svoju biografiju' na španskom?",
+      "options": ["Envié mi currículum.", "He enviado mi currículum.", "Envío mi currículum.", "Enviaré mi currículum."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-4",
+      "question": "Šta znači 'ascenso'?",
+      "options": ["otkaz", "iskustvo", "unapređenje", "ugovor"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-5",
+      "question": "Kako se kaže 'ugovor' na španskom?",
+      "options": ["salario", "contrato", "entrevista", "solicitar"],
+      "correctIndex": 1
+    }
+  ]
+}

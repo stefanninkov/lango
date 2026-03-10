@@ -1,0 +1,230 @@
+{
+  "courseId": "sr-it",
+  "questions": [
+    {
+      "id": "pt-1",
+      "level": "beginner",
+      "skill": "vocabulary",
+      "question": "Kako se kaže 'Zdravo' na italijanskom?",
+      "options": ["Arrivederci", "Ciao", "Grazie", "Prego"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-2",
+      "level": "beginner",
+      "skill": "vocabulary",
+      "question": "Šta znači 'Buongiorno'?",
+      "options": ["Laku noć", "Doviđenja", "Dobar dan", "Hvala"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-3",
+      "level": "beginner",
+      "skill": "grammar",
+      "question": "Koji je tačan način da kažete 'Ja sam' na italijanskom?",
+      "options": ["Io sono", "Io è", "Io sei", "Io siamo"],
+      "correctIndex": 0
+    },
+    {
+      "id": "pt-4",
+      "level": "beginner",
+      "skill": "vocabulary",
+      "question": "Koji broj je 'cinque'?",
+      "options": ["3", "4", "5", "6"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-5",
+      "level": "beginner",
+      "skill": "reading",
+      "question": "Šta znači 'Mi chiamo Marco'?",
+      "options": ["Zovem Marka", "Zovem se Marko", "Sviđa mi se Marko", "Marko me zove"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-6",
+      "level": "beginner",
+      "skill": "grammar",
+      "question": "Izaberite tačan član: '___ casa è grande.'",
+      "options": ["Il", "La", "I", "Un"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-7",
+      "level": "beginner",
+      "skill": "vocabulary",
+      "question": "Koja je boja 'rosso'?",
+      "options": ["Plava", "Zelena", "Crvena", "Žuta"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-8",
+      "level": "beginner",
+      "skill": "reading",
+      "question": "Šta znači 'Ho due fratelli'?",
+      "options": ["Imam dve sestre", "Imam dva brata", "Imam dva prijatelja", "Imam dvoje dece"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-9",
+      "level": "intermediate",
+      "skill": "vocabulary",
+      "question": "Šta znači 'conto' u restoranu?",
+      "options": ["Jelovnik", "Sto", "Račun", "Napojnica"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-10",
+      "level": "intermediate",
+      "skill": "grammar",
+      "question": "Izaberite tačno prošlo vreme: 'Ieri io ___ al mercato.'",
+      "options": ["vado", "sono andato", "andavo", "andrò"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-11",
+      "level": "intermediate",
+      "skill": "vocabulary",
+      "question": "Šta znači 'sinistra'?",
+      "options": ["Desno", "Pravo", "Levo", "Ugao"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-12",
+      "level": "intermediate",
+      "skill": "grammar",
+      "question": "Koji je tačan povratni oblik? '___ chiamo Giovanni.'",
+      "options": ["Si", "Ti", "Mi", "Ci"],
+      "correctIndex": 2
+    },
+    {
+      "id": "pt-13",
+      "level": "intermediate",
+      "skill": "reading",
+      "question": "Šta znači 'Devo comprare scarpe perché le mie sono rotte'?",
+      "options": [
+        "Želim da prodam cipele jer su nove",
+        "Moram da kupim cipele jer su moje pocepane",
+        "Volim da kupujem cipele jer su crvene",
+        "Moram da vratim cipele jer ne odgovaraju"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-14",
+      "level": "intermediate",
+      "skill": "vocabulary",
+      "question": "Šta znači 'sconto'?",
+      "options": ["Račun", "Popust", "Cena", "Plaćanje"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-15",
+      "level": "intermediate",
+      "skill": "grammar",
+      "question": "Izaberite tačan oblik: 'Se io ___ più soldi, viaggerei di più.'",
+      "options": ["ho", "avessi", "avrò", "avevo"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-16",
+      "level": "intermediate",
+      "skill": "reading",
+      "question": "Šta znači 'Fa molto caldo oggi, dovresti portare vestiti leggeri'?",
+      "options": [
+        "Danas je veoma hladno, trebalo bi da obučeš kaput",
+        "Danas je veoma toplo, trebalo bi da nosiš laganu odeću",
+        "Danas pada kiša, trebalo bi da poneseš kišobran",
+        "Danas je vetrovito, trebalo bi da ostaneš unutra"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-17",
+      "level": "advanced",
+      "skill": "vocabulary",
+      "question": "Šta znači 'scadenza' u poslovnom kontekstu?",
+      "options": ["Rasprodaja", "Rok", "Sprat", "Popust"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-18",
+      "level": "advanced",
+      "skill": "grammar",
+      "question": "Izaberite tačan konjunktiv: 'È importante che tu ___ in tempo.'",
+      "options": ["arrivi", "arriva", "arriverai", "arrivavi"],
+      "correctIndex": 0
+    },
+    {
+      "id": "pt-19",
+      "level": "advanced",
+      "skill": "vocabulary",
+      "question": "Šta znači 'sostenibile'?",
+      "options": ["Održiv", "Značajan", "Podržavajući", "Podložan"],
+      "correctIndex": 0
+    },
+    {
+      "id": "pt-20",
+      "level": "advanced",
+      "skill": "grammar",
+      "question": "Koji veznik pravilno dopunjava: 'Non sono d'accordo; ___, rispetto la tua opinione.'",
+      "options": ["inoltre", "tuttavia", "quindi", "perché"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-21",
+      "level": "advanced",
+      "skill": "reading",
+      "question": "Šta znači 'Nonostante il progetto abbia affrontato numerosi ostacoli, il team è riuscito a rispettare le scadenze stabilite'?",
+      "options": [
+        "Projekat je otkazan zbog brojnih prepreka",
+        "Uprkos brojnim preprekama, tim je uspeo da ispoštuje utvrđene rokove",
+        "Tim je tražio više vremena zbog prepreka",
+        "Prepreke na projektu su lako savladane"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-22",
+      "level": "advanced",
+      "skill": "vocabulary",
+      "question": "Šta znači 'riciclaggio'?",
+      "options": ["Oporavak", "Reciklaža", "Recital", "Recept"],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-23",
+      "level": "advanced",
+      "skill": "grammar",
+      "question": "Izaberite tačan oblik: 'Se avessi saputo, non ___ venuto.'",
+      "options": ["sarei", "fossi", "ero", "sarò"],
+      "correctIndex": 0
+    },
+    {
+      "id": "pt-24",
+      "level": "advanced",
+      "skill": "reading",
+      "question": "Šta znači 'La diversità culturale arricchisce le comunità e favorisce la tolleranza tra i suoi membri'?",
+      "options": [
+        "Kulturna raznolikost stvara probleme u zajednicama",
+        "Kulturna raznolikost obogaćuje zajednice i podstiče toleranciju među njenim članovima",
+        "Raznolike zajednice su manje tolerantne prema svojim članovima",
+        "Kulturna tolerancija je moguća samo u malim zajednicama"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": "pt-25",
+      "level": "advanced",
+      "skill": "grammar",
+      "question": "Koji je gramatički tačan oblik?",
+      "options": [
+        "Avendo finito il rapporto, lo ha inviato per email.",
+        "Essendo finito il rapporto, lo ha inviato per email.",
+        "Tenendo finito il rapporto, lo ha inviato per email.",
+        "Stando finito il rapporto, lo ha inviato per email."
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

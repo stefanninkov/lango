@@ -1,0 +1,155 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-4",
+  "title": "At the Restaurant",
+  "vocabulary": [
+    {
+      "id": "v-2-1",
+      "word": "menù",
+      "translation": "menu",
+      "pronunciation": "meh-NOO",
+      "example": "Posso vedere il menù, per favore?",
+      "exampleTranslation": "Can I see the menu, please?"
+    },
+    {
+      "id": "v-2-2",
+      "word": "cameriere",
+      "translation": "waiter",
+      "pronunciation": "kah-meh-RYEH-reh",
+      "example": "Il cameriere porta le bevande.",
+      "exampleTranslation": "The waiter brings the drinks."
+    },
+    {
+      "id": "v-2-3",
+      "word": "conto",
+      "translation": "bill / check",
+      "pronunciation": "KON-toh",
+      "example": "Il conto, per favore!",
+      "exampleTranslation": "The bill, please!"
+    },
+    {
+      "id": "v-2-4",
+      "word": "tavolo",
+      "translation": "table",
+      "pronunciation": "TAH-voh-loh",
+      "example": "Vorremmo un tavolo per due.",
+      "exampleTranslation": "We would like a table for two."
+    },
+    {
+      "id": "v-2-5",
+      "word": "prenotazione",
+      "translation": "reservation",
+      "pronunciation": "preh-noh-tah-TSYOH-neh",
+      "example": "Ho una prenotazione per le otto.",
+      "exampleTranslation": "I have a reservation for eight o'clock."
+    },
+    {
+      "id": "v-2-6",
+      "word": "piatto",
+      "translation": "dish / plate",
+      "pronunciation": "PYAHT-toh",
+      "example": "Qual è il piatto del giorno?",
+      "exampleTranslation": "What is the dish of the day?"
+    },
+    {
+      "id": "v-2-7",
+      "word": "mancia",
+      "translation": "tip",
+      "pronunciation": "MAHN-chah",
+      "example": "In Italia la mancia non è obbligatoria.",
+      "exampleTranslation": "In Italy tipping is not mandatory."
+    },
+    {
+      "id": "v-2-8",
+      "word": "dolce",
+      "translation": "dessert / sweet",
+      "pronunciation": "DOL-cheh",
+      "example": "Prendete un dolce dopo la cena?",
+      "exampleTranslation": "Will you have a dessert after dinner?"
+    }
+  ],
+  "grammar": {
+    "title": "The Conditional Tense (Condizionale Presente)",
+    "explanation": "The conditional tense in Italian is used for polite requests, especially in restaurants. It is formed by adding endings to the infinitive stem: -ei, -esti, -ebbe, -emmo, -este, -ebbero. For -are verbs, the 'a' changes to 'e': mangiare -> mangerei. Common examples: 'vorrei' (I would like), 'prenderemmo' (we would take). The conditional makes requests sound more courteous than the present tense.",
+    "examples": [
+      { "target": "Vorrei un caffè, per favore.", "native": "I would like a coffee, please." },
+      { "target": "Prenderemmo il piatto del giorno.", "native": "We would take the dish of the day." },
+      { "target": "Potrebbe portare il menù?", "native": "Could you bring the menu?" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-1",
+      "question": "How do you politely ask for the bill in Italian?",
+      "options": ["Dammi il conto!", "Il conto, per favore!", "Voglio il conto.", "Portate il conto!"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-2",
+      "sentence": "Ho una ___ per le otto.",
+      "answer": "prenotazione",
+      "acceptableAnswers": ["prenotazione", "Prenotazione"],
+      "hint": "Reservation"
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-3",
+      "pairs": [
+        { "left": "Menù", "right": "Menu" },
+        { "left": "Cameriere", "right": "Waiter" },
+        { "left": "Mancia", "right": "Tip" },
+        { "left": "Dolce", "right": "Dessert" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-4",
+      "sentence": "We would like a table for two.",
+      "answer": "Vorremmo un tavolo per due.",
+      "acceptableAnswers": ["Vorremmo un tavolo per due"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-5",
+      "sentence": "Qual è il ___ del giorno?",
+      "answer": "piatto",
+      "acceptableAnswers": ["piatto", "Piatto"],
+      "hint": "Dish of the day"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "What does 'mancia' mean?",
+      "options": ["Bill", "Menu", "Tip", "Table"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-2",
+      "question": "How do you say 'I would like' in Italian?",
+      "options": ["Voglio", "Vorrei", "Prendo", "Ho"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-3",
+      "question": "What does 'cameriere' mean?",
+      "options": ["Camera", "Customer", "Waiter", "Cook"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-4",
+      "question": "What does 'Qual è il piatto del giorno?' mean?",
+      "options": ["Where is the plate?", "What is the dish of the day?", "How much is the dish?", "Is the dish ready?"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-5",
+      "question": "Which is true about tipping in Italy?",
+      "options": ["It is always 20%.", "It is mandatory.", "It is not mandatory.", "It is considered rude."],
+      "correctIndex": 2
+    }
+  ]
+}

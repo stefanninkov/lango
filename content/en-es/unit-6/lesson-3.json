@@ -1,0 +1,154 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-6",
+  "title": "Weather & Seasons",
+  "vocabulary": [
+    {
+      "id": "calor",
+      "word": "Calor",
+      "translation": "Heat / Hot",
+      "pronunciation": "kah-LOR",
+      "example": "Hace mucho calor en verano.",
+      "exampleTranslation": "It is very hot in summer."
+    },
+    {
+      "id": "frio",
+      "word": "Frío",
+      "translation": "Cold",
+      "pronunciation": "FREE-oh",
+      "example": "En diciembre hace mucho frío aquí.",
+      "exampleTranslation": "In December it is very cold here."
+    },
+    {
+      "id": "lluvia",
+      "word": "Lluvia",
+      "translation": "Rain",
+      "pronunciation": "YOO-vyah",
+      "example": "La lluvia es frecuente en otoño.",
+      "exampleTranslation": "Rain is frequent in autumn."
+    },
+    {
+      "id": "nieve",
+      "word": "Nieve",
+      "translation": "Snow",
+      "pronunciation": "NYEH-veh",
+      "example": "La nieve cubre las montañas en invierno.",
+      "exampleTranslation": "Snow covers the mountains in winter."
+    },
+    {
+      "id": "sol",
+      "word": "Sol",
+      "translation": "Sun",
+      "pronunciation": "SOHL",
+      "example": "Hoy hace sol y buen tiempo.",
+      "exampleTranslation": "Today it's sunny and the weather is nice."
+    },
+    {
+      "id": "viento",
+      "word": "Viento",
+      "translation": "Wind",
+      "pronunciation": "VYEHN-toh",
+      "example": "Hace mucho viento cerca de la costa.",
+      "exampleTranslation": "It's very windy near the coast."
+    },
+    {
+      "id": "primavera",
+      "word": "Primavera",
+      "translation": "Spring",
+      "pronunciation": "pree-mah-VEH-rah",
+      "example": "En primavera las flores empiezan a crecer.",
+      "exampleTranslation": "In spring the flowers start to grow."
+    },
+    {
+      "id": "invierno",
+      "word": "Invierno",
+      "translation": "Winter",
+      "pronunciation": "een-VYEHR-noh",
+      "example": "El invierno es muy largo en el norte de España.",
+      "exampleTranslation": "Winter is very long in northern Spain."
+    }
+  ],
+  "grammar": {
+    "title": "Weather Expressions with 'Hacer', 'Haber', and 'Estar'",
+    "explanation": "Spanish uses several verbs to describe weather, most commonly 'hacer' in the third person:\n\n• Hace + noun: Hace calor (It's hot), Hace frío (It's cold), Hace sol (It's sunny), Hace viento (It's windy)\n• Hace buen/mal tiempo - The weather is good/bad\n\nOther weather verbs:\n• Llover (to rain): Llueve mucho. / Está lloviendo. (It rains a lot. / It's raining.)\n• Nevar (to snow): Nieva en las montañas. / Está nevando. (It snows in the mountains. / It's snowing.)\n• Hay + noun: Hay niebla (It's foggy), Hay tormenta (There's a storm)\n• Estar + nublado: Está nublado. (It's cloudy.)",
+    "examples": [
+      { "target": "¿Qué tiempo hace hoy? — Hace sol y calor.", "native": "What's the weather like today? — It's sunny and hot." },
+      { "target": "En invierno llueve mucho y hace frío.", "native": "In winter it rains a lot and it's cold." },
+      { "target": "Está nevando en las montañas esta mañana.", "native": "It's snowing in the mountains this morning." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-6-11",
+      "question": "How do you say 'It's hot' in Spanish?",
+      "options": ["Es calor.", "Está calor.", "Hace calor.", "Tiene calor."],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-6-12",
+      "sentence": "En ___ las flores empiezan a crecer.",
+      "answer": "primavera",
+      "acceptableAnswers": ["primavera", "Primavera"],
+      "hint": "The season between winter and summer"
+    },
+    {
+      "type": "matching",
+      "id": "ex-6-13",
+      "pairs": [
+        { "left": "Calor", "right": "Heat" },
+        { "left": "Lluvia", "right": "Rain" },
+        { "left": "Nieve", "right": "Snow" },
+        { "left": "Viento", "right": "Wind" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-6-14",
+      "sentence": "In winter it rains a lot and it's cold.",
+      "answer": "En invierno llueve mucho y hace frío.",
+      "acceptableAnswers": ["En invierno llueve mucho y hace frío", "En invierno llueve mucho y hace frío."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-6-15",
+      "question": "What does 'hace viento' mean?",
+      "options": ["It's snowing", "It's windy", "It's raining", "It's cold"],
+      "correctIndex": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-6-11",
+      "question": "Which verb is used for most weather expressions?",
+      "options": ["Ser", "Estar", "Hacer", "Tener"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-6-12",
+      "question": "What is 'winter' in Spanish?",
+      "options": ["Primavera", "Verano", "Otoño", "Invierno"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-6-13",
+      "question": "How do you say 'It's snowing'?",
+      "options": ["Hace nieve.", "Está nevando.", "Hay nieve.", "Es nieve."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-6-14",
+      "question": "What does 'sol' mean?",
+      "options": ["Cloud", "Rain", "Sun", "Wind"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-6-15",
+      "question": "Which is correct for 'It's cold'?",
+      "options": ["Está frío.", "Es frío.", "Hace frío.", "Hay frío."],
+      "correctIndex": 2
+    }
+  ]
+}

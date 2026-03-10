@@ -1,0 +1,155 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-6",
+  "title": "Daily Routine",
+  "vocabulary": [
+    {
+      "id": "v-2-1",
+      "word": "svegliarsi",
+      "translation": "to wake up",
+      "pronunciation": "sveh-LYAR-see",
+      "example": "Mi sveglio alle sei ogni mattina.",
+      "exampleTranslation": "I wake up at six every morning."
+    },
+    {
+      "id": "v-2-2",
+      "word": "fare la doccia",
+      "translation": "to take a shower",
+      "pronunciation": "FAH-reh lah DOH-chah",
+      "example": "Faccio la doccia prima di uscire.",
+      "exampleTranslation": "I take a shower before going out."
+    },
+    {
+      "id": "v-2-3",
+      "word": "vestirsi",
+      "translation": "to get dressed",
+      "pronunciation": "veh-STEER-see",
+      "example": "Mi vesto in fretta la mattina.",
+      "exampleTranslation": "I get dressed quickly in the morning."
+    },
+    {
+      "id": "v-2-4",
+      "word": "lavorare",
+      "translation": "to work",
+      "pronunciation": "lah-voh-RAH-reh",
+      "example": "Lavoro dalle nove alle cinque.",
+      "exampleTranslation": "I work from nine to five."
+    },
+    {
+      "id": "v-2-5",
+      "word": "riposare",
+      "translation": "to rest",
+      "pronunciation": "ree-poh-ZAH-reh",
+      "example": "Il pomeriggio mi riposo un po'.",
+      "exampleTranslation": "In the afternoon I rest a bit."
+    },
+    {
+      "id": "v-2-6",
+      "word": "andare a letto",
+      "translation": "to go to bed",
+      "pronunciation": "ahn-DAH-reh ah LET-toh",
+      "example": "Vado a letto alle undici di sera.",
+      "exampleTranslation": "I go to bed at eleven at night."
+    },
+    {
+      "id": "v-2-7",
+      "word": "alzarsi",
+      "translation": "to get up",
+      "pronunciation": "ahl-TSAR-see",
+      "example": "Mi alzo subito dopo la sveglia.",
+      "exampleTranslation": "I get up right after the alarm."
+    },
+    {
+      "id": "v-2-8",
+      "word": "cenare",
+      "translation": "to have dinner",
+      "pronunciation": "cheh-NAH-reh",
+      "example": "Ceniamo insieme stasera?",
+      "exampleTranslation": "Shall we have dinner together tonight?"
+    }
+  ],
+  "grammar": {
+    "title": "Reflexive Verbs in Italian",
+    "explanation": "Reflexive verbs in Italian end in -si in the infinitive (svegliarsi, vestirsi, alzarsi) and use reflexive pronouns: mi, ti, si, ci, vi, si. The pronoun goes before the conjugated verb: 'mi sveglio' (I wake up), 'ti vesti' (you get dressed). In the infinitive, the pronoun attaches to the end after dropping the final -e: 'devo alzarmi' (I have to get up). Reflexive verbs use 'essere' in compound tenses: 'mi sono svegliato/a' (I woke up).",
+    "examples": [
+      { "target": "Mi sveglio presto e mi alzo subito.", "native": "I wake up early and get up immediately." },
+      { "target": "Si veste sempre con eleganza.", "native": "He/She always dresses elegantly." },
+      { "target": "Ci siamo riposati tutto il pomeriggio.", "native": "We rested all afternoon." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-1",
+      "question": "What is the reflexive pronoun for 'io' (I)?",
+      "options": ["Ti", "Si", "Mi", "Ci"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-2",
+      "sentence": "Mi ___ alle sei ogni mattina.",
+      "answer": "sveglio",
+      "acceptableAnswers": ["sveglio", "Sveglio"],
+      "hint": "I wake up"
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-3",
+      "pairs": [
+        { "left": "Svegliarsi", "right": "To wake up" },
+        { "left": "Vestirsi", "right": "To get dressed" },
+        { "left": "Alzarsi", "right": "To get up" },
+        { "left": "Riposare", "right": "To rest" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-4",
+      "sentence": "I go to bed at eleven at night.",
+      "answer": "Vado a letto alle undici di sera.",
+      "acceptableAnswers": ["Vado a letto alle undici di sera", "Vado a letto alle 11 di sera"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-5",
+      "sentence": "___ insieme stasera?",
+      "answer": "Ceniamo",
+      "acceptableAnswers": ["Ceniamo", "ceniamo"],
+      "hint": "Shall we have dinner...?"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "What does 'svegliarsi' mean?",
+      "options": ["To get dressed", "To wake up", "To go to bed", "To rest"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-2",
+      "question": "Which auxiliary verb do reflexive verbs use in compound tenses?",
+      "options": ["Avere", "Essere", "Fare", "Stare"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-3",
+      "question": "How do you say 'I take a shower before going out'?",
+      "options": ["Faccio la doccia prima di uscire.", "Mi lavo la mattina.", "Vado sotto la doccia.", "Prendo la doccia fuori."],
+      "correctIndex": 0
+    },
+    {
+      "id": "q-2-4",
+      "question": "What does 'alzarsi' mean?",
+      "options": ["To raise", "To get up", "To wake up", "To stretch"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-5",
+      "question": "Which sentence means 'I work from nine to five'?",
+      "options": ["Lavoro dalle nove alle cinque.", "Lavoro a nove e cinque.", "Lavoro per nove ore.", "Lavoro dalle cinque alle nove."],
+      "correctIndex": 0
+    }
+  ]
+}

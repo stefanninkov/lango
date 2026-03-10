@@ -1,0 +1,156 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-4",
+  "title": "Kuvanje i obroci",
+  "vocabulary": [
+    {
+      "id": "v-4-3-1",
+      "word": "colazione",
+      "translation": "doručak",
+      "pronunciation": "kolacjone",
+      "example": "La colazione è il pasto più importante.",
+      "exampleTranslation": "Doručak je najvažniji obrok."
+    },
+    {
+      "id": "v-4-3-2",
+      "word": "pranzo",
+      "translation": "ručak",
+      "pronunciation": "pranzo",
+      "example": "A pranzo mangio la pasta.",
+      "exampleTranslation": "Za ručak jedem pastu."
+    },
+    {
+      "id": "v-4-3-3",
+      "word": "cena",
+      "translation": "večera",
+      "pronunciation": "čena",
+      "example": "La cena è alle otto di sera.",
+      "exampleTranslation": "Večera je u osam uveče."
+    },
+    {
+      "id": "v-4-3-4",
+      "word": "cucinare",
+      "translation": "kuvati",
+      "pronunciation": "kučinare",
+      "example": "Mi piace cucinare per gli amici.",
+      "exampleTranslation": "Volim da kuvam za prijatelje."
+    },
+    {
+      "id": "v-4-3-5",
+      "word": "bollire",
+      "translation": "ključati",
+      "pronunciation": "bolire",
+      "example": "Devi bollire l'acqua per la pasta.",
+      "exampleTranslation": "Moraš prokuvati vodu za pastu."
+    },
+    {
+      "id": "v-4-3-6",
+      "word": "friggere",
+      "translation": "pržiti",
+      "pronunciation": "fridžere",
+      "example": "Non mi piace friggere il cibo.",
+      "exampleTranslation": "Ne volim da pržim hranu."
+    },
+    {
+      "id": "v-4-3-7",
+      "word": "cuocere al forno",
+      "translation": "peći",
+      "pronunciation": "kuočere al forno",
+      "example": "Devo cuocere al forno la torta.",
+      "exampleTranslation": "Moram ispeći tortu."
+    },
+    {
+      "id": "v-4-3-8",
+      "word": "ricetta",
+      "translation": "recept",
+      "pronunciation": "ričeta",
+      "example": "Questa ricetta è della nonna.",
+      "exampleTranslation": "Ovaj recept je od bake."
+    }
+  ],
+  "grammar": {
+    "title": "Infinitiv glagola u italijanskom",
+    "explanation": "Italijanski glagoli u infinitivu imaju tri glavne grupe prema nastavku: '-are' (cucinare - kuvati), '-ere' (bollire - ključati), i '-ire' (friggere - pržiti). Infinitiv se koristi posle modalnih glagola kao 'dovere' (morati), 'potere' (moći), 'volere' (želeti): 'Devo cucinare' (Moram da kuvam). Takođe se koristi posle 'mi piace' (sviđa mi se): 'Mi piace cucinare' (Volim da kuvam).",
+    "examples": [
+      { "target": "Mi piace cucinare.", "native": "Volim da kuvam." },
+      { "target": "Devo bollire l'acqua.", "native": "Moram da prokuvam vodu." },
+      { "target": "Voglio friggere le uova.", "native": "Želim da ispržim jaja." },
+      { "target": "Posso cuocere al forno il pane?", "native": "Mogu li da ispečem hleb?" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-4-3-1",
+      "question": "Kako se kaže 'doručak' na italijanskom?",
+      "options": ["cena", "pranzo", "colazione", "ricetta"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-4-3-2",
+      "sentence": "Mi piace ___ per gli amici.",
+      "answer": "cucinare",
+      "acceptableAnswers": ["cucinare"],
+      "hint": "Volim da kuvam za prijatelje."
+    },
+    {
+      "type": "matching",
+      "id": "ex-4-3-3",
+      "pairs": [
+        { "left": "colazione", "right": "doručak" },
+        { "left": "pranzo", "right": "ručak" },
+        { "left": "cena", "right": "večera" },
+        { "left": "ricetta", "right": "recept" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-4-3-4",
+      "sentence": "Večera je u osam uveče.",
+      "answer": "La cena è alle otto di sera.",
+      "acceptableAnswers": ["La cena è alle otto di sera.", "La cena è alle otto di sera"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-4-3-5",
+      "sentence": "Devi ___ l'acqua per la pasta.",
+      "answer": "bollire",
+      "acceptableAnswers": ["bollire"],
+      "hint": "Moraš prokuvati vodu za pastu."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-4-3-1",
+      "question": "Šta znači 'pranzo'?",
+      "options": ["doručak", "ručak", "večera", "recept"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-4-3-2",
+      "question": "Kako se kaže 'pržiti' na italijanskom?",
+      "options": ["bollire", "cucinare", "friggere", "cuocere al forno"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-4-3-3",
+      "question": "Šta znači 'cuocere al forno'?",
+      "options": ["kuvati", "pržiti", "ključati", "peći"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-4-3-4",
+      "question": "Koji je tačan prevod za 'Ovaj recept je od bake'?",
+      "options": ["Questa cena è della nonna.", "Questa ricetta è della nonna.", "Questo pranzo è della nonna.", "Questa colazione è della nonna."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-4-3-5",
+      "question": "Kako se kaže 'kuvati' na italijanskom?",
+      "options": ["bollire", "friggere", "cucinare", "ricetta"],
+      "correctIndex": 2
+    }
+  ]
+}

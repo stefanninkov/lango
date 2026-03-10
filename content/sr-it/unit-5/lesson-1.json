@@ -1,0 +1,156 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-5",
+  "title": "Mesta u gradu",
+  "vocabulary": [
+    {
+      "id": "v-5-1-1",
+      "word": "albergo",
+      "translation": "hotel",
+      "pronunciation": "albergo",
+      "example": "L'albergo è vicino alla stazione.",
+      "exampleTranslation": "Hotel je blizu stanice."
+    },
+    {
+      "id": "v-5-1-2",
+      "word": "aeroporto",
+      "translation": "aerodrom",
+      "pronunciation": "aeroporto",
+      "example": "L'aeroporto è lontano dal centro.",
+      "exampleTranslation": "Aerodrom je daleko od centra."
+    },
+    {
+      "id": "v-5-1-3",
+      "word": "stazione",
+      "translation": "stanica",
+      "pronunciation": "stacjone",
+      "example": "La stazione dei treni è grande.",
+      "exampleTranslation": "Železnička stanica je velika."
+    },
+    {
+      "id": "v-5-1-4",
+      "word": "museo",
+      "translation": "muzej",
+      "pronunciation": "muzeo",
+      "example": "Il museo apre alle nove.",
+      "exampleTranslation": "Muzej se otvara u devet."
+    },
+    {
+      "id": "v-5-1-5",
+      "word": "banca",
+      "translation": "banka",
+      "pronunciation": "banka",
+      "example": "La banca chiude alle tre.",
+      "exampleTranslation": "Banka se zatvara u tri."
+    },
+    {
+      "id": "v-5-1-6",
+      "word": "farmacia",
+      "translation": "apoteka",
+      "pronunciation": "farmačija",
+      "example": "La farmacia è aperta di notte.",
+      "exampleTranslation": "Apoteka je otvorena noću."
+    },
+    {
+      "id": "v-5-1-7",
+      "word": "ospedale",
+      "translation": "bolnica",
+      "pronunciation": "ospedale",
+      "example": "L'ospedale è in centro città.",
+      "exampleTranslation": "Bolnica je u centru grada."
+    },
+    {
+      "id": "v-5-1-8",
+      "word": "chiesa",
+      "translation": "crkva",
+      "pronunciation": "kjeza",
+      "example": "La chiesa è molto antica.",
+      "exampleTranslation": "Crkva je veoma stara."
+    }
+  ],
+  "grammar": {
+    "title": "Predlozi za mesto – 'a', 'in', 'da', 'vicino a'",
+    "explanation": "U italijanskom jeziku predlozi za mesto su veoma važni. 'A' se koristi za gradove: 'a Roma' (u Rimu). 'In' se koristi za države i neke lokacije: 'in Italia' (u Italiji), 'in centro' (u centru). 'Da' označava 'kod' ili 'od': 'dal dottore' (kod lekara). 'Vicino a' znači 'blizu': 'vicino alla stazione' (blizu stanice). 'Lontano da' znači 'daleko od': 'lontano dal centro' (daleko od centra).",
+    "examples": [
+      { "target": "L'albergo è vicino alla stazione.", "native": "Hotel je blizu stanice." },
+      { "target": "La banca è in centro.", "native": "Banka je u centru." },
+      { "target": "Vado all'aeroporto.", "native": "Idem na aerodrom." },
+      { "target": "L'ospedale è lontano da qui.", "native": "Bolnica je daleko odavde." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-5-1-1",
+      "question": "Kako se kaže 'bolnica' na italijanskom?",
+      "options": ["farmacia", "albergo", "ospedale", "museo"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-5-1-2",
+      "sentence": "La ___ è aperta di notte.",
+      "answer": "farmacia",
+      "acceptableAnswers": ["farmacia"],
+      "hint": "Apoteka je otvorena noću."
+    },
+    {
+      "type": "matching",
+      "id": "ex-5-1-3",
+      "pairs": [
+        { "left": "albergo", "right": "hotel" },
+        { "left": "aeroporto", "right": "aerodrom" },
+        { "left": "ospedale", "right": "bolnica" },
+        { "left": "chiesa", "right": "crkva" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-5-1-4",
+      "sentence": "Muzej se otvara u devet.",
+      "answer": "Il museo apre alle nove.",
+      "acceptableAnswers": ["Il museo apre alle nove.", "Il museo apre alle nove"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-5-1-5",
+      "sentence": "La ___ chiude alle tre.",
+      "answer": "banca",
+      "acceptableAnswers": ["banca"],
+      "hint": "Banka se zatvara u tri."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-5-1-1",
+      "question": "Šta znači 'farmacia'?",
+      "options": ["bolnica", "banka", "apoteka", "hotel"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-5-1-2",
+      "question": "Kako se kaže 'crkva' na italijanskom?",
+      "options": ["museo", "chiesa", "stazione", "banca"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-5-1-3",
+      "question": "Šta znači 'stazione'?",
+      "options": ["hotel", "muzej", "aerodrom", "stanica"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-5-1-4",
+      "question": "Koji predlog se koristi za 'blizu' u italijanskom?",
+      "options": ["lontano da", "vicino a", "da", "in"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-5-1-5",
+      "question": "Kako se kaže 'aerodrom' na italijanskom?",
+      "options": ["stazione", "albergo", "aeroporto", "ospedale"],
+      "correctIndex": 2
+    }
+  ]
+}

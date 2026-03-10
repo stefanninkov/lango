@@ -1,0 +1,156 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-7",
+  "title": "Komunikacija",
+  "vocabulary": [
+    {
+      "id": "v-7-3-1",
+      "word": "chiamata",
+      "translation": "poziv",
+      "pronunciation": "kjamata",
+      "example": "Ho ricevuto una chiamata importante.",
+      "exampleTranslation": "Primio sam važan poziv."
+    },
+    {
+      "id": "v-7-3-2",
+      "word": "messaggio",
+      "translation": "poruka",
+      "pronunciation": "mesadžo",
+      "example": "Ti ho mandato un messaggio.",
+      "exampleTranslation": "Poslao sam ti poruku."
+    },
+    {
+      "id": "v-7-3-3",
+      "word": "rispondere",
+      "translation": "odgovoriti",
+      "pronunciation": "rispondere",
+      "example": "Devi rispondere all'email.",
+      "exampleTranslation": "Moraš odgovoriti na imejl."
+    },
+    {
+      "id": "v-7-3-4",
+      "word": "inviare",
+      "translation": "poslati",
+      "pronunciation": "invijare",
+      "example": "Devo inviare il documento oggi.",
+      "exampleTranslation": "Moram da pošaljem dokument danas."
+    },
+    {
+      "id": "v-7-3-5",
+      "word": "allegare",
+      "translation": "priložiti",
+      "pronunciation": "alegare",
+      "example": "Ho allegato il file all'email.",
+      "exampleTranslation": "Priložio sam fajl uz imejl."
+    },
+    {
+      "id": "v-7-3-6",
+      "word": "confermare",
+      "translation": "potvrditi",
+      "pronunciation": "konfermare",
+      "example": "Puoi confermare la riunione?",
+      "exampleTranslation": "Možeš li potvrditi sastanak?"
+    },
+    {
+      "id": "v-7-3-7",
+      "word": "segreteria",
+      "translation": "sandučić",
+      "pronunciation": "sekreterija",
+      "example": "Lascia un messaggio in segreteria.",
+      "exampleTranslation": "Ostavi poruku u sandučiću."
+    },
+    {
+      "id": "v-7-3-8",
+      "word": "conferenza",
+      "translation": "konferencija",
+      "pronunciation": "konferenca",
+      "example": "La conferenza inizia alle due.",
+      "exampleTranslation": "Konferencija počinje u dva."
+    }
+  ],
+  "grammar": {
+    "title": "Indirektni objekat i zamenice – 'mi', 'ti', 'gli', 'le'",
+    "explanation": "U italijanskom jeziku indirektne zamenice (zamenjuju indirektni objekat) su: mi (meni), ti (tebi), gli (njemu), le (njoj), ci (nama), vi (vama), gli (njima). One dolaze ispred glagola: 'Ti ho mandato un messaggio' (Poslao sam ti poruku). Sa infinitivom, zamenica se spaja na kraj: 'Devo inviargli il documento' (Moram da mu pošaljem dokument). U poslovnoj komunikaciji ove zamenice se koriste veoma često.",
+    "examples": [
+      { "target": "Ti ho mandato un messaggio.", "native": "Poslao sam ti poruku." },
+      { "target": "Gli ho risposto subito.", "native": "Odgovorio sam mu odmah." },
+      { "target": "Le devo confermare l'orario.", "native": "Moram joj potvrditi vreme." },
+      { "target": "Vi invierò il rapporto domani.", "native": "Poslaću vam izveštaj sutra." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-7-3-1",
+      "question": "Kako se kaže 'poruka' na italijanskom?",
+      "options": ["chiamata", "conferenza", "messaggio", "segreteria"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-7-3-2",
+      "sentence": "Devi ___ all'email.",
+      "answer": "rispondere",
+      "acceptableAnswers": ["rispondere"],
+      "hint": "Moraš odgovoriti na imejl."
+    },
+    {
+      "type": "matching",
+      "id": "ex-7-3-3",
+      "pairs": [
+        { "left": "chiamata", "right": "poziv" },
+        { "left": "messaggio", "right": "poruka" },
+        { "left": "inviare", "right": "poslati" },
+        { "left": "confermare", "right": "potvrditi" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-7-3-4",
+      "sentence": "Moram da pošaljem dokument danas.",
+      "answer": "Devo inviare il documento oggi.",
+      "acceptableAnswers": ["Devo inviare il documento oggi.", "Devo inviare il documento oggi"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-7-3-5",
+      "sentence": "La ___ inizia alle due.",
+      "answer": "conferenza",
+      "acceptableAnswers": ["conferenza", "riunione"],
+      "hint": "Konferencija počinje u dva."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-7-3-1",
+      "question": "Šta znači 'allegare'?",
+      "options": ["poslati", "odgovoriti", "priložiti", "potvrditi"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-7-3-2",
+      "question": "Kako se kaže 'poziv' na italijanskom?",
+      "options": ["messaggio", "chiamata", "conferenza", "segreteria"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-7-3-3",
+      "question": "Šta znači 'segreteria'?",
+      "options": ["konferencija", "poziv", "poruka", "sandučić"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-7-3-4",
+      "question": "Koji je tačan prevod za 'Možeš li potvrditi sastanak?'",
+      "options": ["Puoi inviare la riunione?", "Puoi allegare la riunione?", "Puoi confermare la riunione?", "Puoi rispondere alla riunione?"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-7-3-5",
+      "question": "Kako se kaže 'poslati' na italijanskom?",
+      "options": ["rispondere", "allegare", "confermare", "inviare"],
+      "correctIndex": 3
+    }
+  ]
+}

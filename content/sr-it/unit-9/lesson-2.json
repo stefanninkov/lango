@@ -1,0 +1,156 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-9",
+  "title": "Izražavanje mišljenja",
+  "vocabulary": [
+    {
+      "id": "v-9-2-1",
+      "word": "pensare",
+      "translation": "misliti",
+      "pronunciation": "pensare",
+      "example": "Penso che sia una buona idea.",
+      "exampleTranslation": "Mislim da je to dobra ideja."
+    },
+    {
+      "id": "v-9-2-2",
+      "word": "credere",
+      "translation": "verovati",
+      "pronunciation": "kredere",
+      "example": "Credo che abbia ragione.",
+      "exampleTranslation": "Verujem da je u pravu."
+    },
+    {
+      "id": "v-9-2-3",
+      "word": "essere d'accordo",
+      "translation": "slagati se",
+      "pronunciation": "esere dakordo",
+      "example": "Sono d'accordo con te.",
+      "exampleTranslation": "Slažem se sa tobom."
+    },
+    {
+      "id": "v-9-2-4",
+      "word": "tuttavia",
+      "translation": "međutim",
+      "pronunciation": "tutavija",
+      "example": "È interessante, tuttavia non sono convinto.",
+      "exampleTranslation": "Zanimljivo je, međutim nisam ubeden."
+    },
+    {
+      "id": "v-9-2-5",
+      "word": "sebbene",
+      "translation": "iako",
+      "pronunciation": "sebene",
+      "example": "Sebbene sia difficile, non mi arrendo.",
+      "exampleTranslation": "Iako je teško, ne predajem se."
+    },
+    {
+      "id": "v-9-2-6",
+      "word": "inoltre",
+      "translation": "osim toga",
+      "pronunciation": "inoltre",
+      "example": "Inoltre, vorrei aggiungere una cosa.",
+      "exampleTranslation": "Osim toga, želeo bih da dodam jednu stvar."
+    },
+    {
+      "id": "v-9-2-7",
+      "word": "quindi",
+      "translation": "prema tome",
+      "pronunciation": "kvindi",
+      "example": "Quindi, la mia conclusione è questa.",
+      "exampleTranslation": "Prema tome, moj zaključak je ovaj."
+    },
+    {
+      "id": "v-9-2-8",
+      "word": "invece",
+      "translation": "s druge strane",
+      "pronunciation": "inveče",
+      "example": "Io, invece, penso diversamente.",
+      "exampleTranslation": "Ja, s druge strane, mislim drugačije."
+    }
+  ],
+  "grammar": {
+    "title": "Konjunktiv (congiuntivo) posle glagola mišljenja",
+    "explanation": "U italijanskom jeziku posle glagola koji izražavaju mišljenje, verovanje ili sumnju koristi se konjunktiv (congiuntivo). 'Penso che sia...' (Mislim da je...), 'Credo che abbia...' (Verujem da ima...). Konjunktiv prezenta se razlikuje od indikativa: 'è' → 'sia', 'ha' → 'abbia'. Veznik 'che' (da) uvodi zavisnu rečenicu sa konjunktivom. Veznici 'sebbene' (iako) i 'affinché' (da bi) takođe zahtevaju konjunktiv.",
+    "examples": [
+      { "target": "Penso che sia giusto.", "native": "Mislim da je ispravno." },
+      { "target": "Credo che abbia ragione.", "native": "Verujem da je u pravu." },
+      { "target": "Sebbene sia difficile, è possibile.", "native": "Iako je teško, moguće je." },
+      { "target": "Non credo che sia vero.", "native": "Ne verujem da je istina." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-9-2-1",
+      "question": "Kako se kaže 'misliti' na italijanskom?",
+      "options": ["credere", "pensare", "essere d'accordo", "invece"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-9-2-2",
+      "sentence": "Sono d'___ con te.",
+      "answer": "accordo",
+      "acceptableAnswers": ["accordo"],
+      "hint": "Slažem se sa tobom."
+    },
+    {
+      "type": "matching",
+      "id": "ex-9-2-3",
+      "pairs": [
+        { "left": "pensare", "right": "misliti" },
+        { "left": "credere", "right": "verovati" },
+        { "left": "tuttavia", "right": "međutim" },
+        { "left": "quindi", "right": "prema tome" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-9-2-4",
+      "sentence": "Mislim da je to dobra ideja.",
+      "answer": "Penso che sia una buona idea.",
+      "acceptableAnswers": ["Penso che sia una buona idea.", "Penso che sia una buona idea"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-9-2-5",
+      "sentence": "___, vorrei aggiungere una cosa.",
+      "answer": "Inoltre",
+      "acceptableAnswers": ["Inoltre", "inoltre"],
+      "hint": "Osim toga, želeo bih da dodam jednu stvar."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-9-2-1",
+      "question": "Šta znači 'tuttavia'?",
+      "options": ["prema tome", "iako", "međutim", "osim toga"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-9-2-2",
+      "question": "Kako se kaže 'verovati' na italijanskom?",
+      "options": ["pensare", "credere", "quindi", "invece"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-9-2-3",
+      "question": "Šta znači 'sebbene'?",
+      "options": ["međutim", "prema tome", "s druge strane", "iako"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-9-2-4",
+      "question": "Koji glagolski oblik se koristi posle 'penso che'?",
+      "options": ["indikativ", "imperativ", "konjunktiv", "infinitiv"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-9-2-5",
+      "question": "Kako se kaže 'slagati se' na italijanskom?",
+      "options": ["pensare", "credere", "invece", "essere d'accordo"],
+      "correctIndex": 3
+    }
+  ]
+}

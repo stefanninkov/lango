@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-9",
+  "title": "Umetnost",
+  "vocabulary": [
+    {
+      "id": "pelicula",
+      "word": "película",
+      "translation": "film",
+      "pronunciation": "pe-LI-ku-la",
+      "example": "La película fue muy interesante.",
+      "exampleTranslation": "Film je bio veoma zanimljiv."
+    },
+    {
+      "id": "musica",
+      "word": "música",
+      "translation": "muzika",
+      "pronunciation": "MU-si-ka",
+      "example": "Me encanta la música clásica.",
+      "exampleTranslation": "Obožavam klasičnu muziku."
+    },
+    {
+      "id": "libro",
+      "word": "libro",
+      "translation": "knjiga",
+      "pronunciation": "LI-bro",
+      "example": "Estoy leyendo un libro interesante.",
+      "exampleTranslation": "Čitam zanimljivu knjigu."
+    },
+    {
+      "id": "teatro",
+      "word": "teatro",
+      "translation": "pozorište",
+      "pronunciation": "te-A-tro",
+      "example": "Vamos al teatro esta noche.",
+      "exampleTranslation": "Idemo u pozorište večeras."
+    },
+    {
+      "id": "pintura",
+      "word": "pintura",
+      "translation": "slikarstvo",
+      "pronunciation": "pin-TU-ra",
+      "example": "La pintura de Picasso es famosa.",
+      "exampleTranslation": "Pikasovo slikarstvo je poznato."
+    },
+    {
+      "id": "concierto",
+      "word": "concierto",
+      "translation": "koncert",
+      "pronunciation": "kon-SJER-to",
+      "example": "El concierto empieza a las ocho.",
+      "exampleTranslation": "Koncert počinje u osam."
+    },
+    {
+      "id": "exposicion",
+      "word": "exposición",
+      "translation": "izložba",
+      "pronunciation": "eks-po-si-SJON",
+      "example": "Hay una exposición de arte moderno.",
+      "exampleTranslation": "Ima izložba moderne umetnosti."
+    },
+    {
+      "id": "espectaculo",
+      "word": "espectáculo",
+      "translation": "predstava",
+      "pronunciation": "es-pek-TA-ku-lo",
+      "example": "El espectáculo fue maravilloso.",
+      "exampleTranslation": "Predstava je bila divna."
+    }
+  ],
+  "grammar": {
+    "title": "Izražavanje ukusa - 'Me gusta / Me encanta'",
+    "explanation": "Za izražavanje šta vam se sviđa koristimo glagol 'gustar' (sviđati se) i 'encantar' (oduševljavati):\n\n• Me gusta + jednina/infinitiv: Me gusta la música (Sviđa mi se muzika)\n• Me gustan + množina: Me gustan los libros (Sviđaju mi se knjige)\n• Me encanta + jednina: Me encanta el teatro (Obožavam pozorište)\n• Me encantan + množina: Me encantan las películas (Obožavam filmove)\n\nNegacija: No me gusta... (Ne sviđa mi se...)\nPojačavanje: Me gusta mucho (Mnogo mi se sviđa)",
+    "examples": [
+      { "target": "Me encanta la música clásica.", "native": "Obožavam klasičnu muziku." },
+      { "target": "No me gustan las películas de terror.", "native": "Ne sviđaju mi se horor filmovi." },
+      { "target": "¿Te gusta ir al teatro?", "native": "Da li voliš da ideš u pozorište?" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1",
+      "question": "Kako se kaže 'film' na španskom?",
+      "options": ["libro", "teatro", "película", "espectáculo"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-2",
+      "sentence": "Vamos al ___ esta noche.",
+      "answer": "teatro",
+      "acceptableAnswers": ["teatro", "Teatro"],
+      "hint": "Reč za 'pozorište'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-3",
+      "pairs": [
+        { "left": "película", "right": "film" },
+        { "left": "música", "right": "muzika" },
+        { "left": "libro", "right": "knjiga" },
+        { "left": "concierto", "right": "koncert" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-4",
+      "sentence": "Obožavam klasičnu muziku.",
+      "answer": "Me encanta la música clásica.",
+      "acceptableAnswers": ["Me encanta la música clásica", "Me encanta la música clásica."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-5",
+      "question": "Šta znači 'exposición'?",
+      "options": ["predstava", "koncert", "izložba", "pozorište"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "Kako se kaže 'knjiga' na španskom?",
+      "options": ["teatro", "película", "libro", "música"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-2",
+      "question": "Šta znači 'espectáculo'?",
+      "options": ["izložba", "koncert", "film", "predstava"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-1-3",
+      "question": "Kako kažete 'Sviđaju mi se knjige' na španskom?",
+      "options": ["Me gusta los libros.", "Me gustan los libros.", "Yo gusto los libros.", "Me gustan las libros."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-4",
+      "question": "Šta znači 'pintura'?",
+      "options": ["pozorište", "slikarstvo", "muzika", "film"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-5",
+      "question": "Kako se kaže 'koncert' na španskom?",
+      "options": ["espectáculo", "exposición", "concierto", "teatro"],
+      "correctIndex": 2
+    }
+  ]
+}

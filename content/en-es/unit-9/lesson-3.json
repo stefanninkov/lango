@@ -1,0 +1,154 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-9",
+  "title": "Society & Environment",
+  "vocabulary": [
+    {
+      "id": "sociedad",
+      "word": "Sociedad",
+      "translation": "Society",
+      "pronunciation": "soh-syeh-DAHD",
+      "example": "La sociedad moderna enfrenta muchos desafíos.",
+      "exampleTranslation": "Modern society faces many challenges."
+    },
+    {
+      "id": "medio-ambiente",
+      "word": "Medio ambiente",
+      "translation": "Environment",
+      "pronunciation": "MEH-dyoh ahm-BYEHN-teh",
+      "example": "Debemos proteger el medio ambiente para las futuras generaciones.",
+      "exampleTranslation": "We must protect the environment for future generations."
+    },
+    {
+      "id": "igualdad",
+      "word": "Igualdad",
+      "translation": "Equality",
+      "pronunciation": "ee-gwahl-DAHD",
+      "example": "La igualdad de género es un derecho fundamental.",
+      "exampleTranslation": "Gender equality is a fundamental right."
+    },
+    {
+      "id": "diversidad",
+      "word": "Diversidad",
+      "translation": "Diversity",
+      "pronunciation": "dee-vehr-see-DAHD",
+      "example": "La diversidad cultural enriquece nuestra sociedad.",
+      "exampleTranslation": "Cultural diversity enriches our society."
+    },
+    {
+      "id": "sostenible",
+      "word": "Sostenible",
+      "translation": "Sustainable",
+      "pronunciation": "soh-steh-NEE-bleh",
+      "example": "Es importante desarrollar fuentes de energía sostenible.",
+      "exampleTranslation": "It's important to develop sustainable energy sources."
+    },
+    {
+      "id": "reciclaje",
+      "word": "Reciclaje",
+      "translation": "Recycling",
+      "pronunciation": "rreh-see-KLAH-heh",
+      "example": "El reciclaje es una práctica esencial para reducir la contaminación.",
+      "exampleTranslation": "Recycling is an essential practice to reduce pollution."
+    },
+    {
+      "id": "comunidad",
+      "word": "Comunidad",
+      "translation": "Community",
+      "pronunciation": "koh-moo-nee-DAHD",
+      "example": "Nuestra comunidad organiza actividades de voluntariado cada mes.",
+      "exampleTranslation": "Our community organizes volunteer activities every month."
+    },
+    {
+      "id": "voluntario",
+      "word": "Voluntario",
+      "translation": "Volunteer",
+      "pronunciation": "voh-loon-TAH-ryoh",
+      "example": "Trabajo como voluntario en una organización medioambiental.",
+      "exampleTranslation": "I work as a volunteer in an environmental organization."
+    }
+  ],
+  "grammar": {
+    "title": "The Subjunctive for Hopes, Wishes, and Societal Ideals",
+    "explanation": "When expressing hopes, wishes, and ideals about society, Spanish requires the subjunctive:\n\n• Esperar que + subjunctive: Espero que la sociedad cambie. (I hope that society changes.)\n• Ojalá (que) + subjunctive: Ojalá haya más igualdad. (I hope there will be more equality.)\n• Es necesario que + subjunctive: Es necesario que reciclemos más. (It's necessary that we recycle more.)\n• Querer que + subjunctive: Queremos que el gobierno proteja el medio ambiente. (We want the government to protect the environment.)\n\nAdvanced connectors for structured arguments:\n• Por un lado... por otro lado... (On one hand... on the other hand...)\n• En primer lugar... en segundo lugar... (In the first place... in the second place...)\n• En conclusión... (In conclusion...)",
+    "examples": [
+      { "target": "Ojalá que las futuras generaciones vivan en un mundo más sostenible.", "native": "I hope that future generations live in a more sustainable world." },
+      { "target": "Es necesario que la comunidad participe en el reciclaje.", "native": "It's necessary that the community participate in recycling." },
+      { "target": "Esperamos que la diversidad sea valorada en nuestra sociedad.", "native": "We hope that diversity is valued in our society." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-9-11",
+      "question": "Which expression always triggers the subjunctive?",
+      "options": ["Creo que", "Es verdad que", "Ojalá que", "Es cierto que"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-9-12",
+      "sentence": "Debemos proteger el ___ para las futuras generaciones.",
+      "answer": "medio ambiente",
+      "acceptableAnswers": ["medio ambiente", "Medio ambiente", "medioambiente"],
+      "hint": "The natural world around us"
+    },
+    {
+      "type": "matching",
+      "id": "ex-9-13",
+      "pairs": [
+        { "left": "Igualdad", "right": "Equality" },
+        { "left": "Diversidad", "right": "Diversity" },
+        { "left": "Sostenible", "right": "Sustainable" },
+        { "left": "Reciclaje", "right": "Recycling" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-9-14",
+      "sentence": "It's necessary that the community participate in recycling.",
+      "answer": "Es necesario que la comunidad participe en el reciclaje.",
+      "acceptableAnswers": ["Es necesario que la comunidad participe en el reciclaje", "Es necesario que la comunidad participe en el reciclaje."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-9-15",
+      "question": "What does 'voluntario' mean?",
+      "options": ["Voluntary", "Volunteer", "Both A and B", "Revolution"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-9-11",
+      "question": "What does 'medio ambiente' mean?",
+      "options": ["Half way", "Environment", "Middle ground", "Atmosphere"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-9-12",
+      "question": "How do you say 'I hope society changes'?",
+      "options": ["Espero que la sociedad cambia.", "Espero que la sociedad cambie.", "Espero la sociedad cambiar.", "Espero que la sociedad cambió."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-9-13",
+      "question": "What does 'sostenible' mean?",
+      "options": ["Sustaining", "Sustainable", "Supportable", "Substantial"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-9-14",
+      "question": "What is 'community' in Spanish?",
+      "options": ["Comunión", "Comunicación", "Comunidad", "Común"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-9-15",
+      "question": "'Ojalá que haya más igualdad' expresses:",
+      "options": ["A certainty", "A command", "A hope or wish", "A past event"],
+      "correctIndex": 2
+    }
+  ]
+}

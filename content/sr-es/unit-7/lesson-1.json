@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-7",
+  "title": "Kancelarija",
+  "vocabulary": [
+    {
+      "id": "reunion",
+      "word": "reunión",
+      "translation": "sastanak",
+      "pronunciation": "re-u-NJON",
+      "example": "Tenemos una reunión a las diez.",
+      "exampleTranslation": "Imamo sastanak u deset."
+    },
+    {
+      "id": "correo",
+      "word": "correo",
+      "translation": "imejl/pošta",
+      "pronunciation": "ko-RE-o",
+      "example": "Te envié un correo electrónico.",
+      "exampleTranslation": "Poslao sam ti imejl."
+    },
+    {
+      "id": "jefe",
+      "word": "jefe",
+      "translation": "šef",
+      "pronunciation": "HE-fe",
+      "example": "Mi jefe es muy exigente.",
+      "exampleTranslation": "Moj šef je veoma zahteven."
+    },
+    {
+      "id": "empresa",
+      "word": "empresa",
+      "translation": "kompanija",
+      "pronunciation": "em-PRE-sa",
+      "example": "La empresa tiene cien empleados.",
+      "exampleTranslation": "Kompanija ima sto zaposlenih."
+    },
+    {
+      "id": "oficina",
+      "word": "oficina",
+      "translation": "kancelarija",
+      "pronunciation": "o-fi-SI-na",
+      "example": "La oficina está en el centro.",
+      "exampleTranslation": "Kancelarija je u centru."
+    },
+    {
+      "id": "proyecto",
+      "word": "proyecto",
+      "translation": "projekat",
+      "pronunciation": "pro-JEK-to",
+      "example": "El proyecto debe estar listo en marzo.",
+      "exampleTranslation": "Projekat mora biti gotov u martu."
+    },
+    {
+      "id": "informe",
+      "word": "informe",
+      "translation": "izveštaj",
+      "pronunciation": "in-FOR-me",
+      "example": "Necesito escribir el informe hoy.",
+      "exampleTranslation": "Moram da napišem izveštaj danas."
+    },
+    {
+      "id": "plazo",
+      "word": "plazo",
+      "translation": "rok",
+      "pronunciation": "PLA-so",
+      "example": "El plazo es el viernes.",
+      "exampleTranslation": "Rok je u petak."
+    }
+  ],
+  "grammar": {
+    "title": "Poslovni izrazi i formalan jezik",
+    "explanation": "U poslovnom španskom koristi se formalniji jezik:\n\n• 'Estimado/a' - Poštovani/a (u imejlu)\n• 'Le informo que...' - Obaveštavam Vas da...\n• 'Atentamente' - S poštovanjem (na kraju imejla)\n• 'Quisiera...' - Želeo/la bih... (veoma formalno)\n\nGlagol 'deber' za obaveze: 'Debo terminar el informe' (Moram da završim izveštaj).\nGlagol 'tener que' za nužnost: 'Tengo que ir a la reunión' (Moram da idem na sastanak).",
+    "examples": [
+      { "target": "Debo terminar el proyecto antes del plazo.", "native": "Moram da završim projekat pre roka." },
+      { "target": "¿Puede enviarme el informe?", "native": "Možete li mi poslati izveštaj?" },
+      { "target": "Tengo una reunión con el jefe.", "native": "Imam sastanak sa šefom." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1",
+      "question": "Kako se kaže 'sastanak' na španskom?",
+      "options": ["proyecto", "informe", "reunión", "oficina"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-2",
+      "sentence": "El ___ es el viernes.",
+      "answer": "plazo",
+      "acceptableAnswers": ["plazo", "Plazo"],
+      "hint": "Reč za 'rok'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-3",
+      "pairs": [
+        { "left": "jefe", "right": "šef" },
+        { "left": "empresa", "right": "kompanija" },
+        { "left": "informe", "right": "izveštaj" },
+        { "left": "correo", "right": "imejl/pošta" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-4",
+      "sentence": "Imamo sastanak u deset.",
+      "answer": "Tenemos una reunión a las diez.",
+      "acceptableAnswers": ["Tenemos una reunión a las diez", "Tenemos una reunión a las diez."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-5",
+      "question": "Šta znači 'proyecto'?",
+      "options": ["rok", "izveštaj", "projekat", "kancelarija"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "Kako se kaže 'šef' na španskom?",
+      "options": ["empresa", "oficina", "jefe", "proyecto"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-2",
+      "question": "Šta znači 'plazo'?",
+      "options": ["projekat", "rok", "izveštaj", "sastanak"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-3",
+      "question": "Kako se kaže 'kancelarija' na španskom?",
+      "options": ["empresa", "oficina", "informe", "reunión"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-4",
+      "question": "Šta znači 'correo electrónico'?",
+      "options": ["izveštaj", "projekat", "imejl", "sastanak"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-5",
+      "question": "Kako se kaže 'kompanija' na španskom?",
+      "options": ["oficina", "reunión", "empresa", "proyecto"],
+      "correctIndex": 2
+    }
+  ]
+}

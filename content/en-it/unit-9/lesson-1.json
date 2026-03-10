@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-9",
+  "title": "Arts & Entertainment",
+  "vocabulary": [
+    {
+      "id": "v-1-1",
+      "word": "film",
+      "translation": "film / movie",
+      "pronunciation": "FEELM",
+      "example": "Quel film ha vinto il premio come miglior regia.",
+      "exampleTranslation": "That film won the award for best direction."
+    },
+    {
+      "id": "v-1-2",
+      "word": "musica",
+      "translation": "music",
+      "pronunciation": "MOO-zee-kah",
+      "example": "La musica italiana è apprezzata in tutto il mondo.",
+      "exampleTranslation": "Italian music is appreciated all over the world."
+    },
+    {
+      "id": "v-1-3",
+      "word": "libro",
+      "translation": "book",
+      "pronunciation": "LEE-broh",
+      "example": "Sto leggendo un libro di Italo Calvino.",
+      "exampleTranslation": "I am reading a book by Italo Calvino."
+    },
+    {
+      "id": "v-1-4",
+      "word": "teatro",
+      "translation": "theater",
+      "pronunciation": "teh-AH-troh",
+      "example": "Stasera andiamo a teatro a vedere un'opera.",
+      "exampleTranslation": "Tonight we are going to the theater to see an opera."
+    },
+    {
+      "id": "v-1-5",
+      "word": "pittura",
+      "translation": "painting",
+      "pronunciation": "peet-TOO-rah",
+      "example": "La pittura rinascimentale italiana è senza pari.",
+      "exampleTranslation": "Italian Renaissance painting is unparalleled."
+    },
+    {
+      "id": "v-1-6",
+      "word": "concerto",
+      "translation": "concert",
+      "pronunciation": "kon-CHER-toh",
+      "example": "Il concerto al teatro è stato meraviglioso.",
+      "exampleTranslation": "The concert at the theater was wonderful."
+    },
+    {
+      "id": "v-1-7",
+      "word": "mostra",
+      "translation": "exhibition",
+      "pronunciation": "MOH-strah",
+      "example": "C'è una mostra di arte contemporanea al museo.",
+      "exampleTranslation": "There is a contemporary art exhibition at the museum."
+    },
+    {
+      "id": "v-1-8",
+      "word": "spettacolo",
+      "translation": "show / performance",
+      "pronunciation": "spet-TAH-koh-loh",
+      "example": "Lo spettacolo inizia alle nove in punto.",
+      "exampleTranslation": "The show starts at nine o'clock sharp."
+    }
+  ],
+  "grammar": {
+    "title": "The Imperfect Subjunctive (Congiuntivo Imperfetto) in Cultural Discussions",
+    "explanation": "The imperfect subjunctive is used in subordinate clauses when the main verb is in the past or conditional: 'Credevo che fosse un bel film' (I thought it was a good film). It is formed from the imperfect stem: -are -> -assi, -assi, -asse, -assimo, -aste, -assero; -ere -> -essi, -essi, -esse, -essimo, -este, -essero; -ire -> -issi, -issi, -isse, -issimo, -iste, -issero. Essere: fossi, fossi, fosse, fossimo, foste, fossero. This tense is essential for expressing hypothetical opinions about art and culture.",
+    "examples": [
+      { "target": "Pensavo che il concerto fosse alle otto.", "native": "I thought the concert was at eight." },
+      { "target": "Vorrei che ci fossero più mostre d'arte.", "native": "I wish there were more art exhibitions." },
+      { "target": "Non sapevo che quel regista avesse vinto un Oscar.", "native": "I didn't know that director had won an Oscar." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1",
+      "question": "How do you say 'exhibition' in Italian?",
+      "options": ["Spettacolo", "Concerto", "Mostra", "Teatro"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-2",
+      "sentence": "Pensavo che il concerto ___ alle otto.",
+      "answer": "fosse",
+      "acceptableAnswers": ["fosse", "Fosse"],
+      "hint": "Imperfect subjunctive of 'essere'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-3",
+      "pairs": [
+        { "left": "Film", "right": "Movie" },
+        { "left": "Pittura", "right": "Painting" },
+        { "left": "Mostra", "right": "Exhibition" },
+        { "left": "Spettacolo", "right": "Show" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-4",
+      "sentence": "Italian music is appreciated all over the world.",
+      "answer": "La musica italiana è apprezzata in tutto il mondo.",
+      "acceptableAnswers": ["La musica italiana è apprezzata in tutto il mondo"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-5",
+      "question": "What is the imperfect subjunctive of 'essere' (third person singular)?",
+      "options": ["Era", "Sia", "Fosse", "Sarà"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "What does 'spettacolo' mean?",
+      "options": ["Spectacle", "Show / Performance", "Spectacular", "Spectator"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-2",
+      "question": "When is the imperfect subjunctive used?",
+      "options": ["With present tense main verbs", "With future tense main verbs", "With past tense or conditional main verbs", "Only in questions"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-3",
+      "question": "What does 'pittura' mean?",
+      "options": ["Picture", "Painting", "Pitcher", "Pit"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-4",
+      "question": "How do you say 'I wish there were more art exhibitions'?",
+      "options": ["Voglio più mostre d'arte.", "Ci sono più mostre d'arte.", "Vorrei che ci fossero più mostre d'arte.", "Spero che ci siano mostre d'arte."],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-5",
+      "question": "What does 'concerto' mean?",
+      "options": ["Concrete", "Concert", "Contest", "Concept"],
+      "correctIndex": 1
+    }
+  ]
+}

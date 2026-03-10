@@ -5,8 +5,9 @@
     {
       "id": "unit-1",
       "title": "Greetings & Basics",
-      "description": "Learn to say hello, introduce yourself, and use polite expressions in Italian",
+      "description": "Learn to say hello, introduce yourself, and use polite expressions",
       "order": 1,
+      "level": "beginner",
       "lessons": [
         { "id": "lesson-1", "title": "Basic Greetings", "order": 1, "wordCount": 8 },
         { "id": "lesson-2", "title": "Introductions", "order": 2, "wordCount": 8 },
@@ -15,13 +16,106 @@
     },
     {
       "id": "unit-2",
-      "title": "Food & Numbers",
-      "description": "Learn numbers, food vocabulary, and how to order at Italian restaurants",
+      "title": "Numbers, Colors & Days",
+      "description": "Learn to count, name colors, and talk about days of the week",
       "order": 2,
+      "level": "beginner",
+      "requiredUnit": "unit-1",
       "lessons": [
-        { "id": "lesson-1", "title": "Numbers & Counting", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "Food & Drinks", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "At the Restaurant", "order": 3, "wordCount": 8 }
+        { "id": "lesson-1", "title": "Numbers 1-20", "order": 1, "wordCount": 8 },
+        { "id": "lesson-2", "title": "Colors", "order": 2, "wordCount": 8 },
+        { "id": "lesson-3", "title": "Days & Months", "order": 3, "wordCount": 8 }
+      ]
+    },
+    {
+      "id": "unit-3",
+      "title": "Family & People",
+      "description": "Talk about family members, describe people, and discuss occupations",
+      "order": 3,
+      "level": "beginner",
+      "requiredUnit": "unit-2",
+      "lessons": [
+        { "id": "lesson-1", "title": "Family Members", "order": 1, "wordCount": 8 },
+        { "id": "lesson-2", "title": "Describing People", "order": 2, "wordCount": 8 },
+        { "id": "lesson-3", "title": "Occupations", "order": 3, "wordCount": 8 }
+      ]
+    },
+    {
+      "id": "unit-4",
+      "title": "Food & Restaurants",
+      "description": "Order food, navigate restaurant menus, and talk about cooking",
+      "order": 4,
+      "level": "intermediate",
+      "requiredUnit": "unit-3",
+      "lessons": [
+        { "id": "lesson-1", "title": "Common Foods", "order": 1, "wordCount": 8 },
+        { "id": "lesson-2", "title": "At the Restaurant", "order": 2, "wordCount": 8 },
+        { "id": "lesson-3", "title": "Cooking & Meals", "order": 3, "wordCount": 8 }
+      ]
+    },
+    {
+      "id": "unit-5",
+      "title": "Travel & Directions",
+      "description": "Navigate cities, ask for directions, and use transportation",
+      "order": 5,
+      "level": "intermediate",
+      "requiredUnit": "unit-4",
+      "lessons": [
+        { "id": "lesson-1", "title": "Places in Town", "order": 1, "wordCount": 8 },
+        { "id": "lesson-2", "title": "Directions", "order": 2, "wordCount": 8 },
+        { "id": "lesson-3", "title": "Transportation", "order": 3, "wordCount": 8 }
+      ]
+    },
+    {
+      "id": "unit-6",
+      "title": "Shopping & Daily Life",
+      "description": "Shop with confidence, describe your daily routine, and discuss weather",
+      "order": 6,
+      "level": "intermediate",
+      "requiredUnit": "unit-5",
+      "lessons": [
+        { "id": "lesson-1", "title": "At the Store", "order": 1, "wordCount": 8 },
+        { "id": "lesson-2", "title": "Daily Routine", "order": 2, "wordCount": 8 },
+        { "id": "lesson-3", "title": "Weather & Seasons", "order": 3, "wordCount": 8 }
+      ]
+    },
+    {
+      "id": "unit-7",
+      "title": "Work & Business",
+      "description": "Navigate the workplace, discuss careers, and communicate professionally",
+      "order": 7,
+      "level": "advanced",
+      "requiredUnit": "unit-6",
+      "lessons": [
+        { "id": "lesson-1", "title": "Office & Workplace", "order": 1, "wordCount": 8 },
+        { "id": "lesson-2", "title": "Professions & Career", "order": 2, "wordCount": 8 },
+        { "id": "lesson-3", "title": "Phone & Communication", "order": 3, "wordCount": 8 }
+      ]
+    },
+    {
+      "id": "unit-8",
+      "title": "Health & Emergencies",
+      "description": "Discuss health topics, visit the doctor, and handle emergencies",
+      "order": 8,
+      "level": "advanced",
+      "requiredUnit": "unit-7",
+      "lessons": [
+        { "id": "lesson-1", "title": "Body & Health", "order": 1, "wordCount": 8 },
+        { "id": "lesson-2", "title": "At the Doctor", "order": 2, "wordCount": 8 },
+        { "id": "lesson-3", "title": "Emergencies", "order": 3, "wordCount": 8 }
+      ]
+    },
+    {
+      "id": "unit-9",
+      "title": "Culture & Opinions",
+      "description": "Discuss arts, express opinions, and talk about society and environment",
+      "order": 9,
+      "level": "advanced",
+      "requiredUnit": "unit-8",
+      "lessons": [
+        { "id": "lesson-1", "title": "Arts & Entertainment", "order": 1, "wordCount": 8 },
+        { "id": "lesson-2", "title": "Expressing Opinions", "order": 2, "wordCount": 8 },
+        { "id": "lesson-3", "title": "Society & Environment", "order": 3, "wordCount": 8 }
       ]
     }
   ]

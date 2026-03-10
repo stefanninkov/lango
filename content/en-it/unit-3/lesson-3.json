@@ -1,0 +1,155 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-3",
+  "title": "Occupations",
+  "vocabulary": [
+    {
+      "id": "v-3-1",
+      "word": "professore",
+      "translation": "professor / teacher",
+      "pronunciation": "proh-fes-SOH-reh",
+      "example": "Il professore insegna storia.",
+      "exampleTranslation": "The professor teaches history."
+    },
+    {
+      "id": "v-3-2",
+      "word": "medico",
+      "translation": "doctor",
+      "pronunciation": "MEH-dee-koh",
+      "example": "Il medico visita i pazienti ogni giorno.",
+      "exampleTranslation": "The doctor sees patients every day."
+    },
+    {
+      "id": "v-3-3",
+      "word": "studente",
+      "translation": "student",
+      "pronunciation": "stoo-DEN-teh",
+      "example": "Lo studente studia per l'esame.",
+      "exampleTranslation": "The student studies for the exam."
+    },
+    {
+      "id": "v-3-4",
+      "word": "avvocato",
+      "translation": "lawyer",
+      "pronunciation": "ahv-voh-KAH-toh",
+      "example": "L'avvocato difende il suo cliente.",
+      "exampleTranslation": "The lawyer defends his client."
+    },
+    {
+      "id": "v-3-5",
+      "word": "ingegnere",
+      "translation": "engineer",
+      "pronunciation": "een-jeh-NYEH-reh",
+      "example": "L'ingegnere progetta ponti.",
+      "exampleTranslation": "The engineer designs bridges."
+    },
+    {
+      "id": "v-3-6",
+      "word": "infermiere",
+      "translation": "nurse",
+      "pronunciation": "een-fer-MYEH-reh",
+      "example": "L'infermiere lavora in ospedale.",
+      "exampleTranslation": "The nurse works in the hospital."
+    },
+    {
+      "id": "v-3-7",
+      "word": "cuoco",
+      "translation": "cook / chef",
+      "pronunciation": "KWOH-koh",
+      "example": "Il cuoco prepara piatti deliziosi.",
+      "exampleTranslation": "The chef prepares delicious dishes."
+    },
+    {
+      "id": "v-3-8",
+      "word": "poliziotto",
+      "translation": "police officer",
+      "pronunciation": "poh-lee-TSYOT-toh",
+      "example": "Il poliziotto controlla il traffico.",
+      "exampleTranslation": "The police officer directs traffic."
+    }
+  ],
+  "grammar": {
+    "title": "Definite Articles with Occupations",
+    "explanation": "In Italian, when stating someone's occupation with the verb 'essere' (to be), you typically omit the article: 'Sono medico' (I am a doctor). However, when describing someone else with a modified noun, the article is used: 'Il medico è bravo' (The doctor is good). Some occupation nouns change for gender: professore/professoressa, infermiere/infermiera, cuoco/cuoca. Others remain the same for both genders: ingegnere, studente.",
+    "examples": [
+      { "target": "Sono avvocato.", "native": "I am a lawyer." },
+      { "target": "Maria è professoressa.", "native": "Maria is a professor." },
+      { "target": "Il cuoco lavora nel ristorante.", "native": "The chef works in the restaurant." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1",
+      "question": "How do you say 'doctor' in Italian?",
+      "options": ["Avvocato", "Infermiere", "Medico", "Professore"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2",
+      "sentence": "L'___ progetta ponti.",
+      "answer": "ingegnere",
+      "acceptableAnswers": ["ingegnere", "Ingegnere"],
+      "hint": "The engineer designs bridges."
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-3",
+      "pairs": [
+        { "left": "Medico", "right": "Doctor" },
+        { "left": "Avvocato", "right": "Lawyer" },
+        { "left": "Cuoco", "right": "Chef" },
+        { "left": "Poliziotto", "right": "Police officer" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-4",
+      "sentence": "The nurse works in the hospital.",
+      "answer": "L'infermiere lavora in ospedale.",
+      "acceptableAnswers": ["L'infermiere lavora in ospedale", "L'infermiera lavora in ospedale"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-5",
+      "sentence": "Lo ___ studia per l'esame.",
+      "answer": "studente",
+      "acceptableAnswers": ["studente", "Studente"],
+      "hint": "Student"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "What does 'cuoco' mean?",
+      "options": ["Nurse", "Cook / Chef", "Police officer", "Engineer"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-2",
+      "question": "How do you say 'I am a lawyer' in Italian?",
+      "options": ["Sono l'avvocato.", "Io avvocato.", "Sono avvocato.", "Ho avvocato."],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-3",
+      "question": "What does 'poliziotto' mean?",
+      "options": ["Professor", "Politician", "Police officer", "Pilot"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-4",
+      "question": "What is the feminine form of 'professore'?",
+      "options": ["Professora", "Professoressa", "Professoria", "Professore"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-5",
+      "question": "Which sentence means 'The doctor sees patients every day'?",
+      "options": ["Il medico visita i pazienti ogni giorno.", "Il cuoco prepara piatti.", "L'avvocato difende il cliente.", "Il professore insegna storia."],
+      "correctIndex": 0
+    }
+  ]
+}

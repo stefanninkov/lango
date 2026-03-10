@@ -9,7 +9,7 @@ import { useAuthStore } from '../../src/stores/authStore';
 import { useProgressStore } from '../../src/stores/progressStore';
 import { useVocabularyStore } from '../../src/stores/vocabularyStore';
 import { useGamificationStore } from '../../src/stores/gamificationStore';
-import { getCourseId } from '../../src/utils/content';
+import { getCourseId, getCourse } from '../../src/utils/content';
 import { getXPProgress, getDailyGoalProgress } from '../../src/utils/gamification';
 import ProgressBar from '../../src/components/ProgressBar';
 import CircularProgress from '../../src/components/CircularProgress';
@@ -48,6 +48,7 @@ export default function HomeScreen() {
   const courseId = user
     ? getCourseId(user.nativeLanguage, user.targetLanguage)
     : 'en-es';
+  const course = getCourse(courseId as CourseId);
 
   useEffect(() => {
     if (user) {
@@ -197,7 +198,7 @@ export default function HomeScreen() {
                   ? `Unit: ${progress.currentUnit}`
                   : 'Start your first lesson'}
               </Text>
-              <ProgressBar progress={completedCount / 6} />
+              <ProgressBar progress={course ? completedCount / Math.max(1, course.units.reduce((sum: number, u: any) => sum + u.lessons.length, 0)) : 0} />
               <Text style={styles.progressText}>{completedCount} lessons completed</Text>
             </View>
             <View style={styles.continueArrow}>

@@ -1,0 +1,154 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-3",
+  "title": "Zanimanja",
+  "vocabulary": [
+    {
+      "id": "profesor",
+      "word": "profesor",
+      "translation": "profesor",
+      "pronunciation": "pro-fe-SOR",
+      "example": "El profesor enseña matemáticas.",
+      "exampleTranslation": "Profesor predaje matematiku."
+    },
+    {
+      "id": "medico",
+      "word": "médico",
+      "translation": "lekar",
+      "pronunciation": "ME-di-ko",
+      "example": "El médico trabaja en el hospital.",
+      "exampleTranslation": "Lekar radi u bolnici."
+    },
+    {
+      "id": "estudiante",
+      "word": "estudiante",
+      "translation": "student",
+      "pronunciation": "es-tu-DJAN-te",
+      "example": "Soy estudiante de español.",
+      "exampleTranslation": "Ja sam student španskog."
+    },
+    {
+      "id": "abogado",
+      "word": "abogado",
+      "translation": "advokat",
+      "pronunciation": "a-bo-GA-do",
+      "example": "Mi padre es abogado.",
+      "exampleTranslation": "Moj otac je advokat."
+    },
+    {
+      "id": "ingeniero",
+      "word": "ingeniero",
+      "translation": "inženjer",
+      "pronunciation": "in-he-NJE-ro",
+      "example": "El ingeniero diseña puentes.",
+      "exampleTranslation": "Inženjer projektuje mostove."
+    },
+    {
+      "id": "enfermero",
+      "word": "enfermero",
+      "translation": "medicinski tehničar",
+      "pronunciation": "en-fer-ME-ro",
+      "example": "El enfermero cuida a los pacientes.",
+      "exampleTranslation": "Medicinski tehničar brine o pacijentima."
+    },
+    {
+      "id": "cocinero",
+      "word": "cocinero",
+      "translation": "kuvar",
+      "pronunciation": "ko-si-NE-ro",
+      "example": "El cocinero prepara platos deliciosos.",
+      "exampleTranslation": "Kuvar priprema ukusna jela."
+    },
+    {
+      "id": "policia",
+      "word": "policía",
+      "translation": "policajac",
+      "pronunciation": "po-li-SI-a",
+      "example": "El policía dirige el tráfico.",
+      "exampleTranslation": "Policajac usmerava saobraćaj."
+    }
+  ],
+  "grammar": {
+    "title": "Glagol 'ser' za zanimanja",
+    "explanation": "Za izražavanje zanimanja u španskom koristimo glagol 'ser' (biti):\n\n• Yo soy - Ja sam\n• Tú eres - Ti si\n• Él/Ella es - On/Ona je\n• Nosotros somos - Mi smo\n• Ellos son - Oni su\n\nVažno: U španskom se NE koristi neodređeni član ispred zanimanja: 'Soy profesor' (Ja sam profesor), a ne 'Soy un profesor'.",
+    "examples": [
+      { "target": "Soy médico.", "native": "Ja sam lekar." },
+      { "target": "Ella es ingeniera.", "native": "Ona je inženjerka." },
+      { "target": "¿Eres estudiante?", "native": "Da li si student?" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1",
+      "question": "Kako se kaže 'lekar' na španskom?",
+      "options": ["enfermero", "abogado", "médico", "profesor"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2",
+      "sentence": "El ___ prepara platos deliciosos.",
+      "answer": "cocinero",
+      "acceptableAnswers": ["cocinero", "Cocinero"],
+      "hint": "Reč za 'kuvar'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-3",
+      "pairs": [
+        { "left": "profesor", "right": "profesor" },
+        { "left": "abogado", "right": "advokat" },
+        { "left": "policía", "right": "policajac" },
+        { "left": "cocinero", "right": "kuvar" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-4",
+      "sentence": "Ja sam student španskog.",
+      "answer": "Soy estudiante de español.",
+      "acceptableAnswers": ["Soy estudiante de español", "Soy estudiante de español."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-5",
+      "question": "Šta znači 'ingeniero'?",
+      "options": ["kuvar", "inženjer", "advokat", "policajac"],
+      "correctIndex": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "Kako se kaže 'advokat' na španskom?",
+      "options": ["médico", "ingeniero", "abogado", "enfermero"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-2",
+      "question": "Šta znači 'enfermero'?",
+      "options": ["lekar", "medicinski tehničar", "policajac", "profesor"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-3",
+      "question": "Kako se pravilno kaže 'Ja sam profesor' na španskom?",
+      "options": ["Soy un profesor", "Soy profesor", "Estoy profesor", "Yo es profesor"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-4",
+      "question": "Šta znači 'policía'?",
+      "options": ["kuvar", "student", "policajac", "inženjer"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-5",
+      "question": "Kako se kaže 'kuvar' na španskom?",
+      "options": ["camarero", "cocinero", "enfermero", "ingeniero"],
+      "correctIndex": 1
+    }
+  ]
+}

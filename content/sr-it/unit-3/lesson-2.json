@@ -1,0 +1,156 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-3",
+  "title": "Opisivanje ljudi",
+  "vocabulary": [
+    {
+      "id": "v-3-2-1",
+      "word": "alto",
+      "translation": "visok",
+      "pronunciation": "alto",
+      "example": "Marco è molto alto.",
+      "exampleTranslation": "Marko je veoma visok."
+    },
+    {
+      "id": "v-3-2-2",
+      "word": "basso",
+      "translation": "nizak",
+      "pronunciation": "baso",
+      "example": "Il bambino è ancora basso.",
+      "exampleTranslation": "Dete je još uvek nisko."
+    },
+    {
+      "id": "v-3-2-3",
+      "word": "giovane",
+      "translation": "mlad",
+      "pronunciation": "džovane",
+      "example": "Lei è una donna giovane.",
+      "exampleTranslation": "Ona je mlada žena."
+    },
+    {
+      "id": "v-3-2-4",
+      "word": "vecchio",
+      "translation": "star",
+      "pronunciation": "vekjo",
+      "example": "Il palazzo è molto vecchio.",
+      "exampleTranslation": "Zgrada je veoma stara."
+    },
+    {
+      "id": "v-3-2-5",
+      "word": "bello",
+      "translation": "lep",
+      "pronunciation": "belo",
+      "example": "Che bello spettacolo!",
+      "exampleTranslation": "Kakva lepa predstava!"
+    },
+    {
+      "id": "v-3-2-6",
+      "word": "intelligente",
+      "translation": "inteligentan",
+      "pronunciation": "intelidžente",
+      "example": "Maria è molto intelligente.",
+      "exampleTranslation": "Marija je veoma inteligentna."
+    },
+    {
+      "id": "v-3-2-7",
+      "word": "gentile",
+      "translation": "ljubazan",
+      "pronunciation": "džentile",
+      "example": "Il professore è sempre gentile.",
+      "exampleTranslation": "Profesor je uvek ljubazan."
+    },
+    {
+      "id": "v-3-2-8",
+      "word": "forte",
+      "translation": "jak",
+      "pronunciation": "forte",
+      "example": "Mio fratello è molto forte.",
+      "exampleTranslation": "Moj brat je veoma jak."
+    }
+  ],
+  "grammar": {
+    "title": "Pridevi u italijanskom – slaganje u rodu i broju",
+    "explanation": "U italijanskom jeziku pridevi se slažu sa imenicom u rodu (muški/ženski) i broju (jednina/množina). Pridevi koji se završavaju na '-o' menjaju nastavak: '-o' (m. jd.), '-a' (ž. jd.), '-i' (m. mn.), '-e' (ž. mn.). Na primer: 'alto/alta/alti/alte'. Pridevi na '-e' (intelligente, gentile, forte) imaju isti oblik za muški i ženski rod u jednini, a u množini dobijaju nastavak '-i'.",
+    "examples": [
+      { "target": "Il ragazzo è alto.", "native": "Dečak je visok." },
+      { "target": "La ragazza è alta.", "native": "Devojka je visoka." },
+      { "target": "I ragazzi sono alti.", "native": "Dečaci su visoki." },
+      { "target": "Le ragazze sono intelligenti.", "native": "Devojke su inteligentne." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-2-1",
+      "question": "Kako se kaže 'mlad' na italijanskom?",
+      "options": ["vecchio", "basso", "giovane", "forte"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2-2",
+      "sentence": "Maria è molto ___.",
+      "answer": "intelligente",
+      "acceptableAnswers": ["intelligente", "bella", "gentile"],
+      "hint": "Marija je veoma inteligentna."
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-2-3",
+      "pairs": [
+        { "left": "alto", "right": "visok" },
+        { "left": "basso", "right": "nizak" },
+        { "left": "giovane", "right": "mlad" },
+        { "left": "vecchio", "right": "star" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-2-4",
+      "sentence": "Moj brat je veoma jak.",
+      "answer": "Mio fratello è molto forte.",
+      "acceptableAnswers": ["Mio fratello è molto forte.", "Mio fratello è molto forte"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2-5",
+      "sentence": "Il professore è sempre ___.",
+      "answer": "gentile",
+      "acceptableAnswers": ["gentile"],
+      "hint": "Profesor je uvek ljubazan."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-2-1",
+      "question": "Šta znači 'bello'?",
+      "options": ["jak", "visok", "lep", "mlad"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-2-2",
+      "question": "Koji je suprotni pridev od 'alto'?",
+      "options": ["forte", "basso", "vecchio", "gentile"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-2-3",
+      "question": "Kako se kaže 'jak' na italijanskom?",
+      "options": ["gentile", "intelligente", "bello", "forte"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-3-2-4",
+      "question": "Šta znači 'vecchio'?",
+      "options": ["mlad", "nizak", "star", "ljubazan"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-2-5",
+      "question": "Koji pridev znači 'ljubazan'?",
+      "options": ["forte", "alto", "giovane", "gentile"],
+      "correctIndex": 3
+    }
+  ]
+}

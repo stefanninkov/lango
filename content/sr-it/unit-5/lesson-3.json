@@ -1,0 +1,156 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-5",
+  "title": "Prevoz",
+  "vocabulary": [
+    {
+      "id": "v-5-3-1",
+      "word": "autobus",
+      "translation": "autobus",
+      "pronunciation": "autobus",
+      "example": "L'autobus arriva tra cinque minuti.",
+      "exampleTranslation": "Autobus stiže za pet minuta."
+    },
+    {
+      "id": "v-5-3-2",
+      "word": "treno",
+      "translation": "voz",
+      "pronunciation": "treno",
+      "example": "Il treno per Roma parte alle dieci.",
+      "exampleTranslation": "Voz za Rim polazi u deset."
+    },
+    {
+      "id": "v-5-3-3",
+      "word": "aereo",
+      "translation": "avion",
+      "pronunciation": "aereo",
+      "example": "L'aereo atterra alle tre.",
+      "exampleTranslation": "Avion sleće u tri."
+    },
+    {
+      "id": "v-5-3-4",
+      "word": "taxi",
+      "translation": "taksi",
+      "pronunciation": "taksi",
+      "example": "Prendiamo un taxi per l'albergo.",
+      "exampleTranslation": "Uzmimo taksi do hotela."
+    },
+    {
+      "id": "v-5-3-5",
+      "word": "biglietto",
+      "translation": "karta",
+      "pronunciation": "biljeto",
+      "example": "Ho comprato il biglietto online.",
+      "exampleTranslation": "Kupio sam kartu onlajn."
+    },
+    {
+      "id": "v-5-3-6",
+      "word": "fermata",
+      "translation": "stanica",
+      "pronunciation": "fermata",
+      "example": "La fermata dell'autobus è qui vicino.",
+      "exampleTranslation": "Autobuska stanica je tu blizu."
+    },
+    {
+      "id": "v-5-3-7",
+      "word": "arrivo",
+      "translation": "dolazak",
+      "pronunciation": "arivo",
+      "example": "L'orario di arrivo è alle cinque.",
+      "exampleTranslation": "Vreme dolaska je u pet."
+    },
+    {
+      "id": "v-5-3-8",
+      "word": "partenza",
+      "translation": "polazak",
+      "pronunciation": "partenca",
+      "example": "La partenza del treno è in ritardo.",
+      "exampleTranslation": "Polazak voza kasni."
+    }
+  ],
+  "grammar": {
+    "title": "Glagoli kretanja i predlozi",
+    "explanation": "U italijanskom jeziku glagoli kretanja se koriste sa različitim predlozima. 'Andare a' (ići u/na): 'Vado a Roma' (Idem u Rim). 'Partire da' (polaziti iz): 'Parto da Milano' (Polazim iz Milana). 'Arrivare a' (stići u): 'Arrivo a Napoli' (Stižem u Napulj). 'Prendere' (uzeti) se koristi za prevozna sredstva: 'Prendo il treno' (Uzimam voz). Za vremenski raspored koristi se 'alle' + sat: 'alle dieci' (u deset).",
+    "examples": [
+      { "target": "Prendo il treno per Roma.", "native": "Uzimam voz za Rim." },
+      { "target": "L'aereo parte alle otto.", "native": "Avion polazi u osam." },
+      { "target": "Arriviamo a Milano domani.", "native": "Stižemo u Milano sutra." },
+      { "target": "Dove è la fermata dell'autobus?", "native": "Gde je autobuska stanica?" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-5-3-1",
+      "question": "Kako se kaže 'voz' na italijanskom?",
+      "options": ["autobus", "aereo", "treno", "taxi"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-5-3-2",
+      "sentence": "Ho comprato il ___ online.",
+      "answer": "biglietto",
+      "acceptableAnswers": ["biglietto"],
+      "hint": "Kupio sam kartu onlajn."
+    },
+    {
+      "type": "matching",
+      "id": "ex-5-3-3",
+      "pairs": [
+        { "left": "treno", "right": "voz" },
+        { "left": "aereo", "right": "avion" },
+        { "left": "arrivo", "right": "dolazak" },
+        { "left": "partenza", "right": "polazak" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-5-3-4",
+      "sentence": "Voz za Rim polazi u deset.",
+      "answer": "Il treno per Roma parte alle dieci.",
+      "acceptableAnswers": ["Il treno per Roma parte alle dieci.", "Il treno per Roma parte alle dieci"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-5-3-5",
+      "sentence": "La ___ dell'autobus è qui vicino.",
+      "answer": "fermata",
+      "acceptableAnswers": ["fermata"],
+      "hint": "Autobuska stanica je tu blizu."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-5-3-1",
+      "question": "Šta znači 'biglietto'?",
+      "options": ["stanica", "polazak", "karta", "dolazak"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-5-3-2",
+      "question": "Kako se kaže 'avion' na italijanskom?",
+      "options": ["treno", "autobus", "taxi", "aereo"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-5-3-3",
+      "question": "Šta znači 'fermata'?",
+      "options": ["karta", "polazak", "dolazak", "stanica"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-5-3-4",
+      "question": "Koji je suprotni pojam od 'arrivo'?",
+      "options": ["fermata", "biglietto", "partenza", "treno"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-5-3-5",
+      "question": "Kako se kaže 'polazak' na italijanskom?",
+      "options": ["arrivo", "partenza", "fermata", "biglietto"],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-3",
+  "title": "Describing People",
+  "vocabulary": [
+    {
+      "id": "v-2-1",
+      "word": "alto",
+      "translation": "tall",
+      "pronunciation": "AHL-toh",
+      "example": "Marco è molto alto.",
+      "exampleTranslation": "Marco is very tall."
+    },
+    {
+      "id": "v-2-2",
+      "word": "basso",
+      "translation": "short (height)",
+      "pronunciation": "BAHS-soh",
+      "example": "Il bambino è ancora basso.",
+      "exampleTranslation": "The child is still short."
+    },
+    {
+      "id": "v-2-3",
+      "word": "giovane",
+      "translation": "young",
+      "pronunciation": "JOH-vah-neh",
+      "example": "Lei è una donna giovane.",
+      "exampleTranslation": "She is a young woman."
+    },
+    {
+      "id": "v-2-4",
+      "word": "vecchio",
+      "translation": "old",
+      "pronunciation": "VEK-kyoh",
+      "example": "Il palazzo è molto vecchio.",
+      "exampleTranslation": "The building is very old."
+    },
+    {
+      "id": "v-2-5",
+      "word": "bello",
+      "translation": "beautiful / handsome",
+      "pronunciation": "BEL-loh",
+      "example": "Che bel ragazzo!",
+      "exampleTranslation": "What a handsome guy!"
+    },
+    {
+      "id": "v-2-6",
+      "word": "intelligente",
+      "translation": "intelligent",
+      "pronunciation": "een-tel-lee-JEN-teh",
+      "example": "La studentessa è molto intelligente.",
+      "exampleTranslation": "The student is very intelligent."
+    },
+    {
+      "id": "v-2-7",
+      "word": "gentile",
+      "translation": "kind / polite",
+      "pronunciation": "jen-TEE-leh",
+      "example": "Il cameriere è stato molto gentile.",
+      "exampleTranslation": "The waiter was very kind."
+    },
+    {
+      "id": "v-2-8",
+      "word": "forte",
+      "translation": "strong",
+      "pronunciation": "FOR-teh",
+      "example": "Mio padre è un uomo forte.",
+      "exampleTranslation": "My father is a strong man."
+    }
+  ],
+  "grammar": {
+    "title": "Adjective Agreement in Italian",
+    "explanation": "Italian adjectives must agree in gender and number with the noun they describe. Most adjectives ending in -o change to -a for feminine singular, -i for masculine plural, and -e for feminine plural (alto/alta/alti/alte). Adjectives ending in -e (like intelligente, gentile, forte) have the same form for both masculine and feminine singular, and change to -i in the plural (intelligenti, gentili, forti).",
+    "examples": [
+      { "target": "Il ragazzo è alto. La ragazza è alta.", "native": "The boy is tall. The girl is tall." },
+      { "target": "Lui è intelligente. Lei è intelligente.", "native": "He is intelligent. She is intelligent." },
+      { "target": "I ragazzi sono forti. Le ragazze sono forti.", "native": "The boys are strong. The girls are strong." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-1",
+      "question": "What is the feminine form of 'alto'?",
+      "options": ["Alto", "Alta", "Alte", "Alti"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-2",
+      "sentence": "La studentessa è molto ___.",
+      "answer": "intelligente",
+      "acceptableAnswers": ["intelligente", "Intelligente"],
+      "hint": "Intelligent"
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-3",
+      "pairs": [
+        { "left": "Alto", "right": "Tall" },
+        { "left": "Giovane", "right": "Young" },
+        { "left": "Gentile", "right": "Kind" },
+        { "left": "Forte", "right": "Strong" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-4",
+      "sentence": "My father is a strong man.",
+      "answer": "Mio padre è un uomo forte.",
+      "acceptableAnswers": ["Mio padre è un uomo forte"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-5",
+      "question": "What does 'vecchio' mean?",
+      "options": ["Young", "Short", "Old", "Beautiful"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "What does 'bello' mean?",
+      "options": ["Strong", "Kind", "Beautiful / Handsome", "Tall"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-2",
+      "question": "Which adjective means the opposite of 'alto'?",
+      "options": ["Vecchio", "Basso", "Forte", "Giovane"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-3",
+      "question": "How would you describe a kind woman? 'Una donna ___'",
+      "options": ["Gentilo", "Gentila", "Gentile", "Gentili"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-4",
+      "question": "What is the plural masculine form of 'intelligente'?",
+      "options": ["Intelligento", "Intelligenta", "Intelligente", "Intelligenti"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-2-5",
+      "question": "Which sentence means 'She is a young woman'?",
+      "options": ["Lui è giovane.", "Lei è una donna giovane.", "Il bambino è basso.", "La donna è vecchia."],
+      "correctIndex": 1
+    }
+  ]
+}

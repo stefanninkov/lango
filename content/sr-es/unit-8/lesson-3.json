@@ -1,0 +1,154 @@
+{
+  "id": "lesson-3",
+  "unitId": "unit-8",
+  "title": "Hitni slučajevi",
+  "vocabulary": [
+    {
+      "id": "ayuda",
+      "word": "ayuda",
+      "translation": "pomoć",
+      "pronunciation": "a-JU-da",
+      "example": "¡Necesito ayuda!",
+      "exampleTranslation": "Treba mi pomoć!"
+    },
+    {
+      "id": "policia-emergencia",
+      "word": "policía",
+      "translation": "policija",
+      "pronunciation": "po-li-SI-a",
+      "example": "Llame a la policía.",
+      "exampleTranslation": "Pozovite policiju."
+    },
+    {
+      "id": "bomberos",
+      "word": "bomberos",
+      "translation": "vatrogasci",
+      "pronunciation": "bom-BE-ros",
+      "example": "Los bomberos llegaron rápido.",
+      "exampleTranslation": "Vatrogasci su stigli brzo."
+    },
+    {
+      "id": "ambulancia",
+      "word": "ambulancia",
+      "translation": "hitna pomoć",
+      "pronunciation": "am-bu-LAN-sja",
+      "example": "Llame una ambulancia, por favor.",
+      "exampleTranslation": "Pozovite hitnu pomoć, molim vas."
+    },
+    {
+      "id": "emergencia",
+      "word": "emergencia",
+      "translation": "hitnost",
+      "pronunciation": "e-mer-HEN-sja",
+      "example": "Es una emergencia.",
+      "exampleTranslation": "To je hitno."
+    },
+    {
+      "id": "peligro",
+      "word": "peligro",
+      "translation": "opasnost",
+      "pronunciation": "pe-LI-gro",
+      "example": "¡Cuidado, hay peligro!",
+      "exampleTranslation": "Pažnja, ima opasnosti!"
+    },
+    {
+      "id": "accidente",
+      "word": "accidente",
+      "translation": "nesreća",
+      "pronunciation": "ak-si-DEN-te",
+      "example": "Hubo un accidente en la carretera.",
+      "exampleTranslation": "Desila se nesreća na putu."
+    },
+    {
+      "id": "urgente",
+      "word": "urgente",
+      "translation": "hitno",
+      "pronunciation": "ur-HEN-te",
+      "example": "Es urgente, necesitamos un médico.",
+      "exampleTranslation": "Hitno je, treba nam lekar."
+    }
+  ],
+  "grammar": {
+    "title": "Imperativ za hitne situacije",
+    "explanation": "U hitnim situacijama koristimo imperativ za brze komande:\n\n• Formalni imperativ (usted): ¡Llame! (Pozovite!), ¡Ayude! (Pomozite!), ¡Salga! (Izađite!)\n• Neformalni imperativ (tú): ¡Llama! (Pozovi!), ¡Ayuda! (Pomozi!), ¡Sal! (Izađi!)\n\nVažni izrazi za hitne situacije:\n• ¡Socorro! - Upomoć!\n• ¡Fuego! - Požar!\n• ¡Cuidado! - Pažnja!\n• ¡Pare! / ¡Para! - Stanite! / Stani!",
+    "examples": [
+      { "target": "¡Llame a una ambulancia!", "native": "Pozovite hitnu pomoć!" },
+      { "target": "¡Salga del edificio inmediatamente!", "native": "Izađite iz zgrade odmah!" },
+      { "target": "¡Socorro! ¡Necesito ayuda!", "native": "Upomoć! Treba mi pomoć!" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1",
+      "question": "Kako se kaže 'pomoć' na španskom?",
+      "options": ["peligro", "emergencia", "ayuda", "accidente"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-2",
+      "sentence": "Llame a la ___.",
+      "answer": "policía",
+      "acceptableAnswers": ["policía", "policia", "Policía"],
+      "hint": "Reč za 'policija'"
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-3",
+      "pairs": [
+        { "left": "bomberos", "right": "vatrogasci" },
+        { "left": "ambulancia", "right": "hitna pomoć" },
+        { "left": "peligro", "right": "opasnost" },
+        { "left": "accidente", "right": "nesreća" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-4",
+      "sentence": "Hitno je, treba nam lekar.",
+      "answer": "Es urgente, necesitamos un médico.",
+      "acceptableAnswers": ["Es urgente, necesitamos un médico", "Es urgente, necesitamos un médico."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-5",
+      "question": "Šta znači 'peligro'?",
+      "options": ["pomoć", "hitnost", "nesreća", "opasnost"],
+      "correctIndex": 3
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1",
+      "question": "Kako se kaže 'vatrogasci' na španskom?",
+      "options": ["policía", "ambulancia", "bomberos", "emergencia"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-2",
+      "question": "Šta znači 'emergencia'?",
+      "options": ["nesreća", "opasnost", "pomoć", "hitnost"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-3-3",
+      "question": "Kako kažete 'Pozovite hitnu pomoć!' na španskom?",
+      "options": ["¡Llame una ambulancia!", "¡Llama una ambulancia!", "¡Llamar ambulancia!", "¡Ambulancia, por favor!"],
+      "correctIndex": 0
+    },
+    {
+      "id": "q-3-4",
+      "question": "Šta znači 'accidente'?",
+      "options": ["opasnost", "nesreća", "hitnost", "požar"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-5",
+      "question": "Kako se kaže 'hitno' na španskom?",
+      "options": ["peligro", "emergencia", "urgente", "accidente"],
+      "correctIndex": 2
+    }
+  ]
+}

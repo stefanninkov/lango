@@ -1,0 +1,156 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-8",
+  "title": "Kod lekara",
+  "vocabulary": [
+    {
+      "id": "v-8-2-1",
+      "word": "sintomo",
+      "translation": "simptom",
+      "pronunciation": "sintomo",
+      "example": "Quali sono i suoi sintomi?",
+      "exampleTranslation": "Koji su vaši simptomi?"
+    },
+    {
+      "id": "v-8-2-2",
+      "word": "ricetta",
+      "translation": "recept",
+      "pronunciation": "ričeta",
+      "example": "Il medico mi ha dato una ricetta.",
+      "exampleTranslation": "Lekar mi je dao recept."
+    },
+    {
+      "id": "v-8-2-3",
+      "word": "diagnosi",
+      "translation": "dijagnoza",
+      "pronunciation": "dijanjozi",
+      "example": "La diagnosi è positiva.",
+      "exampleTranslation": "Dijagnoza je pozitivna."
+    },
+    {
+      "id": "v-8-2-4",
+      "word": "trattamento",
+      "translation": "lečenje",
+      "pronunciation": "tratamento",
+      "example": "Il trattamento dura due settimane.",
+      "exampleTranslation": "Lečenje traje dve nedelje."
+    },
+    {
+      "id": "v-8-2-5",
+      "word": "analisi",
+      "translation": "analiza",
+      "pronunciation": "analizi",
+      "example": "Devo fare le analisi del sangue.",
+      "exampleTranslation": "Moram da uradim analizu krvi."
+    },
+    {
+      "id": "v-8-2-6",
+      "word": "allergia",
+      "translation": "alergija",
+      "pronunciation": "alerdžija",
+      "example": "Ho un'allergia al polline.",
+      "exampleTranslation": "Imam alergiju na polen."
+    },
+    {
+      "id": "v-8-2-7",
+      "word": "appuntamento",
+      "translation": "zakazan termin",
+      "pronunciation": "apuntamento",
+      "example": "Ho un appuntamento dal medico.",
+      "exampleTranslation": "Imam zakazan termin kod lekara."
+    },
+    {
+      "id": "v-8-2-8",
+      "word": "chirurgia",
+      "translation": "hirurgija",
+      "pronunciation": "kirurdžija",
+      "example": "La chirurgia è andata bene.",
+      "exampleTranslation": "Hirurgija je prošla dobro."
+    }
+  ],
+  "grammar": {
+    "title": "Formalno obraćanje kod lekara – 'Lei' forma",
+    "explanation": "U medicinskom kontekstu u Italiji koristi se formalna 'Lei' forma. Lekar se obraća pacijentu sa 'Lei': 'Come si sente?' (Kako se osećate?), 'Ha qualche allergia?' (Imate li neku alergiju?). Pacijent se obraća lekaru sa 'Lei' i titulom 'Dottore/Dottoressa': 'Dottore, ho mal di testa' (Doktore, imam glavobolju). Prisvojni pridev je 'Suo/Sua': 'I Suoi sintomi' (Vaši simptomi).",
+    "examples": [
+      { "target": "Come si sente oggi?", "native": "Kako se osećate danas?" },
+      { "target": "Ha qualche allergia?", "native": "Imate li neku alergiju?" },
+      { "target": "Le prescrivo una medicina.", "native": "Prepisujem Vam lek." },
+      { "target": "Dottore, ho un forte dolore.", "native": "Doktore, imam jak bol." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-8-2-1",
+      "question": "Kako se kaže 'simptom' na italijanskom?",
+      "options": ["diagnosi", "trattamento", "sintomo", "analisi"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-8-2-2",
+      "sentence": "Il medico mi ha dato una ___.",
+      "answer": "ricetta",
+      "acceptableAnswers": ["ricetta"],
+      "hint": "Lekar mi je dao recept."
+    },
+    {
+      "type": "matching",
+      "id": "ex-8-2-3",
+      "pairs": [
+        { "left": "sintomo", "right": "simptom" },
+        { "left": "diagnosi", "right": "dijagnoza" },
+        { "left": "trattamento", "right": "lečenje" },
+        { "left": "allergia", "right": "alergija" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-8-2-4",
+      "sentence": "Imam zakazan termin kod lekara.",
+      "answer": "Ho un appuntamento dal medico.",
+      "acceptableAnswers": ["Ho un appuntamento dal medico.", "Ho un appuntamento dal medico"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-8-2-5",
+      "sentence": "Devo fare le ___ del sangue.",
+      "answer": "analisi",
+      "acceptableAnswers": ["analisi"],
+      "hint": "Moram da uradim analizu krvi."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-8-2-1",
+      "question": "Šta znači 'trattamento'?",
+      "options": ["simptom", "lečenje", "dijagnoza", "recept"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-8-2-2",
+      "question": "Kako se kaže 'alergija' na italijanskom?",
+      "options": ["analisi", "chirurgia", "allergia", "ricetta"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-8-2-3",
+      "question": "Šta znači 'appuntamento'?",
+      "options": ["recept", "analiza", "hirurgija", "zakazan termin"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-8-2-4",
+      "question": "Kako lekar formalno pita 'Kako se osećate?'",
+      "options": ["Come stai?", "Come ti senti?", "Come si sente?", "Come va?"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-8-2-5",
+      "question": "Kako se kaže 'hirurgija' na italijanskom?",
+      "options": ["diagnosi", "chirurgia", "trattamento", "analisi"],
+      "correctIndex": 1
+    }
+  ]
+}

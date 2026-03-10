@@ -1,0 +1,155 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-5",
+  "title": "Directions",
+  "vocabulary": [
+    {
+      "id": "v-2-1",
+      "word": "sinistra",
+      "translation": "left",
+      "pronunciation": "see-NEE-strah",
+      "example": "Gira a sinistra al semaforo.",
+      "exampleTranslation": "Turn left at the traffic light."
+    },
+    {
+      "id": "v-2-2",
+      "word": "destra",
+      "translation": "right",
+      "pronunciation": "DEH-strah",
+      "example": "La farmacia è sulla destra.",
+      "exampleTranslation": "The pharmacy is on the right."
+    },
+    {
+      "id": "v-2-3",
+      "word": "dritto",
+      "translation": "straight ahead",
+      "pronunciation": "DREET-toh",
+      "example": "Vai sempre dritto per due isolati.",
+      "exampleTranslation": "Go straight ahead for two blocks."
+    },
+    {
+      "id": "v-2-4",
+      "word": "vicino",
+      "translation": "near / close",
+      "pronunciation": "vee-CHEE-noh",
+      "example": "Il ristorante è vicino all'albergo.",
+      "exampleTranslation": "The restaurant is near the hotel."
+    },
+    {
+      "id": "v-2-5",
+      "word": "lontano",
+      "translation": "far",
+      "pronunciation": "lon-TAH-noh",
+      "example": "L'aeroporto è lontano dal centro.",
+      "exampleTranslation": "The airport is far from downtown."
+    },
+    {
+      "id": "v-2-6",
+      "word": "angolo",
+      "translation": "corner",
+      "pronunciation": "AHN-goh-loh",
+      "example": "Il bar è all'angolo della strada.",
+      "exampleTranslation": "The bar is on the corner of the street."
+    },
+    {
+      "id": "v-2-7",
+      "word": "attraversare",
+      "translation": "to cross",
+      "pronunciation": "aht-trah-ver-SAH-reh",
+      "example": "Devi attraversare la piazza.",
+      "exampleTranslation": "You need to cross the square."
+    },
+    {
+      "id": "v-2-8",
+      "word": "semaforo",
+      "translation": "traffic light",
+      "pronunciation": "seh-MAH-foh-roh",
+      "example": "Fermati al semaforo rosso.",
+      "exampleTranslation": "Stop at the red traffic light."
+    }
+  ],
+  "grammar": {
+    "title": "Giving Directions with the Imperative",
+    "explanation": "In Italian, the imperative mood is used to give directions. For 'tu' (informal): gira (turn), vai (go), attraversa (cross). For 'Lei' (formal/polite): giri, vada, attraversi. Common direction phrases: 'gira a destra/sinistra' (turn right/left), 'vai dritto' (go straight), 'attraversa la strada' (cross the street). The formal imperative is often used when giving directions to strangers.",
+    "examples": [
+      { "target": "Giri a sinistra e poi vada dritto.", "native": "Turn left and then go straight. (formal)" },
+      { "target": "Attraversa la piazza e gira a destra.", "native": "Cross the square and turn right. (informal)" },
+      { "target": "Scusi, è lontano da qui?", "native": "Excuse me, is it far from here?" }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-2-1",
+      "question": "How do you say 'Turn left' in Italian (informal)?",
+      "options": ["Vai a sinistra", "Gira a sinistra", "Attraversa a sinistra", "Prendi a sinistra"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-2",
+      "sentence": "L'aeroporto è ___ dal centro.",
+      "answer": "lontano",
+      "acceptableAnswers": ["lontano", "Lontano"],
+      "hint": "Far"
+    },
+    {
+      "type": "matching",
+      "id": "ex-2-3",
+      "pairs": [
+        { "left": "Sinistra", "right": "Left" },
+        { "left": "Destra", "right": "Right" },
+        { "left": "Dritto", "right": "Straight ahead" },
+        { "left": "Attraversare", "right": "To cross" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-2-4",
+      "sentence": "The bar is on the corner of the street.",
+      "answer": "Il bar è all'angolo della strada.",
+      "acceptableAnswers": ["Il bar è all'angolo della strada"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-2-5",
+      "sentence": "Fermati al ___ rosso.",
+      "answer": "semaforo",
+      "acceptableAnswers": ["semaforo", "Semaforo"],
+      "hint": "Traffic light"
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-2-1",
+      "question": "What does 'attraversare' mean?",
+      "options": ["To arrive", "To cross", "To turn", "To walk"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-2",
+      "question": "What does 'angolo' mean?",
+      "options": ["Angel", "Angle", "Corner", "Lane"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-3",
+      "question": "What is the formal imperative of 'girare' (to turn) for 'Lei'?",
+      "options": ["Gira", "Girate", "Giri", "Girare"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-2-4",
+      "question": "What does 'vicino' mean?",
+      "options": ["Far", "Near", "Behind", "Next to"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-2-5",
+      "question": "How do you say 'Go straight ahead for two blocks'?",
+      "options": ["Gira dritto per due isolati.", "Vai sempre dritto per due isolati.", "Attraversa due isolati.", "Vai lontano per due isolati."],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-7",
+  "title": "Kancelarija",
+  "vocabulary": [
+    {
+      "id": "v-7-1-1",
+      "word": "riunione",
+      "translation": "sastanak",
+      "pronunciation": "riunjone",
+      "example": "La riunione è alle dieci.",
+      "exampleTranslation": "Sastanak je u deset."
+    },
+    {
+      "id": "v-7-1-2",
+      "word": "email",
+      "translation": "imejl",
+      "pronunciation": "imejl",
+      "example": "Ho mandato un'email al capo.",
+      "exampleTranslation": "Poslao sam imejl šefu."
+    },
+    {
+      "id": "v-7-1-3",
+      "word": "capo",
+      "translation": "šef",
+      "pronunciation": "kapo",
+      "example": "Il capo vuole parlare con te.",
+      "exampleTranslation": "Šef želi da razgovara sa tobom."
+    },
+    {
+      "id": "v-7-1-4",
+      "word": "azienda",
+      "translation": "kompanija",
+      "pronunciation": "acjenda",
+      "example": "L'azienda ha cento dipendenti.",
+      "exampleTranslation": "Kompanija ima sto zaposlenih."
+    },
+    {
+      "id": "v-7-1-5",
+      "word": "ufficio",
+      "translation": "kancelarija",
+      "pronunciation": "ufičo",
+      "example": "Il mio ufficio è al terzo piano.",
+      "exampleTranslation": "Moja kancelarija je na trećem spratu."
+    },
+    {
+      "id": "v-7-1-6",
+      "word": "progetto",
+      "translation": "projekat",
+      "pronunciation": "prodžeto",
+      "example": "Il progetto deve essere completato entro venerdì.",
+      "exampleTranslation": "Projekat mora biti završen do petka."
+    },
+    {
+      "id": "v-7-1-7",
+      "word": "rapporto",
+      "translation": "izveštaj",
+      "pronunciation": "raporto",
+      "example": "Devo scrivere un rapporto mensile.",
+      "exampleTranslation": "Moram da napišem mesečni izveštaj."
+    },
+    {
+      "id": "v-7-1-8",
+      "word": "scadenza",
+      "translation": "rok",
+      "pronunciation": "skadenca",
+      "example": "La scadenza è domani.",
+      "exampleTranslation": "Rok je sutra."
+    }
+  ],
+  "grammar": {
+    "title": "Glagol 'dovere' – izražavanje obaveze",
+    "explanation": "Glagol 'dovere' (morati) je modalni glagol koji izražava obavezu ili nužnost. Konjugacija u prezentu: devo, devi, deve, dobbiamo, dovete, devono. Posle 'dovere' sledi infinitiv glagola: 'Devo scrivere' (Moram da pišem). U poslovnom kontekstu, ovaj glagol se često koristi za rokove i zadatke: 'Il rapporto deve essere pronto' (Izveštaj mora biti gotov). Uslovni oblik 'dovrei' (trebalo bi da) je učtiviji.",
+    "examples": [
+      { "target": "Devo finire il progetto.", "native": "Moram da završim projekat." },
+      { "target": "Dobbiamo andare alla riunione.", "native": "Moramo da idemo na sastanak." },
+      { "target": "Dovrei mandare un'email.", "native": "Trebalo bi da pošaljem imejl." },
+      { "target": "Il rapporto deve essere pronto.", "native": "Izveštaj mora biti gotov." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-7-1-1",
+      "question": "Kako se kaže 'sastanak' na italijanskom?",
+      "options": ["ufficio", "progetto", "riunione", "rapporto"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-7-1-2",
+      "sentence": "Il ___ vuole parlare con te.",
+      "answer": "capo",
+      "acceptableAnswers": ["capo"],
+      "hint": "Šef želi da razgovara sa tobom."
+    },
+    {
+      "type": "matching",
+      "id": "ex-7-1-3",
+      "pairs": [
+        { "left": "riunione", "right": "sastanak" },
+        { "left": "ufficio", "right": "kancelarija" },
+        { "left": "progetto", "right": "projekat" },
+        { "left": "scadenza", "right": "rok" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-7-1-4",
+      "sentence": "Moram da napišem mesečni izveštaj.",
+      "answer": "Devo scrivere un rapporto mensile.",
+      "acceptableAnswers": ["Devo scrivere un rapporto mensile.", "Devo scrivere un rapporto mensile"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-7-1-5",
+      "sentence": "La ___ è domani.",
+      "answer": "scadenza",
+      "acceptableAnswers": ["scadenza", "riunione"],
+      "hint": "Rok je sutra."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-7-1-1",
+      "question": "Šta znači 'azienda'?",
+      "options": ["kancelarija", "kompanija", "projekat", "izveštaj"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-7-1-2",
+      "question": "Kako se kaže 'šef' na italijanskom?",
+      "options": ["ufficio", "rapporto", "capo", "progetto"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-7-1-3",
+      "question": "Šta znači 'scadenza'?",
+      "options": ["sastanak", "imejl", "kompanija", "rok"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-7-1-4",
+      "question": "Koji je tačan prevod za 'Moja kancelarija je na trećem spratu'?",
+      "options": ["Il mio progetto è al terzo piano.", "Il mio ufficio è al terzo piano.", "La mia azienda è al terzo piano.", "La mia riunione è al terzo piano."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-7-1-5",
+      "question": "Kako se kaže 'izveštaj' na italijanskom?",
+      "options": ["email", "progetto", "rapporto", "scadenza"],
+      "correctIndex": 2
+    }
+  ]
+}

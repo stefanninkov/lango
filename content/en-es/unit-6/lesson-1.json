@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-6",
+  "title": "At the Store",
+  "vocabulary": [
+    {
+      "id": "precio",
+      "word": "Precio",
+      "translation": "Price",
+      "pronunciation": "PREH-syoh",
+      "example": "¿Cuál es el precio de esta camisa?",
+      "exampleTranslation": "What is the price of this shirt?"
+    },
+    {
+      "id": "tamano",
+      "word": "Tamaño",
+      "translation": "Size",
+      "pronunciation": "tah-MAH-nyoh",
+      "example": "¿Tiene este vestido en un tamaño más grande?",
+      "exampleTranslation": "Do you have this dress in a larger size?"
+    },
+    {
+      "id": "ropa",
+      "word": "Ropa",
+      "translation": "Clothing",
+      "pronunciation": "RROH-pah",
+      "example": "Necesito comprar ropa nueva para el viaje.",
+      "exampleTranslation": "I need to buy new clothing for the trip."
+    },
+    {
+      "id": "zapatos",
+      "word": "Zapatos",
+      "translation": "Shoes",
+      "pronunciation": "sah-PAH-tohs",
+      "example": "Estos zapatos son muy cómodos.",
+      "exampleTranslation": "These shoes are very comfortable."
+    },
+    {
+      "id": "bolsa",
+      "word": "Bolsa",
+      "translation": "Bag",
+      "pronunciation": "BOHL-sah",
+      "example": "¿Necesita una bolsa para la compra?",
+      "exampleTranslation": "Do you need a bag for the purchase?"
+    },
+    {
+      "id": "barato",
+      "word": "Barato",
+      "translation": "Cheap",
+      "pronunciation": "bah-RAH-toh",
+      "example": "Este mercado tiene productos muy baratos.",
+      "exampleTranslation": "This market has very cheap products."
+    },
+    {
+      "id": "caro",
+      "word": "Caro",
+      "translation": "Expensive",
+      "pronunciation": "KAH-roh",
+      "example": "La tienda del centro es bastante cara.",
+      "exampleTranslation": "The store downtown is quite expensive."
+    },
+    {
+      "id": "descuento",
+      "word": "Descuento",
+      "translation": "Discount",
+      "pronunciation": "deh-SKWEN-toh",
+      "example": "Hay un descuento del veinte por ciento hoy.",
+      "exampleTranslation": "There is a twenty percent discount today."
+    }
+  ],
+  "grammar": {
+    "title": "Demonstrative Adjectives: Este, Ese, Aquel",
+    "explanation": "Spanish has three sets of demonstrative adjectives based on distance from the speaker:\n\n• Este/esta/estos/estas (this/these) - close to the speaker\n  Este vestido es bonito. - This dress is pretty.\n\n• Ese/esa/esos/esas (that/those) - close to the listener\n  Esa camisa es cara. - That shirt is expensive.\n\n• Aquel/aquella/aquellos/aquellas (that/those over there) - far from both\n  Aquellos zapatos son baratos. - Those shoes over there are cheap.\n\nDemonstratives must agree in gender and number with the noun they modify.",
+    "examples": [
+      { "target": "¿Cuánto cuesta esta bolsa?", "native": "How much does this bag cost?" },
+      { "target": "Esos zapatos son más baratos que estos.", "native": "Those shoes are cheaper than these." },
+      { "target": "Me gusta aquella tienda de ropa.", "native": "I like that clothing store over there." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-6-1",
+      "question": "How do you ask 'How much does it cost?' in Spanish?",
+      "options": ["¿Cuánto es?", "¿Cuánto cuesta?", "¿Qué precio?", "Both A and B are correct."],
+      "correctIndex": 3
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-6-2",
+      "sentence": "Hay un ___ del veinte por ciento hoy.",
+      "answer": "descuento",
+      "acceptableAnswers": ["descuento", "Descuento"],
+      "hint": "A reduction in price"
+    },
+    {
+      "type": "matching",
+      "id": "ex-6-3",
+      "pairs": [
+        { "left": "Barato", "right": "Cheap" },
+        { "left": "Caro", "right": "Expensive" },
+        { "left": "Zapatos", "right": "Shoes" },
+        { "left": "Bolsa", "right": "Bag" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-6-4",
+      "sentence": "I need to buy new clothing for the trip.",
+      "answer": "Necesito comprar ropa nueva para el viaje.",
+      "acceptableAnswers": ["Necesito comprar ropa nueva para el viaje", "Necesito comprar ropa nueva para el viaje."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-6-5",
+      "question": "Which demonstrative means 'this' (feminine)?",
+      "options": ["Este", "Esta", "Esa", "Aquella"],
+      "correctIndex": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-6-1",
+      "question": "What does 'tamaño' mean?",
+      "options": ["Color", "Price", "Size", "Style"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-6-2",
+      "question": "What is the opposite of 'barato'?",
+      "options": ["Grande", "Caro", "Bonito", "Nuevo"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-6-3",
+      "question": "Which demonstrative is used for something far from both speakers?",
+      "options": ["Este", "Ese", "Aquel", "El"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-6-4",
+      "question": "How do you say 'shoes' in Spanish?",
+      "options": ["Ropa", "Bolsa", "Zapatos", "Botas"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-6-5",
+      "question": "What does 'descuento' mean?",
+      "options": ["Discount", "Account", "Story", "Count"],
+      "correctIndex": 0
+    }
+  ]
+}

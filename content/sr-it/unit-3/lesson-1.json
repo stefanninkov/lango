@@ -1,0 +1,156 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-3",
+  "title": "Članovi porodice",
+  "vocabulary": [
+    {
+      "id": "v-3-1-1",
+      "word": "madre",
+      "translation": "majka",
+      "pronunciation": "madre",
+      "example": "Mia madre cucina molto bene.",
+      "exampleTranslation": "Moja majka kuva veoma dobro."
+    },
+    {
+      "id": "v-3-1-2",
+      "word": "padre",
+      "translation": "otac",
+      "pronunciation": "padre",
+      "example": "Mio padre lavora in ufficio.",
+      "exampleTranslation": "Moj otac radi u kancelariji."
+    },
+    {
+      "id": "v-3-1-3",
+      "word": "fratello",
+      "translation": "brat",
+      "pronunciation": "fratelo",
+      "example": "Ho un fratello maggiore.",
+      "exampleTranslation": "Imam starijeg brata."
+    },
+    {
+      "id": "v-3-1-4",
+      "word": "sorella",
+      "translation": "sestra",
+      "pronunciation": "sorela",
+      "example": "Mia sorella studia medicina.",
+      "exampleTranslation": "Moja sestra studira medicinu."
+    },
+    {
+      "id": "v-3-1-5",
+      "word": "figlio",
+      "translation": "sin",
+      "pronunciation": "filjo",
+      "example": "Il figlio di Marco è piccolo.",
+      "exampleTranslation": "Markov sin je mali."
+    },
+    {
+      "id": "v-3-1-6",
+      "word": "figlia",
+      "translation": "ćerka",
+      "pronunciation": "filja",
+      "example": "La figlia di Anna ha cinque anni.",
+      "exampleTranslation": "Anina ćerka ima pet godina."
+    },
+    {
+      "id": "v-3-1-7",
+      "word": "nonno",
+      "translation": "deda",
+      "pronunciation": "nono",
+      "example": "Il nonno racconta sempre storie.",
+      "exampleTranslation": "Deda uvek priča priče."
+    },
+    {
+      "id": "v-3-1-8",
+      "word": "nonna",
+      "translation": "baka",
+      "pronunciation": "nona",
+      "example": "La nonna prepara la torta.",
+      "exampleTranslation": "Baka pravi tortu."
+    }
+  ],
+  "grammar": {
+    "title": "Prisvojni pridevi u italijanskom",
+    "explanation": "U italijanskom jeziku prisvojni pridevi se slažu u rodu i broju sa imenicom koju opisuju, a ne sa vlasnikom. Na primer: 'mio padre' (moj otac), 'mia madre' (moja majka). Ispred prisvojnih prideva obično stoji određeni član (il, la, i, le), ali se kod članova uže porodice u jednini član izostavlja: 'mio padre', ali 'il mio amico'.",
+    "examples": [
+      { "target": "Mia madre è italiana.", "native": "Moja majka je Italijanka." },
+      { "target": "Mio fratello ha vent'anni.", "native": "Moj brat ima dvadeset godina." },
+      { "target": "I miei nonni vivono a Roma.", "native": "Moji deda i baka žive u Rimu." },
+      { "target": "La mia sorella maggiore lavora.", "native": "Moja starija sestra radi." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-1-1",
+      "question": "Kako se kaže 'majka' na italijanskom?",
+      "options": ["padre", "madre", "sorella", "nonna"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-1-2",
+      "sentence": "Mia ___ cucina molto bene.",
+      "answer": "madre",
+      "acceptableAnswers": ["madre", "nonna"],
+      "hint": "Moja majka kuva veoma dobro."
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-1-3",
+      "pairs": [
+        { "left": "madre", "right": "majka" },
+        { "left": "padre", "right": "otac" },
+        { "left": "fratello", "right": "brat" },
+        { "left": "sorella", "right": "sestra" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-1-4",
+      "sentence": "Imam starijeg brata.",
+      "answer": "Ho un fratello maggiore.",
+      "acceptableAnswers": ["Ho un fratello maggiore.", "Ho un fratello maggiore"],
+      "direction": "sr-it"
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-1-5",
+      "sentence": "Il ___ racconta sempre storie.",
+      "answer": "nonno",
+      "acceptableAnswers": ["nonno"],
+      "hint": "Deda uvek priča priče."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-1-1",
+      "question": "Šta znači 'fratello'?",
+      "options": ["sestra", "brat", "otac", "sin"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-1-2",
+      "question": "Kako se kaže 'ćerka' na italijanskom?",
+      "options": ["figlio", "sorella", "figlia", "nonna"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-1-3",
+      "question": "Šta znači 'nonno'?",
+      "options": ["baka", "otac", "brat", "deda"],
+      "correctIndex": 3
+    },
+    {
+      "id": "q-3-1-4",
+      "question": "Koji je tačan prevod za 'Moja sestra studira medicinu'?",
+      "options": ["Mio fratello studia medicina.", "Mia madre studia medicina.", "Mia sorella studia medicina.", "Mia figlia studia medicina."],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-1-5",
+      "question": "Kako se kaže 'sin' na italijanskom?",
+      "options": ["padre", "fratello", "nonno", "figlio"],
+      "correctIndex": 3
+    }
+  ]
+}

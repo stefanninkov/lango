@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-5",
+  "title": "Directions",
+  "vocabulary": [
+    {
+      "id": "izquierda",
+      "word": "Izquierda",
+      "translation": "Left",
+      "pronunciation": "ees-KYEHR-dah",
+      "example": "Gira a la izquierda en la próxima calle.",
+      "exampleTranslation": "Turn left on the next street."
+    },
+    {
+      "id": "derecha",
+      "word": "Derecha",
+      "translation": "Right",
+      "pronunciation": "deh-REH-chah",
+      "example": "El banco está a la derecha.",
+      "exampleTranslation": "The bank is on the right."
+    },
+    {
+      "id": "recto",
+      "word": "Recto",
+      "translation": "Straight",
+      "pronunciation": "RREK-toh",
+      "example": "Siga recto por esta calle.",
+      "exampleTranslation": "Continue straight on this street."
+    },
+    {
+      "id": "cerca",
+      "word": "Cerca",
+      "translation": "Near / Close",
+      "pronunciation": "SEHR-kah",
+      "example": "El hotel está muy cerca de aquí.",
+      "exampleTranslation": "The hotel is very close to here."
+    },
+    {
+      "id": "lejos",
+      "word": "Lejos",
+      "translation": "Far",
+      "pronunciation": "LEH-hohs",
+      "example": "El aeropuerto está bastante lejos.",
+      "exampleTranslation": "The airport is quite far."
+    },
+    {
+      "id": "esquina",
+      "word": "Esquina",
+      "translation": "Corner",
+      "pronunciation": "eh-SKEE-nah",
+      "example": "Hay una farmacia en la esquina.",
+      "exampleTranslation": "There is a pharmacy on the corner."
+    },
+    {
+      "id": "cruzar",
+      "word": "Cruzar",
+      "translation": "To cross",
+      "pronunciation": "kroo-SAR",
+      "example": "Tienes que cruzar el puente para llegar al museo.",
+      "exampleTranslation": "You have to cross the bridge to get to the museum."
+    },
+    {
+      "id": "semaforo",
+      "word": "Semáforo",
+      "translation": "Traffic light",
+      "pronunciation": "seh-MAH-foh-roh",
+      "example": "Gira a la derecha en el semáforo.",
+      "exampleTranslation": "Turn right at the traffic light."
+    }
+  ],
+  "grammar": {
+    "title": "Imperative Commands for Giving Directions",
+    "explanation": "When giving directions in Spanish, you use imperative (command) forms. The form depends on whether you are using tú (informal) or usted (formal):\n\n• Tú commands (informal): Gira (turn), Sigue (continue), Cruza (cross)\n• Usted commands (formal): Gire (turn), Siga (continue), Cruce (cross)\n\nCommon direction phrases:\n• Gira/Gire a la izquierda/derecha - Turn left/right\n• Sigue/Siga recto/derecho - Continue straight\n• Cruza/Cruce la calle - Cross the street\n\nThe formal 'usted' form is more commonly used when asking strangers for directions.",
+    "examples": [
+      { "target": "Siga recto y gire a la izquierda en el semáforo.", "native": "Go straight and turn left at the traffic light." },
+      { "target": "Cruza la calle y está en la esquina.", "native": "Cross the street and it's on the corner." },
+      { "target": "No está lejos, está a cinco minutos de aquí.", "native": "It's not far, it's five minutes from here." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-5-6",
+      "question": "How do you say 'Turn left' formally in Spanish?",
+      "options": ["Gira a la izquierda.", "Gire a la izquierda.", "Giro a la izquierda.", "Girar a la izquierda."],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-5-7",
+      "sentence": "Gira a la derecha en el ___.",
+      "answer": "semáforo",
+      "acceptableAnswers": ["semáforo", "Semáforo", "semaforo"],
+      "hint": "Red, yellow, and green lights"
+    },
+    {
+      "type": "matching",
+      "id": "ex-5-8",
+      "pairs": [
+        { "left": "Izquierda", "right": "Left" },
+        { "left": "Derecha", "right": "Right" },
+        { "left": "Cerca", "right": "Near" },
+        { "left": "Lejos", "right": "Far" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-5-9",
+      "sentence": "Continue straight on this street.",
+      "answer": "Siga recto por esta calle.",
+      "acceptableAnswers": ["Siga recto por esta calle", "Siga recto por esta calle.", "Sigue recto por esta calle.", "Sigue recto por esta calle"],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-5-10",
+      "question": "What does 'cruzar' mean?",
+      "options": ["To turn", "To walk", "To cross", "To stop"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-5-6",
+      "question": "What is 'esquina' in English?",
+      "options": ["Square", "Corner", "Street", "Crossing"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-5-7",
+      "question": "Which is the formal command for 'continue'?",
+      "options": ["Sigue", "Siga", "Seguir", "Sigues"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-5-8",
+      "question": "How do you say 'The hotel is very close' in Spanish?",
+      "options": ["El hotel es muy lejos.", "El hotel está muy cerca.", "El hotel está muy lejos.", "El hotel es muy cerca."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-5-9",
+      "question": "What does 'semáforo' mean?",
+      "options": ["Crosswalk", "Stop sign", "Traffic light", "Road"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-5-10",
+      "question": "'Gire a la ___' means 'Turn right.'",
+      "options": ["izquierda", "recto", "esquina", "derecha"],
+      "correctIndex": 3
+    }
+  ]
+}

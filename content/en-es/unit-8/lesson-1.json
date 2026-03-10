@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-8",
+  "title": "Body & Health",
+  "vocabulary": [
+    {
+      "id": "cabeza",
+      "word": "Cabeza",
+      "translation": "Head",
+      "pronunciation": "kah-BEH-sah",
+      "example": "Me duele mucho la cabeza desde esta mañana.",
+      "exampleTranslation": "My head has been hurting a lot since this morning."
+    },
+    {
+      "id": "estomago",
+      "word": "Estómago",
+      "translation": "Stomach",
+      "pronunciation": "eh-STOH-mah-goh",
+      "example": "Tengo dolor de estómago después de la comida.",
+      "exampleTranslation": "I have a stomachache after the meal."
+    },
+    {
+      "id": "medicina",
+      "word": "Medicina",
+      "translation": "Medicine",
+      "pronunciation": "meh-dee-SEE-nah",
+      "example": "El médico me recetó una medicina para la tos.",
+      "exampleTranslation": "The doctor prescribed me a medicine for the cough."
+    },
+    {
+      "id": "dolor",
+      "word": "Dolor",
+      "translation": "Pain",
+      "pronunciation": "doh-LOR",
+      "example": "Siento un dolor fuerte en la espalda.",
+      "exampleTranslation": "I feel a strong pain in my back."
+    },
+    {
+      "id": "fiebre",
+      "word": "Fiebre",
+      "translation": "Fever",
+      "pronunciation": "FYEH-breh",
+      "example": "El niño tiene fiebre y necesita descansar.",
+      "exampleTranslation": "The child has a fever and needs to rest."
+    },
+    {
+      "id": "tos",
+      "word": "Tos",
+      "translation": "Cough",
+      "pronunciation": "TOHS",
+      "example": "Esta tos no me deja dormir por la noche.",
+      "exampleTranslation": "This cough won't let me sleep at night."
+    },
+    {
+      "id": "gripe",
+      "word": "Gripe",
+      "translation": "Flu",
+      "pronunciation": "GREE-peh",
+      "example": "La gripe es más común durante el invierno.",
+      "exampleTranslation": "The flu is more common during winter."
+    },
+    {
+      "id": "vitamina",
+      "word": "Vitamina",
+      "translation": "Vitamin",
+      "pronunciation": "vee-tah-MEE-nah",
+      "example": "Las naranjas tienen mucha vitamina C.",
+      "exampleTranslation": "Oranges have a lot of vitamin C."
+    }
+  ],
+  "grammar": {
+    "title": "Expressing Pain and Symptoms with 'Doler' and 'Tener'",
+    "explanation": "Spanish has specific structures for describing symptoms:\n\n1. Doler (to hurt) - works like 'gustar':\n• Me duele la cabeza. - My head hurts. (lit. The head hurts to me.)\n• Me duelen los pies. - My feet hurt.\n• ¿Te duele algo? - Does something hurt?\n\n2. Tener + symptom noun:\n• Tener fiebre - to have a fever\n• Tener tos - to have a cough\n• Tener dolor de... - to have a ... ache\n• Tener gripe - to have the flu\n\n3. Sentirse (to feel) + adjective:\n• Me siento mal/bien. - I feel bad/good.\n• Se siente mareado. - He feels dizzy.",
+    "examples": [
+      { "target": "Me duele el estómago y tengo fiebre.", "native": "My stomach hurts and I have a fever." },
+      { "target": "¿Desde cuándo le duele la cabeza?", "native": "Since when has your head been hurting?" },
+      { "target": "Me siento muy mal, creo que tengo gripe.", "native": "I feel very bad, I think I have the flu." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-8-1",
+      "question": "How do you say 'My head hurts' in Spanish?",
+      "options": ["Mi cabeza duele.", "Me duele la cabeza.", "Tengo duele cabeza.", "Yo duelo la cabeza."],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-8-2",
+      "sentence": "El niño tiene ___ y necesita descansar.",
+      "answer": "fiebre",
+      "acceptableAnswers": ["fiebre", "Fiebre"],
+      "hint": "High body temperature"
+    },
+    {
+      "type": "matching",
+      "id": "ex-8-3",
+      "pairs": [
+        { "left": "Dolor", "right": "Pain" },
+        { "left": "Fiebre", "right": "Fever" },
+        { "left": "Tos", "right": "Cough" },
+        { "left": "Gripe", "right": "Flu" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-8-4",
+      "sentence": "I feel very bad, I think I have the flu.",
+      "answer": "Me siento muy mal, creo que tengo gripe.",
+      "acceptableAnswers": ["Me siento muy mal, creo que tengo gripe", "Me siento muy mal, creo que tengo gripe.", "Me siento muy mal, creo que tengo la gripe."],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-8-5",
+      "question": "What does 'medicina' mean?",
+      "options": ["Meditation", "Medicine", "Measurement", "Medium"],
+      "correctIndex": 1
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-8-1",
+      "question": "Which verb works like 'gustar' when expressing pain?",
+      "options": ["Sentir", "Tener", "Doler", "Estar"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-8-2",
+      "question": "How do you say 'I have a stomachache'?",
+      "options": ["Me duele el estómago.", "Tengo dolor de estómago.", "Both A and B are correct.", "Estoy estómago."],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-8-3",
+      "question": "What does 'tos' mean?",
+      "options": ["Headache", "Fever", "Cough", "Pain"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-8-4",
+      "question": "Which is correct for plural body parts: 'Me ___ los pies'?",
+      "options": ["duele", "duelen", "duelo", "dolor"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-8-5",
+      "question": "What does 'vitamina' mean?",
+      "options": ["Vitality", "Vitamin", "Energy", "Mineral"],
+      "correctIndex": 1
+    }
+  ]
+}

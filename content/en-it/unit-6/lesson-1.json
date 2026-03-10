@@ -1,0 +1,154 @@
+{
+  "id": "lesson-1",
+  "unitId": "unit-6",
+  "title": "At the Store",
+  "vocabulary": [
+    {
+      "id": "v-1-1",
+      "word": "prezzo",
+      "translation": "price",
+      "pronunciation": "PRET-tsoh",
+      "example": "Qual è il prezzo di questa borsa?",
+      "exampleTranslation": "What is the price of this bag?"
+    },
+    {
+      "id": "v-1-2",
+      "word": "taglia",
+      "translation": "size (clothing)",
+      "pronunciation": "TAH-lyah",
+      "example": "Avete questa maglietta in taglia media?",
+      "exampleTranslation": "Do you have this T-shirt in medium size?"
+    },
+    {
+      "id": "v-1-3",
+      "word": "vestiti",
+      "translation": "clothes",
+      "pronunciation": "veh-STEE-tee",
+      "example": "Quel negozio vende vestiti eleganti.",
+      "exampleTranslation": "That shop sells elegant clothes."
+    },
+    {
+      "id": "v-1-4",
+      "word": "scarpe",
+      "translation": "shoes",
+      "pronunciation": "SKAR-peh",
+      "example": "Queste scarpe sono molto comode.",
+      "exampleTranslation": "These shoes are very comfortable."
+    },
+    {
+      "id": "v-1-5",
+      "word": "borsa",
+      "translation": "bag / purse",
+      "pronunciation": "BOR-sah",
+      "example": "Ho comprato una borsa di pelle.",
+      "exampleTranslation": "I bought a leather bag."
+    },
+    {
+      "id": "v-1-6",
+      "word": "economico",
+      "translation": "cheap / affordable",
+      "pronunciation": "eh-koh-NOH-mee-koh",
+      "example": "Questo ristorante è buono ed economico.",
+      "exampleTranslation": "This restaurant is good and affordable."
+    },
+    {
+      "id": "v-1-7",
+      "word": "costoso",
+      "translation": "expensive",
+      "pronunciation": "koh-STOH-zoh",
+      "example": "L'Italia è un paese costoso per i turisti.",
+      "exampleTranslation": "Italy is an expensive country for tourists."
+    },
+    {
+      "id": "v-1-8",
+      "word": "sconto",
+      "translation": "discount",
+      "pronunciation": "SKON-toh",
+      "example": "C'è uno sconto del venti per cento.",
+      "exampleTranslation": "There is a twenty percent discount."
+    }
+  ],
+  "grammar": {
+    "title": "Demonstrative Adjectives: Questo and Quello",
+    "explanation": "Italian has two main demonstrative adjectives: 'questo' (this) and 'quello' (that). 'Questo' has four forms: questo/questa/questi/queste, agreeing with the noun. 'Quello' follows the pattern of definite articles: quel, quello, quell', quella, quei, quegli, quelle. For example: 'questo vestito' (this dress), 'quella borsa' (that bag), 'quegli stivali' (those boots). They are essential when shopping.",
+    "examples": [
+      { "target": "Quanto costa questa borsa?", "native": "How much does this bag cost?" },
+      { "target": "Vorrei provare quegli stivali.", "native": "I would like to try on those boots." },
+      { "target": "Queste scarpe sono più economiche di quelle.", "native": "These shoes are cheaper than those." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-1",
+      "question": "How do you say 'discount' in Italian?",
+      "options": ["Prezzo", "Sconto", "Conto", "Taglia"],
+      "correctIndex": 1
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-1-2",
+      "sentence": "Avete questa maglietta in ___ media?",
+      "answer": "taglia",
+      "acceptableAnswers": ["taglia", "Taglia"],
+      "hint": "Size"
+    },
+    {
+      "type": "matching",
+      "id": "ex-1-3",
+      "pairs": [
+        { "left": "Prezzo", "right": "Price" },
+        { "left": "Scarpe", "right": "Shoes" },
+        { "left": "Economico", "right": "Cheap" },
+        { "left": "Costoso", "right": "Expensive" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-1-4",
+      "sentence": "I bought a leather bag.",
+      "answer": "Ho comprato una borsa di pelle.",
+      "acceptableAnswers": ["Ho comprato una borsa di pelle"],
+      "direction": "en-to-it"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-1-5",
+      "question": "What is the opposite of 'economico'?",
+      "options": ["Sconto", "Prezzo", "Costoso", "Borsa"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-1-1",
+      "question": "What does 'taglia' mean in a clothing context?",
+      "options": ["Price", "Color", "Size", "Style"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-2",
+      "question": "How do you say 'These shoes are very comfortable'?",
+      "options": ["Queste scarpe sono molto care.", "Queste scarpe sono molto comode.", "Quelle scarpe sono belle.", "Queste scarpe sono nuove."],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-3",
+      "question": "What does 'sconto' mean?",
+      "options": ["Receipt", "Discount", "Bill", "Change"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-1-4",
+      "question": "Which is the correct demonstrative for 'that bag' (feminine singular)?",
+      "options": ["Quel borsa", "Quello borsa", "Quella borsa", "Quell' borsa"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-1-5",
+      "question": "What does 'vestiti' mean?",
+      "options": ["Vests", "Clothes", "Dresses", "Costumes"],
+      "correctIndex": 1
+    }
+  ]
+}

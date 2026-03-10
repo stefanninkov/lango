@@ -1,0 +1,154 @@
+{
+  "id": "lesson-2",
+  "unitId": "unit-3",
+  "title": "Describing People",
+  "vocabulary": [
+    {
+      "id": "alto",
+      "word": "Alto",
+      "translation": "Tall",
+      "pronunciation": "AHL-toh",
+      "example": "Mi hermano es muy alto.",
+      "exampleTranslation": "My brother is very tall."
+    },
+    {
+      "id": "bajo",
+      "word": "Bajo",
+      "translation": "Short",
+      "pronunciation": "BAH-hoh",
+      "example": "El niño es bajo para su edad.",
+      "exampleTranslation": "The boy is short for his age."
+    },
+    {
+      "id": "joven",
+      "word": "Joven",
+      "translation": "Young",
+      "pronunciation": "HOH-ven",
+      "example": "Ella es una mujer joven.",
+      "exampleTranslation": "She is a young woman."
+    },
+    {
+      "id": "viejo",
+      "word": "Viejo",
+      "translation": "Old",
+      "pronunciation": "VYEH-hoh",
+      "example": "Mi abuelo es viejo pero activo.",
+      "exampleTranslation": "My grandfather is old but active."
+    },
+    {
+      "id": "guapo",
+      "word": "Guapo",
+      "translation": "Handsome / Good-looking",
+      "pronunciation": "GWAH-poh",
+      "example": "Tu padre es muy guapo.",
+      "exampleTranslation": "Your father is very handsome."
+    },
+    {
+      "id": "inteligente",
+      "word": "Inteligente",
+      "translation": "Intelligent",
+      "pronunciation": "een-teh-lee-HEN-teh",
+      "example": "La profesora es muy inteligente.",
+      "exampleTranslation": "The teacher is very intelligent."
+    },
+    {
+      "id": "amable",
+      "word": "Amable",
+      "translation": "Kind",
+      "pronunciation": "ah-MAH-bleh",
+      "example": "Los vecinos son muy amables.",
+      "exampleTranslation": "The neighbors are very kind."
+    },
+    {
+      "id": "fuerte",
+      "word": "Fuerte",
+      "translation": "Strong",
+      "pronunciation": "FWEHR-teh",
+      "example": "Mi padre es fuerte.",
+      "exampleTranslation": "My father is strong."
+    }
+  ],
+  "grammar": {
+    "title": "Adjective Agreement in Spanish",
+    "explanation": "In Spanish, adjectives must agree in gender and number with the noun they describe:\n\n• Masculine singular: alto, bajo, viejo, guapo\n• Feminine singular: alta, baja, vieja, guapa\n• Masculine plural: altos, bajos, viejos, guapos\n• Feminine plural: altas, bajas, viejas, guapas\n\nAdjectives ending in -e (inteligente, amable, fuerte) or consonants (joven) do not change for gender, only for number: inteligente → inteligentes, joven → jóvenes.",
+    "examples": [
+      { "target": "La chica es alta y guapa.", "native": "The girl is tall and good-looking." },
+      { "target": "Los estudiantes son inteligentes.", "native": "The students are intelligent." },
+      { "target": "Mis abuelas son amables y fuertes.", "native": "My grandmothers are kind and strong." }
+    ]
+  },
+  "exercises": [
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-6",
+      "question": "What is the feminine form of 'alto'?",
+      "options": ["Altos", "Alto", "Alta", "Altas"],
+      "correctIndex": 2
+    },
+    {
+      "type": "fill_blank",
+      "id": "ex-3-7",
+      "sentence": "Mi hermana es muy ___ y amable.",
+      "answer": "guapa",
+      "acceptableAnswers": ["guapa", "Guapa"],
+      "hint": "Good-looking (feminine form)"
+    },
+    {
+      "type": "matching",
+      "id": "ex-3-8",
+      "pairs": [
+        { "left": "Alto", "right": "Tall" },
+        { "left": "Joven", "right": "Young" },
+        { "left": "Fuerte", "right": "Strong" },
+        { "left": "Amable", "right": "Kind" }
+      ]
+    },
+    {
+      "type": "translation",
+      "id": "ex-3-9",
+      "sentence": "The teacher is very intelligent.",
+      "answer": "La profesora es muy inteligente.",
+      "acceptableAnswers": ["La profesora es muy inteligente", "La profesora es muy inteligente.", "El profesor es muy inteligente.", "El profesor es muy inteligente"],
+      "direction": "to_target"
+    },
+    {
+      "type": "multiple_choice",
+      "id": "ex-3-10",
+      "question": "What does 'viejo' mean?",
+      "options": ["Young", "Tall", "Old", "Strong"],
+      "correctIndex": 2
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q-3-6",
+      "question": "How do you say 'short' (height) in Spanish?",
+      "options": ["Viejo", "Bajo", "Joven", "Fuerte"],
+      "correctIndex": 1
+    },
+    {
+      "id": "q-3-7",
+      "question": "Which adjective does NOT change for gender?",
+      "options": ["Guapo", "Alto", "Inteligente", "Viejo"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-8",
+      "question": "What is the plural of 'joven'?",
+      "options": ["Jovens", "Jovenes", "Jóvenes", "Jóvens"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-9",
+      "question": "What does 'amable' mean?",
+      "options": ["Strong", "Tall", "Kind", "Handsome"],
+      "correctIndex": 2
+    },
+    {
+      "id": "q-3-10",
+      "question": "'Mi madre es alta y ___' - which word means 'strong'?",
+      "options": ["Baja", "Guapa", "Vieja", "Fuerte"],
+      "correctIndex": 3
+    }
+  ]
+}
