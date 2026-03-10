@@ -6,6 +6,7 @@ import { View, ActivityIndicator, StyleSheet } from 'react-native';
 import { theme, colors } from '../src/theme';
 import { useAuthStore } from '../src/stores/authStore';
 import { onAuthStateChanged, getUserProfile } from '../src/services/authService';
+import { loadApiKey } from '../src/services/chatService';
 
 export default function RootLayout() {
   const { isLoading, isAuthenticated, isOnboarded, setUser, setLoading } = useAuthStore();
@@ -20,6 +21,9 @@ export default function RootLayout() {
       }
       setLoading(false);
     });
+    // Load Claude API key from local storage
+    loadApiKey();
+
     return unsubscribe;
   }, []);
 

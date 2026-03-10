@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { View, StyleSheet, ScrollView, Pressable } from 'react-native';
+import { View, StyleSheet, ScrollView, Pressable, TextInput, Platform } from 'react-native';
 import { Text, Switch, Button } from 'react-native-paper';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
@@ -8,6 +8,8 @@ import { colors, spacing, typography, radius } from '../../src/theme';
 import { useAuthStore } from '../../src/stores/authStore';
 import { useGamificationStore } from '../../src/stores/gamificationStore';
 import { updateUserProfile } from '../../src/services/authService';
+import { saveApiKey, loadApiKey, clearApiKey } from '../../src/services/storageService';
+import { setApiKeyCache, isUsingClaudeApi } from '../../src/services/chatService';
 import {
   requestPermissions,
   scheduleDailyReminder,
@@ -40,9 +42,19 @@ export default function SettingsScreen() {
   const [reviewsTarget, setReviewsTarget] = useState(dailyGoal.reviewsTarget);
   const [notifications, setNotifications] = useState(false);
   const [saving, setSaving] = useState(false);
+  const [apiKeyInput, setApiKeyInput] = useState('');
+  const [hasApiKey, setHasApiKey] = useState(false);
+  const [showApiKey, setShowApiKey] = useState(false);
+  const [savingKey, setSavingKey] = useState(false);
 
   useEffect(() => {
     getPermissionStatus().then(setNotifications);
+    loadApiKey().then((key) => {
+      if (key) {
+        setHasApiKey(true);
+        setApiKeyInput(key);
+      }
+    });
   }, []);
 
   const handleToggleNotifications = async (value: boolean) => {
@@ -188,6 +200,80 @@ export default function SettingsScreen() {
         />
       </View>
 
+      {/* AI Conversation */}
+      <Text style={[styles.sectionTitle, { marginTop: spacing.xl }]}>AI Conversation</Text>
+      <View style={styles.apiKeyCard}>
+        <Text style={styles.apiKeyDesc}>
+          Add your own Claude API key to enable real AI conversations in Practice mode.
+          Your key is stored locally on your device and never sent to our servers.
+        </Text>
+        <View style={styles.apiKeyInputRow}>
+          <TextInput
+            style={styles.apiKeyInput}
+            value={apiKeyInput}
+            onChangeText={setApiKeyInput}
+            placeholder="sk-ant-..."
+            placeholderTextColor={colors.textMuted}
+            secureTextEntry={!showApiKey}
+            autoCapitalize="none"
+            autoCorrect={false}
+          />
+          <Pressable
+            style={styles.eyeButton}
+            onPress={() => setShowApiKey(!showApiKey)}
+          >
+            <MaterialCommunityIcons
+              name={showApiKey ? 'eye-off' : 'eye'}
+              size={20}
+              color={colors.textSecondary}
+            />
+          </Pressable>
+        </View>
+        <View style={styles.apiKeyActions}>
+          <Pressable
+            style={[styles.apiKeySaveBtn, !apiKeyInput.trim() && styles.apiKeyBtnDisabled]}
+            onPress={async () => {
+              const key = apiKeyInput.trim();
+              if (!key) return;
+              setSavingKey(true);
+              await saveApiKey(key);
+              setApiKeyCache(key);
+              setHasApiKey(true);
+              setSavingKey(false);
+            }}
+            disabled={!apiKeyInput.trim() || savingKey}
+          >
+            <Text style={styles.apiKeySaveBtnText}>
+              {savingKey ? 'Saving...' : hasApiKey ? 'Update Key' : 'Save Key'}
+            </Text>
+          </Pressable>
+          {hasApiKey && (
+            <Pressable
+              style={styles.apiKeyRemoveBtn}
+              onPress={async () => {
+                await clearApiKey();
+                setApiKeyCache(null);
+                setApiKeyInput('');
+                setHasApiKey(false);
+              }}
+            >
+              <Text style={styles.apiKeyRemoveBtnText}>Remove</Text>
+            </Pressable>
+          )}
+        </View>
+        {hasApiKey && (
+          <View style={styles.apiKeyStatus}>
+            <MaterialCommunityIcons name="check-circle" size={16} color={colors.secondary} />
+            <Text style={[styles.apiKeyStatusText, { color: colors.secondary }]}>
+              API key saved — AI conversations enabled
+            </Text>
+          </View>
+        )}
+        <Text style={styles.apiKeyHint}>
+          Get your API key at console.anthropic.com
+        </Text>
+      </View>
+
       {/* About */}
       <Text style={[styles.sectionTitle, { marginTop: spacing.xl }]}>About</Text>
       <View style={styles.aboutCard}>
@@ -277,6 +363,83 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   switchDesc: {
+    ...typography.caption,
+    color: colors.textMuted,
+  },
+  apiKeyCard: {
+    backgroundColor: colors.surface,
+    borderRadius: radius.md,
+    borderWidth: 1,
+    borderColor: colors.border,
+    padding: spacing.lg,
+    gap: spacing.md,
+  },
+  apiKeyDesc: {
+    ...typography.bodySmall,
+    color: colors.textSecondary,
+    lineHeight: 20,
+  },
+  apiKeyInputRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+  },
+  apiKeyInput: {
+    flex: 1,
+    backgroundColor: colors.background,
+    borderRadius: radius.md,
+    borderWidth: 1,
+    borderColor: colors.border,
+    paddingHorizontal: spacing.md,
+    paddingVertical: spacing.sm,
+    color: colors.textPrimary,
+    fontSize: 14,
+    fontFamily: Platform.OS === 'ios' ? 'Menlo' : 'monospace',
+  },
+  eyeButton: {
+    padding: spacing.sm,
+  },
+  apiKeyActions: {
+    flexDirection: 'row',
+    gap: spacing.sm,
+  },
+  apiKeySaveBtn: {
+    flex: 1,
+    backgroundColor: colors.primary,
+    paddingVertical: spacing.sm,
+    borderRadius: radius.md,
+    alignItems: 'center',
+  },
+  apiKeyBtnDisabled: {
+    opacity: 0.5,
+  },
+  apiKeySaveBtnText: {
+    ...typography.button,
+    color: colors.white,
+    fontSize: 14,
+  },
+  apiKeyRemoveBtn: {
+    paddingVertical: spacing.sm,
+    paddingHorizontal: spacing.lg,
+    borderRadius: radius.md,
+    borderWidth: 1,
+    borderColor: colors.accent,
+    alignItems: 'center',
+  },
+  apiKeyRemoveBtnText: {
+    ...typography.button,
+    color: colors.accent,
+    fontSize: 14,
+  },
+  apiKeyStatus: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.xs,
+  },
+  apiKeyStatusText: {
+    ...typography.caption,
+  },
+  apiKeyHint: {
     ...typography.caption,
     color: colors.textMuted,
   },

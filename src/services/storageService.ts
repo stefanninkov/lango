@@ -7,6 +7,7 @@ const KEYS = {
   ACHIEVEMENTS: 'lango:achievements',
   DAILY_GOAL: 'lango:daily_goal',
   SETTINGS: 'lango:settings',
+  CLAUDE_API_KEY: 'lango:claude_api_key',
 };
 
 // Generic save/load helpers
@@ -97,6 +98,19 @@ export async function saveSettings(settings: AppSettings): Promise<void> {
 
 export async function loadSettings(): Promise<AppSettings | null> {
   return load(KEYS.SETTINGS);
+}
+
+// Claude API key (stored locally, never sent to any backend)
+export async function saveApiKey(key: string): Promise<void> {
+  await save(KEYS.CLAUDE_API_KEY, key);
+}
+
+export async function loadApiKey(): Promise<string | null> {
+  return load(KEYS.CLAUDE_API_KEY);
+}
+
+export async function clearApiKey(): Promise<void> {
+  await remove(KEYS.CLAUDE_API_KEY);
 }
 
 // Clear all app data

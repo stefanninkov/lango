@@ -14,6 +14,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { colors, spacing, typography, radius } from '../../src/theme';
 import { useAuthStore } from '../../src/stores/authStore';
 import * as chatService from '../../src/services/chatService';
+import { isUsingClaudeApi } from '../../src/services/chatService';
 import type { ChatMessage, Conversation } from '../../src/types';
 
 const TOPICS = [
@@ -76,8 +77,17 @@ export default function PracticeScreen() {
           ],
         };
       });
-    } catch {
-      // Keep user message, show error
+    } catch (err) {
+      // Show error as a system message in chat
+      const errorMsg: ChatMessage = {
+        id: `err-${Date.now()}`,
+        role: 'assistant',
+        content: err instanceof Error ? err.message : 'Something went wrong. Please try again.',
+        timestamp: Date.now(),
+      };
+      setConversation((prev) =>
+        prev ? { ...prev, messages: [...prev.messages, errorMsg] } : prev
+      );
     } finally {
       setSending(false);
     }
@@ -120,9 +130,15 @@ export default function PracticeScreen() {
         )}
 
         <View style={styles.mockBadge}>
-          <MaterialCommunityIcons name="robot" size={16} color={colors.textMuted} />
-          <Text style={styles.mockText}>
-            Mock mode — responses are simulated. Connect Claude API for real AI conversations.
+          <MaterialCommunityIcons
+            name={isUsingClaudeApi() ? 'brain' : 'robot'}
+            size={16}
+            color={isUsingClaudeApi() ? colors.secondary : colors.textMuted}
+          />
+          <Text style={[styles.mockText, isUsingClaudeApi() && { color: colors.secondary }]}>
+            {isUsingClaudeApi()
+              ? 'Claude AI — real conversations powered by your API key'
+              : 'Mock mode — add your Claude API key in Settings for real AI conversations'}
           </Text>
         </View>
       </View>
@@ -194,7 +210,7 @@ export default function PracticeScreen() {
           style={styles.textInput}
           value={input}
           onChangeText={setInput}
-          placeholder="Type in Spanish..."
+          placeholder={`Type in ${targetLang === 'es' ? 'Spanish' : 'Italian'}...`}
           placeholderTextColor={colors.textMuted}
           multiline
           maxLength={500}
