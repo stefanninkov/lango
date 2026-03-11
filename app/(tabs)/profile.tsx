@@ -16,13 +16,31 @@ import { getCourseId } from '../../src/utils/content';
 import ProgressBar from '../../src/components/ProgressBar';
 import FadeInView from '../../src/components/FadeInView';
 import CircularProgress from '../../src/components/CircularProgress';
-import type { CourseId, Achievement } from '../../src/types';
+import type { CourseId, Achievement, Level } from '../../src/types';
 
 const LANGUAGE_NAMES: Record<string, string> = {
   es: 'Spanish',
   it: 'Italian',
   en: 'English',
   sr: 'Serbian',
+};
+
+const CEFR_LABELS: Record<Level, string> = {
+  A1: 'A1 Beginner',
+  A2: 'A2 Elementary',
+  B1: 'B1 Intermediate',
+  B2: 'B2 Upper Int.',
+  C1: 'C1 Advanced',
+  C2: 'C2 Mastery',
+};
+
+const CEFR_COLORS: Record<Level, string> = {
+  A1: colors.secondary,
+  A2: '#4ECDC4',
+  B1: colors.primary,
+  B2: colors.primaryLight,
+  C1: colors.warning,
+  C2: colors.gold,
 };
 
 export default function ProfileScreen() {
@@ -60,6 +78,9 @@ export default function ProfileScreen() {
   };
 
   const xpProgress = getXPProgress(user?.xp ?? 0);
+  const userLevel = (user?.level ?? 'A1') as Level;
+  const cefrLabel = CEFR_LABELS[userLevel] ?? 'A1 Beginner';
+  const cefrColor = CEFR_COLORS[userLevel] ?? colors.secondary;
   const vocabStats = getVocabStats();
   const completedCount = progress?.completedLessons.length ?? 0;
   const unlockedIds = new Set(unlockedAchievements.map((a) => a.id));
@@ -83,9 +104,15 @@ export default function ProfileScreen() {
         </View>
         <Text style={styles.name}>{user?.displayName ?? 'User'}</Text>
         <Text style={styles.email}>{user?.email}</Text>
-        <View style={styles.levelPill}>
-          <MaterialCommunityIcons name="shield-star" size={14} color={colors.gold} />
-          <Text style={styles.levelText}>Level {xpProgress.level}</Text>
+        <View style={styles.levelRow}>
+          <View style={[styles.levelPill, { borderColor: `${cefrColor}40`, backgroundColor: `${cefrColor}1A` }]}>
+            <MaterialCommunityIcons name="school" size={14} color={cefrColor} />
+            <Text style={[styles.levelText, { color: cefrColor }]}>{cefrLabel}</Text>
+          </View>
+          <View style={styles.levelPill}>
+            <MaterialCommunityIcons name="shield-star" size={14} color={colors.gold} />
+            <Text style={styles.levelText}>Level {xpProgress.level}</Text>
+          </View>
         </View>
       </View>
       </FadeInView>
@@ -280,6 +307,10 @@ const styles = StyleSheet.create({
     ...typography.bodySmall,
     color: colors.textSecondary,
     marginBottom: spacing.sm,
+  },
+  levelRow: {
+    flexDirection: 'row',
+    gap: spacing.sm,
   },
   levelPill: {
     flexDirection: 'row',

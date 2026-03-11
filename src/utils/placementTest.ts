@@ -12,74 +12,39 @@ export function getPlacementTest(courseId: CourseId): PlacementTest | null {
 }
 
 /**
- * Score the placement test and determine the user's level.
+ * Score the placement test and determine the user's CEFR level.
  *
- * Scoring logic:
- * - 25 questions: 8 beginner, 8 intermediate, 9 advanced
- * - Each level's questions are scored separately
- * - If beginner score < 60% → beginner (start at unit-1)
- * - If intermediate score < 60% → beginner (start at unit-1) but skip to unit-3 if beginner >= 75%
- * - If advanced score < 60% → intermediate (start at unit-4)
- * - If advanced score >= 60% → advanced (start at unit-7)
+ * NOTE: The placement test is currently disabled in onboarding (Duolingo-style
+ * sequential progression). This scoring logic is kept for potential future use.
+ *
+ * All users now start at A1 and must complete units sequentially.
  */
 export function scorePlacementTest(
   questions: PlacementQuestion[],
-  answers: Record<string, number> // questionId -> selected index
+  answers: Record<string, number>
 ): PlacementResult {
-  const byLevel: Record<Level, { correct: number; total: number }> = {
-    beginner: { correct: 0, total: 0 },
-    intermediate: { correct: 0, total: 0 },
-    advanced: { correct: 0, total: 0 },
+  const byLevel: Record<string, { correct: number; total: number }> = {
+    A1: { correct: 0, total: 0 },
+    B1: { correct: 0, total: 0 },
+    C1: { correct: 0, total: 0 },
   };
 
   for (const q of questions) {
-    byLevel[q.level].total++;
-    if (answers[q.id] === q.correctIndex) {
-      byLevel[q.level].correct++;
+    const lvl = byLevel[q.level];
+    if (lvl) {
+      lvl.total++;
+      if (answers[q.id] === q.correctIndex) {
+        lvl.correct++;
+      }
     }
   }
 
-  const beginnerPct = byLevel.beginner.total > 0
-    ? (byLevel.beginner.correct / byLevel.beginner.total) * 100
-    : 0;
-  const intermediatePct = byLevel.intermediate.total > 0
-    ? (byLevel.intermediate.correct / byLevel.intermediate.total) * 100
-    : 0;
-  const advancedPct = byLevel.advanced.total > 0
-    ? (byLevel.advanced.correct / byLevel.advanced.total) * 100
-    : 0;
-
-  const totalCorrect = byLevel.beginner.correct + byLevel.intermediate.correct + byLevel.advanced.correct;
+  const totalCorrect = Object.values(byLevel).reduce((s, l) => s + l.correct, 0);
   const totalQuestions = questions.length;
   const overallScore = Math.round((totalCorrect / totalQuestions) * 100);
 
-  // Determine level
-  if (beginnerPct < 60) {
-    return { level: 'beginner', score: overallScore, startUnit: 'unit-1' };
-  }
-
-  if (intermediatePct < 60) {
-    // Good at beginner, not intermediate yet
-    // If very strong beginner (>=75%), start at unit-3 (last beginner unit)
-    if (beginnerPct >= 75) {
-      return { level: 'beginner', score: overallScore, startUnit: 'unit-3' };
-    }
-    return { level: 'beginner', score: overallScore, startUnit: 'unit-1' };
-  }
-
-  if (advancedPct < 60) {
-    // Strong intermediate
-    if (intermediatePct >= 75) {
-      return { level: 'intermediate', score: overallScore, startUnit: 'unit-6' };
-    }
-    return { level: 'intermediate', score: overallScore, startUnit: 'unit-4' };
-  }
-
-  // Advanced
-  if (advancedPct >= 75) {
-    return { level: 'advanced', score: overallScore, startUnit: 'unit-9' };
-  }
-  return { level: 'advanced', score: overallScore, startUnit: 'unit-7' };
+  // All users start at A1 — sequential progression
+  return { level: 'A1' as Level, score: overallScore, startUnit: 'unit-1' };
 }
 
 /**

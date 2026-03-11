@@ -7,11 +7,26 @@
       "title": "Greetings & Basics",
       "description": "Learn to say hello, introduce yourself, and use polite expressions",
       "order": 1,
-      "level": "beginner",
+      "level": "A1",
       "lessons": [
-        { "id": "lesson-1", "title": "Basic Greetings", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "Introductions", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Polite Expressions", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "Basic Greetings",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "Introductions",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Polite Expressions",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     },
     {
@@ -19,12 +34,27 @@
       "title": "Numbers, Colors & Days",
       "description": "Learn to count, name colors, and talk about days of the week",
       "order": 2,
-      "level": "beginner",
+      "level": "A1",
       "requiredUnit": "unit-1",
       "lessons": [
-        { "id": "lesson-1", "title": "Numbers 1-20", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "Colors", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Days & Months", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "Numbers 1-20",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "Colors",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Days & Months",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     },
     {
@@ -32,12 +62,27 @@
       "title": "Family & People",
       "description": "Talk about family members, describe people, and discuss occupations",
       "order": 3,
-      "level": "beginner",
+      "level": "A2",
       "requiredUnit": "unit-2",
       "lessons": [
-        { "id": "lesson-1", "title": "Family Members", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "Describing People", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Occupations", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "Family Members",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "Describing People",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Occupations",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     },
     {
@@ -45,12 +90,27 @@
       "title": "Food & Restaurants",
       "description": "Order food, navigate restaurant menus, and talk about cooking",
       "order": 4,
-      "level": "intermediate",
+      "level": "A2",
       "requiredUnit": "unit-3",
       "lessons": [
-        { "id": "lesson-1", "title": "Common Foods", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "At the Restaurant", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Cooking & Meals", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "Common Foods",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "At the Restaurant",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Cooking & Meals",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     },
     {
@@ -58,12 +118,27 @@
       "title": "Travel & Directions",
       "description": "Navigate cities, ask for directions, and use transportation",
       "order": 5,
-      "level": "intermediate",
+      "level": "B1",
       "requiredUnit": "unit-4",
       "lessons": [
-        { "id": "lesson-1", "title": "Places in Town", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "Directions", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Transportation", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "Places in Town",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "Directions",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Transportation",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     },
     {
@@ -71,12 +146,27 @@
       "title": "Shopping & Daily Life",
       "description": "Shop with confidence, describe your daily routine, and discuss weather",
       "order": 6,
-      "level": "intermediate",
+      "level": "B1",
       "requiredUnit": "unit-5",
       "lessons": [
-        { "id": "lesson-1", "title": "At the Store", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "Daily Routine", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Weather & Seasons", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "At the Store",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "Daily Routine",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Weather & Seasons",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     },
     {
@@ -84,12 +174,27 @@
       "title": "Work & Business",
       "description": "Navigate the workplace, discuss careers, and communicate professionally",
       "order": 7,
-      "level": "advanced",
+      "level": "B2",
       "requiredUnit": "unit-6",
       "lessons": [
-        { "id": "lesson-1", "title": "Office & Workplace", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "Professions & Career", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Phone & Communication", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "Office & Workplace",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "Professions & Career",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Phone & Communication",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     },
     {
@@ -97,12 +202,27 @@
       "title": "Health & Emergencies",
       "description": "Discuss health topics, visit the doctor, and handle emergencies",
       "order": 8,
-      "level": "advanced",
+      "level": "C1",
       "requiredUnit": "unit-7",
       "lessons": [
-        { "id": "lesson-1", "title": "Body & Health", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "At the Doctor", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Emergencies", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "Body & Health",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "At the Doctor",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Emergencies",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     },
     {
@@ -110,12 +230,27 @@
       "title": "Culture & Opinions",
       "description": "Discuss arts, express opinions, and talk about society and environment",
       "order": 9,
-      "level": "advanced",
+      "level": "C2",
       "requiredUnit": "unit-8",
       "lessons": [
-        { "id": "lesson-1", "title": "Arts & Entertainment", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "Expressing Opinions", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Society & Environment", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "Arts & Entertainment",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "Expressing Opinions",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Society & Environment",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     }
   ]

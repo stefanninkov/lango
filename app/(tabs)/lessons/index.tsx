@@ -18,15 +18,21 @@ const UNIT_ICONS = [
 ];
 
 const LEVEL_COLORS: Record<Level, string> = {
-  beginner: colors.secondary,
-  intermediate: colors.primary,
-  advanced: colors.gold,
+  A1: colors.secondary,
+  A2: '#4ECDC4',
+  B1: colors.primary,
+  B2: colors.primaryLight,
+  C1: colors.warning,
+  C2: colors.gold,
 };
 
 const LEVEL_LABELS: Record<Level, string> = {
-  beginner: 'Beginner',
-  intermediate: 'Intermediate',
-  advanced: 'Advanced',
+  A1: 'A1 — Beginner',
+  A2: 'A2 — Elementary',
+  B1: 'B1 — Intermediate',
+  B2: 'B2 — Upper Intermediate',
+  C1: 'C1 — Advanced',
+  C2: 'C2 — Mastery',
 };
 
 export default function UnitListScreen() {
@@ -45,16 +51,10 @@ export default function UnitListScreen() {
     return completed / unit.lessons.length;
   };
 
-  const isUnitUnlocked = (unit: UnitMeta, index: number) => {
+  const isUnitUnlocked = (_unit: UnitMeta, index: number) => {
     // First unit is always unlocked
     if (index === 0) return true;
-    // User's placement level unlocks all units at or below their level
-    const userLevel = user?.level ?? 'beginner';
-    const levelOrder: Level[] = ['beginner', 'intermediate', 'advanced'];
-    const userLevelIndex = levelOrder.indexOf(userLevel);
-    const unitLevelIndex = levelOrder.indexOf(unit.level);
-    if (unitLevelIndex <= userLevelIndex) return true;
-    // Otherwise, previous unit must be completed
+    // Duolingo-style: must complete previous unit to unlock next
     const prevUnit = course?.units[index - 1];
     if (!prevUnit) return true;
     return getUnitProgress(prevUnit) >= 1;

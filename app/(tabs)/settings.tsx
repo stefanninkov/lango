@@ -6,6 +6,8 @@ import { router } from 'expo-router';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { colors, spacing, typography, radius } from '../../src/theme';
 import { useAuthStore } from '../../src/stores/authStore';
+import { useProgressStore } from '../../src/stores/progressStore';
+import { useVocabularyStore } from '../../src/stores/vocabularyStore';
 import { useGamificationStore } from '../../src/stores/gamificationStore';
 import { updateUserProfile } from '../../src/services/authService';
 import { saveApiKey, loadApiKey, clearApiKey } from '../../src/services/storageService';
@@ -272,6 +274,31 @@ export default function SettingsScreen() {
         <Text style={styles.apiKeyHint}>
           Get your API key at console.anthropic.com
         </Text>
+      </View>
+
+      {/* Reset Progress */}
+      <Text style={[styles.sectionTitle, { marginTop: spacing.xl }]}>Data</Text>
+      <View style={styles.apiKeyCard}>
+        <Text style={styles.apiKeyDesc}>
+          Reset your learning progress, vocabulary cards, and achievements. This cannot be undone.
+        </Text>
+        <Pressable
+          style={styles.apiKeyRemoveBtn}
+          onPress={async () => {
+            if (!user) return;
+            try {
+              await updateUserProfile(user.uid, { level: 'A1', xp: 0, streak: 0 });
+              setUser({ ...user, level: 'A1' as any, xp: 0, streak: 0 });
+              useProgressStore.getState().reset();
+              useVocabularyStore.getState().reset();
+              useGamificationStore.getState().reset();
+            } catch {
+              // handle silently
+            }
+          }}
+        >
+          <Text style={styles.apiKeyRemoveBtnText}>Reset All Progress</Text>
+        </Pressable>
       </View>
 
       {/* About */}

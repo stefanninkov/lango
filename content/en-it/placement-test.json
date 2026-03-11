@@ -3,103 +3,163 @@
   "questions": [
     {
       "id": "pt-1",
-      "level": "beginner",
+      "level": "A1",
       "skill": "vocabulary",
       "question": "How do you say 'Hello' in Italian?",
-      "options": ["Arrivederci", "Ciao", "Grazie", "Prego"],
+      "options": [
+        "Arrivederci",
+        "Ciao",
+        "Grazie",
+        "Prego"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-2",
-      "level": "beginner",
+      "level": "A1",
       "skill": "vocabulary",
       "question": "What does 'Buongiorno' mean?",
-      "options": ["Good night", "Goodbye", "Good morning/day", "Thank you"],
+      "options": [
+        "Good night",
+        "Goodbye",
+        "Good morning/day",
+        "Thank you"
+      ],
       "correctIndex": 2
     },
     {
       "id": "pt-3",
-      "level": "beginner",
+      "level": "A1",
       "skill": "grammar",
       "question": "Which is the correct way to say 'I am' in Italian?",
-      "options": ["Io sono", "Io è", "Io sei", "Io siamo"],
+      "options": [
+        "Io sono",
+        "Io è",
+        "Io sei",
+        "Io siamo"
+      ],
       "correctIndex": 0
     },
     {
       "id": "pt-4",
-      "level": "beginner",
+      "level": "A1",
       "skill": "vocabulary",
       "question": "What number is 'cinque'?",
-      "options": ["3", "4", "5", "6"],
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
       "correctIndex": 2
     },
     {
       "id": "pt-5",
-      "level": "beginner",
+      "level": "A1",
       "skill": "reading",
       "question": "What does 'Mi chiamo Marco' mean?",
-      "options": ["I call Marco", "My name is Marco", "I like Marco", "Marco calls me"],
+      "options": [
+        "I call Marco",
+        "My name is Marco",
+        "I like Marco",
+        "Marco calls me"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-6",
-      "level": "beginner",
+      "level": "A1",
       "skill": "grammar",
       "question": "Choose the correct article: '___ casa è grande.'",
-      "options": ["Il", "La", "I", "Un"],
+      "options": [
+        "Il",
+        "La",
+        "I",
+        "Un"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-7",
-      "level": "beginner",
+      "level": "A1",
       "skill": "vocabulary",
       "question": "What color is 'rosso'?",
-      "options": ["Blue", "Green", "Red", "Yellow"],
+      "options": [
+        "Blue",
+        "Green",
+        "Red",
+        "Yellow"
+      ],
       "correctIndex": 2
     },
     {
       "id": "pt-8",
-      "level": "beginner",
+      "level": "A1",
       "skill": "reading",
       "question": "What does 'Ho due fratelli' mean?",
-      "options": ["I have two sisters", "I have two brothers", "I have two friends", "I have two children"],
+      "options": [
+        "I have two sisters",
+        "I have two brothers",
+        "I have two friends",
+        "I have two children"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-9",
-      "level": "intermediate",
+      "level": "B1",
       "skill": "vocabulary",
       "question": "What does 'conto' mean at a restaurant?",
-      "options": ["Menu", "Table", "Bill/Check", "Tip"],
+      "options": [
+        "Menu",
+        "Table",
+        "Bill/Check",
+        "Tip"
+      ],
       "correctIndex": 2
     },
     {
       "id": "pt-10",
-      "level": "intermediate",
+      "level": "B1",
       "skill": "grammar",
       "question": "Choose the correct past tense: 'Ieri io ___ al mercato.'",
-      "options": ["vado", "sono andato", "andavo", "andrò"],
+      "options": [
+        "vado",
+        "sono andato",
+        "andavo",
+        "andrò"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-11",
-      "level": "intermediate",
+      "level": "B1",
       "skill": "vocabulary",
       "question": "What does 'sinistra' mean?",
-      "options": ["Right", "Straight", "Left", "Corner"],
+      "options": [
+        "Right",
+        "Straight",
+        "Left",
+        "Corner"
+      ],
       "correctIndex": 2
     },
     {
       "id": "pt-12",
-      "level": "intermediate",
+      "level": "B1",
       "skill": "grammar",
       "question": "Which reflexive form is correct? '___ chiamo Giovanni.'",
-      "options": ["Si", "Ti", "Mi", "Ci"],
+      "options": [
+        "Si",
+        "Ti",
+        "Mi",
+        "Ci"
+      ],
       "correctIndex": 2
     },
     {
       "id": "pt-13",
-      "level": "intermediate",
+      "level": "B1",
       "skill": "reading",
       "question": "What does 'Devo comprare scarpe perché le mie sono rotte' mean?",
       "options": [
@@ -112,23 +172,33 @@
     },
     {
       "id": "pt-14",
-      "level": "intermediate",
+      "level": "B1",
       "skill": "vocabulary",
       "question": "What does 'sconto' mean?",
-      "options": ["Receipt", "Discount", "Price", "Payment"],
+      "options": [
+        "Receipt",
+        "Discount",
+        "Price",
+        "Payment"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-15",
-      "level": "intermediate",
+      "level": "B1",
       "skill": "grammar",
       "question": "Choose the correct form: 'Se io ___ più soldi, viaggerei di più.'",
-      "options": ["ho", "avessi", "avrò", "avevo"],
+      "options": [
+        "ho",
+        "avessi",
+        "avrò",
+        "avevo"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-16",
-      "level": "intermediate",
+      "level": "B1",
       "skill": "reading",
       "question": "What does 'Fa molto caldo oggi, dovresti portare vestiti leggeri' mean?",
       "options": [
@@ -141,39 +211,59 @@
     },
     {
       "id": "pt-17",
-      "level": "advanced",
+      "level": "C1",
       "skill": "vocabulary",
       "question": "What does 'scadenza' mean in a business context?",
-      "options": ["Sale", "Deadline", "Floor", "Discount"],
+      "options": [
+        "Sale",
+        "Deadline",
+        "Floor",
+        "Discount"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-18",
-      "level": "advanced",
+      "level": "C1",
       "skill": "grammar",
       "question": "Choose the correct subjunctive: 'È importante che tu ___ in tempo.'",
-      "options": ["arrivi", "arriva", "arriverai", "arrivavi"],
+      "options": [
+        "arrivi",
+        "arriva",
+        "arriverai",
+        "arrivavi"
+      ],
       "correctIndex": 0
     },
     {
       "id": "pt-19",
-      "level": "advanced",
+      "level": "C1",
       "skill": "vocabulary",
       "question": "What does 'sostenibile' mean?",
-      "options": ["Sustainable", "Substantial", "Supportive", "Susceptible"],
+      "options": [
+        "Sustainable",
+        "Substantial",
+        "Supportive",
+        "Susceptible"
+      ],
       "correctIndex": 0
     },
     {
       "id": "pt-20",
-      "level": "advanced",
+      "level": "C1",
       "skill": "grammar",
       "question": "Which connector correctly completes: 'Non sono d'accordo; ___, rispetto la tua opinione.'",
-      "options": ["inoltre", "tuttavia", "quindi", "perché"],
+      "options": [
+        "inoltre",
+        "tuttavia",
+        "quindi",
+        "perché"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-21",
-      "level": "advanced",
+      "level": "C1",
       "skill": "reading",
       "question": "What does 'Nonostante il progetto abbia affrontato numerosi ostacoli, il team è riuscito a rispettare le scadenze stabilite' mean?",
       "options": [
@@ -186,23 +276,33 @@
     },
     {
       "id": "pt-22",
-      "level": "advanced",
+      "level": "C1",
       "skill": "vocabulary",
       "question": "What does 'riciclaggio' mean?",
-      "options": ["Recovery", "Recycling", "Recital", "Recipe"],
+      "options": [
+        "Recovery",
+        "Recycling",
+        "Recital",
+        "Recipe"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-23",
-      "level": "advanced",
+      "level": "C1",
       "skill": "grammar",
       "question": "Choose the correct form: 'Se avessi saputo, non ___ venuto.'",
-      "options": ["sarei", "fossi", "ero", "sarò"],
+      "options": [
+        "sarei",
+        "fossi",
+        "ero",
+        "sarò"
+      ],
       "correctIndex": 0
     },
     {
       "id": "pt-24",
-      "level": "advanced",
+      "level": "C1",
       "skill": "reading",
       "question": "What does 'La diversità culturale arricchisce le comunità e favorisce la tolleranza tra i suoi membri' mean?",
       "options": [
@@ -215,7 +315,7 @@
     },
     {
       "id": "pt-25",
-      "level": "advanced",
+      "level": "C1",
       "skill": "grammar",
       "question": "Which is grammatically correct?",
       "options": [

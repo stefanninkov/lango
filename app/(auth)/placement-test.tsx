@@ -28,15 +28,21 @@ const SKILL_LABELS: Record<string, string> = {
 };
 
 const LEVEL_COLORS: Record<string, string> = {
-  beginner: colors.secondary,
-  intermediate: colors.primary,
-  advanced: colors.gold,
+  A1: colors.secondary,
+  A2: '#4ECDC4',
+  B1: colors.primary,
+  B2: colors.primaryLight,
+  C1: colors.warning,
+  C2: colors.gold,
 };
 
 const LEVEL_LABELS: Record<string, string> = {
-  beginner: 'Beginner',
-  intermediate: 'Intermediate',
-  advanced: 'Advanced',
+  A1: 'A1 — Beginner',
+  A2: 'A2 — Elementary',
+  B1: 'B1 — Intermediate',
+  B2: 'B2 — Upper Intermediate',
+  C1: 'C1 — Advanced',
+  C2: 'C2 — Mastery',
 };
 
 export default function PlacementTestScreen() {

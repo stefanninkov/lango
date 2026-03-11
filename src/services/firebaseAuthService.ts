@@ -20,7 +20,7 @@ export async function signUp(email: string, password: string, displayName: strin
     displayName,
     nativeLanguage: 'en',
     targetLanguage: 'es',
-    level: 'beginner',
+    level: 'A1',
     xp: 0,
     streak: 0,
     lastActiveDate: new Date().toISOString().split('T')[0],

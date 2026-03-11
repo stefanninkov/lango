@@ -2,7 +2,7 @@
 export type NativeLanguage = 'en' | 'sr';
 export type TargetLanguage = 'es' | 'it';
 export type CourseId = `${NativeLanguage}-${TargetLanguage}`;
-export type Level = 'beginner' | 'intermediate' | 'advanced';
+export type Level = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
 
 // User
 export interface User {

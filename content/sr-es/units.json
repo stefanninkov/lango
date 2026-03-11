@@ -7,11 +7,26 @@
       "title": "Pozdravi i osnove",
       "description": "Naučite da pozdravite, predstavite se i koristite učtive izraze",
       "order": 1,
-      "level": "beginner",
+      "level": "A1",
       "lessons": [
-        { "id": "lesson-1", "title": "Osnovni pozdravi", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "Predstavljanje", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Učtivi izrazi", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "Osnovni pozdravi",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "Predstavljanje",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Učtivi izrazi",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     },
     {
@@ -19,12 +34,27 @@
       "title": "Brojevi, boje i dani",
       "description": "Naučite da brojite, imenujete boje i govorite o danima u nedelji",
       "order": 2,
-      "level": "beginner",
+      "level": "A1",
       "requiredUnit": "unit-1",
       "lessons": [
-        { "id": "lesson-1", "title": "Brojevi 1-20", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "Boje", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Dani i meseci", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "Brojevi 1-20",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "Boje",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Dani i meseci",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     },
     {
@@ -32,12 +62,27 @@
       "title": "Porodica i ljudi",
       "description": "Govorite o članovima porodice, opisujte ljude i razgovarajte o zanimanjima",
       "order": 3,
-      "level": "beginner",
+      "level": "A2",
       "requiredUnit": "unit-2",
       "lessons": [
-        { "id": "lesson-1", "title": "Članovi porodice", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "Opisivanje ljudi", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Zanimanja", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "Članovi porodice",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "Opisivanje ljudi",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Zanimanja",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     },
     {
@@ -45,12 +90,27 @@
       "title": "Hrana i restorani",
       "description": "Naručite hranu, navigirajte menijima i razgovarajte o kuvanju",
       "order": 4,
-      "level": "intermediate",
+      "level": "A2",
       "requiredUnit": "unit-3",
       "lessons": [
-        { "id": "lesson-1", "title": "Uobičajena hrana", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "U restoranu", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Kuvanje i obroci", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "Uobičajena hrana",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "U restoranu",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Kuvanje i obroci",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     },
     {
@@ -58,12 +118,27 @@
       "title": "Putovanja i pravci",
       "description": "Snađite se u gradu, pitajte za pravac i koristite prevoz",
       "order": 5,
-      "level": "intermediate",
+      "level": "B1",
       "requiredUnit": "unit-4",
       "lessons": [
-        { "id": "lesson-1", "title": "Mesta u gradu", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "Pravci", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Prevoz", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "Mesta u gradu",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "Pravci",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Prevoz",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     },
     {
@@ -71,12 +146,27 @@
       "title": "Kupovina i svakodnevni život",
       "description": "Kupujte sa sigurnošću, opišite dnevnu rutinu i razgovarajte o vremenu",
       "order": 6,
-      "level": "intermediate",
+      "level": "B1",
       "requiredUnit": "unit-5",
       "lessons": [
-        { "id": "lesson-1", "title": "U prodavnici", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "Dnevna rutina", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Vreme i godišnja doba", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "U prodavnici",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "Dnevna rutina",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Vreme i godišnja doba",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     },
     {
@@ -84,12 +174,27 @@
       "title": "Posao i biznis",
       "description": "Snađite se na radnom mestu, razgovarajte o karijeri i komunicirajte profesionalno",
       "order": 7,
-      "level": "advanced",
+      "level": "B2",
       "requiredUnit": "unit-6",
       "lessons": [
-        { "id": "lesson-1", "title": "Kancelarija", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "Karijera", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Komunikacija", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "Kancelarija",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "Karijera",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Komunikacija",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     },
     {
@@ -97,12 +202,27 @@
       "title": "Zdravlje i hitni slučajevi",
       "description": "Razgovarajte o zdravlju, posetite lekara i postupajte u hitnim situacijama",
       "order": 8,
-      "level": "advanced",
+      "level": "C1",
       "requiredUnit": "unit-7",
       "lessons": [
-        { "id": "lesson-1", "title": "Telo i zdravlje", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "Kod lekara", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Hitni slučajevi", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "Telo i zdravlje",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "Kod lekara",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Hitni slučajevi",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     },
     {
@@ -110,12 +230,27 @@
       "title": "Kultura i mišljenja",
       "description": "Razgovarajte o umetnosti, izrazite mišljenja i govorite o društvu i životnoj sredini",
       "order": 9,
-      "level": "advanced",
+      "level": "C2",
       "requiredUnit": "unit-8",
       "lessons": [
-        { "id": "lesson-1", "title": "Umetnost", "order": 1, "wordCount": 8 },
-        { "id": "lesson-2", "title": "Izražavanje mišljenja", "order": 2, "wordCount": 8 },
-        { "id": "lesson-3", "title": "Društvo", "order": 3, "wordCount": 8 }
+        {
+          "id": "lesson-1",
+          "title": "Umetnost",
+          "order": 1,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-2",
+          "title": "Izražavanje mišljenja",
+          "order": 2,
+          "wordCount": 8
+        },
+        {
+          "id": "lesson-3",
+          "title": "Društvo",
+          "order": 3,
+          "wordCount": 8
+        }
       ]
     }
   ]

@@ -7,6 +7,7 @@ import { colors, spacing, typography, radius } from '../../../src/theme';
 import { useAuthStore } from '../../../src/stores/authStore';
 import { useProgressStore } from '../../../src/stores/progressStore';
 import { useVocabularyStore } from '../../../src/stores/vocabularyStore';
+import { useGamificationStore } from '../../../src/stores/gamificationStore';
 import { getLesson, getCourseId } from '../../../src/utils/content';
 import { addXP, updateStreak } from '../../../src/services/progressService';
 import ProgressBar from '../../../src/components/ProgressBar';
@@ -30,6 +31,7 @@ export default function LessonPlayerScreen() {
   const user = useAuthStore((s) => s.user);
   const { markLessonComplete } = useProgressStore();
   const { addLessonVocab } = useVocabularyStore();
+  const { incrementLessons, resetDailyGoalIfNeeded } = useGamificationStore();
 
   const courseId = user
     ? getCourseId(user.nativeLanguage, user.targetLanguage)
@@ -124,6 +126,9 @@ export default function LessonPlayerScreen() {
       await updateStreak(user.uid);
       // Add lesson vocabulary to spaced repetition deck
       await addLessonVocab(user.uid, courseId as any, lessonId, lesson.vocabulary);
+      // Update daily goal tracking
+      resetDailyGoalIfNeeded();
+      incrementLessons();
     } catch (e) {
       // Progress will sync later
     }

@@ -44,10 +44,11 @@ export async function sendMessage(
   uid: string,
   conversationId: string,
   content: string,
-  targetLang: string
+  targetLang: string,
+  userLevel?: string
 ): Promise<ChatMessage> {
   if (cachedApiKey) {
-    return claude.sendMessage(uid, conversationId, content, targetLang, cachedApiKey);
+    return claude.sendMessage(uid, conversationId, content, targetLang, cachedApiKey, userLevel);
   }
   return mock.sendMessage(uid, conversationId, content, targetLang);
 }

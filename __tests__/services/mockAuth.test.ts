@@ -16,7 +16,7 @@ describe('mockAuthService', () => {
       expect(user.displayName).toBe('Test User');
       expect(user.nativeLanguage).toBe('en');
       expect(user.targetLanguage).toBe('es');
-      expect(user.level).toBe('beginner');
+      expect(user.level).toBe('A1');
       expect(user.xp).toBe(0);
       expect(user.streak).toBe(0);
     });
@@ -69,12 +69,12 @@ describe('mockAuthService', () => {
       await updateUserProfile(user.uid, {
         nativeLanguage: 'sr',
         targetLanguage: 'it',
-        level: 'intermediate',
+        level: 'B1',
       });
       const updated = await getUserProfile(user.uid);
       expect(updated!.nativeLanguage).toBe('sr');
       expect(updated!.targetLanguage).toBe('it');
-      expect(updated!.level).toBe('intermediate');
+      expect(updated!.level).toBe('B1');
     });
   });
 

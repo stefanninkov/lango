@@ -3,103 +3,163 @@
   "questions": [
     {
       "id": "pt-1",
-      "level": "beginner",
+      "level": "A1",
       "skill": "vocabulary",
       "question": "Kako se kaže 'Zdravo' na španskom?",
-      "options": ["Adiós", "Hola", "Gracias", "Por favor"],
+      "options": [
+        "Adiós",
+        "Hola",
+        "Gracias",
+        "Por favor"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-2",
-      "level": "beginner",
+      "level": "A1",
       "skill": "vocabulary",
       "question": "Šta znači 'Buenos días'?",
-      "options": ["Laku noć", "Doviđenja", "Dobro jutro", "Hvala"],
+      "options": [
+        "Laku noć",
+        "Doviđenja",
+        "Dobro jutro",
+        "Hvala"
+      ],
       "correctIndex": 2
     },
     {
       "id": "pt-3",
-      "level": "beginner",
+      "level": "A1",
       "skill": "grammar",
       "question": "Koji je tačan način da kažete 'Ja sam' na španskom?",
-      "options": ["Yo soy", "Yo es", "Yo eres", "Yo son"],
+      "options": [
+        "Yo soy",
+        "Yo es",
+        "Yo eres",
+        "Yo son"
+      ],
       "correctIndex": 0
     },
     {
       "id": "pt-4",
-      "level": "beginner",
+      "level": "A1",
       "skill": "vocabulary",
       "question": "Koji broj je 'cinco'?",
-      "options": ["3", "4", "5", "6"],
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
       "correctIndex": 2
     },
     {
       "id": "pt-5",
-      "level": "beginner",
+      "level": "A1",
       "skill": "reading",
       "question": "Šta znači 'Me llamo María'?",
-      "options": ["Zovem Mariju", "Zovem se Marija", "Sviđa mi se Marija", "Marija me zove"],
+      "options": [
+        "Zovem Mariju",
+        "Zovem se Marija",
+        "Sviđa mi se Marija",
+        "Marija me zove"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-6",
-      "level": "beginner",
+      "level": "A1",
       "skill": "grammar",
       "question": "Izaberite tačan član: '___ casa es grande.'",
-      "options": ["El", "La", "Los", "Un"],
+      "options": [
+        "El",
+        "La",
+        "Los",
+        "Un"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-7",
-      "level": "beginner",
+      "level": "A1",
       "skill": "vocabulary",
       "question": "Koja je boja 'rojo'?",
-      "options": ["Plava", "Zelena", "Crvena", "Žuta"],
+      "options": [
+        "Plava",
+        "Zelena",
+        "Crvena",
+        "Žuta"
+      ],
       "correctIndex": 2
     },
     {
       "id": "pt-8",
-      "level": "beginner",
+      "level": "A1",
       "skill": "reading",
       "question": "Šta znači 'Tengo dos hermanos'?",
-      "options": ["Imam dve sestre", "Imam dva brata", "Imam dva prijatelja", "Imam dvoje dece"],
+      "options": [
+        "Imam dve sestre",
+        "Imam dva brata",
+        "Imam dva prijatelja",
+        "Imam dvoje dece"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-9",
-      "level": "intermediate",
+      "level": "B1",
       "skill": "vocabulary",
       "question": "Šta znači 'cuenta' u restoranu?",
-      "options": ["Jelovnik", "Sto", "Račun", "Napojnica"],
+      "options": [
+        "Jelovnik",
+        "Sto",
+        "Račun",
+        "Napojnica"
+      ],
       "correctIndex": 2
     },
     {
       "id": "pt-10",
-      "level": "intermediate",
+      "level": "B1",
       "skill": "grammar",
       "question": "Izaberite tačno prošlo vreme: 'Ayer yo ___ al mercado.'",
-      "options": ["voy", "fui", "iba", "iré"],
+      "options": [
+        "voy",
+        "fui",
+        "iba",
+        "iré"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-11",
-      "level": "intermediate",
+      "level": "B1",
       "skill": "vocabulary",
       "question": "Šta znači 'izquierda'?",
-      "options": ["Desno", "Pravo", "Levo", "Ugao"],
+      "options": [
+        "Desno",
+        "Pravo",
+        "Levo",
+        "Ugao"
+      ],
       "correctIndex": 2
     },
     {
       "id": "pt-12",
-      "level": "intermediate",
+      "level": "B1",
       "skill": "grammar",
       "question": "Koji je tačan povratni oblik? '___ llamo Juan.'",
-      "options": ["Se", "Te", "Me", "Nos"],
+      "options": [
+        "Se",
+        "Te",
+        "Me",
+        "Nos"
+      ],
       "correctIndex": 2
     },
     {
       "id": "pt-13",
-      "level": "intermediate",
+      "level": "B1",
       "skill": "reading",
       "question": "Šta znači 'Necesito comprar zapatos porque los míos están rotos'?",
       "options": [
@@ -112,23 +172,33 @@
     },
     {
       "id": "pt-14",
-      "level": "intermediate",
+      "level": "B1",
       "skill": "vocabulary",
       "question": "Šta znači 'descuento'?",
-      "options": ["Račun", "Popust", "Cena", "Plaćanje"],
+      "options": [
+        "Račun",
+        "Popust",
+        "Cena",
+        "Plaćanje"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-15",
-      "level": "intermediate",
+      "level": "B1",
       "skill": "grammar",
       "question": "Izaberite tačan oblik: 'Si yo ___ más dinero, viajaría más.'",
-      "options": ["tengo", "tuviera", "tendré", "tenía"],
+      "options": [
+        "tengo",
+        "tuviera",
+        "tendré",
+        "tenía"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-16",
-      "level": "intermediate",
+      "level": "B1",
       "skill": "reading",
       "question": "Šta znači 'Hace mucho calor hoy, debería llevar ropa ligera'?",
       "options": [
@@ -141,39 +211,59 @@
     },
     {
       "id": "pt-17",
-      "level": "advanced",
+      "level": "C1",
       "skill": "vocabulary",
       "question": "Šta znači 'plazo' u poslovnom kontekstu?",
-      "options": ["Trg", "Rok", "Sprat", "Mesto"],
+      "options": [
+        "Trg",
+        "Rok",
+        "Sprat",
+        "Mesto"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-18",
-      "level": "advanced",
+      "level": "C1",
       "skill": "grammar",
       "question": "Izaberite tačan konjunktiv: 'Es importante que tú ___ a tiempo.'",
-      "options": ["llegas", "llegues", "llegarás", "llegabas"],
+      "options": [
+        "llegas",
+        "llegues",
+        "llegarás",
+        "llegabas"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-19",
-      "level": "advanced",
+      "level": "C1",
       "skill": "vocabulary",
       "question": "Šta znači 'sostenible'?",
-      "options": ["Održiv", "Značajan", "Podržavajući", "Podložan"],
+      "options": [
+        "Održiv",
+        "Značajan",
+        "Podržavajući",
+        "Podložan"
+      ],
       "correctIndex": 0
     },
     {
       "id": "pt-20",
-      "level": "advanced",
+      "level": "C1",
       "skill": "grammar",
       "question": "Koji veznik pravilno dopunjava: 'No estoy de acuerdo; ___, respeto tu opinión.'",
-      "options": ["además", "sin embargo", "por lo tanto", "porque"],
+      "options": [
+        "además",
+        "sin embargo",
+        "por lo tanto",
+        "porque"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-21",
-      "level": "advanced",
+      "level": "C1",
       "skill": "reading",
       "question": "Šta znači 'A pesar de que el proyecto enfrentó numerosos obstáculos, el equipo logró cumplir con los plazos establecidos'?",
       "options": [
@@ -186,23 +276,33 @@
     },
     {
       "id": "pt-22",
-      "level": "advanced",
+      "level": "C1",
       "skill": "vocabulary",
       "question": "Šta znači 'reciclaje'?",
-      "options": ["Oporavak", "Reciklaža", "Recital", "Recept"],
+      "options": [
+        "Oporavak",
+        "Reciklaža",
+        "Recital",
+        "Recept"
+      ],
       "correctIndex": 1
     },
     {
       "id": "pt-23",
-      "level": "advanced",
+      "level": "C1",
       "skill": "grammar",
       "question": "Izaberite tačan oblik: 'Si hubiera sabido, no ___ venido.'",
-      "options": ["habría", "hubiera", "había", "habrá"],
+      "options": [
+        "habría",
+        "hubiera",
+        "había",
+        "habrá"
+      ],
       "correctIndex": 0
     },
     {
       "id": "pt-24",
-      "level": "advanced",
+      "level": "C1",
       "skill": "reading",
       "question": "Šta znači 'La diversidad cultural enriquece a las comunidades y fomenta la tolerancia entre sus miembros'?",
       "options": [
@@ -215,7 +315,7 @@
     },
     {
       "id": "pt-25",
-      "level": "advanced",
+      "level": "C1",
       "skill": "grammar",
       "question": "Koji je gramatički tačan oblik?",
       "options": [

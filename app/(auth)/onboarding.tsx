@@ -1,14 +1,12 @@
 import { useState } from 'react';
 import { View, StyleSheet, Pressable } from 'react-native';
 import { Text, Button } from 'react-native-paper';
-import { router } from 'expo-router';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { colors, spacing, typography, radius } from '../../src/theme';
 import { useAuthStore } from '../../src/stores/authStore';
 import { updateUserProfile } from '../../src/services/authService';
-import type { NativeLanguage, TargetLanguage, Level } from '../../src/types';
+import type { NativeLanguage, TargetLanguage } from '../../src/types';
 
-type Step = 'native' | 'target' | 'level';
+type Step = 'native' | 'target';
 
 const NATIVE_LANGUAGES: { id: NativeLanguage; label: string; flag: string }[] = [
   { id: 'en', label: 'English', flag: 'EN' },
@@ -20,34 +18,27 @@ const TARGET_LANGUAGES: { id: TargetLanguage; label: string; flag: string }[] = 
   { id: 'it', label: 'Italian', flag: 'IT' },
 ];
 
-const LEVELS: { id: Level; label: string; description: string }[] = [
-  { id: 'beginner', label: 'Beginner', description: 'Starting from scratch' },
-  { id: 'intermediate', label: 'Intermediate', description: 'Know some basics' },
-  { id: 'advanced', label: 'Advanced', description: 'Want to polish skills' },
-];
-
 export default function OnboardingScreen() {
   const { user, setUser } = useAuthStore();
   const [step, setStep] = useState<Step>('native');
   const [nativeLang, setNativeLang] = useState<NativeLanguage | null>(null);
   const [targetLang, setTargetLang] = useState<TargetLanguage | null>(null);
-  const [level, setLevel] = useState<Level | null>(null);
   const [loading, setLoading] = useState(false);
 
   const handleComplete = async () => {
-    if (!user || !nativeLang || !targetLang || !level) return;
+    if (!user || !nativeLang || !targetLang) return;
     setLoading(true);
     try {
       await updateUserProfile(user.uid, {
         nativeLanguage: nativeLang,
         targetLanguage: targetLang,
-        level,
+        level: 'A1',
       });
       setUser({
         ...user,
         nativeLanguage: nativeLang,
         targetLanguage: targetLang,
-        level,
+        level: 'A1',
       });
     } catch (e) {
       // Profile will be updated on next login
@@ -56,44 +47,21 @@ export default function OnboardingScreen() {
     }
   };
 
-  const handleTakePlacementTest = async () => {
-    if (!user || !nativeLang || !targetLang) return;
-    // Save language choices first so placement test can load correct content
-    try {
-      await updateUserProfile(user.uid, {
-        nativeLanguage: nativeLang,
-        targetLanguage: targetLang,
-      });
-      setUser({
-        ...user,
-        nativeLanguage: nativeLang,
-        targetLanguage: targetLang,
-        level: 'beginner', // temporary, will be updated by placement test
-      });
-    } catch {
-      // Continue anyway — placement test will still work
-    }
-    router.push('/(auth)/placement-test');
-  };
-
   const handleNext = () => {
     if (step === 'native' && nativeLang) setStep('target');
-    else if (step === 'target' && targetLang) setStep('level');
-    else if (step === 'level' && level) handleComplete();
+    else if (step === 'target' && targetLang) handleComplete();
   };
 
   return (
     <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.stepLabel}>
-          Step {step === 'native' ? '1' : step === 'target' ? '2' : '3'} of 3
+          Step {step === 'native' ? '1' : '2'} of 2
         </Text>
         <Text style={styles.title}>
           {step === 'native'
             ? 'What language do you speak?'
-            : step === 'target'
-              ? 'What do you want to learn?'
-              : "What's your level?"}
+            : 'What do you want to learn?'}
         </Text>
       </View>
 
@@ -121,44 +89,6 @@ export default function OnboardingScreen() {
               <Text style={styles.cardLabel}>{lang.label}</Text>
             </Pressable>
           ))}
-
-        {step === 'level' && (
-          <>
-            {/* Placement test option */}
-            <Pressable
-              style={styles.placementCard}
-              onPress={handleTakePlacementTest}
-            >
-              <View style={styles.placementIconBg}>
-                <MaterialCommunityIcons name="clipboard-text-outline" size={24} color={colors.primary} />
-              </View>
-              <View style={styles.placementContent}>
-                <Text style={styles.placementTitle}>Take Placement Test</Text>
-                <Text style={styles.placementDesc}>
-                  25 questions to find your exact level
-                </Text>
-              </View>
-              <MaterialCommunityIcons name="chevron-right" size={22} color={colors.primary} />
-            </Pressable>
-
-            <View style={styles.dividerRow}>
-              <View style={styles.dividerLine} />
-              <Text style={styles.dividerText}>or choose manually</Text>
-              <View style={styles.dividerLine} />
-            </View>
-
-            {LEVELS.map((lvl) => (
-              <Pressable
-                key={lvl.id}
-                style={[styles.levelCard, level === lvl.id && styles.cardSelected]}
-                onPress={() => setLevel(lvl.id)}
-              >
-                <Text style={styles.levelLabel}>{lvl.label}</Text>
-                <Text style={styles.levelDesc}>{lvl.description}</Text>
-              </Pressable>
-            ))}
-          </>
-        )}
       </View>
 
       <Button
@@ -168,14 +98,13 @@ export default function OnboardingScreen() {
         disabled={
           loading ||
           (step === 'native' && !nativeLang) ||
-          (step === 'target' && !targetLang) ||
-          (step === 'level' && !level)
+          (step === 'target' && !targetLang)
         }
         style={styles.button}
         buttonColor={colors.primary}
         textColor={colors.white}
       >
-        {step === 'level' ? "Let's Go!" : 'Continue'}
+        {step === 'target' ? "Let's Go!" : 'Continue'}
       </Button>
     </View>
   );
@@ -232,70 +161,6 @@ const styles = StyleSheet.create({
   },
   cardLabel: {
     ...typography.h3,
-  },
-  // Placement test card
-  placementCard: {
-    width: '100%',
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: 'rgba(108, 99, 255, 0.08)',
-    borderRadius: radius.lg,
-    borderWidth: 1,
-    borderColor: colors.primary,
-    padding: spacing.lg,
-    gap: spacing.md,
-  },
-  placementIconBg: {
-    width: 44,
-    height: 44,
-    borderRadius: 22,
-    backgroundColor: 'rgba(108, 99, 255, 0.15)',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  placementContent: {
-    flex: 1,
-  },
-  placementTitle: {
-    ...typography.h3,
-    color: colors.primary,
-  },
-  placementDesc: {
-    ...typography.caption,
-    color: colors.textMuted,
-  },
-  // Divider
-  dividerRow: {
-    width: '100%',
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: spacing.md,
-    paddingVertical: spacing.sm,
-  },
-  dividerLine: {
-    flex: 1,
-    height: 1,
-    backgroundColor: colors.border,
-  },
-  dividerText: {
-    ...typography.caption,
-    color: colors.textMuted,
-  },
-  // Level cards
-  levelCard: {
-    width: '100%',
-    backgroundColor: colors.surface,
-    borderRadius: radius.lg,
-    borderWidth: 1,
-    borderColor: colors.border,
-    padding: spacing.lg,
-    gap: spacing.xs,
-  },
-  levelLabel: {
-    ...typography.h3,
-  },
-  levelDesc: {
-    ...typography.bodySmall,
   },
   button: {
     height: 48,

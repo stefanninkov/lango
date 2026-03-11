@@ -44,20 +44,21 @@ describe('content utils', () => {
       }
     });
 
-    it('units have correct level assignments', () => {
+    it('units have correct CEFR level assignments', () => {
       const course = getCourse('en-es')!;
-      // Units 1-3: beginner
-      expect(course.units[0].level).toBe('beginner');
-      expect(course.units[1].level).toBe('beginner');
-      expect(course.units[2].level).toBe('beginner');
-      // Units 4-6: intermediate
-      expect(course.units[3].level).toBe('intermediate');
-      expect(course.units[4].level).toBe('intermediate');
-      expect(course.units[5].level).toBe('intermediate');
-      // Units 7-9: advanced
-      expect(course.units[6].level).toBe('advanced');
-      expect(course.units[7].level).toBe('advanced');
-      expect(course.units[8].level).toBe('advanced');
+      // Units 1-2: A1
+      expect(course.units[0].level).toBe('A1');
+      expect(course.units[1].level).toBe('A1');
+      // Units 3-4: A2
+      expect(course.units[2].level).toBe('A2');
+      expect(course.units[3].level).toBe('A2');
+      // Units 5-6: B1
+      expect(course.units[4].level).toBe('B1');
+      expect(course.units[5].level).toBe('B1');
+      // Unit 7: B2, Unit 8: C1, Unit 9: C2
+      expect(course.units[6].level).toBe('B2');
+      expect(course.units[7].level).toBe('C1');
+      expect(course.units[8].level).toBe('C2');
     });
   });
 

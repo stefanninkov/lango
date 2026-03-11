@@ -9,9 +9,21 @@ function generateId(): string {
   return `msg-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
 }
 
-function getSystemPrompt(targetLang: string, topic: string): string {
+const CEFR_GUIDANCE: Record<string, string> = {
+  A1: 'The user is a complete beginner (CEFR A1). Use very simple vocabulary, short sentences, and mostly their native language with key target words. Introduce basic phrases one at a time.',
+  A2: 'The user is at elementary level (CEFR A2). Use simple everyday expressions and basic phrases. Mix target language with native explanations. Keep grammar simple (present tense, basic questions).',
+  B1: 'The user is at intermediate level (CEFR B1). Use the target language primarily. They can handle common everyday situations. Introduce some complex grammar and vocabulary naturally.',
+  B2: 'The user is at upper intermediate level (CEFR B2). Speak almost entirely in the target language. They can understand complex texts and discuss abstract topics. Challenge them with idiomatic expressions.',
+  C1: 'The user is at advanced level (CEFR C1). Use the target language exclusively with sophisticated vocabulary. They can express themselves fluently. Focus on nuance, register, and cultural context.',
+  C2: 'The user is at mastery level (CEFR C2). Use the target language exclusively at native speed with idioms, humor, and cultural references. Focus on perfecting style, register shifts, and subtlety.',
+};
+
+function getSystemPrompt(targetLang: string, topic: string, userLevel?: string): string {
   const langName = targetLang === 'es' ? 'Spanish' : 'Italian';
+  const levelGuide = CEFR_GUIDANCE[userLevel ?? 'A1'] ?? CEFR_GUIDANCE.A1;
   return `You are a friendly, encouraging ${langName} language tutor in a mobile app called Lango.
+
+${levelGuide}
 
 Your role:
 - Help the user practice ${langName} conversation on the topic: "${topic}"
@@ -93,7 +105,8 @@ export async function sendMessage(
   conversationId: string,
   content: string,
   targetLang: string,
-  apiKey: string
+  apiKey: string,
+  userLevel?: string
 ): Promise<ChatMessage> {
   const userConvs = conversations[uid] ?? [];
   const conv = userConvs.find((c) => c.id === conversationId);
@@ -127,7 +140,7 @@ export async function sendMessage(
     body: JSON.stringify({
       model: MODEL,
       max_tokens: 300,
-      system: getSystemPrompt(targetLang, conv.topic),
+      system: getSystemPrompt(targetLang, conv.topic, userLevel),
       messages: apiMessages,
     }),
   });

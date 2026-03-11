@@ -63,7 +63,7 @@ export default function PracticeScreen() {
     );
 
     try {
-      const aiMsg = await chatService.sendMessage(user.uid, conversation.id, text, targetLang);
+      const aiMsg = await chatService.sendMessage(user.uid, conversation.id, text, targetLang, user.level);
       setConversation((prev) => {
         if (!prev) return prev;
         // Replace temp message with actual, add AI response

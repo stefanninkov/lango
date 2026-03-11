@@ -7,7 +7,7 @@ const mockUser: User = {
   displayName: 'Test User',
   nativeLanguage: 'en',
   targetLanguage: 'es',
-  level: 'beginner',
+  level: 'A1',
   xp: 100,
   streak: 5,
   lastActiveDate: '2025-01-15',
