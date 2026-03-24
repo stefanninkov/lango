@@ -4,7 +4,7 @@ const config = getDefaultConfig(__dirname);
 
 // Block expo-notifications and expo-device from being bundled on web.
 // expo-notifications uses localStorage at module init which crashes SSR.
-const BLOCKED_ON_WEB = ['expo-notifications', 'expo-device'];
+const BLOCKED_ON_WEB = ['expo-notifications', 'expo-device', 'expo-speech'];
 
 const originalResolveRequest = config.resolver.resolveRequest;
 
