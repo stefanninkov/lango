@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { View, StyleSheet, Pressable } from 'react-native';
 import { Text, Button } from 'react-native-paper';
+import { router } from 'expo-router';
 import { colors, spacing, typography, radius } from '../../src/theme';
 import { useAuthStore } from '../../src/stores/authStore';
 import { updateUserProfile } from '../../src/services/authService';
@@ -41,9 +42,16 @@ export default function OnboardingScreen() {
         level: 'A1',
       });
     } catch (e) {
-      // Profile will be updated on next login
+      // Still update local state so user can proceed
+      setUser({
+        ...user,
+        nativeLanguage: nativeLang,
+        targetLanguage: targetLang,
+        level: 'A1',
+      });
     } finally {
       setLoading(false);
+      router.replace('/(tabs)/home');
     }
   };
 
