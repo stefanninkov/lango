@@ -11,8 +11,10 @@ import {
 import { Text, ActivityIndicator } from 'react-native-paper';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { useRouter } from 'expo-router';
 import { colors, spacing, typography, radius } from '../../src/theme';
 import { useAuthStore } from '../../src/stores/authStore';
+import { useProgressStore } from '../../src/stores/progressStore';
 import * as chatService from '../../src/services/chatService';
 import { isUsingClaudeApi } from '../../src/services/chatService';
 import type { ChatMessage, Conversation } from '../../src/types';
@@ -27,7 +29,9 @@ const TOPICS = [
 
 export default function PracticeScreen() {
   const insets = useSafeAreaInsets();
+  const router = useRouter();
   const user = useAuthStore((s) => s.user);
+  const progress = useProgressStore((s) => s.progress);
   const flatListRef = useRef<FlatList>(null);
 
   const [conversation, setConversation] = useState<Conversation | null>(null);
@@ -36,6 +40,7 @@ export default function PracticeScreen() {
   const [loading, setLoading] = useState(false);
 
   const targetLang = user?.targetLanguage ?? 'es';
+  const completedCount = progress?.completedLessons?.length ?? 0;
 
   const startChat = async (topic: string) => {
     if (!user) return;
@@ -96,6 +101,29 @@ export default function PracticeScreen() {
   const handleBack = () => {
     setConversation(null);
   };
+
+  // Gate: require at least 1 completed lesson before practice
+  if (!conversation && completedCount < 1) {
+    return (
+      <View style={[styles.container, { paddingTop: insets.top + spacing.lg }]}>
+        <Text style={styles.title}>Practice</Text>
+        <View style={styles.gateContainer}>
+          <MaterialCommunityIcons name="lock-outline" size={64} color={colors.textMuted} />
+          <Text style={styles.gateTitle}>Complete a lesson first</Text>
+          <Text style={styles.gateText}>
+            Practice lets you have conversations in {targetLang === 'es' ? 'Spanish' : 'Italian'} with an AI tutor.
+            Complete at least one lesson to learn some vocabulary and grammar before practicing.
+          </Text>
+          <Pressable
+            style={styles.gateButton}
+            onPress={() => router.push('/(tabs)/lessons')}
+          >
+            <Text style={styles.gateButtonText}>Go to Lessons</Text>
+          </Pressable>
+        </View>
+      </View>
+    );
+  }
 
   // Topic selection screen
   if (!conversation) {
@@ -398,5 +426,36 @@ const styles = StyleSheet.create({
   },
   sendButtonDisabled: {
     backgroundColor: colors.surfaceElevated,
+  },
+  // Gate styles
+  gateContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: spacing.xl,
+    gap: spacing.md,
+  },
+  gateTitle: {
+    ...typography.h2,
+    textAlign: 'center',
+    marginTop: spacing.md,
+  },
+  gateText: {
+    ...typography.body,
+    color: colors.textSecondary,
+    textAlign: 'center',
+    lineHeight: 22,
+  },
+  gateButton: {
+    backgroundColor: colors.primary,
+    paddingHorizontal: spacing.xl,
+    paddingVertical: spacing.md,
+    borderRadius: radius.lg,
+    marginTop: spacing.md,
+  },
+  gateButtonText: {
+    ...typography.body,
+    color: colors.white,
+    fontWeight: '600',
   },
 });

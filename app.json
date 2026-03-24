@@ -47,12 +47,13 @@
     ],
     "extra": {
       "firebase": {
-        "apiKey": "YOUR_API_KEY",
-        "authDomain": "YOUR_PROJECT.firebaseapp.com",
-        "projectId": "YOUR_PROJECT_ID",
-        "storageBucket": "YOUR_PROJECT.appspot.com",
-        "messagingSenderId": "YOUR_SENDER_ID",
-        "appId": "YOUR_APP_ID"
+        "apiKey": "AIzaSyBvZX7cz-K0YstNlyM5VQistrzzcrsmm_c",
+        "authDomain": "lango-mob-app.firebaseapp.com",
+        "projectId": "lango-mob-app",
+        "storageBucket": "lango-mob-app.firebasestorage.app",
+        "messagingSenderId": "687507164865",
+        "appId": "1:687507164865:web:7f7797aeb50aa9521f0e40",
+        "measurementId": "G-YDVBQ56JVW"
       }
     }
   }
