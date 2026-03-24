@@ -2,17 +2,19 @@ const { getDefaultConfig } = require('expo/metro-config');
 
 const config = getDefaultConfig(__dirname);
 
-// Prevent expo-notifications and expo-device from being bundled on web.
-// These packages use native APIs (like localStorage in SSR) that crash
-// during server-side rendering with expo-router.
+// Block expo-notifications and expo-device from being bundled on web.
+// expo-notifications uses localStorage at module init which crashes SSR.
+const BLOCKED_ON_WEB = ['expo-notifications', 'expo-device'];
+
+const originalResolveRequest = config.resolver.resolveRequest;
+
 config.resolver.resolveRequest = (context, moduleName, platform) => {
-  if (
-    platform === 'web' &&
-    (moduleName === 'expo-notifications' || moduleName === 'expo-device')
-  ) {
-    return {
-      type: 'empty',
-    };
+  if (platform === 'web' && BLOCKED_ON_WEB.some((m) => moduleName === m || moduleName.startsWith(m + '/'))) {
+    return { type: 'empty' };
+  }
+
+  if (originalResolveRequest) {
+    return originalResolveRequest(context, moduleName, platform);
   }
   return context.resolveRequest(context, moduleName, platform);
 };
