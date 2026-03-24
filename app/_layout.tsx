@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { Stack } from 'expo-router';
 import { PaperProvider } from 'react-native-paper';
 import { StatusBar } from 'expo-status-bar';
@@ -9,7 +9,7 @@ import { onAuthStateChanged, getUserProfile } from '../src/services/authService'
 import { loadApiKey } from '../src/services/chatService';
 
 export default function RootLayout() {
-  const { isLoading, isAuthenticated, isOnboarded, setUser, setLoading } = useAuthStore();
+  const { isLoading, setUser, setLoading } = useAuthStore();
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(async (firebaseUser) => {
@@ -40,12 +40,9 @@ export default function RootLayout() {
     <PaperProvider theme={theme}>
       <StatusBar style="light" />
       <Stack screenOptions={{ headerShown: false }}>
-        <Stack.Protected guard={!isAuthenticated || !isOnboarded}>
-          <Stack.Screen name="(auth)" />
-        </Stack.Protected>
-        <Stack.Protected guard={isAuthenticated && isOnboarded}>
-          <Stack.Screen name="(tabs)" />
-        </Stack.Protected>
+        <Stack.Screen name="index" />
+        <Stack.Screen name="(auth)" />
+        <Stack.Screen name="(tabs)" />
       </Stack>
     </PaperProvider>
   );
