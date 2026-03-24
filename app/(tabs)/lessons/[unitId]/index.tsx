@@ -3,13 +3,13 @@ import { Text, IconButton } from 'react-native-paper';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { colors, spacing, typography, radius } from '../../../src/theme';
-import { useAuthStore } from '../../../src/stores/authStore';
-import { useProgressStore } from '../../../src/stores/progressStore';
-import { getCourse, getCourseId } from '../../../src/utils/content';
-import FadeInView from '../../../src/components/FadeInView';
-import ProgressBar from '../../../src/components/ProgressBar';
-import type { LessonMeta } from '../../../src/types';
+import { colors, spacing, typography, radius } from '../../../../src/theme';
+import { useAuthStore } from '../../../../src/stores/authStore';
+import { useProgressStore } from '../../../../src/stores/progressStore';
+import { getCourse, getCourseId } from '../../../../src/utils/content';
+import FadeInView from '../../../../src/components/FadeInView';
+import ProgressBar from '../../../../src/components/ProgressBar';
+import type { LessonMeta } from '../../../../src/types';
 
 export default function LessonListScreen() {
   const insets = useSafeAreaInsets();
@@ -50,7 +50,7 @@ export default function LessonListScreen() {
             {/* Content */}
             <View
               style={styles.lessonContent}
-              onTouchEnd={() => router.push(`/(tabs)/lessons/${item.id}?unitId=${unitId}`)}
+              onTouchEnd={() => router.push(`/(tabs)/lessons/${unitId}/${item.id}`)}
             >
               <Text style={styles.lessonTitle}>{item.title}</Text>
               <View style={styles.lessonMeta}>

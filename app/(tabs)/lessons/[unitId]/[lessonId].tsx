@@ -3,31 +3,28 @@ import { View, StyleSheet, ScrollView } from 'react-native';
 import { Text, IconButton } from 'react-native-paper';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { colors, spacing, typography, radius } from '../../../src/theme';
-import { useAuthStore } from '../../../src/stores/authStore';
-import { useProgressStore } from '../../../src/stores/progressStore';
-import { useVocabularyStore } from '../../../src/stores/vocabularyStore';
-import { useGamificationStore } from '../../../src/stores/gamificationStore';
-import { getLesson, getCourseId } from '../../../src/utils/content';
-import { addXP, updateStreak } from '../../../src/services/progressService';
-import ProgressBar from '../../../src/components/ProgressBar';
-import SwipeableVocabCard from '../../../src/components/SwipeableVocabCard';
-import XPGainAnimation from '../../../src/components/XPGainAnimation';
-import ExerciseMultipleChoice from '../../../src/components/ExerciseMultipleChoice';
-import ExerciseFillBlank from '../../../src/components/ExerciseFillBlank';
-import ExerciseMatching from '../../../src/components/ExerciseMatching';
-import QuizQuestion from '../../../src/components/QuizQuestion';
-import QuizResults from '../../../src/components/QuizResults';
-import type { Exercise } from '../../../src/types';
+import { colors, spacing, typography, radius } from '../../../../src/theme';
+import { useAuthStore } from '../../../../src/stores/authStore';
+import { useProgressStore } from '../../../../src/stores/progressStore';
+import { useVocabularyStore } from '../../../../src/stores/vocabularyStore';
+import { useGamificationStore } from '../../../../src/stores/gamificationStore';
+import { getLesson, getCourseId } from '../../../../src/utils/content';
+import { addXP, updateStreak } from '../../../../src/services/progressService';
+import ProgressBar from '../../../../src/components/ProgressBar';
+import SwipeableVocabCard from '../../../../src/components/SwipeableVocabCard';
+import XPGainAnimation from '../../../../src/components/XPGainAnimation';
+import ExerciseMultipleChoice from '../../../../src/components/ExerciseMultipleChoice';
+import ExerciseFillBlank from '../../../../src/components/ExerciseFillBlank';
+import ExerciseMatching from '../../../../src/components/ExerciseMatching';
+import QuizQuestion from '../../../../src/components/QuizQuestion';
+import QuizResults from '../../../../src/components/QuizResults';
+import type { Exercise } from '../../../../src/types';
 
 type Phase = 'vocabulary' | 'grammar' | 'exercises' | 'quiz' | 'results';
 
 export default function LessonPlayerScreen() {
   const insets = useSafeAreaInsets();
-  const { lessonId, unitId } = useLocalSearchParams<{
-    lessonId: string;
-    unitId: string;
-  }>();
+  const { lessonId, unitId } = useLocalSearchParams<{ lessonId: string; unitId: string }>();
   const user = useAuthStore((s) => s.user);
   const { markLessonComplete } = useProgressStore();
   const { addLessonVocab } = useVocabularyStore();
