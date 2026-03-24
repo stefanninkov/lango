@@ -1,19 +1,32 @@
 import { Platform } from 'react-native';
 
-let Notifications: typeof import('expo-notifications') | null = null;
-let Device: typeof import('expo-device') | null = null;
+type NotificationsModule = typeof import('expo-notifications');
+type DeviceModule = typeof import('expo-device');
 
-if (Platform.OS !== 'web') {
-  Notifications = require('expo-notifications');
-  Device = require('expo-device');
+let _notifications: NotificationsModule | null = null;
+let _device: DeviceModule | null = null;
+let _initialized = false;
 
-  Notifications.setNotificationHandler({
-    handleNotification: async () => ({
-      shouldShowAlert: true,
-      shouldPlaySound: true,
-      shouldSetBadge: true,
-    }),
-  });
+function getModules(): { Notifications: NotificationsModule; Device: DeviceModule } | null {
+  if (Platform.OS === 'web') return null;
+
+  if (!_initialized) {
+    _initialized = true;
+    _notifications = require('expo-notifications') as NotificationsModule;
+    _device = require('expo-device') as DeviceModule;
+
+    _notifications.setNotificationHandler({
+      handleNotification: async () => ({
+        shouldShowAlert: true,
+        shouldPlaySound: true,
+        shouldSetBadge: true,
+      }),
+    });
+  }
+
+  return _notifications && _device
+    ? { Notifications: _notifications, Device: _device }
+    : null;
 }
 
 /**
@@ -21,10 +34,11 @@ if (Platform.OS !== 'web') {
  * Returns the Expo push token if granted.
  */
 export async function requestPermissions(): Promise<string | null> {
-  if (!Notifications || !Device) return null;
+  const mods = getModules();
+  if (!mods) return null;
+  const { Notifications, Device } = mods;
 
   if (!Device.isDevice) {
-    // Push notifications only work on physical devices
     return null;
   }
 
@@ -59,9 +73,10 @@ export async function scheduleDailyReminder(
   hour: number = 19,
   minute: number = 0
 ): Promise<string> {
-  if (!Notifications) return '';
+  const mods = getModules();
+  if (!mods) return '';
+  const { Notifications } = mods;
 
-  // Cancel any existing daily reminders first
   await cancelDailyReminder();
 
   const id = await Notifications.scheduleNotificationAsync({
@@ -84,7 +99,9 @@ export async function scheduleDailyReminder(
  * Schedule a streak-at-risk notification (fires once, next day).
  */
 export async function scheduleStreakReminder(streakDays: number): Promise<string> {
-  if (!Notifications) return '';
+  const mods = getModules();
+  if (!mods) return '';
+  const { Notifications } = mods;
 
   const id = await Notifications.scheduleNotificationAsync({
     content: {
@@ -94,7 +111,7 @@ export async function scheduleStreakReminder(streakDays: number): Promise<string
     },
     trigger: {
       type: Notifications.SchedulableTriggerInputTypes.TIME_INTERVAL,
-      seconds: 60 * 60 * 20, // 20 hours from now
+      seconds: 60 * 60 * 20,
     },
   });
 
@@ -105,7 +122,9 @@ export async function scheduleStreakReminder(streakDays: number): Promise<string
  * Schedule a review reminder when cards are due.
  */
 export async function scheduleReviewReminder(dueCount: number): Promise<string> {
-  if (!Notifications) return '';
+  const mods = getModules();
+  if (!mods) return '';
+  const { Notifications } = mods;
 
   const id = await Notifications.scheduleNotificationAsync({
     content: {
@@ -115,7 +134,7 @@ export async function scheduleReviewReminder(dueCount: number): Promise<string> 
     },
     trigger: {
       type: Notifications.SchedulableTriggerInputTypes.TIME_INTERVAL,
-      seconds: 60 * 60 * 4, // 4 hours from now
+      seconds: 60 * 60 * 4,
     },
   });
 
@@ -126,7 +145,9 @@ export async function scheduleReviewReminder(dueCount: number): Promise<string> 
  * Cancel the daily reminder notification.
  */
 export async function cancelDailyReminder(): Promise<void> {
-  if (!Notifications) return;
+  const mods = getModules();
+  if (!mods) return;
+  const { Notifications } = mods;
 
   const scheduled = await Notifications.getAllScheduledNotificationsAsync();
   for (const notification of scheduled) {
@@ -140,17 +161,19 @@ export async function cancelDailyReminder(): Promise<void> {
  * Cancel all scheduled notifications.
  */
 export async function cancelAllNotifications(): Promise<void> {
-  if (!Notifications) return;
+  const mods = getModules();
+  if (!mods) return;
 
-  await Notifications.cancelAllScheduledNotificationsAsync();
+  await mods.Notifications.cancelAllScheduledNotificationsAsync();
 }
 
 /**
  * Get the current notification permission status.
  */
 export async function getPermissionStatus(): Promise<boolean> {
-  if (!Notifications) return false;
+  const mods = getModules();
+  if (!mods) return false;
 
-  const { status } = await Notifications.getPermissionsAsync();
+  const { status } = await mods.Notifications.getPermissionsAsync();
   return status === 'granted';
 }
