@@ -10,7 +10,8 @@
     "lint": "expo lint",
     "test": "jest",
     "build:web": "npx expo export --platform web",
-    "predeploy": "npm run build:web"
+    "predeploy": "npm run build:web",
+    "postinstall": "node scripts/patch-expo-modules-core.js"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.0",
