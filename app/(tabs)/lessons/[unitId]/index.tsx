@@ -1,4 +1,4 @@
-import { View, StyleSheet, FlatList } from 'react-native';
+import { View, StyleSheet, FlatList, Pressable } from 'react-native';
 import { Text, IconButton } from 'react-native-paper';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -48,9 +48,9 @@ export default function LessonListScreen() {
             </View>
 
             {/* Content */}
-            <View
+            <Pressable
               style={styles.lessonContent}
-              onTouchEnd={() => router.push(`/(tabs)/lessons/${unitId}/${item.id}`)}
+              onPress={() => router.push(`/(tabs)/lessons/${unitId}/${item.id}`)}
             >
               <Text style={styles.lessonTitle}>{item.title}</Text>
               <View style={styles.lessonMeta}>
@@ -64,7 +64,7 @@ export default function LessonListScreen() {
                   </>
                 )}
               </View>
-            </View>
+            </Pressable>
 
             <MaterialCommunityIcons name="chevron-right" size={20} color={colors.textMuted} />
           </View>
