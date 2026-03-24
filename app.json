@@ -30,8 +30,10 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/favicon.png",
-      "basePath": "/lango"
+      "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "baseUrl": "/lango"
     },
     "plugins": [
       "expo-router",
