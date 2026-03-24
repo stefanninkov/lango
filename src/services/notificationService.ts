@@ -1,21 +1,28 @@
-import * as Notifications from 'expo-notifications';
-import * as Device from 'expo-device';
 import { Platform } from 'react-native';
 
-// Configure notification handler
-Notifications.setNotificationHandler({
-  handleNotification: async () => ({
-    shouldShowAlert: true,
-    shouldPlaySound: true,
-    shouldSetBadge: true,
-  }),
-});
+let Notifications: typeof import('expo-notifications') | null = null;
+let Device: typeof import('expo-device') | null = null;
+
+if (Platform.OS !== 'web') {
+  Notifications = require('expo-notifications');
+  Device = require('expo-device');
+
+  Notifications.setNotificationHandler({
+    handleNotification: async () => ({
+      shouldShowAlert: true,
+      shouldPlaySound: true,
+      shouldSetBadge: true,
+    }),
+  });
+}
 
 /**
  * Request push notification permissions.
  * Returns the Expo push token if granted.
  */
 export async function requestPermissions(): Promise<string | null> {
+  if (!Notifications || !Device) return null;
+
   if (!Device.isDevice) {
     // Push notifications only work on physical devices
     return null;
@@ -52,6 +59,8 @@ export async function scheduleDailyReminder(
   hour: number = 19,
   minute: number = 0
 ): Promise<string> {
+  if (!Notifications) return '';
+
   // Cancel any existing daily reminders first
   await cancelDailyReminder();
 
@@ -75,6 +84,8 @@ export async function scheduleDailyReminder(
  * Schedule a streak-at-risk notification (fires once, next day).
  */
 export async function scheduleStreakReminder(streakDays: number): Promise<string> {
+  if (!Notifications) return '';
+
   const id = await Notifications.scheduleNotificationAsync({
     content: {
       title: `${streakDays}-day streak at risk!`,
@@ -94,6 +105,8 @@ export async function scheduleStreakReminder(streakDays: number): Promise<string
  * Schedule a review reminder when cards are due.
  */
 export async function scheduleReviewReminder(dueCount: number): Promise<string> {
+  if (!Notifications) return '';
+
   const id = await Notifications.scheduleNotificationAsync({
     content: {
       title: 'Review cards waiting!',
@@ -113,6 +126,8 @@ export async function scheduleReviewReminder(dueCount: number): Promise<string> 
  * Cancel the daily reminder notification.
  */
 export async function cancelDailyReminder(): Promise<void> {
+  if (!Notifications) return;
+
   const scheduled = await Notifications.getAllScheduledNotificationsAsync();
   for (const notification of scheduled) {
     if (notification.content.data?.type === 'daily_reminder') {
@@ -125,6 +140,8 @@ export async function cancelDailyReminder(): Promise<void> {
  * Cancel all scheduled notifications.
  */
 export async function cancelAllNotifications(): Promise<void> {
+  if (!Notifications) return;
+
   await Notifications.cancelAllScheduledNotificationsAsync();
 }
 
@@ -132,6 +149,8 @@ export async function cancelAllNotifications(): Promise<void> {
  * Get the current notification permission status.
  */
 export async function getPermissionStatus(): Promise<boolean> {
+  if (!Notifications) return false;
+
   const { status } = await Notifications.getPermissionsAsync();
   return status === 'granted';
 }
