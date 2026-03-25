@@ -80,6 +80,18 @@ export default function LoginScreen() {
             Sign In
           </Button>
 
+          <Button
+            mode="outlined"
+            onPress={() => {
+              setEmail('demo@lango.app');
+              setPassword('demo123');
+            }}
+            style={styles.demoButton}
+            textColor={colors.secondary}
+          >
+            Try Demo Account
+          </Button>
+
           <Link href="/(auth)/register" style={styles.link}>
             <Text style={styles.linkText}>
               Don't have an account? <Text style={styles.linkAccent}>Sign Up</Text>
@@ -129,6 +141,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderRadius: radius.md,
     marginTop: spacing.sm,
+  },
+  demoButton: {
+    borderColor: colors.secondary,
+    borderRadius: radius.md,
+    height: 48,
+    justifyContent: 'center',
   },
   link: {
     alignSelf: 'center',
