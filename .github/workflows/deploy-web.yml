@@ -29,6 +29,9 @@ jobs:
 
       - run: npm ci --legacy-peer-deps
 
+      - name: Run tests
+        run: npm test -- --ci --passWithNoTests
+
       - name: Build web export
         run: npx expo export --platform web
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { View, StyleSheet, ScrollView, Pressable, TextInput, Platform } from 'react-native';
-import { Text, Switch, Button } from 'react-native-paper';
+import { View, StyleSheet, ScrollView, Pressable, TextInput, Platform, Alert } from 'react-native';
+import { Text, Switch, Button, Portal, Dialog, Paragraph } from 'react-native-paper';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -48,6 +48,7 @@ export default function SettingsScreen() {
   const [hasApiKey, setHasApiKey] = useState(false);
   const [showApiKey, setShowApiKey] = useState(false);
   const [savingKey, setSavingKey] = useState(false);
+  const [showResetDialog, setShowResetDialog] = useState(false);
 
   useEffect(() => {
     getPermissionStatus().then(setNotifications);
@@ -284,22 +285,49 @@ export default function SettingsScreen() {
         </Text>
         <Pressable
           style={styles.apiKeyRemoveBtn}
-          onPress={async () => {
-            if (!user) return;
-            try {
-              await updateUserProfile(user.uid, { level: 'A1', xp: 0, streak: 0 });
-              setUser({ ...user, level: 'A1' as any, xp: 0, streak: 0 });
-              useProgressStore.getState().reset();
-              useVocabularyStore.getState().reset();
-              useGamificationStore.getState().reset();
-            } catch {
-              // handle silently
-            }
-          }}
+          onPress={() => setShowResetDialog(true)}
         >
           <Text style={styles.apiKeyRemoveBtnText}>Reset All Progress</Text>
         </Pressable>
       </View>
+
+      <Portal>
+        <Dialog
+          visible={showResetDialog}
+          onDismiss={() => setShowResetDialog(false)}
+          style={{ backgroundColor: colors.surface }}
+        >
+          <Dialog.Title style={{ color: colors.textPrimary }}>Reset All Progress?</Dialog.Title>
+          <Dialog.Content>
+            <Paragraph style={{ color: colors.textSecondary }}>
+              This will erase all your learning progress, vocabulary cards, and achievements. This action cannot be undone.
+            </Paragraph>
+          </Dialog.Content>
+          <Dialog.Actions>
+            <Button onPress={() => setShowResetDialog(false)} textColor={colors.textSecondary}>
+              Cancel
+            </Button>
+            <Button
+              onPress={async () => {
+                setShowResetDialog(false);
+                if (!user) return;
+                try {
+                  await updateUserProfile(user.uid, { level: 'A1', xp: 0, streak: 0 });
+                  setUser({ ...user, level: 'A1' as any, xp: 0, streak: 0 });
+                  useProgressStore.getState().reset();
+                  useVocabularyStore.getState().reset();
+                  useGamificationStore.getState().reset();
+                } catch {
+                  // handle silently
+                }
+              }}
+              textColor={colors.accent}
+            >
+              Reset Everything
+            </Button>
+          </Dialog.Actions>
+        </Dialog>
+      </Portal>
 
       {/* About */}
       <Text style={[styles.sectionTitle, { marginTop: spacing.xl }]}>About</Text>

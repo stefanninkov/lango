@@ -3,7 +3,7 @@ import { Text, IconButton } from 'react-native-paper';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { colors, spacing, typography, radius } from '../../../../src/theme';
+import { colors, spacing, typography, radius, webStyles } from '../../../../src/theme';
 import { useAuthStore } from '../../../../src/stores/authStore';
 import { useProgressStore } from '../../../../src/stores/progressStore';
 import { getCourse, getCourseId } from '../../../../src/utils/content';
@@ -49,7 +49,7 @@ export default function LessonListScreen() {
 
             {/* Content */}
             <Pressable
-              style={styles.lessonContent}
+              style={[styles.lessonContent, webStyles.pressable]}
               onPress={() => router.push(`/(tabs)/lessons/${unitId}/${item.id}`)}
             >
               <Text style={styles.lessonTitle}>{item.title}</Text>

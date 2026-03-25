@@ -1,11 +1,18 @@
 import * as mock from './mockChatService';
 import * as claude from './claudeChatService';
+import * as cloud from './cloudChatService';
 import * as storage from './storageService';
 import type { ChatMessage, Conversation } from '../types';
 
-// Cache the API key in memory to avoid async lookups on every call
+// Chat backend modes:
+// 'mock' - local pre-scripted responses (no API key)
+// 'direct' - client-side Claude API calls (user's own API key)
+// 'cloud' - Firebase Cloud Functions (server-side API key)
+type ChatBackend = 'mock' | 'direct' | 'cloud';
+
 let cachedApiKey: string | null = null;
 let keyLoaded = false;
+let useCloudBackend = false;
 
 export async function loadApiKey(): Promise<string | null> {
   cachedApiKey = await storage.loadApiKey();
@@ -22,12 +29,24 @@ export function setApiKeyCache(key: string | null): void {
   keyLoaded = true;
 }
 
+export function setUseCloudBackend(enabled: boolean): void {
+  useCloudBackend = enabled;
+}
+
 export function isUsingClaudeApi(): boolean {
-  return !!cachedApiKey;
+  return !!cachedApiKey || useCloudBackend;
+}
+
+function getBackend(): ChatBackend {
+  if (useCloudBackend) return 'cloud';
+  if (cachedApiKey) return 'direct';
+  return 'mock';
 }
 
 export async function getConversations(uid: string): Promise<Conversation[]> {
-  if (cachedApiKey) return claude.getConversations(uid);
+  const backend = getBackend();
+  if (backend === 'cloud') return cloud.getConversations(uid);
+  if (backend === 'direct') return claude.getConversations(uid);
   return mock.getConversations(uid);
 }
 
@@ -36,7 +55,9 @@ export async function startConversation(
   targetLang: string,
   topic: string
 ): Promise<Conversation> {
-  if (cachedApiKey) return claude.startConversation(uid, targetLang, topic);
+  const backend = getBackend();
+  if (backend === 'cloud') return cloud.startConversation(uid, targetLang, topic);
+  if (backend === 'direct') return claude.startConversation(uid, targetLang, topic);
   return mock.startConversation(uid, targetLang, topic);
 }
 
@@ -47,13 +68,19 @@ export async function sendMessage(
   targetLang: string,
   userLevel?: string
 ): Promise<ChatMessage> {
-  if (cachedApiKey) {
-    return claude.sendMessage(uid, conversationId, content, targetLang, cachedApiKey, userLevel);
+  const backend = getBackend();
+  if (backend === 'cloud') {
+    return cloud.sendMessage(uid, conversationId, content, targetLang, userLevel);
+  }
+  if (backend === 'direct') {
+    return claude.sendMessage(uid, conversationId, content, targetLang, cachedApiKey!, userLevel);
   }
   return mock.sendMessage(uid, conversationId, content, targetLang);
 }
 
 export async function deleteConversation(uid: string, conversationId: string): Promise<void> {
-  if (cachedApiKey) return claude.deleteConversation(uid, conversationId);
+  const backend = getBackend();
+  if (backend === 'cloud') return cloud.deleteConversation(uid, conversationId);
+  if (backend === 'direct') return claude.deleteConversation(uid, conversationId);
   return mock.deleteConversation(uid, conversationId);
 }

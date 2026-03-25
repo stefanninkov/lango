@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
-import { View, StyleSheet, ScrollView } from 'react-native';
-import { Text, IconButton } from 'react-native-paper';
+import { View, StyleSheet, ScrollView, Platform } from 'react-native';
+import { Text, IconButton, Portal, Dialog, Paragraph, Button } from 'react-native-paper';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { colors, spacing, typography, radius } from '../../../../src/theme';
@@ -10,6 +10,7 @@ import { useVocabularyStore } from '../../../../src/stores/vocabularyStore';
 import { useGamificationStore } from '../../../../src/stores/gamificationStore';
 import { getLesson, getCourseId } from '../../../../src/utils/content';
 import { addXP, updateStreak } from '../../../../src/services/progressService';
+import { scheduleStreakReminder, scheduleReviewReminder, getPermissionStatus } from '../../../../src/services/notificationService';
 import ProgressBar from '../../../../src/components/ProgressBar';
 import SwipeableVocabCard from '../../../../src/components/SwipeableVocabCard';
 import XPGainAnimation from '../../../../src/components/XPGainAnimation';
@@ -18,9 +19,10 @@ import ExerciseFillBlank from '../../../../src/components/ExerciseFillBlank';
 import ExerciseMatching from '../../../../src/components/ExerciseMatching';
 import QuizQuestion from '../../../../src/components/QuizQuestion';
 import QuizResults from '../../../../src/components/QuizResults';
+import { generateExercises } from '../../../../src/services/exerciseGenerator';
 import type { Exercise } from '../../../../src/types';
 
-type Phase = 'vocabulary' | 'grammar' | 'exercises' | 'quiz' | 'results';
+type Phase = 'vocabulary' | 'grammar' | 'exercises' | 'quiz' | 'results' | 'extra_practice';
 
 export default function LessonPlayerScreen() {
   const insets = useSafeAreaInsets();
@@ -42,6 +44,9 @@ export default function LessonPlayerScreen() {
   const [quizCorrect, setQuizCorrect] = useState(0);
   const [exerciseCorrect, setExerciseCorrect] = useState(0);
   const [showXPGain, setShowXPGain] = useState(false);
+  const [showCloseDialog, setShowCloseDialog] = useState(false);
+  const [extraExercises, setExtraExercises] = useState<Exercise[]>([]);
+  const [extraExerciseIndex, setExtraExerciseIndex] = useState(0);
 
   const phases: Phase[] = ['vocabulary', 'grammar', 'exercises', 'quiz', 'results'];
   const phaseIndex = phases.indexOf(phase);
@@ -113,6 +118,14 @@ export default function LessonPlayerScreen() {
     }
   };
 
+  const handleClose = () => {
+    if (phase === 'results' || phase === 'vocabulary') {
+      router.back();
+    } else {
+      setShowCloseDialog(true);
+    }
+  };
+
   const handleComplete = async () => {
     if (!user || !lessonId) return;
     const score = Math.round((quizCorrect / lesson.quiz.length) * 100);
@@ -126,10 +139,40 @@ export default function LessonPlayerScreen() {
       // Update daily goal tracking
       resetDailyGoalIfNeeded();
       incrementLessons();
+
+      // Schedule notifications if permissions granted
+      if (Platform.OS !== 'web') {
+        const hasPermission = await getPermissionStatus();
+        if (hasPermission) {
+          scheduleStreakReminder(user.streak ?? 1).catch(() => {});
+          const dueCount = useVocabularyStore.getState().getDueCards().length;
+          if (dueCount > 0) {
+            scheduleReviewReminder(dueCount).catch(() => {});
+          }
+        }
+      }
     } catch (e) {
       // Progress will sync later
     }
     router.back();
+  };
+
+  const handlePracticeMore = async () => {
+    if (!lesson) return;
+    const targetLang = user?.targetLanguage ?? 'es';
+    const exercises = await generateExercises(lessonId ?? 'lesson-1', lesson.vocabulary, targetLang);
+    setExtraExercises(exercises);
+    setExtraExerciseIndex(0);
+    setPhase('extra_practice');
+  };
+
+  const handleExtraExerciseComplete = (_correct: boolean) => {
+    if (extraExerciseIndex < extraExercises.length - 1) {
+      setExtraExerciseIndex(extraExerciseIndex + 1);
+    } else {
+      // Return to results when extra practice is done
+      setPhase('results');
+    }
   };
 
   const renderExercise = (exercise: Exercise) => {
@@ -186,7 +229,7 @@ export default function LessonPlayerScreen() {
           icon="close"
           iconColor={colors.textSecondary}
           size={24}
-          onPress={() => router.back()}
+          onPress={handleClose}
         />
         <View style={styles.progressContainer}>
           <ProgressBar progress={currentStep / totalSteps} />
@@ -259,6 +302,7 @@ export default function LessonPlayerScreen() {
             total={lesson.quiz.length}
             xpEarned={quizCorrect / lesson.quiz.length >= 0.6 ? 20 : 5}
             onComplete={handleComplete}
+            onPracticeMore={handlePracticeMore}
           />
           <XPGainAnimation
             amount={quizCorrect / lesson.quiz.length >= 0.6 ? 20 : 5}
@@ -266,6 +310,64 @@ export default function LessonPlayerScreen() {
           />
         </>
       )}
+
+      {/* Extra Practice Phase */}
+      {phase === 'extra_practice' && extraExercises[extraExerciseIndex] && (
+        (() => {
+          const exercise = extraExercises[extraExerciseIndex];
+          switch (exercise.type) {
+            case 'multiple_choice':
+              return (
+                <ExerciseMultipleChoice
+                  key={exercise.id}
+                  exercise={exercise}
+                  onComplete={handleExtraExerciseComplete}
+                />
+              );
+            case 'fill_blank':
+              return (
+                <ExerciseFillBlank
+                  key={exercise.id}
+                  exercise={exercise}
+                  onComplete={handleExtraExerciseComplete}
+                />
+              );
+            case 'matching':
+              return (
+                <ExerciseMatching
+                  key={exercise.id}
+                  exercise={exercise}
+                  onComplete={handleExtraExerciseComplete}
+                />
+              );
+            default:
+              return null;
+          }
+        })()
+      )}
+
+      <Portal>
+        <Dialog
+          visible={showCloseDialog}
+          onDismiss={() => setShowCloseDialog(false)}
+          style={{ backgroundColor: colors.surface }}
+        >
+          <Dialog.Title style={{ color: colors.textPrimary }}>Leave Lesson?</Dialog.Title>
+          <Dialog.Content>
+            <Paragraph style={{ color: colors.textSecondary }}>
+              Your progress in this lesson will be lost. Are you sure you want to leave?
+            </Paragraph>
+          </Dialog.Content>
+          <Dialog.Actions>
+            <Button onPress={() => setShowCloseDialog(false)} textColor={colors.textSecondary}>
+              Continue Lesson
+            </Button>
+            <Button onPress={() => router.back()} textColor={colors.accent}>
+              Leave
+            </Button>
+          </Dialog.Actions>
+        </Dialog>
+      </Portal>
     </View>
   );
 }

@@ -8,9 +8,10 @@ interface Props {
   total: number;
   xpEarned: number;
   onComplete: () => void;
+  onPracticeMore?: () => void;
 }
 
-export default function QuizResults({ score, total, xpEarned, onComplete }: Props) {
+export default function QuizResults({ score, total, xpEarned, onComplete, onPracticeMore }: Props) {
   const percentage = Math.round((score / total) * 100);
   const passed = percentage >= 60;
 
@@ -52,6 +53,17 @@ export default function QuizResults({ score, total, xpEarned, onComplete }: Prop
       >
         {passed ? 'Continue' : 'Try Again'}
       </Button>
+
+      {passed && onPracticeMore && (
+        <Button
+          mode="outlined"
+          onPress={onPracticeMore}
+          textColor={colors.primary}
+          style={[styles.button, styles.practiceMoreButton]}
+        >
+          Practice More
+        </Button>
+      )}
     </View>
   );
 }
@@ -107,5 +119,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderRadius: radius.md,
     width: '100%',
+  },
+  practiceMoreButton: {
+    marginTop: spacing.sm,
+    borderColor: colors.primary,
   },
 });

@@ -1,5 +1,5 @@
 import { MD3DarkTheme, configureFonts } from 'react-native-paper';
-import { StyleSheet } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 
 // Lango Dark & Premium color palette
 export const colors = {
@@ -52,6 +52,29 @@ export const typography = StyleSheet.create({
   target: { fontSize: 20, fontWeight: '500', color: colors.textPrimary },
   native: { fontSize: 16, fontWeight: '400', color: colors.textSecondary },
 });
+
+// Web-specific styles for interactive elements
+export const webStyles = Platform.OS === 'web'
+  ? StyleSheet.create({
+      pressable: {
+        // @ts-ignore — web-only property
+        cursor: 'pointer',
+        // @ts-ignore
+        transition: 'opacity 0.15s ease',
+        // @ts-ignore
+        userSelect: 'none',
+      },
+      card: {
+        // @ts-ignore
+        cursor: 'pointer',
+        // @ts-ignore
+        transition: 'transform 0.15s ease, box-shadow 0.15s ease',
+      },
+    })
+  : StyleSheet.create({
+      pressable: {},
+      card: {},
+    });
 
 // React Native Paper theme (MD3 Dark)
 export const theme = {
